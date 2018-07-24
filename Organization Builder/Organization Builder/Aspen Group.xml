@@ -1,0 +1,137 @@
+﻿<HedgeFund configurationId="Default"
+							externalId="ASPEN GROUP"
+							imageKey="HEDGE FUND"
+							name="Aspen Group">
+	<Blotter externalId="EMERGING MARKETS BLOTTER"
+					 imageKey="BLOTTER"
+					 name="Emerging Markets"
+					 partyTypeKey="USE PARENT"
+					 typeKey="BLOTTER"/>
+	<Blotter externalId="STRATEGIES BLOTTER"
+					 imageKey="BLOTTER"
+					 name="Strategies"
+					 partyTypeKey="USE PARENT"
+					 typeKey="BLOTTER"/>
+	<Blotter externalId="GLOBAL BLOTTER"
+					 imageKey="BLOTTER"
+					 name="Global"
+					 partyTypeKey="USE PARENT"
+					 typeKey="BLOTTER">
+		<Blotter externalId="HECTOR KURTZ BLOTTER"
+						 imageKey="BLOTTER"
+						 name="Hector Kurtz"
+						 partyTypeKey="USE PARENT"
+						 typeKey="BLOTTER"/>
+		<Blotter externalId="JUAN GREEN BLOTTER"
+						 imageKey="BLOTTER"
+						 name="Juan Green"
+						 partyTypeKey="USE PARENT"
+						 typeKey="BLOTTER"/>
+		<Blotter externalId="GARY STEIN BLOTTER"
+						 imageKey="BLOTTER"
+						 name="Gary Stein"
+						 partyTypeKey="USE PARENT"
+						 typeKey="BLOTTER"/>
+	</Blotter>
+  <User externalId="ADMINISTRATOR"
+					 distinguishedName="CN=Administrator,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					 imageKey="BLOTTER"
+					 name="Administrator">
+    <SystemFolder externalId="ADMINISTRATOR FOLDER"
+									imageKey="FOLDER"
+									name="Administrator">
+      <EntityReference entityId="ASPEN GROUP"/>
+    </SystemFolder>
+  </User>
+  <User externalId="OPERATOR"
+					 distinguishedName="CN=Operator,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					 imageKey="BLOTTER"
+					 name="Administrator">
+  </User>
+  <User externalId="ALICE WONG"
+					 distinguishedName="CN=Alice Wong,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					 imageKey="BLOTTER"
+					 name="Alice Wong">
+		<SystemFolder externalId="ALICE WONG FOLDER"
+									imageKey="FOLDER"
+									name="Alice Wong">
+			<EntityReference entityId="EMERGING MARKETS BLOTTER"/>
+		</SystemFolder>
+	</User>
+	<Trader externalId="DEV KAPOOR"
+          blotterDefaultId="EMERGING MARKETS BLOTTER"
+          isAgencyMatch="false"
+          isBrokerMatch="false"
+          isHedgeMatch="true"
+          isInstitutionMatch="false"
+					distinguishedName="CN=Dev Kapoor,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					imageKey="BLOTTER"
+					name="Dev Kapoor"
+					typeKey="Trader">
+		<SystemFolder externalId="DEV KAPOOR FOLDER"
+									imageKey="FOLDER"
+									name="Dev Kapoor">
+			<EntityReference entityId="EMERGING MARKETS BLOTTER"/>
+		</SystemFolder>
+	</Trader>
+	<Manager externalId="YUSUF JONES"
+					 distinguishedName="CN=Yusuf Jones,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					 imageKey="BLOTTER"
+					 name="Yusuf Jones"
+					 typeKey="Trader">
+		<SystemFolder externalId="YUSUF JONES FOLDER"
+									imageKey="FOLDER"
+									name="Yusuf Jones">
+			<EntityReference entityId="STRATEGIES BLOTTER"/>
+		</SystemFolder>
+	</Manager>
+  <Trader externalId="HECTOR KURTZ"
+          blotterDefaultId="GLOBAL BLOTTER"
+          isAgencyMatch="false"
+          isBrokerMatch="false"
+          isHedgeMatch="true"
+          isInstitutionMatch="false"
+					distinguishedName="CN=Hector Kurtz,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					imageKey="BLOTTER"
+					name="Hector Kurtz"
+					typeKey="Trader">
+    <SystemFolder externalId="HECTOR KURTZ FOLDER"
+									imageKey="FOLDER"
+									name="Hector Kurtz">
+      <EntityReference entityId="GLOBAL BLOTTER"/>
+    </SystemFolder>
+  </Trader>
+  <Trader externalId="JUAN GREEN"
+          blotterDefaultId="GLOBAL BLOTTER"
+          isAgencyMatch="false"
+          isBrokerMatch="false"
+          isHedgeMatch="true"
+          isInstitutionMatch="false"
+					distinguishedName="CN=Juan Green,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					imageKey="BLOTTER"
+					name="Juan Green"
+					typeKey="Trader">
+    <SystemFolder externalId="JUAN GREEN FOLDER"
+									imageKey="FOLDER"
+									name="Juan Green">
+      <EntityReference entityId="JUAN GREEN BLOTTER"/>
+    </SystemFolder>
+  </Trader>
+  <Trader externalId="GARY STEIN"
+          blotterDefaultId="GLOBAL BLOTTER"
+          isAgencyMatch="false"
+          isBrokerMatch="false"
+          isHedgeMatch="true"
+          isInstitutionMatch="false"
+					distinguishedName="CN=Gary Stein,OU=Aspen Group,O=Teraque,DC=teraque,DC=com"
+					imageKey="BLOTTER"
+					name="Gary Stein"
+					typeKey="Trader">
+    <SystemFolder externalId="GARY STEIN FOLDER"
+									imageKey="FOLDER"
+									name="Gary Stein">
+      <EntityReference entityId="JUAN GREEN BLOTTER"/>
+      <EntityReference entityId="GARY STEIN BLOTTER"/>
+    </SystemFolder>
+  </Trader>
+</HedgeFund>

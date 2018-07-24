@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="MajorInstumentType">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CVTPFD" />
+    <parameter name="mnemonic" value="CONVERTIBLEPREFERREDSTOCK" />
+    <parameter name="name" value="Convertible Preferred Stock" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQUITY" />
+    <parameter name="mnemonic" value="EQUITY" />
+    <parameter name="name" value="Equity" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="BDFUND" />
+    <parameter name="mnemonic" value="BONDFUND" />
+    <parameter name="name" value="Bond Fund" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CVTBND" />
+    <parameter name="mnemonic" value="CONVERTIBLEBOND" />
+    <parameter name="name" value="Convertible Bond" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMMFUTURE" />
+    <parameter name="mnemonic" value="COMMODITYFUTURE" />
+    <parameter name="name" value="Commodity Future" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMTRSWAP" />
+    <parameter name="mnemonic" value="COMMODITYSWAP" />
+    <parameter name="name" value="Commodity Swap" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="description" value="Corporate Collateralized Mortgage Obligation" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CORPCMO" />
+    <parameter name="mnemonic" value="CORPCMO" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FGNBND" />
+    <parameter name="mnemonic" value="FOREIGNBOND" />
+    <parameter name="name" value="Foreign Bond" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="PFD" />
+    <parameter name="mnemonic" value="PREFERREDSTOCK" />
+    <parameter name="name" value="Preferred Stock" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMMOPTION" />
+    <parameter name="mnemonic" value="COMMODITYOPTION" />
+    <parameter name="name" value="CommodityOption" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQOPTION" />
+    <parameter name="mnemonic" value="EQUITYOPTION" />
+    <parameter name="name" value="Equity Option" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CURRFUTURE" />
+    <parameter name="mnemonic" value="CURRENCYFUTURE" />
+    <parameter name="name" value="Currency Future" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ASSETB" />
+    <parameter name="mnemonic" value="ASSETBACKED" />
+    <parameter name="name" value="Asset Backed" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="MTGBKD" />
+    <parameter name="mnemonic" value="MORTGAGEBACKED" />
+    <parameter name="name" value="Mortgage Backed" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="INDEX" />
+    <parameter name="mnemonic" value="INDEX" />
+    <parameter name="name" value="Index" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="OPTIONS" />
+    <parameter name="mnemonic" value="OPTIONS" />
+    <parameter name="name" value="Options" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="TBILL" />
+    <parameter name="mnemonic" value="TREASURYBILL" />
+    <parameter name="name" value="Treasury Bill" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CASH" />
+    <parameter name="mnemonic" value="CASH" />
+    <parameter name="name" value="Cash" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="MUNIBOND" />
+    <parameter name="mnemonic" value="MUNICIPALBOND" />
+    <parameter name="name" value="Municipal Bond" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CURROPTION" />
+    <parameter name="mnemonic" value="CURRENCYOPTION" />
+    <parameter name="name" value="Currency Option" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CERTDEP" />
+    <parameter name="mnemonic" value="CERTIFICATEOFDEPOSIT" />
+    <parameter name="name" value="Certificate of Deposit" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CDS" />
+    <parameter name="mnemonic" value="CDS" />
+    <parameter name="name" value="Credit Default Swap" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="INDXFUTURE" />
+    <parameter name="mnemonic" value="INDEXFUTURE" />
+    <parameter name="name" value="Index Future" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="BOND" />
+    <parameter name="mnemonic" value="BOND" />
+    <parameter name="name" value="Bond" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FGNCVTBND" />
+    <parameter name="mnemonic" value="FOREIGNCONVERTIBLEBOND" />
+    <parameter name="name" value="Foreign Convertible Bond" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="PAPER" />
+    <parameter name="mnemonic" value="PAPER" />
+    <parameter name="name" value="Paper" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQFUND" />
+    <parameter name="mnemonic" value="EQUITYFUND" />
+    <parameter name="name" value="Equity Fund" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FUTURES" />
+    <parameter name="mnemonic" value="FUTURES" />
+    <parameter name="name" value="Futures" />
+  </method>
+  <method name="StoreMajorInstrumentType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="USTREAS" />
+    <parameter name="mnemonic" value="USTREASURY" />
+    <parameter name="name" value="US Treasury" />
+  </method>
+</script>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Codepage="1252"
+           Id="{DA59DB4E-2593-442E-88F9-AF34C0D0A142}"
+           Language="1033"
+           Manufacturer="Teraque, Inc."
+           Name="Script Loader"
+           UpgradeCode="E74344DF-29AA-4C32-B9CA-0F52599A304E"
+           Version="1.0.0">
+    <Package Compressed="yes"
+             Description="Teraque's Script Loader Installer"
+             Id="*"
+             InstallScope="perMachine"
+             InstallerVersion="200"
+             Keywords="Installer"
+             Manufacturer="Teraque, Inc."
+             Platform="x64"
+             SummaryCodepage='1252'/>
+    <Media Id="1"
+           Cabinet="ScriptLoader.cab"
+           EmbedCab="yes"
+           DiskPrompt="DVD #1" />
+    <Property Id="DiskPrompt"
+              Value="Teraque Script Loader 1.0 Installation [1]" />
+
+    <Icon Id="scriptLoader.ico" SourceFile="Resources\Script Loader.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="scriptLoader.ico" />
+
+    <Directory Id="TARGETDIR"
+               Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="TeraqueFolder"
+                   Name="Teraque">
+          <Directory Id="AssetNetworkFolder"
+                     Name="Asset Network">
+            <Directory Id="INSTALLFOLDER"
+                     Name="Script Loader">
+              <Component Id="ScriptLoaderComponent"
+                         Guid="{77E99F32-788C-4FBD-8A53-43ADA65A295E}"
+                         Win64="yes">
+                <File DiskId="1"
+                      Id="ScriptLoaderExecutable"
+                      KeyPath="yes"
+                      Name="Script Loader.exe"
+                      Source="..\Script Loader\bin\$(var.Configuration)\Script Loader.exe">
+                </File>
+                <File DiskId="1"
+                      Id="ScriptLoaderConfig"
+                      Name="Script Loader.exe.config"
+                      Source="Script Loader.exe.config"/>
+              </Component>
+              <Component Guid="{21F2F938-F812-4ABC-BB0D-46E3D128C4CE}"
+                         Id="TeraqueComponent"
+                         Win64="yes">
+                <File Id="TeraqueLibrary"
+                      DiskId="1"
+                      KeyPath="yes"
+                      Name="Teraque.dll"
+                      Source="..\Script Loader\bin\$(var.Configuration)\Teraque.dll"/>
+              </Component>
+              <Component Guid="{CE8B8CDD-D777-4A47-9458-BF08AA8248C7}"
+                         Id="TeraqueAssetNetworkComponent"
+                         Win64="yes">
+                <File Id="TeraqueAssetNetworkLibrary"
+                      DiskId="1"
+                      KeyPath="yes"
+                      Name="Teraque.AssetNetwork.dll"
+                      Source="..\Script Loader\bin\$(var.Configuration)\Teraque.AssetNetwork.dll"/>
+              </Component>
+              <Component Guid="{85B3255F-6EC7-4D6F-A510-A15A13BF79A7}"
+                         Id="TeraqueAssetNetworkClientDataModelComponent"
+                         Win64="yes">
+                <File Id="TeraqueAssetNetworkClientDataModelLibrary"
+                      DiskId="1"
+                      KeyPath="yes"
+                      Name="Teraque.AssetNetwork.ClientDataModel.dll"
+                      Source="..\Script Loader\bin\$(var.Configuration)\Teraque.AssetNetwork.ClientDataModel.dll"/>
+              </Component>
+              <Component Guid="{97F3EA89-2FA5-43E9-8F5B-AB903C29D0D4}"
+                         Id="TeraqueServerComponent"
+                         Win64="yes">
+                <File Id="TeraqueServerLibrary"
+                      DiskId="1"
+                      KeyPath="yes"
+                      Name="Teraque.Server.dll"
+                      Source="..\Script Loader\bin\$(var.Configuration)\Teraque.Server.dll"/>
+              </Component>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <Feature Id="Complete"
+             Title="Script Loader"
+             Description="This utility will load an XML (script) into the shared Data Model."
+             Display="expand"
+             ConfigurableDirectory="INSTALLFOLDER"
+             Level="1">
+      <ComponentRef Id="ScriptLoaderComponent" />
+      <ComponentRef Id="TeraqueComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkClientDataModelComponent" />
+      <ComponentRef Id="TeraqueServerComponent" />
+    </Feature>
+
+    <WixVariable Id="WixUIBannerBmp" Value="Resources\Banner.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Resources\Welcome.bmp" />
+
+    <UI Id="WixUI_Minimal">
+
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Tahoma" Size="9" Bold="yes" />
+
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WixUI_Mode" Value="Minimal" />
+
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+
+      <!-- This is the welcome dialog you specified-->
+      <DialogRef Id="WelcomeDlg" />
+
+      <!-- Hook the new welcome dialog to the next one in the stack-->
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="PrepareDlg">1</Publish>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1</Publish>
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceWelcomeDlg" Control="Next" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg">1</Publish>
+      <Property Id="ARPNOMODIFY" Value="1" />
+    </UI>
+
+    <UIRef Id="WixUI_Common" />
+    <UIRef Id="WixUI_ErrorProgressText" />
+
+  </Product>
+
+</Wix>

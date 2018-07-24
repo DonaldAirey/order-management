@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetMarket" targetNamespace="http://tempuri.org/DataSetMarket.xsd" xmlns:mstns="http://tempuri.org/DataSetMarket.xsd" xmlns="http://tempuri.org/DataSetMarket.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetMarket" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetMarket" msprop:Generator_DataSetName="DataSetMarket" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Execution" msprop:Generator_UserTableName="Execution" msprop:Generator_RowDeletedName="ExecutionRowDeleted" msprop:Generator_RowChangedName="ExecutionRowChanged" msprop:Generator_RowClassName="ExecutionRow" msprop:Generator_RowChangingName="ExecutionRowChanging" msprop:Generator_RowEvArgName="ExecutionRowChangeEvent" msprop:Generator_RowEvHandlerName="ExecutionRowChangeEventHandler" msprop:Generator_TableClassName="ExecutionDataTable" msprop:Generator_TableVarName="tableExecution" msprop:Generator_RowDeletingName="ExecutionRowDeleting" msprop:Generator_TablePropName="Execution">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExecutionId" msprop:Generator_UserColumnName="ExecutionId" msprop:Generator_ColumnVarNameInTable="columnExecutionId" msprop:Generator_ColumnPropNameInRow="ExecutionId" msprop:Generator_ColumnPropNameInTable="ExecutionIdColumn" type="xs:double" />
+              <xs:element name="OrderId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="OrderId" msprop:Generator_ColumnVarNameInTable="columnOrderId" msprop:Generator_ColumnPropNameInRow="OrderId" msprop:Generator_ColumnPropNameInTable="OrderIdColumn" type="xs:string" />
+              <xs:element name="Quantity" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" type="xs:decimal" />
+              <xs:element name="Price" msprop:Generator_UserColumnName="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Order" msprop:Generator_UserTableName="Order" msprop:Generator_RowDeletedName="OrderRowDeleted" msprop:Generator_RowChangedName="OrderRowChanged" msprop:Generator_RowClassName="OrderRow" msprop:Generator_RowChangingName="OrderRowChanging" msprop:Generator_RowEvArgName="OrderRowChangeEvent" msprop:Generator_RowEvHandlerName="OrderRowChangeEventHandler" msprop:Generator_TableClassName="OrderDataTable" msprop:Generator_TableVarName="tableOrder" msprop:Generator_RowDeletingName="OrderRowDeleting" msprop:Generator_TablePropName="Order">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BlotterId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="BlotterId" msprop:Generator_ColumnVarNameInTable="columnBlotterId" msprop:Generator_ColumnPropNameInRow="BlotterId" msprop:Generator_ColumnPropNameInTable="BlotterIdColumn" type="xs:string" />
+              <xs:element name="DestinationOrderId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="DestinationOrderId" msprop:Generator_ColumnPropNameInRow="DestinationOrderId" msprop:Generator_ColumnVarNameInTable="columnDestinationOrderId" msprop:Generator_ColumnPropNameInTable="DestinationOrderIdColumn" type="xs:string" />
+              <xs:element name="IsBusy" msprop:Generator_UserColumnName="IsBusy" msprop:Generator_ColumnPropNameInRow="IsBusy" msprop:Generator_ColumnVarNameInTable="columnIsBusy" msprop:Generator_ColumnPropNameInTable="IsBusyColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="OrderTypeCode" msdata:DataType="Teraque.OrderTypeCode, Teraque, Version=1.4.53.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3" msprop:Generator_UserColumnName="OrderTypeCode" msprop:Generator_ColumnVarNameInTable="columnOrderTypeCode" msprop:Generator_ColumnPropNameInRow="OrderTypeCode" msprop:Generator_ColumnPropNameInTable="OrderTypeCodeColumn" type="xs:string" />
+              <xs:element name="QuantityExecuted" msprop:Generator_UserColumnName="QuantityExecuted" msprop:Generator_ColumnVarNameInTable="columnQuantityExecuted" msprop:Generator_ColumnPropNameInRow="QuantityExecuted" msprop:Generator_ColumnPropNameInTable="QuantityExecutedColumn" type="xs:decimal" />
+              <xs:element name="QuantityOrdered" msprop:Generator_UserColumnName="QuantityOrdered" msprop:Generator_ColumnVarNameInTable="columnQuantityOrdered" msprop:Generator_ColumnPropNameInRow="QuantityOrdered" msprop:Generator_ColumnPropNameInTable="QuantityOrderedColumn" type="xs:decimal" />
+              <xs:element name="SideCode" msdata:DataType="Teraque.SideCode, Teraque, Version=1.4.53.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3" msprop:Generator_UserColumnName="SideCode" msprop:Generator_ColumnVarNameInTable="columnSideCode" msprop:Generator_ColumnPropNameInRow="SideCode" msprop:Generator_ColumnPropNameInTable="SideCodeColumn" type="xs:string" />
+              <xs:element name="TimeInForceCode" msdata:DataType="Teraque.TimeInForceCode, Teraque, Version=1.4.53.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3" msprop:Generator_UserColumnName="TimeInForceCode" msprop:Generator_ColumnVarNameInTable="columnTimeInForceCode" msprop:Generator_ColumnPropNameInRow="TimeInForceCode" msprop:Generator_ColumnPropNameInTable="TimeInForceCodeColumn" type="xs:string" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Price" msprop:Generator_UserTableName="Price" msprop:Generator_RowDeletedName="PriceRowDeleted" msprop:Generator_RowChangedName="PriceRowChanged" msprop:Generator_RowClassName="PriceRow" msprop:Generator_RowChangingName="PriceRowChanging" msprop:Generator_RowEvArgName="PriceRowChangeEvent" msprop:Generator_RowEvHandlerName="PriceRowChangeEventHandler" msprop:Generator_TableClassName="PriceDataTable" msprop:Generator_TableVarName="tablePrice" msprop:Generator_RowDeletingName="PriceRowDeleting" msprop:Generator_TablePropName="Price">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AskPrice" msprop:Generator_UserColumnName="AskPrice" msprop:Generator_ColumnPropNameInRow="AskPrice" msprop:Generator_ColumnVarNameInTable="columnAskPrice" msprop:Generator_ColumnPropNameInTable="AskPriceColumn" type="xs:decimal" />
+              <xs:element name="AskSize" msprop:Generator_UserColumnName="AskSize" msprop:Generator_ColumnPropNameInRow="AskSize" msprop:Generator_ColumnVarNameInTable="columnAskSize" msprop:Generator_ColumnPropNameInTable="AskSizeColumn" type="xs:decimal" />
+              <xs:element name="BidPrice" msprop:Generator_UserColumnName="BidPrice" msprop:Generator_ColumnPropNameInRow="BidPrice" msprop:Generator_ColumnVarNameInTable="columnBidPrice" msprop:Generator_ColumnPropNameInTable="BidPriceColumn" type="xs:decimal" />
+              <xs:element name="BidSize" msprop:Generator_UserColumnName="BidSize" msprop:Generator_ColumnPropNameInRow="BidSize" msprop:Generator_ColumnVarNameInTable="columnBidSize" msprop:Generator_ColumnPropNameInTable="BidSizeColumn" type="xs:decimal" />
+              <xs:element name="ConfigurationId" msprop:Generator_UserColumnName="ConfigurationId" msprop:Generator_ColumnPropNameInRow="ConfigurationId" msprop:Generator_ColumnVarNameInTable="columnConfigurationId" msprop:Generator_ColumnPropNameInTable="ConfigurationIdColumn" type="xs:string" />
+              <xs:element name="Currency" msprop:Generator_UserColumnName="Currency" msprop:Generator_ColumnPropNameInRow="Currency" msprop:Generator_ColumnVarNameInTable="columnCurrency" msprop:Generator_ColumnPropNameInTable="CurrencyColumn" type="xs:string" />
+              <xs:element name="LastPrice" msprop:Generator_UserColumnName="LastPrice" msprop:Generator_ColumnPropNameInRow="LastPrice" msprop:Generator_ColumnVarNameInTable="columnLastPrice" msprop:Generator_ColumnPropNameInTable="LastPriceColumn" type="xs:decimal" />
+              <xs:element name="LastSize" msprop:Generator_UserColumnName="LastSize" msprop:Generator_ColumnPropNameInRow="LastSize" msprop:Generator_ColumnVarNameInTable="columnLastSize" msprop:Generator_ColumnPropNameInTable="LastSizeColumn" type="xs:decimal" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PriceKey" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Price" />
+      <xs:field xpath="mstns:ConfigurationId" />
+      <xs:field xpath="mstns:Symbol" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

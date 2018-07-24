@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Credit Rating">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH20" />
+		<parameter name="scale" value="A" />
+		<parameter name="value" value="20" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH19" />
+		<parameter name="scale" value="A-" />
+		<parameter name="value" value="19" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH21" />
+		<parameter name="scale" value="A+" />
+		<parameter name="value" value="21" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH23" />
+		<parameter name="scale" value="AA" />
+		<parameter name="value" value="23" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH22" />
+		<parameter name="scale" value="AA-" />
+		<parameter name="value" value="22" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH24" />
+		<parameter name="scale" value="AA+" />
+		<parameter name="value" value="24" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH25" />
+		<parameter name="scale" value="AAA" />
+		<parameter name="value" value="25" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH11" />
+		<parameter name="scale" value="B" />
+		<parameter name="value" value="11" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH10" />
+		<parameter name="scale" value="B-" />
+		<parameter name="value" value="10" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH12" />
+		<parameter name="scale" value="B+" />
+		<parameter name="value" value="12" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH14" />
+		<parameter name="scale" value="BB" />
+		<parameter name="value" value="14" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH13" />
+		<parameter name="scale" value="BB-" />
+		<parameter name="value" value="13" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH15" />
+		<parameter name="scale" value="BB+" />
+		<parameter name="value" value="15" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH17" />
+		<parameter name="scale" value="BBB" />
+		<parameter name="value" value="17" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH16" />
+		<parameter name="scale" value="BBB-" />
+		<parameter name="value" value="16" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH18" />
+		<parameter name="scale" value="BBB+" />
+		<parameter name="value" value="18" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH5" />
+		<parameter name="scale" value="C" />
+		<parameter name="value" value="5" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH6" />
+		<parameter name="scale" value="CC" />
+		<parameter name="value" value="6" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH8" />
+		<parameter name="scale" value="CCC" />
+		<parameter name="value" value="8" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH2" />
+		<parameter name="scale" value="D" />
+		<parameter name="value" value="2" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="FITCH" />
+		<parameter name="externalId0" value="FITCH1" />
+		<parameter name="scale" value="NR" />
+		<parameter name="value" value="1" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS21" />
+		<parameter name="scale" value="A1" />
+		<parameter name="value" value="21" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS20" />
+		<parameter name="scale" value="A2" />
+		<parameter name="value" value="20" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS19" />
+		<parameter name="scale" value="A3" />
+		<parameter name="value" value="19" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS24" />
+		<parameter name="scale" value="Aa1" />
+		<parameter name="value" value="24" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS23" />
+		<parameter name="scale" value="Aa2" />
+		<parameter name="value" value="23" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS22" />
+		<parameter name="scale" value="Aa3" />
+		<parameter name="value" value="22" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS25" />
+		<parameter name="scale" value="Aaa" />
+		<parameter name="value" value="25" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS12" />
+		<parameter name="scale" value="B1" />
+		<parameter name="value" value="12" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS11" />
+		<parameter name="scale" value="B2" />
+		<parameter name="value" value="11" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS10" />
+		<parameter name="scale" value="B3" />
+		<parameter name="value" value="10" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS15" />
+		<parameter name="scale" value="Ba1" />
+		<parameter name="value" value="15" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS14" />
+		<parameter name="scale" value="Ba2" />
+		<parameter name="value" value="14" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS13" />
+		<parameter name="scale" value="Ba3" />
+		<parameter name="value" value="13" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS18" />
+		<parameter name="scale" value="Baa1" />
+		<parameter name="value" value="18" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS17" />
+		<parameter name="scale" value="Baa2" />
+		<parameter name="value" value="17" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS16" />
+		<parameter name="scale" value="Baa3" />
+		<parameter name="value" value="16" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS5" />
+		<parameter name="scale" value="C" />
+		<parameter name="value" value="5" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS6" />
+		<parameter name="scale" value="Ca" />
+		<parameter name="value" value="6" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS9" />
+		<parameter name="scale" value="Caa1" />
+		<parameter name="value" value="9" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS8" />
+		<parameter name="scale" value="Caa2" />
+		<parameter name="value" value="8" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS7" />
+		<parameter name="scale" value="Caa3" />
+		<parameter name="value" value="7" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="MOODYS" />
+		<parameter name="externalId0" value="MOODYS1" />
+		<parameter name="scale" value="NR" />
+		<parameter name="value" value="1" />
+	</method>
+	NULL
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="NONE" />
+		<parameter name="externalId0" value="NONE1" />
+		<parameter name="scale" value="NR" />
+		<parameter name="value" value="1" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS20" />
+		<parameter name="scale" value="A" />
+		<parameter name="value" value="20" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS19" />
+		<parameter name="scale" value="A-" />
+		<parameter name="value" value="19" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS21" />
+		<parameter name="scale" value="A+" />
+		<parameter name="value" value="21" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS23" />
+		<parameter name="scale" value="AA" />
+		<parameter name="value" value="23" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS22" />
+		<parameter name="scale" value="AA-" />
+		<parameter name="value" value="22" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS24" />
+		<parameter name="scale" value="AA+" />
+		<parameter name="value" value="24" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS25" />
+		<parameter name="scale" value="AAA" />
+		<parameter name="value" value="25" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS11" />
+		<parameter name="scale" value="B" />
+		<parameter name="value" value="11" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS10" />
+		<parameter name="scale" value="B-" />
+		<parameter name="value" value="10" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS12" />
+		<parameter name="scale" value="B+" />
+		<parameter name="value" value="12" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS14" />
+		<parameter name="scale" value="BB" />
+		<parameter name="value" value="14" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS13" />
+		<parameter name="scale" value="BB-" />
+		<parameter name="value" value="13" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS15" />
+		<parameter name="scale" value="BB+" />
+		<parameter name="value" value="15" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS17" />
+		<parameter name="scale" value="BBB" />
+		<parameter name="value" value="17" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS16" />
+		<parameter name="scale" value="BBB-" />
+		<parameter name="value" value="16" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS18" />
+		<parameter name="scale" value="BBB+" />
+		<parameter name="value" value="18" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS5" />
+		<parameter name="scale" value="C" />
+		<parameter name="value" value="5" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS6" />
+		<parameter name="scale" value="CC" />
+		<parameter name="value" value="6" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS8" />
+		<parameter name="scale" value="CCC" />
+		<parameter name="value" value="8" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS7" />
+		<parameter name="scale" value="CCC-" />
+		<parameter name="value" value="7" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS9" />
+		<parameter name="scale" value="CCC+" />
+		<parameter name="value" value="9" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS2" />
+		<parameter name="scale" value="D" />
+		<parameter name="value" value="2" />
+	</method>
+	<method name="StoreCreditRating">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="creditRatingServiceKey" value="STANDARDPOORS" />
+		<parameter name="externalId0" value="STANDARDPOORS1" />
+		<parameter name="scale" value="NR" />
+		<parameter name="value" value="1" />
+	</method>
+</script>

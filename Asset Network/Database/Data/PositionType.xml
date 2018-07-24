@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="PositionType">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StorePositionType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="externalId0" value="LONG" />
+      <parameter name="mnemonic" value="LONG" />
+      <parameter name="positionTypeCode" value="Long" />
+      <parameter name="sign" value="1.0" />
+    </method>
+    <method name="StorePositionType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="externalId0" value="SHORT" />
+      <parameter name="mnemonic" value="SHORT" />
+      <parameter name="positionTypeCode" value="Short" />
+      <parameter name="sign" value="-1.0" />
+    </method>
+  </transaction>
+</script>

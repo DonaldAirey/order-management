@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Destination">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreDestination">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ASSET NETWORK ECN" />
+    <parameter name="fixAccount" value="FIXACCOUNT" />
+    <parameter name="fixExecBroker" value="FIXBROKER" />
+    <parameter name="fixExecDestinationListed" value="N" />
+    <parameter name="fixOrderIdFormat" value="{0:00000}" />
+    <parameter name="fixPassiveTag" value="8021=0" />
+    <parameter name="fixSourceCompany" value="SIM_BS" />
+    <parameter name="fixTargetCompany" value="SIM_SS" />
+    <parameter name="fixTargetTrader" value="FIXTRADER" />
+    <parameter name="fixVersion" value="4.2" />
+    <parameter name="isBroker" value="true" />
+    <parameter name="isCancelAllowed" value="true" />
+    <parameter name="isCancelReplaceAllowed" value="true" />
+    <parameter name="isEcn" value="true" />
+    <parameter name="isExchange" value="false" />
+    <parameter name="isInternal" value="true" />
+    <parameter name="isIoiAllowed" value="false" />
+    <parameter name="isLimitPricingAllowed" value="true" />
+    <parameter name="isMarketOnClosePricingAllowed" value="false" />
+    <parameter name="isMarketPricingAllowed" value="false" />
+    <parameter name="isSystemUp" value="false" />
+    <parameter name="isTradeAwayAllowed" value="false" />
+    <parameter name="modifiedTime" value="Jan 30 2004  9:24AM" />
+    <parameter name="name" value="AssetNetwork Electronic Exchange" />
+    <parameter name="oatsReceivingMpi" value="OATSMPI" />
+    <parameter name="oatsSentMpi" value="FIXBROKER" />
+    <parameter name="selectnetFlag" value="false" />
+    <parameter name="shortName" value="AssetNetwork ECN" />
+    <parameter name="uniqueShortName" value="ASSET NETWORK ECN" />
+  </method>
+</script>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topics>
+  <Topic id="2d314c34-c725-42db-8e40-752a3df52bf1" visible="True" isDefault="true" title="Explorer Chrome Suite">
+    <Topic id="ee75ea9f-1367-4e40-89d2-60f498f59c9a" visible="True" apiParentMode="InsertAfter" title="Getting Started">
+      <Topic id="062fd647-8f1b-4b08-a714-e2bc44031094" visible="True" title="Hello World Walkthrough" />
+      <Topic id="81f05a91-4577-4090-b1ef-481bf9fe388e" visible="True" title="Simple Navigation Walkthrough" />
+    </Topic>
+  </Topic>
+</Topics>

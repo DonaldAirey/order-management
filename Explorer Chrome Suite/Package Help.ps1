@@ -1,0 +1,2 @@
+&"C:\Windows\System32\makecab.exe" "${Home}\Documents\Visual Studio 2010\Projects\Teraque\Main\Explorer Chrome Suite\Help\Documentation.mshc" "${Home}\Documents\Visual Studio 2010\Projects\Teraque\Main\Explorer Chrome Suite\Help\Documentation.cab"
+&"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\signtool.exe" sign /q /sha1 24C707980F7CA9872BC9EF511DE539B72CC0F099 "${Home}\Documents\Visual Studio 2010\Projects\Teraque\Main\Explorer Chrome Suite\Help\Documentation.cab"

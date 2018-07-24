@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="ee75ea9f-1367-4e40-89d2-60f498f59c9a" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>
+				The Explorer Chrome Suite can be thought of as a drop-in replacement for the <ui>Window</ui> or
+				<ui>NavigationWindow</ui> classes of WPF.&#160;&#160;It provides the rich user interface of
+				Microsoft Windows Explorer® as a WPF component.&#160;&#160;Integration with Visual Studio
+				consists of a set of templates that allow first time and expert programmers to instantly
+				create a rich Explorer-like interface and exploit the Navigation architecture of WPF.
+				&#160;&#160;It is the ideal starting point for all new WPF	projects and can provide a fresh,
+				professional face for existing applications.
+			</para>
+		</introduction>
+		<section>
+			<title>
+				Basic Concepts
+			</title>
+			<content>
+				<mediaLink>
+					<caption placement="after" lead="Figure 1">Simple ExplorerWindow</caption>
+					<image xlink:href="15A6951D-A66D-468a-AE5C-D78802062675"/>
+				</mediaLink>
+				<para>
+					The basic ExplorerWindow comes with navigation buttons, a breadcrumb bar, a search field,
+					a menu bar and a status bar.&#160;&#160;In this view the menu and status bar are hidden
+					until they have something to display.&#160;&#160;Also the navigation buttons are not
+					enabled until there is some hierarchical data to be navigated.&#160;&#160;This view is
+					displaying a single page.
+				</para>
+				<mediaLink>
+					<caption placement="after" lead="Figure 2">Functional ExplorerWindow</caption>
+					<image xlink:href="EC5ED31F-2B96-4512-9A0E-E5862C42C48F"/>
+				</mediaLink>
+				<para>
+					In the example above we've added menu and status items.  However, the ExplorerWindow
+					becomes really interesting when we start to add page content to it.&#160;&#160;The
+					<application>ExplorerWindow</application> is a NavigationWindow at heart and brings new
+					content to the user by navigating to it.&#160;&#160;You can navigate to HTML content, WPF
+					Pages, Silverlight Pages or any standard CLR object such as a WPF FrameworkElement or
+					WinForm control.&#160;&#160;In the view above we've created a simple menu, a status bar
+					and instructed the application's to load a page from a web site.
+				</para>
+				<mediaLink>
+					<caption placement="after" lead="Figure 3">Complex ExplorerWindow</caption>
+					<image xlink:href="DB1F2D10-6734-45bc-BCF6-A7678541B941"/>
+				</mediaLink>
+				<para>
+					The <application>ExplorerWindow</application> allows you to drop any kind of content you
+					want into the frame of the application.&#160;&#160;It is essentially an instance of a
+					<application>Window</application> class that contains the logic for downloading and
+					displaying pages of information: the <application>NavigationService</application>.
+					&#160;&#160;The term 'downloading' shouldn't distract you much because the same mechanism
+					loads resources that are stored locally.&#160;&#160;To a
+					<application>ExplorerWindow</application> control, a web page is loaded with the same
+					machinery as a local WPF dialog box.  Beause there is no distiction, you have greater
+					flexibility with the type of content you can to provide to your users.
+				</para>
+				<para>
+					You can even nest the Navigator windows inside of Navigator windows.&#160;&#160;
+					For example, the figure above is displaying a page inside the main frame of the
+					application.&#160;&#160;Inside of the first page is a toolbar, a tree view, a detail's pane
+					and another Navigation window.&#160;&#160;This inner Navigation Window is a Frame control
+					which, in turn, presents the collection of animals selected by the tree view.
+				</para>
+			</content>
+		</section>
+		<relatedTopics>
+			<link xlink:href="062fd647-8f1b-4b08-a714-e2bc44031094" />
+			<link xlink:href="81f05a91-4577-4090-b1ef-481bf9fe388e" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

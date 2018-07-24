@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Subordinate Type">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="NONE" />
+    <parameter name="subordinateTypeCode" value="None" />
+    <parameter name="name" value="None" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CCRDT" />
+    <parameter name="subordinateTypeCode" value="UnsecuredCredit" />
+    <parameter name="name" value="Unsecured Credit" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQPTRST" />
+    <parameter name="subordinateTypeCode" value="EquipmentTrust" />
+    <parameter name="name" value="Equipment Trust" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="LT2" />
+    <parameter name="subordinateTypeCode" value="LowerTier2" />
+    <parameter name="name" value="Lower Tier 2" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EETC" />
+    <parameter name="subordinateTypeCode" value="PreferredEquipmentTrust" />
+    <parameter name="name" value="Preferred Equipment Trust" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="SUBORD" />
+    <parameter name="subordinateTypeCode" value="Subordinate" />
+    <parameter name="name" value="Subordinate" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="SENIOR" />
+    <parameter name="subordinateTypeCode" value="Senior" />
+    <parameter name="name" value="Senior" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="DEBNTRS" />
+    <parameter name="subordinateTypeCode" value="Debentures" />
+    <parameter name="name" value="Debentures" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="SRSUBDB" />
+    <parameter name="subordinateTypeCode" value="SeniorSubordinateDebenture" />
+    <parameter name="name" value="Senior Subordinate Debenture" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="1STMTG" />
+    <parameter name="subordinateTypeCode" value="FirstMortgage" />
+    <parameter name="name" value="First Mortgage" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="GENREF" />
+    <parameter name="subordinateTypeCode" value="GeneralRefinance" />
+    <parameter name="name" value="General Refinance" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="SRNOTES" />
+    <parameter name="subordinateTypeCode" value="SeniorNotes" />
+    <parameter name="name" value="Senior Notes" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="2NDMTG" />
+    <parameter name="subordinateTypeCode" value="SecondMortgage" />
+    <parameter name="name" value="Second Mortgage" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="T1" />
+    <parameter name="subordinateTypeCode" value="Tier1" />
+    <parameter name="name" value="Tier 1" />
+  </method>
+  <method name="StoreSubordinateType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="NOTES" />
+    <parameter name="subordinateTypeCode" value="Notes" />
+    <parameter name="name" value="Notes" />
+  </method>
+</script>

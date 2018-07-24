@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Model Scrubber", "Data Model Scrubber.csproj", "{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Model Schema", "..\Data Model Schema\Data Model Schema.csproj", "{11AD479E-B83C-4611-AA96-0AF71289119D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://viola:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Data\u0020Model\u0020Scrubber.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\Data\u0020Model\u0020Schema\\Data\u0020Model\u0020Schema.csproj
+		SccProjectName2 = ../Data\u0020Model\u0020Schema
+		SccLocalPath2 = ..\\Data\u0020Model\u0020Schema
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Debug|x64.ActiveCfg = Debug|x86
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Debug|x86.ActiveCfg = Debug|x86
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Debug|x86.Build.0 = Debug|x86
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Release|x64.ActiveCfg = Release|x86
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Release|x86.ActiveCfg = Release|x86
+		{EFBD5B10-657F-4D9C-8FD3-2FABEB57DCA8}.Release|x86.Build.0 = Release|x86
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|x64.ActiveCfg = Debug|x64
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|x64.Build.0 = Debug|x64
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|x86.ActiveCfg = Debug|x86
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|x86.Build.0 = Debug|x86
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|x64.ActiveCfg = Release|x64
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|x64.Build.0 = Release|x64
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|x86.ActiveCfg = Release|x86
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

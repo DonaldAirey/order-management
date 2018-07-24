@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Moorehead Brown">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreEntity">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+      <parameter name="externalId0" value="MOOREHEAD BROWN" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="HEDGE FUND" />
+      <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+      <parameter name="name" value="Moorehead Brown" />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="HEDGE FUND" />
+    </method>
+    <method name="StoreBlotter">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="entityKey" value="MOOREHEAD BROWN" />
+      <parameter name="partyTypeKey" value="HEDGE FUND" />
+    </method>
+    <method name="StoreSource">
+      <parameter name="blotterKey" value="MOOREHEAD BROWN" />
+      <parameter name="configurationId" value="Default" />
+    </method>
+    <method name="StoreInstitution">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="sourceKey" value="MOOREHEAD BROWN" />
+    </method>
+    <method name="StorePropertyStore">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="entityKey" value="MOOREHEAD BROWN" />
+      <parameter name="externalId0" value="{b43dc92d-d1d9-47c1-9a9f-f1c0839afbde}" />
+      <parameter name="propertyKey" value="VIEWER" />
+      <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.Navigator;component/DirectoryPage.xaml" />
+    </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="FIXED INCOME BLOTTER" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Fixed Income" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="BLOTTER" />
+      </method>
+      <method name="StoreBlotter">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="FIXED INCOME BLOTTER" />
+        <parameter name="partyTypeKey" value="USE PARENT" />
+      </method>
+      <method name="StoreEntityTree">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKeyByChildId" value="FIXED INCOME BLOTTER" />
+        <parameter name="entityKeyByParentId" value="MOOREHEAD BROWN" />
+        <parameter name="externalId0" value="{2dc1af9c-e60b-43d0-9501-3ce903e23ee3}" />
+      </method>
+      <method name="StorePropertyStore">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="FIXED INCOME BLOTTER" />
+        <parameter name="externalId0" value="{e1925697-e4e6-45c3-865e-1263ef1cb4ed}" />
+        <parameter name="propertyKey" value="VIEWER" />
+        <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.DebtBlotter;component/DebtBlotterPage.xaml" />
+      </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="MITSUO TANAKA BLOTTER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="BLOTTER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Mitsuo Tanaka" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="BLOTTER" />
+        </method>
+        <method name="StoreBlotter">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="MITSUO TANAKA BLOTTER" />
+          <parameter name="partyTypeKey" value="USE PARENT" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="MITSUO TANAKA BLOTTER" />
+          <parameter name="entityKeyByParentId" value="FIXED INCOME BLOTTER" />
+          <parameter name="externalId0" value="{6db4e6b3-e738-48e4-8473-9ae4c145f742}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="MITSUO TANAKA BLOTTER" />
+          <parameter name="externalId0" value="{82a5b574-7b68-4b76-bf03-8cec9f9f2781}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.DebtBlotter;component/DebtBlotterPage.xaml" />
+        </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="DONOVAN SNOW BLOTTER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="BLOTTER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Donovan Snow" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="BLOTTER" />
+        </method>
+        <method name="StoreBlotter">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="DONOVAN SNOW BLOTTER" />
+          <parameter name="partyTypeKey" value="USE PARENT" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="DONOVAN SNOW BLOTTER" />
+          <parameter name="entityKeyByParentId" value="FIXED INCOME BLOTTER" />
+          <parameter name="externalId0" value="{84f0a2d6-55d2-485e-a64b-57ac1d53d7b5}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="DONOVAN SNOW BLOTTER" />
+          <parameter name="externalId0" value="{34c6a3e0-0e4f-4ae0-b025-8727f25e06de}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.DebtBlotter;component/DebtBlotterPage.xaml" />
+        </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="EQUITY BLOTTER" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Equity" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="BLOTTER" />
+      </method>
+      <method name="StoreBlotter">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="EQUITY BLOTTER" />
+        <parameter name="partyTypeKey" value="USE PARENT" />
+      </method>
+      <method name="StoreEntityTree">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKeyByChildId" value="EQUITY BLOTTER" />
+        <parameter name="entityKeyByParentId" value="MOOREHEAD BROWN" />
+        <parameter name="externalId0" value="{fef55954-57bb-4479-8f61-0ddf38599e06}" />
+      </method>
+      <method name="StorePropertyStore">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="EQUITY BLOTTER" />
+        <parameter name="externalId0" value="{a65d8240-ca45-43b9-a349-192256af4239}" />
+        <parameter name="propertyKey" value="VIEWER" />
+        <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.EquityBlotter;component/EquityBlotterPage.xaml" />
+      </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="SERGEI NABOKOV BLOTTER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="BLOTTER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Sergei Nabokov" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="BLOTTER" />
+        </method>
+        <method name="StoreBlotter">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="SERGEI NABOKOV BLOTTER" />
+          <parameter name="partyTypeKey" value="USE PARENT" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="SERGEI NABOKOV BLOTTER" />
+          <parameter name="entityKeyByParentId" value="EQUITY BLOTTER" />
+          <parameter name="externalId0" value="{e0759d15-20fc-4ad8-8f90-f08971d9577c}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="SERGEI NABOKOV BLOTTER" />
+          <parameter name="externalId0" value="{985247f1-7070-46da-8c0f-a1a8fde987a4}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.EquityBlotter;component/EquityBlotterPage.xaml" />
+        </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="ELIZABETH JOHNSON BLOTTER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="BLOTTER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Elizabeth Johnson" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="BLOTTER" />
+        </method>
+        <method name="StoreBlotter">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="ELIZABETH JOHNSON BLOTTER" />
+          <parameter name="partyTypeKey" value="USE PARENT" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="ELIZABETH JOHNSON BLOTTER" />
+          <parameter name="entityKeyByParentId" value="EQUITY BLOTTER" />
+          <parameter name="externalId0" value="{116a32cf-f6a5-474d-83ee-8f00acf3b27a}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="ELIZABETH JOHNSON BLOTTER" />
+          <parameter name="externalId0" value="{d6915c83-e991-4249-b78a-ed6514905b99}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.EquityBlotter;component/EquityBlotterPage.xaml" />
+        </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="ADMINISTRATOR" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Administrator" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="USER" />
+      </method>
+      <method name="StoreUser">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="ADMINISTRATOR" />
+        <parameter name="distinguishedName" value="CN=Administrator,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" />
+      </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="ADMINISTRATOR FOLDER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="FOLDER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Administrator" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="FOLDER" />
+        </method>
+        <method name="StoreFolder">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="ADMINISTRATOR FOLDER" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="ADMINISTRATOR FOLDER" />
+          <parameter name="entityKeyByParentId" value="ADMINISTRATOR" />
+          <parameter name="externalId0" value="{3b6063e4-42e3-4c32-9c07-df2c7f8242f4}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="ADMINISTRATOR FOLDER" />
+          <parameter name="externalId0" value="{25cffc4a-480f-4319-aa52-dc8400309f15}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.Navigator;component/DirectoryPage.xaml" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="MOOREHEAD BROWN" />
+          <parameter name="entityKeyByParentId" value="ADMINISTRATOR FOLDER" />
+          <parameter name="externalId0" value="{c9e498b6-c772-4fef-9170-3e0ed0ce2cb4}" />
+        </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="OPERATOR" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Operator" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="USER" />
+      </method>
+      <method name="StoreUser">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="OPERATOR" />
+        <parameter name="distinguishedName" value="CN=Operator,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" />
+      </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="MITSUO TANAKA" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Mitsuo Tanaka" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="TRADER" />
+      </method>
+      <method name="StoreUser">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="MITSUO TANAKA" />
+        <parameter name="distinguishedName" value="CN=Mitsuo Tanaka,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" />
+      </method>
+      <method name="StoreTrader">
+        <parameter name="blotterDefaultId" value="FIXED INCOME BLOTTER" />
+        <parameter name="configurationId" value="Default" />
+        <parameter name="isAgencyMatch" value="false" />
+        <parameter name="isBrokerMatch" value="false" />
+        <parameter name="isCommissionChangeAllowed" value="false" />
+        <parameter name="isEditExecutionsAllowed" value="true" />
+        <parameter name="isHedgeMatch" value="true" />
+        <parameter name="isHeld" value="true" />
+        <parameter name="isInstitutionMatch" value="false" />
+        <parameter name="lotSizeDefault" value="100" />
+        <parameter name="marketSleep" value="10" />
+        <parameter name="reviewWindow" value="0" />
+        <parameter name="submissionTypeCode" value="AlwaysMatch" />
+        <parameter name="userKey" value="MITSUO TANAKA" />
+      </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="MITSUO TANAKA FOLDER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="FOLDER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Mitsuo Tanaka" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="FOLDER" />
+        </method>
+        <method name="StoreFolder">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="MITSUO TANAKA FOLDER" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="MITSUO TANAKA FOLDER" />
+          <parameter name="entityKeyByParentId" value="MITSUO TANAKA" />
+          <parameter name="externalId0" value="{3a1394d9-1a57-4576-bc61-cbc90011109a}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="MITSUO TANAKA FOLDER" />
+          <parameter name="externalId0" value="{320e5e22-5c3a-4c6c-992d-ba316ed31038}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.Navigator;component/DirectoryPage.xaml" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="FIXED INCOME BLOTTER" />
+          <parameter name="entityKeyByParentId" value="MITSUO TANAKA FOLDER" />
+          <parameter name="externalId0" value="{b798c7fd-2f56-438f-8cbc-7a5e0a2a8336}" />
+        </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="DONOVAN SNOW" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Donovan Snow" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="USER" />
+      </method>
+      <method name="StoreUser">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="DONOVAN SNOW" />
+        <parameter name="distinguishedName" value="CN=Donovan Snow,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" />
+      </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="DONOVAN SNOW FOLDER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="FOLDER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Donovan Snow" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="FOLDER" />
+        </method>
+        <method name="StoreFolder">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="DONOVAN SNOW FOLDER" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="DONOVAN SNOW FOLDER" />
+          <parameter name="entityKeyByParentId" value="DONOVAN SNOW" />
+          <parameter name="externalId0" value="{280666b8-d938-4ceb-a98b-62303569cdfb}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="DONOVAN SNOW FOLDER" />
+          <parameter name="externalId0" value="{488fe5cf-d37e-4ef5-b175-f7fdabb7e11c}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.Navigator;component/DirectoryPage.xaml" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="FIXED INCOME BLOTTER" />
+          <parameter name="entityKeyByParentId" value="DONOVAN SNOW FOLDER" />
+          <parameter name="externalId0" value="{e9380633-d8f6-4f7e-8d64-b1762b41eadd}" />
+        </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="SERGEI NABOKOV" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Sergei Nabokov" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="USER" />
+      </method>
+      <method name="StoreUser">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="SERGEI NABOKOV" />
+        <parameter name="distinguishedName" value="CN=Sergei Nabokov,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" />
+      </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="SERGEI NABOKOV FOLDER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="FOLDER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Sergei Nabokov" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="FOLDER" />
+        </method>
+        <method name="StoreFolder">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="SERGEI NABOKOV FOLDER" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="SERGEI NABOKOV FOLDER" />
+          <parameter name="entityKeyByParentId" value="SERGEI NABOKOV" />
+          <parameter name="externalId0" value="{492b1474-a341-43f5-9a4c-994ab04244fe}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="SERGEI NABOKOV FOLDER" />
+          <parameter name="externalId0" value="{6633b274-af5e-4bf5-9e8f-b2aab2a6db3e}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.Navigator;component/DirectoryPage.xaml" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="EQUITY BLOTTER" />
+          <parameter name="entityKeyByParentId" value="SERGEI NABOKOV FOLDER" />
+          <parameter name="externalId0" value="{26858700-fbe6-4327-a87d-171618787963}" />
+        </method>
+      <method name="StoreEntity">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="externalId0" value="ELIZABETH JOHNSON" />
+        <parameter name="hidden" value="false" />
+        <parameter name="imageKey" value="BLOTTER" />
+        <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+        <parameter name="name" value="Elizabeth Johnson" />
+        <parameter name="readOnly" value="false" />
+        <parameter name="typeKey" value="TRADER" />
+      </method>
+      <method name="StoreUser">
+        <parameter name="configurationId" value="Default" />
+        <parameter name="entityKey" value="ELIZABETH JOHNSON" />
+        <parameter name="distinguishedName" value="CN=Elizabeth Johnson,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" />
+      </method>
+      <method name="StoreTrader">
+        <parameter name="blotterDefaultId" value="EQUITY BLOTTER" />
+        <parameter name="configurationId" value="Default" />
+        <parameter name="isAgencyMatch" value="false" />
+        <parameter name="isBrokerMatch" value="false" />
+        <parameter name="isCommissionChangeAllowed" value="false" />
+        <parameter name="isEditExecutionsAllowed" value="true" />
+        <parameter name="isHedgeMatch" value="true" />
+        <parameter name="isHeld" value="true" />
+        <parameter name="isInstitutionMatch" value="false" />
+        <parameter name="lotSizeDefault" value="100" />
+        <parameter name="marketSleep" value="10" />
+        <parameter name="reviewWindow" value="0" />
+        <parameter name="submissionTypeCode" value="AlwaysMatch" />
+        <parameter name="userKey" value="ELIZABETH JOHNSON" />
+      </method>
+        <method name="StoreEntity">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="createdTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="externalId0" value="ELIZABETH JOHNSON FOLDER" />
+          <parameter name="hidden" value="false" />
+          <parameter name="imageKey" value="FOLDER" />
+          <parameter name="modifiedTime" value="6/3/2013 6:03:51 AM" />
+          <parameter name="name" value="Elizabeth Johnson" />
+          <parameter name="readOnly" value="false" />
+          <parameter name="typeKey" value="FOLDER" />
+        </method>
+        <method name="StoreFolder">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="ELIZABETH JOHNSON FOLDER" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="ELIZABETH JOHNSON FOLDER" />
+          <parameter name="entityKeyByParentId" value="ELIZABETH JOHNSON" />
+          <parameter name="externalId0" value="{ef2722ce-1e3d-4219-bbbd-ce1742855998}" />
+        </method>
+        <method name="StorePropertyStore">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKey" value="ELIZABETH JOHNSON FOLDER" />
+          <parameter name="externalId0" value="{6b6ba2c4-3992-49d2-8c6c-c3819b78faac}" />
+          <parameter name="propertyKey" value="VIEWER" />
+          <parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.Navigator;component/DirectoryPage.xaml" />
+        </method>
+        <method name="StoreEntityTree">
+          <parameter name="configurationId" value="Default" />
+          <parameter name="entityKeyByChildId" value="EQUITY BLOTTER" />
+          <parameter name="entityKeyByParentId" value="ELIZABETH JOHNSON FOLDER" />
+          <parameter name="externalId0" value="{e2d48fea-8133-4998-b06d-97b669576c8d}" />
+        </method>
+</script>

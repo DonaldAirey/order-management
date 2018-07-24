@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<array>
+  <string>header1Cell</string>
+  <string>ABS</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>ARIFL 2010-A A 144 W/O RTS</string>
+  <date>2013-01-25T16:06:48Z</date>
+  <string>Long</string>
+  <real>100.4585700</real>
+  <real>1184731.6400000</real>
+  <real>1191674.1000000</real>
+  <real>1191674.1000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>COMNI  2009-A14A A14 144A</string>
+  <date>2015-04-12T16:06:48Z</date>
+  <string>Long</string>
+  <real>104.8972800</real>
+  <real>11410000.0000000</real>
+  <real>11994441.4700000</real>
+  <real>11994441.4700000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>CPF 2010-1A 1 144A W/O RTS</string>
+  <date>2015-12-20T16:06:48Z</date>
+  <string>Long</string>
+  <real>104.9401900</real>
+  <real>614405.6700000</real>
+  <real>646797.2800000</real>
+  <real>646797.2800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>DROT 2011-1 A 144A</string>
+  <date>2012-08-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>100.7546600</real>
+  <real>5788223.6300000</real>
+  <real>5846054.0300000</real>
+  <real>5846054.0300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>DSCMT 2011 - 1 A 144A</string>
+  <date>2012-08-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>101.4631500</real>
+  <real>8170000.0000000</real>
+  <real>8313497.8900000</real>
+  <real>8313497.8900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>FUEL TRUST 144A W/REG RTS</string>
+  <date>2016-12-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.2120000</real>
+  <real>9000000.0000000</real>
+  <real>9086427.7500000</real>
+  <real>9086427.7500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>GEMNT 2010-2 A</string>
+  <date>2017-11-12T16:06:48Z</date>
+  <string>Long</string>
+  <real>112.6434300</real>
+  <real>4975000.0000000</real>
+  <real>5620689.3300000</real>
+  <real>5620689.3300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>HERTZ 2009 -2A A2 144A W/O RTS</string>
+  <date>2015-09-01T16:06:48Z</date>
+  <string>Long</string>
+  <real>108.5364300</real>
+  <real>3190000.0000000</real>
+  <real>3470280.9100000</real>
+  <real>3470280.9100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>HERTZ 2009-2A A1 144A W/O RTS</string>
+  <date>2013-09-08T16:06:48Z</date>
+  <string>Long</string>
+  <real>102.5330700</real>
+  <real>2740000.0000000</real>
+  <real>2814918.0900000</real>
+  <real>2814918.0900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>MVCOT 2009-2A 144A W /O RTS</string>
+  <date>2014-09-27T16:06:48Z</date>
+  <string>Long</string>
+  <real>102.2793800</real>
+  <real>973200.2300000</real>
+  <real>998243.2300000</real>
+  <real>998243.2300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>PPHEA 2011-1 A2</string>
+  <date>2012-08-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>98.4289500</real>
+  <real>4900000.0000000</real>
+  <real>4835584.1200000</real>
+  <real>4835584.1200000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>PYS 2010-A 144A</string>
+  <date>2026-10-23T16:06:48Z</date>
+  <string>Long</string>
+  <real>100.0000000</real>
+  <real>2927882.4100000</real>
+  <real>2938761.1200000</real>
+  <real>2938761.1200000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>SDART 2011-1 A3</string>
+  <date>2012-08-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.9472800</real>
+  <real>5350000.0000000</real>
+  <real>5352315.4800000</real>
+  <real>5352315.4800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>SDART 2011-S1A D 144A</string>
+  <date>2012-08-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.5900000</real>
+  <real>7090099.7800000</real>
+  <real>7077514.8500000</real>
+  <real>7077514.8500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>SRFC 2010 - 1A A1 144A W/O RTS</string>
+  <date>2013-10-26T16:06:48Z</date>
+  <string>Long</string>
+  <real>103.2209900</real>
+  <real>905888.9900000</real>
+  <real>937547.7000000</real>
+  <real>937547.7000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>SRFC 2011-3A A 144A</string>
+  <date>2012-08-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.6028100</real>
+  <real>2295000.0000000</real>
+  <real>2292759.2900000</real>
+  <real>2292759.2900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>ABS</string>
+  <string>WFNMT 2010-A</string>
+  <date>2016-02-12T16:06:48Z</date>
+  <string>Long</string>
+  <real>106.7410900</real>
+  <real>9695000.0000000</real>
+  <real>10395105.0400000</real>
+  <real>10395105.0400000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>ABS</string>
+  <real>81209432.3500000</real>
+  <real>83812611.6800000</real>
+  <real>83812611.6800000</real>
+</array>
+<array>
+  <string>header1Cell</string>
+  <string>TREASURIES</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>TREASURIES</string>
+  <string>U S TREASURY BILLS</string>
+  <date>2012-11-09T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.9974000</real>
+  <real>500000.0000000</real>
+  <real>499987.0000000</real>
+  <real>499987.0000000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>TREASURIES</string>
+  <real>500000.0000000</real>
+  <real>499987.0000000</real>
+  <real>499987.0000000</real>
+</array>
+<array>
+  <string>footerCell</string>
+  <real>81709432.3500000</real>
+  <real>84312598.6800000</real>
+  <real>84312598.6800000</real>
+</array>

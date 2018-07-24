@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Teraque.AssetNetwork" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Teraque.AssetNetwork" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Teraque" />
+  <xs:complexType name="ArrayOfDestinationOrderInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DestinationOrderInfo" nillable="true" type="tns:DestinationOrderInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDestinationOrderInfo" nillable="true" type="tns:ArrayOfDestinationOrderInfo" />
+  <xs:complexType name="DestinationOrderInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BlotterId" type="ser:guid" />
+      <xs:element minOccurs="0" name="DestinationId" type="ser:guid" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Teraque" minOccurs="0" name="OrderTypeCode" type="q1:OrderTypeCode" />
+      <xs:element minOccurs="0" name="OrderedQuantity" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SecurityId" type="ser:guid" />
+      <xs:element minOccurs="0" name="SettlementId" type="ser:guid" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Teraque" minOccurs="0" name="SideCode" type="q2:SideCode" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Teraque" minOccurs="0" name="TimeInForceCode" type="q3:TimeInForceCode" />
+      <xs:element minOccurs="0" name="WorkingOrderId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DestinationOrderInfo" nillable="true" type="tns:DestinationOrderInfo" />
+  <xs:complexType name="ArrayOfDestinationOrderReference">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DestinationOrderReference" nillable="true" type="tns:DestinationOrderReference" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDestinationOrderReference" nillable="true" type="tns:ArrayOfDestinationOrderReference" />
+  <xs:complexType name="DestinationOrderReference">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DestinationId" type="ser:guid" />
+      <xs:element minOccurs="0" name="RowVersion" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DestinationOrderReference" nillable="true" type="tns:DestinationOrderReference" />
+  <xs:complexType name="ArrayOfQuote">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Quote" nillable="true" type="tns:Quote" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQuote" nillable="true" type="tns:ArrayOfQuote" />
+  <xs:complexType name="Quote">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AskPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AskSize" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BidPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BidSize" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LastPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LastSize" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Quote" nillable="true" type="tns:Quote" />
+</xs:schema>

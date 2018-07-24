@@ -1,0 +1,5 @@
+Teraque.Windows.Controls.BreadcrumbBar, Teraque.PresentationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3
+Teraque.Windows.Controls.Primitives.DetailBar, Teraque.PresentationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3
+Teraque.Windows.Controls.ExplorerFrame, Teraque.PresentationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3
+Teraque.Windows.Navigation.ExplorerWindow, Teraque.PresentationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3
+Teraque.Windows.Controls.Navigator, Teraque.PresentationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a0342fac2b4228e3

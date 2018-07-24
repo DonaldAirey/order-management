@@ -1,0 +1,3 @@
+&"C:\Program Files (x86)\Microsoft DirectX SDK (February 2010)\Utilities\bin\x64\fxc.exe" /T fx_4_0 /Fo "../Teraque/Resources/EmbossEffect.ps" "../Teraque/Resources/EmbossEffect.fx"
+&"C:\Program Files (x86)\Microsoft DirectX SDK (February 2010)\Utilities\bin\x64\fxc.exe" /T fx_4_0 /Fo "../Teraque/Resources/GrayscaleEffect.ps" "../Teraque/Resources/GrayscaleEffect.fx"
+&"C:\Program Files (x86)\Microsoft DirectX SDK (February 2010)\Utilities\bin\x64\fxc.exe" /T fx_4_0 /Fo "../Teraque/Resources/OuterGlowEffect.ps" "../Teraque/Resources/OuerGlowEffect.fx"

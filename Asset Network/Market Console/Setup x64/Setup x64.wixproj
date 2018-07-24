@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" InitialTargets="EnsureWixToolsetInstalled" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProductVersion>3.10</ProductVersion>
+    <ProjectGuid>6789f461-fbd3-410c-8ae4-40d58297403d</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>SetupAssetNetworkMarketConsolex64</OutputName>
+    <OutputType>Package</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DefineConstants>Debug</DefineConstants>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Product.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Brokers.xml" />
+    <Content Include="Canada Ticker Prices.xml" />
+    <Content Include="Market Console.exe.config" />
+    <Content Include="Market Simulator.exe.config" />
+    <Content Include="Resources\Banner.bmp" />
+    <Content Include="Resources\Market Console.ico" />
+    <Content Include="Resources\Tools.ico" />
+    <Content Include="Resources\Welcome.bmp" />
+    <Content Include="Sources.xml" />
+    <Content Include="Tenants.xml" />
+    <Content Include="United Kingdom Ticker Prices.xml" />
+    <Content Include="United States Ticker Prices.xml" />
+    <Content Include="Sign.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WixExtension Include="WixUtilExtension">
+      <HintPath>$(WixExtDir)\WixUtilExtension.dll</HintPath>
+      <Name>WixUtilExtension</Name>
+    </WixExtension>
+    <WixExtension Include="WixUIExtension">
+      <HintPath>$(WixExtDir)\WixUIExtension.dll</HintPath>
+      <Name>WixUIExtension</Name>
+    </WixExtension>
+    <WixExtension Include="WixNetFxExtension">
+      <HintPath>$(WixExtDir)\WixNetFxExtension.dll</HintPath>
+      <Name>WixNetFxExtension</Name>
+    </WixExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Teraque.Message\Teraque.Message.csproj">
+      <Name>Teraque.Message</Name>
+      <Project>{fe639b3b-da4b-46b0-94db-f5bc157301c4}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Teraque.PresentationFramework\Teraque.PresentationFramework.csproj">
+      <Name>Teraque.PresentationFramework</Name>
+      <Project>{0404f2b3-5ee8-45be-91f5-8569de1315c8}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Teraque.Server\Teraque.Server.csproj">
+      <Name>Teraque.Server</Name>
+      <Project>{c5fd375f-b640-424d-bd14-04644746a516}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Teraque\Teraque.csproj">
+      <Name>Teraque</Name>
+      <Project>{158782bb-6cf6-4cbe-bb51-91ed82bc0ed8}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque.AssetNetwork.WebClient\Teraque.AssetNetwork.WebClient.csproj">
+      <Name>Teraque.AssetNetwork.WebClient</Name>
+      <Project>{33003e38-efed-467b-8a77-77baae2994bd}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque.AssetNetwork\Teraque.AssetNetwork.csproj">
+      <Name>Teraque.AssetNetwork</Name>
+      <Project>{3160e4f0-b199-4b8e-b206-71582e7e7041}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\Market Console\Market Console.csproj">
+      <Name>Market Console</Name>
+      <Project>{3e233060-50ff-4d73-b763-aa4fd458540c}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\Market Simulator\Market Simulator.csproj">
+      <Name>Market Simulator</Name>
+      <Project>{1a9bed71-60d9-4198-90f6-c8a6676d4ae3}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork.MarketClient\Teraque.AssetNetwork.MarketClient.csproj">
+      <Name>Teraque.AssetNetwork.MarketClient</Name>
+      <Project>{ce1bac9a-25c3-444d-91f9-bc74e4ecfe7f}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(WixTargetsPath)" Condition=" '$(WixTargetsPath)' != '' " />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets" Condition=" '$(WixTargetsPath)' == '' AND Exists('$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets') " />
+  <Target Name="EnsureWixToolsetInstalled" Condition=" '$(WixTargetsImported)' != 'true' ">
+    <Error Text="The WiX Toolset v3.11 (or newer) build tools must be installed to build this project. To download the WiX Toolset, see http://wixtoolset.org/releases/" />
+  </Target>
+  <PropertyGroup>
+    <PreBuildEvent>powershell -NoProfile -File "$(ProjectDir)Sign.ps1</PreBuildEvent>
+  </PropertyGroup>
+</Project>

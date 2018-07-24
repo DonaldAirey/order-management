@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="39e46545-80bb-4536-a395-68f3839566b0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/Asset Network/Market Service" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MarketService.wsdl" MetadataType="Wsdl" ID="c1fee567-163c-4a2f-9d6b-751b9236b11f" SourceId="1" SourceUrl="http://localhost/Asset Network/Market Service?wsdl" />
+    <MetadataFile FileName="Market Service.xsd" MetadataType="Schema" ID="69c211d4-a2f9-42be-a757-64e67a25ab30" SourceId="1" SourceUrl="http://localhost/Asset Network/Market Service?xsd=xsd1" />
+    <MetadataFile FileName="Market Service1.xsd" MetadataType="Schema" ID="c71fcd45-e09d-4a89-8be9-c414c52160a7" SourceId="1" SourceUrl="http://localhost/Asset Network/Market Service?xsd=xsd4" />
+    <MetadataFile FileName="Market Service2.xsd" MetadataType="Schema" ID="36cd1890-6286-4294-9e55-9d2b6dfcdeca" SourceId="1" SourceUrl="http://localhost/Asset Network/Market Service?xsd=xsd3" />
+    <MetadataFile FileName="Market Service3.xsd" MetadataType="Schema" ID="dd7fca05-be4a-4b5b-a6d6-73d778a8bae9" SourceId="1" SourceUrl="http://localhost/Asset Network/Market Service?xsd=xsd2" />
+    <MetadataFile FileName="Market Service.disco" MetadataType="Disco" ID="1179ea99-9190-4641-a2c6-184909d3f88d" SourceId="1" SourceUrl="http://localhost/Asset Network/Market Service?disco" />
+    <MetadataFile FileName="Market Service4.xsd" MetadataType="Schema" ID="8c74f15b-7636-4061-be63-5ac892d4745a" SourceId="1" SourceUrl="http://localhost/Asset Network/Market Service?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

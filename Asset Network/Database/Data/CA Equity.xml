@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="CA Equity">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="CNR" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="CANADIAN NATIONAL RAILWAY CO." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="CNR" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="CNR" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="CNR" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="N" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="INCO LIMITED" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="N" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="N" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="N" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="MG.A" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="MAGNA INTERNATIONAL INC. CL 'A' SV" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="MG.A" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="MG.A" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="MG.A" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="RY" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="ROYAL BANK OF CANADA" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="RY" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="RY" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="RY" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="SJR.B" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="SHAW COMMUNICATIONS INC. CL 'B' NV" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="SJR.B" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="SJR.B" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="SJR.B" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="SU" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="SUNCOR ENERGY INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="SU" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="SU" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="SU" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="TLM" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="TALISMAN ENERGY INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="TLM" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="TLM" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="TLM" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="BVF" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BIOVAIL CORPORATION" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="BVF" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BVF" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="BVF" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="PDG" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="PLACER DOME INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="PDG" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="PDG" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="PDG" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="BBD.B" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BOMBARDIER INC. CL 'B' SV" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="BBD.B" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BBD.B" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="BBD.B" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="BMO" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BANK OF MONTREAL" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="BMO" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BMO" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="BMO" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="FHR" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="FAIRMONT HOTELS &amp; RESORTS INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="FHR" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="FHR" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="FHR" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="NXY" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NEXEN INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="NXY" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="NXY" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="NXY" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="NRD" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NORANDA INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="NRD" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="NRD" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="NRD" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="PCA" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="PETRO-CANADA" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="PCA" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="PCA" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="PCA" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="RIM" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="RESEARCH IN MOTION LIMITED" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="RIM" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="RIM" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="RIM" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="TRP" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="TRANSCANADA PIPELINES LTD." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="TRP" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="TRP" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="TRP" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="CLS" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="CELESTICA INC. SV" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="CLS" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="CLS" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="CLS" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="DFS" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="DOFASCO INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="DFS" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="DFS" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="DFS" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="NCX" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NOVA CHEMICALS CORPORATION" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="NCX" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="NCX" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="NCX" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="TOC" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="THOMSON CORPORATION (THE)" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="TOC" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="TOC" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="TOC" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="T" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="TELUS CORPORATION" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="T" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="T" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="T" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="ABX" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BARRICK GOLD CORPORATION" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="ABX" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="ABX" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="ABX" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="TEK.B" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="TECK COMINCO LIMITED CL 'B' SV" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="TEK.B" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="TEK.B" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="TEK.B" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="CM" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="CANADIAN IMPERIAL BANK OF COMMERCE" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="CM" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="CM" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="CM" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="CTR.A" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="CANADIAN TIRE CORP. LTD. CL 'A' NV" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="CTR.A" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="CTR.A" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="CTR.A" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="TD" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="TORONTO-DOMINION BANK (THE)" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="TD" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="TD" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="TD" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="A" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="ABITIBI-CONSOLIDATED INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="A" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="A" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="A" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="BNS" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BANK OF NOVA SCOTIA (THE)" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="BNS" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BNS" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="BNS" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="AL" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="ALCAN INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="AL" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="AL" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="AL" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="BCE" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BCE INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="BCE" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BCE" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="BCE" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="HSE" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="HUSKY ENERGY INC." />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="HSE" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="HSE" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="HSE" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="NA" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NATIONAL BANK OF CANADA" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="NA" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="NA" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="NA" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="NT" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NORTEL NETWORKS CORPORATION" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="NT" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="NT" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="NT" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId1" value="TA" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="TRANSALTA CORPORATION" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="countryKey" value="CA" />
+      <parameter name="entityKey" value="TA" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="TA" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="CA TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="TSE" />
+      <parameter name="securityKeyByEquityId" value="TA" />
+      <parameter name="securityKeyBySettlementId" value="CAD" />
+    </method>
+  </transaction>
+</script>

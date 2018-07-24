@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{876F3FBA-1CAC-433D-852E-D06BC6135D5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teraque.AssetNetwork.Windows</RootNamespace>
+    <AssemblyName>Teraque.AssetNetwork.Blotter</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlotterPage.xaml.cs">
+      <DependentUpon>BlotterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlotterPageBase.cs" />
+    <Compile Include="PriceQuote.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkingOrder.cs" />
+    <Compile Include="WorkingOrderCollection.cs" />
+    <Compile Include="WorkingOrderCollectionView.cs" />
+    <Compile Include="WorkingOrderView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Teraque.PresentationFramework\Teraque.PresentationFramework.csproj">
+      <Project>{0404F2B3-5EE8-45BE-91F5-8569DE1315C8}</Project>
+      <Name>Teraque.PresentationFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque.Server\Teraque.Server.csproj">
+      <Project>{C5FD375F-B640-424D-BD14-04644746A516}</Project>
+      <Name>Teraque.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque\Teraque.csproj">
+      <Project>{158782BB-6CF6-4CBE-BB51-91ED82BC0ED8}</Project>
+      <Name>Teraque</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork.ClientDataModel\Teraque.AssetNetwork.ClientDataModel.csproj">
+      <Project>{6A5CE2EA-BD1D-49EC-A4C9-E97F947FD18E}</Project>
+      <Name>Teraque.AssetNetwork.ClientDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork.WebClient\Teraque.AssetNetwork.WebClient.csproj">
+      <Project>{33003E38-EFED-467B-8A77-77BAAE2994BD}</Project>
+      <Name>Teraque.AssetNetwork.WebClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork.Windows\Teraque.AssetNetwork.Windows.csproj">
+      <Project>{D29B7A66-FD2D-41C0-BFE1-4DE7881C0BB7}</Project>
+      <Name>Teraque.AssetNetwork.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork\Teraque.AssetNetwork.csproj">
+      <Project>{3160E4F0-B199-4B8E-B206-71582E7E7041}</Project>
+      <Name>Teraque.AssetNetwork</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="BlotterPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Views\ColumnView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Preview Pane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Detail Pane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Explorer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Layout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Library Pane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Navigation Pane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Teraque.AssetNetwork.Windows.Blotter.Properties</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Slice.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

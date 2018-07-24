@@ -1,0 +1,9 @@
+﻿<Application x:Class="Teraque.App"
+			 xmlns:local="clr-namespace:Teraque.ExplorerChromeExample"
+			 StartupUri="MainWindow.xaml"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Application.Resources>
+		<local:Categories x:Key="Categories"/>
+	</Application.Resources>
+</Application>

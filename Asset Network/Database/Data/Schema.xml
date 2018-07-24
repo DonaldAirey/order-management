@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Schemas">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreSchema">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="WORKING ORDER HEADER" />
+    <parameter name="uri" value="dataset:WorkingOrderHeader.xsd" />
+    <parameter name="xmlDocument">
+      <import path="../Schemas/WorkingOrderHeader.xsd"/>
+    </parameter>
+  </method>
+  <method name="StoreSchema">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="WORKING ORDER" />
+    <parameter name="uri" value="dataset:WorkingOrder.xsd" />
+    <parameter name="xmlDocument">
+      <import path="../Schemas/WorkingOrder.xsd"/>
+    </parameter>
+  </method>
+  <method name="StoreSchema">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="SOURCE ORDER" />
+    <parameter name="uri" value="dataset:SourceOrder.xsd" />
+    <parameter name="xmlDocument">
+      <import path="../Schemas/SourceOrder.xsd"/>
+    </parameter>
+  </method>
+</script>

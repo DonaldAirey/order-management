@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Administrator">
+	<client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+	<transaction>
+		<method name="StoreEntity">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="externalId0" value="TERAQUE ADMINISTRATORS" />
+			<parameter name="hidden" value="false" />
+			<parameter name="imageKey" value="GROUP" />
+			<parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="Teraque Administrators" />
+			<parameter name="readOnly" value="false" />
+			<parameter name="typeKey" value="GROUP" />
+		</method>
+		<method name="StoreGroup">
+			<parameter name="configurationId" value="Default" />
+      <parameter name="groupTypeKey" value="TERAQUE ADMIN" />
+			<parameter name="entityKey" value="TERAQUE ADMINISTRATORS" />
+		</method>
+		<method name="StoreEntity">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="externalId0" value="TERAQUE USERS" />
+			<parameter name="hidden" value="false" />
+			<parameter name="imageKey" value="GROUP" />
+			<parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="name" value="Teraque Users" />
+			<parameter name="readOnly" value="false" />
+			<parameter name="typeKey" value="GROUP" />
+		</method>
+		<method name="StoreGroup">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="groupTypeKey" value="USER" />
+			<parameter name="entityKey" value="TERAQUE USERS" />
+		</method>
+		<method name="StoreEntity">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="externalId0" value="ADMINISTRATOR" />
+			<parameter name="hidden" value="false" />
+			<parameter name="imageKey" value="USER" />
+			<parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="name" value="Administrator" />
+			<parameter name="readOnly" value="false" />
+			<parameter name="typeKey" value="TRADER" />
+		</method>
+		<method name="StoreUser">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="entityKey" value="ADMINISTRATOR" />
+			<parameter name="identityName" value="CN=Administrator; 5957C0F1FF48241594E4E8A3AA2377F6F2BE7B83" />
+		</method>
+		<method name="StoreTrader">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="isAgencyMatch" value="true" />
+			<parameter name="isBrokerMatch" value="true" />
+			<parameter name="isCommissionChangeAllowed" value="true" />
+			<parameter name="isEditExecutionsAllowed" value="true" />
+			<parameter name="isHedgeMatch" value="true" />
+			<parameter name="isHeld" value="true" />
+			<parameter name="isInstitutionMatch" value="true" />
+			<parameter name="lotSizeDefault" value="100" />
+			<parameter name="marketSleep" value="10" />
+			<parameter name="reviewWindow" value="0" />
+			<parameter name="submissionTypeCode" value="AlwaysMatch" />
+			<parameter name="userKey" value="ADMINISTRATOR" />
+		</method>
+		<method name="StoreEntity">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="externalId0" value="DAEMON USER" />
+			<parameter name="hidden" value="false" />
+			<parameter name="imageKey" value="USER" />
+			<parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="name" value="Daemon User" />
+			<parameter name="readOnly" value="false" />
+			<parameter name="typeKey" value="TRADER" />
+		</method>
+		<method name="StoreUser">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="entityKey" value="DAEMON USER" />
+			<parameter name="identityName" value="NT AUTHORITY\NETWORK SERVICE" />
+		</method>
+		<method name="StoreTrader">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="isAgencyMatch" value="true" />
+			<parameter name="isBrokerMatch" value="true" />
+			<parameter name="isCommissionChangeAllowed" value="true" />
+			<parameter name="isEditExecutionsAllowed" value="true" />
+			<parameter name="isHedgeMatch" value="true" />
+			<parameter name="isHeld" value="true" />
+			<parameter name="isInstitutionMatch" value="true" />
+			<parameter name="lotSizeDefault" value="100" />
+			<parameter name="marketSleep" value="10" />
+			<parameter name="reviewWindow" value="0" />
+			<parameter name="submissionTypeCode" value="AlwaysMatch" />
+			<parameter name="userKey" value="DAEMON USER" />
+		</method>
+		<method name="StoreGroupUsers">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="externalId0" value="{7FA4F392-ACE7-413a-BB3B-4DD3B47A17F5}" />
+			<parameter name="groupKey" value="TERAQUE ADMINISTRATORS" />
+			<parameter name="userKey" value="ADMINISTRATOR" />
+		</method>
+	</transaction>
+	<transaction>
+		<method name="StoreEntity">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="description" value="Person Folder of Administrator" />
+			<parameter name="externalId0" value="ADMINISTRATOR FOLDER" />
+			<parameter name="hidden" value="false" />
+			<parameter name="imageKey" value="FOLDER" />
+			<parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+			<parameter name="name" value="Administrator" />
+			<parameter name="readOnly" value="false" />
+			<parameter name="typeKey" value="SYSTEM FOLDER" />
+		</method>
+		<method name="StorePropertyStore">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="entityKey" value="ADMINISTRATOR FOLDER" />
+			<parameter name="externalId0" value="{0354D2AD-1500-4dcd-857E-EFFFBD0805C9}" />
+			<parameter name="propertyKey" value="VIEWER" />
+			<parameter name="value" value="pack://application:,,,/Teraque.AssetNetwork.Navigator;component/NavigatorDirectory.xaml" />
+		</method>
+		<method name="StoreFolder">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="entityKey" value="ADMINISTRATOR FOLDER" />
+		</method>
+		<method name="StoreSystemFolder">
+			<parameter name="configurationId" value="Default" />
+			<parameter name="folderKey" value="ADMINISTRATOR FOLDER" />
+		</method>
+	</transaction>
+	<method name="StoreEntityTree">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="entityKeyByChildId" value="ADMINISTRATOR FOLDER" />
+		<parameter name="entityKeyByParentId" value="ADMINISTRATOR" />
+		<parameter name="externalId0" value="{9F55A2B6-88C9-411a-9E49-63B295A67444}" />
+	</method>
+</script>

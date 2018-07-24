@@ -1,0 +1,38 @@
+﻿<Brokers>
+	<Broker Name="ABNA Amro Futures" Symbol="ABNA"/>
+	<Broker Name="ADM Investor" Symbol="ADMI"/>
+	<Broker Name="Amalgamated Metals" Symbol="AMTL"/>
+	<Broker Name="Bank of America" Symbol="BOAM"/>
+	<Broker Name="Barclays Metals" Symbol="BARC"/>
+	<Broker Name="Bear Stearns" Symbol="BSIL"/>
+	<Broker Name="BNP Paribas" Symbol="BNPP"/>
+	<Broker Name="Calyon" Symbol="CLRS"/>
+	<Broker Name="Cargill Investors" Symbol="CISX"/>
+	<Broker Name="Carr Futures" Symbol="CARR"/>
+	<Broker Name="Deutsche Bank" Symbol="DBAG"/>
+	<Broker Name="Dresdner Kleinwort" Symbol="DRES"/>
+	<Broker Name="ED&amp;F Man Intl." Symbol="MCAL"/>
+	<Broker Name="Fortis Bank" Symbol="FTIS"/>
+	<Broker Name="Goldman Sachs" Symbol="GOLD"/>
+	<Broker Name="HSBC" Symbol="HSBC"/>
+	<Broker Name="Investec Banks(UK)" Symbol="IBUK"/>
+	<Broker Name="JP Morgan Secs Ltd" Symbol="CHSE"/>
+	<Broker Name="Koch Metal Trading" Symbol="KOCH"/>
+	<Broker Name="Macquarie" Symbol="MAQR"/>
+	<Broker Name="Man Financial" Symbol="MANF"/>
+	<Broker Name="Marex Financial Ltd" Symbol="MFLX"/>
+	<Broker Name="Merrill Lynch" Symbol="MLPM"/>
+	<Broker Name="Metdis Trading Ltd" Symbol="MDTL"/>
+	<Broker Name="Mitsui Bussan Comm" Symbol="MBUA"/>
+	<Broker Name="Morgan Stanley" Symbol="MSIL"/>
+	<Broker Name="Natexis Commdty Mkt" Symbol="NATX"/>
+	<Broker Name="Prudential Bache" Symbol="BACH"/>
+	<Broker Name="Royal Bk of Canada" Symbol="RBCE"/>
+	<Broker Name="Sempra Metals Ltd" Symbol="SEMP"/>
+	<Broker Name="Societe Generale" Symbol="SGEN"/>
+	<Broker Name="Standard Bank" Symbol="SBNK"/>
+	<Broker Name="Sucden" Symbol="SDUK"/>
+	<Broker Name="Toyo" Symbol="TOYO"/>
+	<Broker Name="Triland Metals" Symbol="TRIL"/>
+	<Broker Name="UBS" Symbol="UBSL"/>
+</Brokers>

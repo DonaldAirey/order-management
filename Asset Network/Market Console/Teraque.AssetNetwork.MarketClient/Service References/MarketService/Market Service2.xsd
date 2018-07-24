@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/Asset Network/Market Service?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Teraque" />
+  <xs:complexType name="ArrayOfKeyValueOfTaganyTypeQceRdIZ7">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KeyValueOfTaganyTypeQceRdIZ7">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Teraque" name="Key" type="q1:Tag" />
+            <xs:element name="Value" nillable="true" type="xs:anyType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKeyValueOfTaganyTypeQceRdIZ7" nillable="true" type="tns:ArrayOfKeyValueOfTaganyTypeQceRdIZ7" />
+</xs:schema>

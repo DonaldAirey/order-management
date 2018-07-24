@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b0cf4c43-c1a1-408f-94c4-dea27093a485" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://oms.darkbond.com/Asset Network/Web Service" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WebService.wsdl" MetadataType="Wsdl" ID="ce712d26-3ec4-490b-a908-d8463ca83c00" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?wsdl" />
+    <MetadataFile FileName="Web Service.xsd" MetadataType="Schema" ID="c8416815-30bf-455d-9a92-8ffeccc2c66e" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd4" />
+    <MetadataFile FileName="Web Service1.xsd" MetadataType="Schema" ID="7f5b388b-5e9e-4058-b0f6-50cd5325a523" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd5" />
+    <MetadataFile FileName="Web Service2.xsd" MetadataType="Schema" ID="e6487f6b-fa4e-4e79-8e0a-ea1b9b5b7415" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd0" />
+    <MetadataFile FileName="Web Service3.xsd" MetadataType="Schema" ID="6a9e3e5f-5b56-4a37-8ed0-1bbce1b81342" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd1" />
+    <MetadataFile FileName="Web Service4.xsd" MetadataType="Schema" ID="e8b3c824-6768-436c-b015-fd6dbb18b0ca" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd2" />
+    <MetadataFile FileName="Web Service5.xsd" MetadataType="Schema" ID="6c113f1e-31ff-45a9-80cd-e3411008ff12" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?xsd=xsd3" />
+    <MetadataFile FileName="Web Service.disco" MetadataType="Disco" ID="4165892d-bfe0-4a5f-8ddb-83469635826c" SourceId="1" SourceUrl="http://oms.darkbond.com/Asset Network/Web Service?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

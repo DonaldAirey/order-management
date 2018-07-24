@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0404F2B3-5EE8-45BE-91F5-8569DE1315C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teraque.Windows</RootNamespace>
+    <AssemblyName>Teraque.PresentationFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Demonstration|AnyCPU'">
+    <OutputPath>bin\Demonstration\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisLogFile>bin\Release\Teraque.PresentationFramework.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release Demo|AnyCPU'">
+    <OutputPath>bin\Release Demo\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisLogFile>bin\Release\Teraque.PresentationFramework.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Demonstration|x64'">
+    <OutputPath>bin\x64\Demonstration\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release Demo|x64'">
+    <OutputPath>bin\x64\Release Demo\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandArgumentPair.cs" />
+    <Compile Include="Controls\DateTimeBlock.cs" />
+    <Compile Include="Controls\DoubleBlock.cs" />
+    <Compile Include="Controls\PercentControl.cs" />
+    <Compile Include="Controls\Int32Block.cs" />
+    <Compile Include="Controls\NullableInt32Box.cs" />
+    <Compile Include="Controls\Int32Box.cs" />
+    <Compile Include="Controls\ListViewport.cs" />
+    <Compile Include="Controls\PriceControl.cs" />
+    <Compile Include="DragWindow.cs" />
+    <Compile Include="GenericEventHandlers.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IconSource.cs" />
+    <Compile Include="Controls\BreadcrumbBar.cs" />
+    <Compile Include="Controls\BreadcrumbItem.cs" />
+    <Compile Include="Controls\BreadcrumbPanel.cs" />
+    <Compile Include="Controls\ColumnDescription.cs" />
+    <Compile Include="Controls\ColumnViewChooseDetail.xaml.cs">
+      <DependentUpon>ColumnViewChooseDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ColumnViewColumnCollection.cs" />
+    <Compile Include="Controls\ColumnViewContextMenu.cs" />
+    <Compile Include="Controls\ColumnViewRoles.cs" />
+    <Compile Include="Controls\DetailsViewColumnHeader.cs" />
+    <Compile Include="Controls\DetailsViewHeaderRowPresenter.cs" />
+    <Compile Include="Controls\DetailsViewRowPresenter.cs" />
+    <Compile Include="Controls\FilterItem.cs" />
+    <Compile Include="Controls\ViewContainer.cs" />
+    <Compile Include="Controls\ViewPage.cs" />
+    <Compile Include="Controls\ViewportPanel.cs" />
+    <Compile Include="SortDirection.cs" />
+    <Compile Include="Controls\Primitives\CollectionChangedEventManager.cs" />
+    <Compile Include="Controls\ColumnViewColumnCell.cs" />
+    <Compile Include="Controls\ExplorerPage.cs" />
+    <Compile Include="Controls\ContentView.cs" />
+    <Compile Include="Controls\ExplorerBar.cs" />
+    <Compile Include="Controls\ExplorerFrame.cs" />
+    <Compile Include="Controls\ColumnViewHeaderRowPresenter.cs" />
+    <Compile Include="Controls\ColumnView.cs" />
+    <Compile Include="Controls\ColumnViewColumn.cs" />
+    <Compile Include="Controls\ColumnViewColumnHeader.cs" />
+    <Compile Include="Controls\ColumnViewRowPresenter.cs" />
+    <Compile Include="Controls\ColumnViewRowPresenterBase.cs" />
+    <Compile Include="Controls\InputHelper.cs" />
+    <Compile Include="Controls\ItemSelector.cs" />
+    <Compile Include="Controls\OrderPriceControl.cs" />
+    <Compile Include="Controls\UndoPropertyChangedEventArgs.cs" />
+    <Compile Include="Controls\ViewSlider.cs" />
+    <Compile Include="Data\VersionConverter.cs" />
+    <Compile Include="Data\ViewableCollection.cs" />
+    <Compile Include="Data\DateTimeConverter.cs" />
+    <Compile Include="ExplorerHelper.cs" />
+    <Compile Include="ExplorerItem.cs" />
+    <Compile Include="Controls\ExplorerBook.cs" />
+    <Compile Include="Data\FileSizeConverter.cs" />
+    <Compile Include="FocusUndo.cs" />
+    <Compile Include="GenericEventArgs.cs" />
+    <Compile Include="Input\Commands.cs" />
+    <Compile Include="IUndo.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Navigation\ExplorerWindow.cs" />
+    <Compile Include="Controls\ExtraLargeIconsView.cs" />
+    <Compile Include="Controls\Primitives\FrameButton.cs" />
+    <Compile Include="Controls\Gadget.cs" />
+    <Compile Include="Controls\GadgetBar.cs" />
+    <Compile Include="Controls\GadgetPanel.cs" />
+    <Compile Include="Controls\HighlightElement.cs" />
+    <Compile Include="Controls\Primitives\HighlightSelector.cs" />
+    <Compile Include="Controls\IconsView.cs" />
+    <Compile Include="IExplorerItem.cs" />
+    <Compile Include="ImageHelper.cs" />
+    <Compile Include="ImageSize.cs" />
+    <Compile Include="Controls\ItemsView.cs" />
+    <Compile Include="Controls\LargeIconsView.cs" />
+    <Compile Include="Controls\ListBoxView.cs" />
+    <Compile Include="Controls\MediumIconsView.cs" />
+    <Compile Include="Controls\Navigator.cs" />
+    <Compile Include="Controls\NavigatorItem.cs" />
+    <Compile Include="OuterGlowEffect.cs" />
+    <Compile Include="Controls\OverflowItem.cs" />
+    <Compile Include="Documents\PixelSnapper.cs" />
+    <Compile Include="Controls\Preview.cs" />
+    <Compile Include="Controls\PreviewButton.cs" />
+    <Compile Include="Controls\SearchBox.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsSourceEventArgs.cs" />
+    <Compile Include="RichTextBoxUndo.cs" />
+    <Compile Include="SelectionWrapping.cs" />
+    <Compile Include="Controls\SimpleListView.cs" />
+    <Compile Include="Controls\SmallIconsView.cs" />
+    <Compile Include="Controls\TilesView.cs" />
+    <Compile Include="Controls\ViewButton.cs" />
+    <Compile Include="Controls\ViewButtonDropDown.cs" />
+    <Compile Include="Data\UriConverter.cs" />
+    <Compile Include="Navigation\UriMapper.cs" />
+    <Compile Include="Navigation\UriMapperBase.cs" />
+    <Compile Include="Navigation\UriMapping.cs" />
+    <Compile Include="SelectorUndo.cs" />
+    <Compile Include="TextBoxBaseUndo.cs" />
+    <Compile Include="TextBoxUndo.cs" />
+    <Compile Include="ToggleButtonUndo.cs" />
+    <Compile Include="UndoBase.cs" />
+    <Compile Include="UndoManager.cs" />
+    <Compile Include="UndoObject.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="VisualTreeExtension.cs" />
+    <Compile Include="Documents\WatermarkAdorner.cs" />
+    <Compile Include="HistoryItem.cs" />
+    <Compile Include="Controls\Primitives\DetailBar.cs" />
+    <Compile Include="Controls\DetailsView.cs" />
+    <Compile Include="EmbossEffect.cs" />
+    <Compile Include="ExplorerContentState.cs" />
+    <Compile Include="GrayscaleEffect.cs" />
+    <Compile Include="Data\IndentConverter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolDock.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\Debug\license.lic" />
+    <None Include="bin\Release\license.lic" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Public Key.snk" />
+    <Resource Include="Resources\EmbossEffect.fx" />
+    <Resource Include="Resources\EmbossEffect.ps" />
+    <Resource Include="Resources\GrayscaleEffect.fx" />
+    <Resource Include="Resources\GrayscaleEffect.ps" />
+    <Resource Include="Resources\OuterGlowEffect.fx" />
+    <Resource Include="Resources\OuterGlowEffect.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Controls\Views\DetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Resource>
+    <Page Include="Controls\ColumnViewChooseDetail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Aero2.NormalColor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Teraque\Teraque.csproj">
+      <Project>{158782BB-6CF6-4CBE-BB51-91ED82BC0ED8}</Project>
+      <Name>Teraque</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Themes\Luna.NormalColor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Breadcrumb History Drop Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Breadcrumb Overflow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BreadcrumbItem Drop Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BreadcrumbItem Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Caps Lock Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Content View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Details View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ExplorerBar Drop Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ExplorerBar Overflow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Extra Large Icons View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Hide Preview Pane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Large Icons View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Medium Icons View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Menu Overflow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MenuItem Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MenuItem Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Recycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Show Preview Pane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Simple List View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Small Icons View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Stop Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\System.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Tiles View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Background Disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Background Enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Background Highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Background Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Backward Disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Backward Enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Backward Highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Backward Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Forward Disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Forward Enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Forward Highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Travel Forward Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TreeView Close Enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TreeView Close Highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TreeView Open Enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TreeView Open Highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BigEx.cur" />
+    <Resource Include="Resources\Cross.cur" />
+    <Resource Include="Resources\HorizontalSplit.cur" />
+    <Resource Include="Resources\SelectColumn.cur" />
+    <Resource Include="Resources\SelectRow.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\VerticalSplitOpen.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\VerticalSplit.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Ascending Sort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Descending Sort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Open Filter Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Filter Pages.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

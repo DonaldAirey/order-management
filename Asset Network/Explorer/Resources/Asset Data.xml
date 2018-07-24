@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Name</key>
+    <string>Aspen Group</string>
+    <key>Image</key>
+    <string>Hedge 72x72.png</string>
+    <key>Items</key>
+    <array>
+      <dict>
+        <key>Name</key>
+        <string>Emerging Markets</string>
+        <key>Image</key>
+        <string>Blotter 72x72.png</string>
+        <key>Items</key>
+        <array>
+          <dict>
+            <key>Name</key>
+            <string>High Grade Bond Fund</string>
+            <key>Image</key>
+            <string>Portfolio 72x72.png</string>
+            <key>Items</key>
+            <array/>
+            <key>Type</key>
+            <string>Fund</string>
+          </dict>
+          <dict>
+            <key>Name</key>
+            <string>Securitized Asset Fund</string>
+            <key>Image</key>
+            <string>Portfolio 72x72.png</string>
+            <key>Items</key>
+            <array/>
+            <key>Type</key>
+            <string>Fund</string>
+          </dict>
+        </array>
+        <key>Type</key>
+        <string>Desk</string>
+      </dict>
+      <dict>
+        <key>Name</key>
+        <string>Strategies</string>
+        <key>Image</key>
+        <string>Blotter 72x72.png</string>
+        <key>Items</key>
+        <array>
+          <dict>
+            <key>Name</key>
+            <string>Beta Credit Fund</string>
+            <key>Image</key>
+            <string>Portfolio 72x72.png</string>
+            <key>Items</key>
+            <array/>
+            <key>Type</key>
+            <string>Fund</string>
+          </dict>
+        </array>
+        <key>Type</key>
+        <string>Desk</string>
+      </dict>
+      <dict>
+        <key>Name</key>
+        <string>Global</string>
+        <key>Image</key>
+        <string>Blotter 72x72.png</string>
+        <key>Items</key>
+        <array>
+          <dict>
+            <key>Name</key>
+            <string>Hector Kurtz</string>
+            <key>Image</key>
+            <string>Blotter 72x72.png</string>
+            <key>Items</key>
+            <array/>
+            <key>Type</key>
+            <string>Desk</string>
+          </dict>
+          <dict>
+            <key>Name</key>
+            <string>Juan Green</string>
+            <key>Image</key>
+            <string>Blotter 72x72.png</string>
+            <key>Items</key>
+            <array>
+              <dict>
+                <key>Name</key>
+                <string>Alpha Credit Fund</string>
+                <key>Image</key>
+                <string>Portfolio 72x72.png</string>
+                <key>Items</key>
+                <array/>
+                <key>Type</key>
+                <string>Fund</string>
+              </dict>
+              <dict>
+                <key>Name</key>
+                <string>Senior Bond Fund</string>
+                <key>Image</key>
+                <string>Portfolio 72x72.png</string>
+                <key>Items</key>
+                <array/>
+                <key>Type</key>
+                <string>Fund</string>
+              </dict>
+            </array>
+            <key>Type</key>
+            <string>Desk</string>
+          </dict>
+          <dict>
+            <key>Name</key>
+            <string>Gary Stein</string>
+            <key>Image</key>
+            <string>Blotter 72x72.png</string>
+            <key>Items</key>
+            <array/>
+            <key>Type</key>
+            <string>Desk</string>
+          </dict>
+        </array>
+        <key>Type</key>
+        <string>Desk</string>
+      </dict>
+    </array>
+    <key>Type</key>
+    <string>Hedge Fund</string>
+  </dict>
+</plist>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="062fd647-8f1b-4b08-a714-e2bc44031094" revisionNumber="1">
+	<developerWalkthroughDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>
+				This walkthrough shows how to build a simple ExplorerWindow application with the Visual
+				Studio Designer.
+			</para>
+			<para>
+				In this walkthrough, you perform the following tasks:
+			</para>
+			<list class="bullet">
+				<listItem>
+					<para>
+						Create the project.
+					</para>
+				</listItem>
+				<listItem>
+					<para>
+						Add content to the page.
+					</para>
+				</listItem>
+			</list>
+			<para>
+				When you are finished, you will have a simple application which lets you navigate to a single
+				page.&#160;&#160;Your application's user interface will be implemented in Extensible
+				Application Markup Language (XAML).&#160;&#160;For more information, see XAML in WPF.
+				&#160;&#160; The following illustration shows how your application will appear.
+			</para>
+			<mediaLink>
+				<image xlink:href="763ED4F3-FFC6-4531-9A2C-595E7EB9E96F"/>
+			</mediaLink>
+		</introduction>
+		<prerequisites>
+			<content>
+				<para>
+					You need the following components to complete this walkthrough:
+				</para>
+				<list class="bullet">
+					<listItem>
+						<para>
+							Visual Studio 2010
+						</para>
+					</listItem>
+					<listItem>
+						<para>
+							Explorer Chrome Suite
+						</para>
+					</listItem>
+				</list>
+			</content>
+		</prerequisites>
+		<section>
+			<title>
+				Creating the project
+			</title>
+	      	<content>
+				<para>
+					The first step is to create the project for the application.
+				</para>
+				<procedure>
+					<title>
+						To create the project
+					</title>
+					<steps class="ordered">
+						<step>
+							<content>
+								<para>
+									Create a new WPF Explorer Application project in Visual C# named
+									<userInput>SimpleExplorer</userInput>.
+								</para>
+								<para>
+									MainWindow.xaml opens in the WPF Designer.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									In Design view, select the window (there is no Designer in Visual Studio
+									2008, so you can skip this step).
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									In the <legacyBold>Properties</legacyBold> window, set the value of the
+									Title property to <userInput>Simple Explorer</userInput>.
+								</para>
+							</content>
+						</step>
+					</steps>
+				</procedure>
+			</content>
+		</section>
+		<section>
+			<title>
+				Adding Content to the Page
+			</title>
+	      	<content>
+				<para>
+					With the project created, you can add some content to the page.
+				</para>
+				<procedure>
+					<title>
+						To add content to the page.
+					</title>
+					<steps class="ordered">
+						<step>
+							<content>
+								<para>
+									Select Page1.xaml from the Solution Explorer and open it.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Replace the contents of the Page1.xaml source code file with the following
+									code.
+								</para>
+								<code language="XAML">
+									&lt;Page x:Class="SimpleExplorer.Page1"
+									      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+									      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+									      Background="White"
+									      Title="Page1"&gt;
+										&lt;Grid&gt;
+											&lt;Canvas Height="110" Width="270"&gt;
+												&lt;TextBlock FontSize="50" Text="Hello World"/&gt;
+												&lt;TextBlock FontSize="50" Canvas.Top="45"&gt;
+													&lt;TextBlock.Foreground&gt;
+														&lt;LinearGradientBrush EndPoint="0,0" StartPoint="0,1"&gt;
+															&lt;GradientStop Offset="0.0" Color="Gray"/&gt;
+															&lt;GradientStop Offset="0.8" Color="Transparent"/&gt;
+														&lt;/LinearGradientBrush&gt;
+													&lt;/TextBlock.Foreground&gt;
+													&lt;TextBlock.LayoutTransform&gt;
+														&lt;MatrixTransform Matrix="1,0,0,-1,0,0"/&gt;
+													&lt;/TextBlock.LayoutTransform&gt;
+													&lt;TextBlock.Text&gt;
+														Hello World
+													&lt;/TextBlock.Text&gt;
+												&lt;/TextBlock&gt;
+											&lt;/Canvas&gt;
+										&lt;/Grid&gt;
+									&lt;/Page&gt;
+								</code>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Build and run the solution. 
+								</para>
+							</content>
+						</step>
+					</steps>
+				</procedure>
+			</content>
+		</section>
+	</developerWalkthroughDocument>
+</topic>

@@ -1,0 +1,1681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="US Government Bond">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DQ8" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DQ8" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DQ8" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.120000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="05/15/2005" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DQ8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DG0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DG0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DG0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.118750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2005" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DG0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DP0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DP0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DP0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.112500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2015" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DP0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DS4" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DS4" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DS4" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.106250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2015" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DS4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DT2" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DT2" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DT2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.098750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2015" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DT2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DV7" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DV7" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DV7" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.092500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2016" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DV7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EA2" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EA2" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EA2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.091250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="05/15/2018" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EA2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EB0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EB0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EB0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.090000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2018" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EB0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DZ8" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DZ8" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DZ8" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.088750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2017" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DZ8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EC8" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EC8" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EC8" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.088750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2019" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EC8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810CE6" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810CE6" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810CE6" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.087500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2018" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810CE6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DY1" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DY1" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DY1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.087500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="05/15/2017" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DY1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EF1" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EF1" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EF1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.087500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="05/15/2020" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EF1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EG9" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EG9" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EG9" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.087500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2020" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EG9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EE4" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EE4" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EE4" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.085000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2020" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EE4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810CC0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810CC0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810CC0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.083750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2018" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810CC0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EJ3" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EJ3" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EJ3" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.081250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2019" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EJ3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810ED6" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810ED6" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810ED6" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.081250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="05/15/2021" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810ED6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EK0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EK0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EK0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.081250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2021" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EK0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EL8" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EL8" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EL8" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.080000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2021" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EL8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EH7" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EH7" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EH7" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.078750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2021" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EH7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EN4" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EN4" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EN4" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.076250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2022" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EN4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810ET1" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810ET1" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810ET1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.076250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2025" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810ET1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DX3" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DX3" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DX3" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.075000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2016" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DX3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810ES3" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810ES3" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810ES3" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.075000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2024" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810ES3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810DW5" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810DW5" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810DW5" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.072500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="05/15/2016" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810DW5" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EM6" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EM6" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EM6" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.072500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2022" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EM6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EP9" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EP9" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EP9" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.071250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2023" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EP9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EV6" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EV6" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EV6" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.068750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2025" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EV6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EX2" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EX2" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EX2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.067500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2026" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EX2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EZ7" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EZ7" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EZ7" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.066250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2027" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EZ7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EY0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EY0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EY0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.065000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2026" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EY0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FA1" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FA1" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FA1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.063750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2027" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FA1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EQ7" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EQ7" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EQ7" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.062500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2023" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EQ7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FM5" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FM5" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FM5" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.062500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="05/15/2030" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FM5" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FB9" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FB9" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FB9" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.061250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2027" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FB9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FJ2" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FJ2" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FJ2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.061250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2029" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FJ2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810EW4" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810EW4" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810EW4" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.060000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2026" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810EW4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FE3" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FE3" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FE3" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.055000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/15/2028" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FE3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FP8" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FP8" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FP8" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.053750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2031" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FP8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FF0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FF0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FF0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.052500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/15/2028" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FF0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="912810FG8" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="912810FG8" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="912810FG8" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.052500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/15/2029" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="912810FG8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="9128277C0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="US TREASURY BONDS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="9128277C0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="9128277C0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.036250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="08/31/2005" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="9128277C0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+</script>

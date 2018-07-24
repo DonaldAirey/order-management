@@ -1,0 +1,94 @@
+﻿<Window Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"
+		x:Class="Teraque.Windows.Controls.ColumnViewChooseDetail"
+		ResizeMode="NoResize"
+		ShowInTaskbar="False"
+		SizeToContent="Height"
+		Title="Choose Details"
+		Width="349"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Grid Margin="9">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="51"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<Label Content="Select the details for the items in this view."
+			   Margin="1"/>
+		<Label Content="De_tails:"
+			   Margin="1"
+			   VerticalAlignment="Bottom"/>
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="235"/>
+				<ColumnDefinition/>
+			</Grid.ColumnDefinitions>
+			<ListBox Height="262"
+					 HorizontalAlignment="Left"
+					 ItemsSource="{Binding}"
+					 Margin="2,3"
+					 x:Name="ListBox"
+					 VerticalAlignment="Stretch"
+					 Width="220">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<StackPanel Margin="0,1"
+									Orientation="Horizontal">
+							<CheckBox IsChecked="{Binding Path=IsVisible}"
+									  Margin="5,0"
+									  VerticalAlignment="Center"/>
+							<TextBlock Text="{Binding Path=Description}"/>
+						</StackPanel>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+			<StackPanel Grid.Column="1"
+						Margin="0,3">
+				<Button Content="Move _Up"
+						Margin="0,0,0,7"
+						x:Name="MoveUpButton"/>
+				<Button Content="Move _Down"
+						Margin="0,0,0,7"
+						x:Name="MoveDownButton"/>
+				<Button Content="_Show"
+						Margin="0,0,0,7"
+						x:Name="ShowButton"/>
+				<Button Content="_Hide"
+						x:Name="HideButton"/>
+			</StackPanel>
+		</Grid>
+		<StackPanel Grid.Row="2"
+					Margin="0,10"
+					Orientation="Horizontal">
+			<Label Content="_Width of selected column (in pixels):"/>
+			<TextBox Height="21"
+					 x:Name="WidthTextBox"
+					 Width="30"/>
+		</StackPanel>
+		<StackPanel Grid.Row="3"
+					Margin="0,8">
+			<Rectangle Fill="DarkGray"
+					   Height="1"/>
+			<Rectangle Fill="White"
+					   Height="1"/>
+		</StackPanel>
+		<StackPanel Grid.Row="4"
+					HorizontalAlignment="Right"
+					Orientation="Horizontal">
+			<Button Click="OnOkButtonClick"
+					Content="OK"
+					Height="21"
+					IsDefault="True"
+					Margin="0,3,13,3"
+					Width="73"/>
+			<Button Click="OnCancelButtonClick"
+					Content="Cancel"
+					Height="21"
+					IsCancel="True"
+					Margin="0,3,0,3"
+					Width="73"/>
+		</StackPanel>
+	</Grid>
+</Window>

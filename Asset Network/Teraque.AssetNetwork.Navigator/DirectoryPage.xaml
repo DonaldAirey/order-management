@@ -1,0 +1,106 @@
+﻿<ViewPage x:Class="Teraque.AssetNetwork.Windows.DirectoryPage"
+		  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		  d:DesignHeight="300"
+		  d:DesignWidth="600"
+		  AllowDrop="True"
+		  mc:Ignorable="d"
+		  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		  xmlns:properties="clr-namespace:Teraque.AssetNetwork.Navigator.Properties"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<ViewPage.GadgetBar>
+		<Gadget Header="Organize"
+				ToolTip="{x:Static properties:Resources.OrganizeToolTip}">
+			<Gadget Command="ApplicationCommands.Cut">
+				<Gadget.Icon>
+					<Image Source="Resources/Cut.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="ApplicationCommands.Copy">
+				<Gadget.Icon>
+					<Image Source="Resources/Copy.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="ApplicationCommands.Paste"
+					Header="{x:Static properties:Resources.Paste}">
+				<Gadget.Icon>
+					<Image Source="Resources/Paste.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="ApplicationCommands.Undo"
+					Header="{x:Static properties:Resources.Undo}"/>
+			<Gadget Command="ApplicationCommands.Redo"
+					Header="{x:Static properties:Resources.Redo}"/>
+			<Separator/>
+			<Gadget Command="ApplicationCommands.SelectAll"
+					Header="{x:Static properties:Resources.SelectAll}"/>
+			<Separator/>
+			<Gadget Header="{x:Static properties:Resources.Layout}"
+					OpenColumnWidth="0"
+					SubmenuHeaderMargin="4,2,38,4">
+				<Gadget.Icon>
+					<Image Source="Resources/Layout.png"/>
+				</Gadget.Icon>
+				<Gadget Command="Commands.ViewMenuPane"
+						Header="{x:Static properties:Resources.MenuPane}"
+						IsChecked="{Binding Path=IsMenuVisible, RelativeSource={RelativeSource AncestorType=ExplorerFrame}}"/>
+				<Separator/>
+				<Gadget Command="Commands.ViewDetailPane"
+						Header="{x:Static properties:Resources.DetailPane}"
+						IsChecked="{Binding Path=IsDetailVisible, RelativeSource={RelativeSource AncestorType=ExplorerFrame}}">
+					<Gadget.Icon>
+						<Image Source="Resources/Detail Pane.png"/>
+					</Gadget.Icon>
+				</Gadget>
+				<Gadget Command="Commands.ViewPreviewPane"
+						Header="{x:Static properties:Resources.PreviewPane}"
+						IsChecked="{Binding Path=IsPreviewVisible, RelativeSource={RelativeSource AncestorType=ExplorerFrame}}">
+					<Gadget.Icon>
+						<Image Source="Resources/Preview Pane.png"/>
+					</Gadget.Icon>
+				</Gadget>
+				<Gadget Command="Commands.ViewNavigationPane"
+						Header="{x:Static properties:Resources.NavigationPane}"
+						IsChecked="{Binding Path=IsNavigationVisible, RelativeSource={RelativeSource AncestorType=ExplorerFrame}}">
+					<Gadget.Icon>
+						<Image Source="Resources/Navigation Pane.png"/>
+					</Gadget.Icon>
+				</Gadget>
+			</Gadget>
+			<Gadget Command="Commands.FolderAndSearchOptions"
+					Header="{x:Static properties:Resources.FolderAndSearchOptions}"/>
+			<Separator/>
+			<Gadget Command="ApplicationCommands.Delete"
+					Header="{x:Static properties:Resources.Delete}">
+				<Gadget.Icon>
+					<Image Source="Resources/Delete.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="Commands.Rename"
+					Header="{x:Static properties:Resources.Rename}"/>
+			<Gadget Command="Commands.RemoveProperties"
+					Header="{x:Static properties:Resources.RemoveProperties}"/>
+			<Gadget Command="ApplicationCommands.Properties"
+					Header="{x:Static properties:Resources.Properties}"/>
+			<Separator/>
+			<Gadget Command="ApplicationCommands.Close"
+					Header="{x:Static properties:Resources.Close}"/>
+		</Gadget>
+		<Gadget Command="ApplicationCommands.Open"
+				CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerFrame}}"
+				Header="Open"
+				ToolTip="{x:Static properties:Resources.OpenToolTip}">
+			<Gadget.Icon>
+				<Image Source="Resources/Open.png"/>
+			</Gadget.Icon>
+		</Gadget>
+		<ViewButton ExplorerBar.ToolDock="Far"/>
+		<PreviewButton ExplorerBar.ToolDock="Far"/>
+		<Gadget ExplorerBar.ToolDock="Far"
+				ToolTip="{x:Static properties:Resources.HelpToolTip}">
+			<Gadget.Icon>
+				<Image Source="Resources/Help.png"/>
+			</Gadget.Icon>
+		</Gadget>
+	</ViewPage.GadgetBar>
+</ViewPage>

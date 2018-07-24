@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Product Codepage="1252"
+           Id="{3E65BE7D-354F-42D8-B350-F24F43C1D687}"
+           Language="1033"
+           Manufacturer="Teraque Inc."
+           Name="Asset Network Web Service"
+           UpgradeCode="{CA740715-2925-4CE5-9803-6B55983A0A58}"
+           Version="1.0.0">
+    <Package Compressed="yes"
+             Description="Teraque's Asset Network Web Service Installer"
+             Id="*"
+             InstallScope="perMachine"
+             InstallerVersion="200"
+             Keywords="Installer"
+             Manufacturer="Teraque Inc."
+             Platform="x64"
+             SummaryCodepage='1252'/>
+    <Media Id="1"
+           Cabinet="AssetManagerWebService.cab"
+           EmbedCab="yes"
+           DiskPrompt="DVD #1" />
+    <Property Id="DiskPrompt"
+              Value="Teraque Asset Network Web Service Installation [1]" />
+
+    <Icon Id="server.ico" SourceFile="Resources\Server.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="server.ico" />
+    <Property Id="ARPNOMODIFY" Value="1" />
+    <PropertyRef Id="NETFRAMEWORK40FULLINSTALLROOTDIR64"/>
+
+    <!-- Target Directory Tree -->
+    <Directory Id="TARGETDIR"
+               Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="TeraqueFolder"
+                   Name="Teraque">
+          <Directory Id="AssetNetworkFolder"
+                     Name="Asset Network">
+            <Directory Id="DatabaseFolder"
+                       Name="Database">
+              <Directory Id="DataFolder"
+                         Name="Data"/>
+              <Directory Id="ScriptsFolder"
+                         Name="Scripts"/>
+              <Directory Id="UnitTestFolder"
+                       Name="Unit Test"/>
+            </Directory>
+            <Directory Id="CertificateFolder"
+                       Name="Certificates"/>
+            <Directory Id="INSTALLFOLDER"
+                     Name="Web Service"/>
+          </Directory>
+        </Directory>
+      </Directory>
+      <Directory Id="NETFRAMEWORK40FULLINSTALLROOTDIR64"/>
+    </Directory>
+
+    <!-- This is required for the Network Service account to access TCP port sharing. -->
+    <DirectoryRef Id="NETFRAMEWORK40FULLINSTALLROOTDIR64">
+      <Component Id="SMSvcHostConfigComponent"
+                 Guid="{B049F598-1BF1-423C-BCB8-397657FCE5E8}"
+                 Permanent="yes">
+        <File Id="SMSvcHostConfig"
+              DiskId="1"
+              KeyPath="yes"
+              Name="SMSvcHost.exe.config"
+              Source="SMSvcHost.exe.config"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Installation Folder -->
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="EventLogComponent"
+                 Guid="{9999A22A-DFBF-438A-897A-1288BD6582E0}"
+                 KeyPath="yes"
+                 Win64="yes">
+        <util:EventSource Log="Asset Network"
+                          Name="Web Service Host"
+                          EventMessageFile="[NETFRAMEWORK40FULLINSTALLROOTDIR64]EventLogMessages.dll"/>
+      </Component>
+      <Component Guid="{21F2F938-F812-4ABC-BB0D-46E3D128C4CE}"
+                 Id="TeraqueComponent"
+                 Win64="yes">
+        <File Id="TeraqueLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.dll"
+              Source="..\..\..\Teraque\bin\$(var.Configuration)\Teraque.dll"/>
+      </Component>
+      <Component Guid="{CE8B8CDD-D777-4A47-9458-BF08AA8248C7}"
+                 Id="TeraqueAssetNetworkComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.dll"
+              Source="..\..\Teraque.AssetNetwork\bin\$(var.Configuration)\Teraque.AssetNetwork.dll"/>
+      </Component>
+      <Component Guid="{2DC18326-7F55-408E-BA77-84FC67BBBF1F}"
+                 Id="TeraqueAssetNetworkServerDataModelComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkServerDataModel"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.ServerDataModel.dll"
+              Source="..\..\Teraque.AssetNetwork.ServerDataModel\bin\$(var.Configuration)\Teraque.AssetNetwork.ServerDataModel.dll"/>
+      </Component>
+      <Component Guid="{F50BA2A6-6E73-48F1-885F-BF57DB12999F}"
+                 Id="TeraqueAssetNetworkMarketEngineComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkServerMarketEngineLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.MarketEngine.dll"
+              Source="..\..\Teraque.AssetNetwork.MarketEngine\bin\$(var.Configuration)\Teraque.AssetNetwork.MarketEngine.dll"/>
+      </Component>
+      <Component Guid="{E57A6B97-7090-441D-957C-B665B7323D2F}"
+                 Id="TeraqueAssetNetworkWebServiceComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkServerWebServiceLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.WebService.dll"
+              Source="..\..\Teraque.AssetNetwork.WebService\bin\$(var.Configuration)\Teraque.AssetNetwork.WebService.dll"/>
+      </Component>
+      <Component Guid="{8719C77A-0B9B-49D8-8C9E-B20DD47A1776}"
+                 Id="TeraqueMessageComponent"
+                 Win64="yes">
+        <File Id="TeraqueMessageLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.Message.dll"
+              Source="..\..\..\Teraque.Message\bin\$(var.Configuration)\Teraque.Message.dll"/>
+      </Component>
+      <Component Guid="{97F3EA89-2FA5-43E9-8F5B-AB903C29D0D4}"
+                 Id="TeraqueServer"
+                 Win64="yes">
+        <File Id="TeraqueServiceModelLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.Server.dll"
+              Source="..\..\..\Teraque.Server\bin\$(var.Configuration)\Teraque.Server.dll"/>
+      </Component>
+      <Component Id="WebServiceHostComponent"
+                 Guid="{4B07834F-04DB-4B1B-8CAD-D418D6E00B4A}"
+                 Win64="yes">
+        <File DiskId="1"
+              Id="WebServiceHost"
+              KeyPath="yes"
+              Name="Web Service Host.exe"
+              Source="..\..\Web Service Host\bin\$(var.Configuration)\Web Service Host.exe"/>
+        <File DiskId="1"
+              Id="WebServiceHostConfig"
+              Name="Web Service Host.exe.config"
+              Source="Web Service Host.exe.config"/>
+        <ServiceInstall Id="ServiceInstaller"
+                        Type="ownProcess"
+                        Vital="yes"
+                        Name="AssetNetworkWebService"
+                        DisplayName="Asset Network Web Service"
+                        Description="The Web Services for the Asset Network."
+                        Start="auto"
+                        Account="NT Authority\Network Service"
+                        ErrorControl="ignore"
+                        Interactive="no">
+        </ServiceInstall>
+        <ServiceControl Id="StartService"
+                        Start="install"
+                        Stop="both"
+                        Remove="uninstall"
+                        Name="AssetNetworkWebService"
+                        Wait="yes" />
+      </Component>
+      <Component Id="InstallationScriptComponent"
+                 Guid="{9B3255B8-4736-40C8-B014-C003ADA72F98}"
+                 Win64="yes">
+        <File DiskId="1"
+              Id="ConfigureEnvironment"
+              Name="Configure Environment.ps1"
+              Source="Configure Environment.ps1"/>
+        <File DiskId="1"
+              Id="ImportCertificates"
+              Name="Import Certificates.ps1"
+              Source="Import Certificates.ps1"/>
+        <File DiskId="1"
+              Id="CreateUsers"
+              Name="Create Users.ps1"
+              Source="Create Users.ps1"/>
+        <File DiskId="1"
+              Id="OpenFirewall"
+              Name="Open Firewall.ps1"
+              Source="Open Firewall.ps1"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Certificates -->
+    <DirectoryRef Id="CertificateFolder">
+      <Component Guid="{790ADDD1-DB7F-47DD-B780-C47BF5D70774}"
+                 Id="CertificatesComponent"
+                 Win64="yes">
+        <File Id="DarkBondCACertificate"
+              DiskId="1"
+              Name="Dark Bond CA.pfx"
+              Source="Certificates\Dark Bond CA.pfx"/>
+        <File DiskId="1"
+              Id="OMSDarkBondCOMCertificate"
+              Name="oms.darkbond.com.pfx"
+              Source="Certificates\oms.darkbond.com.pfx"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Unit Test -->
+    <DirectoryRef Id="UnitTestFolder">
+      <Component Guid="{5DD1B811-CE26-4130-A945-57F23473CCEC}"
+               Id="UnitTestComponent"
+               Win64="yes">
+        <File Id="AspenGroup"
+              DiskId="1"
+              Name="Aspen Group.xml"
+              Source="..\..\Database\Unit Test\Aspen Group.xml"/>
+        <File Id="EmergingMarketsOrders"
+              DiskId="1"
+              Name="Emerging Markets Orders.xml"
+              Source="..\..\Database\Unit Test\Emerging Markets Orders.xml"/>
+        <File Id="StrategiesOrders"
+              DiskId="1"
+              Name="Strategies Orders.xml"
+              Source="..\..\Database\Unit Test\Strategies Orders.xml"/>
+        <File Id="GarySteinOrders"
+              DiskId="1"
+              Name="Gary Stein Orders.xml"
+              Source="..\..\Database\Unit Test\Gary Stein Orders.xml"/>
+        <File Id="HectorKurtzOrders"
+              DiskId="1"
+              Name="Hector Kurtz Orders.xml"
+              Source="..\..\Database\Unit Test\Hector Kurtz Orders.xml"/>
+        <File Id="JuanGreenOrders"
+              DiskId="1"
+              Name="Juan Green Orders.xml"
+              Source="..\..\Database\Unit Test\Juan Green Orders.xml"/>
+        <File Id="DonovanSnowOrders"
+              DiskId="1"
+              Name="Donovan Snow Orders.xml"
+              Source="..\..\Database\Unit Test\Donovan Snow Orders.xml"/>
+        <File Id="MitsuoTanakaOrders"
+              DiskId="1"
+              Name="Mitsuo Tanaka Orders.xml"
+              Source="..\..\Database\Unit Test\Mitsuo Tanaka Orders.xml"/>
+        <File Id="MooreheadBrown"
+              DiskId="1"
+              Name="Moorehead Brown.xml"
+              Source="..\..\Database\Unit Test\Moorehead Brown.xml"/>
+        <File Id="SergeiNabokovOrders"
+              DiskId="1"
+              Name="Sergei Nabokov Orders.xml"
+              Source="..\..\Database\Unit Test\Sergei Nabokov Orders.xml"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Data -->
+    <DirectoryRef Id="DataFolder">
+      <Component Guid="{D8210275-93E4-4D70-A7AD-20BA251AE084}"
+                 Id="DataComponent"
+                 Win64="yes">
+        <File Id="BrokerAccounts"
+              DiskId="1"
+              Name="Broker Accounts.xml"
+              Source="..\..\Database\Data\Broker Accounts.xml"/>
+        <File Id="CAEquity"
+              DiskId="1"
+              Name="CA Equity.xml"
+              Source="..\..\Database\Data\CA Equity.xml"/>
+        <File Id="ClassicReport"
+              DiskId="1"
+              Name="Classic Report.xml"
+              Source="..\..\Database\Data\Classic Report.xml"/>
+        <File Id="CommissionType"
+              DiskId="1"
+              Name="CommissionType.xml"
+              Source="..\..\Database\Data\CommissionType.xml"/>
+        <File Id="CommissionUnit"
+              DiskId="1"
+              Name="CommissionUnit.xml"
+              Source="..\..\Database\Data\CommissionUnit.xml"/>
+        <File Id="Condition"
+              DiskId="1"
+              Name="Condition.xml"
+              Source="..\..\Database\Data\Condition.xml"/>
+        <File Id="Configuration"
+              DiskId="1"
+              Name="Configuration.xml"
+              Source="..\..\Database\Data\Configuration.xml"/>
+        <File Id="CorporateLogo"
+              DiskId="1"
+              Name="Corporate Logo.xml"
+              Source="..\..\Database\Data\Corporate Logo.xml"/>
+        <File Id="Country"
+              DiskId="1"
+              Name="Country.xml"
+              Source="..\..\Database\Data\Country.xml"/>
+        <File Id="CreditRating"
+              DiskId="1"
+              Name="CreditRating.xml"
+              Source="..\..\Database\Data\CreditRating.xml"/>
+        <File Id="CreditRatingService"
+              DiskId="1"
+              Name="CreditRatingService.xml"
+              Source="..\..\Database\Data\CreditRatingService.xml"/>
+        <File Id="Crossing"
+              DiskId="1"
+              Name="Crossing.xml"
+              Source="..\..\Database\Data\Crossing.xml"/>
+        <File Id="CurrencyPrice"
+              DiskId="1"
+              Name="Currency Price.xml"
+              Source="..\..\Database\Data\Currency Price.xml"/>
+        <File Id="Currency"
+              DiskId="1"
+              Name="Currency.xml"
+              Source="..\..\Database\Data\Currency.xml"/>
+        <File Id="Destination"
+              DiskId="1"
+              Name="Destination.xml"
+              Source="..\..\Database\Data\Destination.xml"/>
+        <File Id="Exchange"
+              DiskId="1"
+              Name="Exchange.xml"
+              Source="..\..\Database\Data\Exchange.xml"/>
+        <File Id="HolidayType"
+              DiskId="1"
+              Name="HolidayType.xml"
+              Source="..\..\Database\Data\HolidayType.xml"/>
+        <File Id="Image"
+              DiskId="1"
+              Name="Image.xml"
+              Source="..\..\Database\Data\Image.xml"/>
+        <File Id="Issuer"
+              DiskId="1"
+              Name="Issuer.xml"
+              Source="..\..\Database\Data\Issuer.xml"/>
+        <File Id="LotHandling"
+              DiskId="1"
+              Name="LotHandling.xml"
+              Source="..\..\Database\Data\LotHandling.xml"/>
+        <File Id="MajorInstrumentType"
+              DiskId="1"
+              Name="MajorInstrumentType.xml"
+              Source="..\..\Database\Data\MajorInstrumentType.xml"/>
+        <File Id="MinorInstrumentType"
+              DiskId="1"
+              Name="MinorInstrumentType.xml"
+              Source="..\..\Database\Data\MinorInstrumentType.xml"/>
+        <File Id="MssaBucket"
+              DiskId="1"
+              Name="MssaBucket.xml"
+              Source="..\..\Database\Data\MssaBucket.xml"/>
+        <File Id="OrderType"
+              DiskId="1"
+              Name="OrderType.xml"
+              Source="..\..\Database\Data\OrderType.xml"/>
+        <File Id="PartyType"
+              DiskId="1"
+              Name="PartyType.xml"
+              Source="..\..\Database\Data\PartyType.xml"/>
+        <File Id="PositionType"
+              DiskId="1"
+              Name="PositionType.xml"
+              Source="..\..\Database\Data\PositionType.xml"/>
+        <File Id="Property"
+              DiskId="1"
+              Name="Property.xml"
+              Source="..\..\Database\Data\Property.xml"/>
+        <File Id="Province"
+              DiskId="1"
+              Name="Province.xml"
+              Source="..\..\Database\Data\Province.xml"/>
+        <File Id="Schema"
+              DiskId="1"
+              Name="Schema.xml"
+              Source="..\..\Database\Data\Schema.xml"/>
+        <File Id="SettlementUnit"
+              DiskId="1"
+              Name="SettlementUnit.xml"
+              Source="..\..\Database\Data\SettlementUnit.xml"/>
+        <File Id="Side"
+              DiskId="1"
+              Name="Side.xml"
+              Source="..\..\Database\Data\Side.xml"/>
+        <File Id="State"
+              DiskId="1"
+              Name="State.xml"
+              Source="..\..\Database\Data\State.xml"/>
+        <File Id="Status"
+              DiskId="1"
+              Name="Status.xml"
+              Source="..\..\Database\Data\Status.xml"/>
+        <File Id="SubordinateType"
+              DiskId="1"
+              Name="SubordinateType.xml"
+              Source="..\..\Database\Data\SubordinateType.xml"/>
+        <File Id="TimeInForce"
+              DiskId="1"
+              Name="TimeInForce.xml"
+              Source="..\..\Database\Data\TimeInForce.xml"/>
+        <File Id="TimeUnit"
+              DiskId="1"
+              Name="TimeUnit.xml"
+              Source="..\..\Database\Data\TimeUnit.xml"/>
+        <File Id="Type"
+              DiskId="1"
+              Name="Type.xml"
+              Source="..\..\Database\Data\Type.xml"/>
+        <File Id="TypeTree"
+              DiskId="1"
+              Name="TypeTree.xml"
+              Source="..\..\Database\Data\TypeTree.xml"/>
+        <File Id="UKEquity"
+              DiskId="1"
+              Name="UK Equity.xml"
+              Source="..\..\Database\Data\UK Equity.xml"/>
+        <File Id="USCorporateBond"
+              DiskId="1"
+              Name="US Corporate Bond.xml"
+              Source="..\..\Database\Data\US Corporate Bond.xml"/>
+        <File Id="USEquity"
+              DiskId="1"
+              Name="US Equity.xml"
+              Source="..\..\Database\Data\US Equity.xml"/>
+        <File Id="Debt"
+              DiskId="1"
+              Name="Debt.xml"
+              Source="..\..\Database\Data\Debt.xml"/>
+        <File Id="DeliquentDebtPrice"
+              DiskId="1"
+              Name="Delinquent Debt Price.xml"
+              Source="..\..\Database\Data\Delinquent Debt Price.xml"/>
+        <File Id="DebtAttribute"
+              DiskId="1"
+              Name="Debt Attribute.xml"
+              Source="..\..\Database\Data\Debt Attribute.xml"/>
+        <File Id="USFixedIncomePrice"
+              DiskId="1"
+              Name="US Fixed Income Price.xml"
+              Source="..\..\Database\Data\US Fixed Income Price.xml"/>
+        <File Id="USGovernmentBill"
+              DiskId="1"
+              Name="US Government Bill.xml"
+              Source="..\..\Database\Data\US Government Bill.xml"/>
+        <File Id="USGovernmentBond"
+              DiskId="1"
+              Name="US Government Bond.xml"
+              Source="..\..\Database\Data\US Government Bond.xml"/>
+        <File Id="USGovernmentNote"
+              DiskId="1"
+              Name="US Government Note.xml"
+              Source="..\..\Database\Data\US Government Note.xml"/>
+        <File Id="USMunicipalBond"
+              DiskId="1"
+              Name="US Municipal Bond.xml"
+              Source="..\..\Database\Data\US Municipal Bond.xml"/>
+        <File Id="VolumeCategory"
+              DiskId="1"
+              Name="Volume Category.xml"
+              Source="..\..\Database\Data\Volume Category.xml"/>
+        <File Id="Weekend"
+              DiskId="1"
+              Name="Weekend.xml"
+              Source="..\..\Database\Data\Weekend.xml"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Srcipts -->
+    <DirectoryRef Id="ScriptsFolder">
+      <Component Guid="{406A3795-2D58-43DE-9611-D1CEE1F37C4C}"
+               Id="ScriptsComponent"
+               Win64="yes">
+        <File Id="DataModel"
+              DiskId="1"
+              Name="DataModel.sql"
+              Source="..\..\Database\Scripts\DataModel.sql"/>
+        <File Id="DropAll"
+              DiskId="1"
+              Name="Drop All.sql"
+              Source="..\..\Database\Scripts\Drop All.sql"/>
+        <File Id="InstallDataModel"
+              DiskId="1"
+              Name="Install Data Model.ps1"
+              Source="..\..\Database\Scripts\Install Data Model.ps1"/>
+        <File Id="InstallDataModels"
+              DiskId="1"
+              Name="Install Data Models.ps1"
+              Source="..\..\Database\Scripts\Install Data Models.ps1"/>
+        <File Id="LoadSmallDataModel"
+              DiskId="1"
+              Name="Load Small Data Model.ps1"
+              Source="..\..\Database\Scripts\Load Small Data Model.ps1"/>
+        <File Id="LoadAspenGroup"
+              DiskId="1"
+              Name="Load Aspen Group.ps1"
+              Source="..\..\Database\Scripts\Load Aspen Group.ps1"/>
+        <File Id="LoadMooreheadBrown"
+              DiskId="1"
+              Name="Load Moorehead Brown.ps1"
+              Source="..\..\Database\Scripts\Load Moorehead Brown.ps1"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Ensure that PowerShell is installed on the target machine and get the path. -->
+    <Property Id="POWERSHELLEXECUTABLE">
+      <RegistrySearch Id="PowerShellExecutable"
+                      Type="raw"
+                      Root="HKLM"
+                      Key="SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell"
+                      Name="Path" />
+    </Property>
+    <Condition Message="This FRODO application requires Windows PowerShell.">
+      <![CDATA[Installed OR POWERSHELLEXECUTABLE]]>
+    </Condition>
+
+    <!-- The script that will configure the environment for the server. -->
+    <SetProperty Id="InvokeConfigureEnvironment"
+                 Before="InvokeConfigureEnvironment"
+                 Sequence="execute"
+                 Value ="&quot;[POWERSHELLEXECUTABLE]&quot; -NoProfile -NonInteractive -InputFormat None -ExecutionPolicy Bypass -File &quot;[#ConfigureEnvironment]&quot;" />
+
+    <!-- This action will configure the environment for the server. -->
+    <CustomAction Id="InvokeConfigureEnvironment"
+                  BinaryKey="WixCA"
+                  DllEntry="CAQuietExec"
+                  Execute="deferred"
+                  Return="check"
+                  Impersonate="yes" />
+
+    <!-- Define when the custom actions are run. -->
+    <InstallExecuteSequence>
+      <Custom Action="InvokeConfigureEnvironment" After="InstallFiles">
+        <![CDATA[NOT Installed]]>
+      </Custom>
+    </InstallExecuteSequence>
+
+    <!-- The Complete set of features. -->
+    <Feature Id="Complete"
+             Title="Asset Network Server"
+             Description="The Multi-Tenant Web Server for the Asset Network."
+             Display="expand"
+             ConfigurableDirectory="INSTALLFOLDER"
+             Level="1">
+      <ComponentRef Id="SMSvcHostConfigComponent" />
+      <ComponentRef Id="EventLogComponent"/>
+      <ComponentRef Id="TeraqueComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkMarketEngineComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkServerDataModelComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkWebServiceComponent" />
+      <ComponentRef Id="TeraqueMessageComponent" />
+      <ComponentRef Id="TeraqueServer" />
+      <ComponentRef Id="WebServiceHostComponent" />
+      <ComponentRef Id="InstallationScriptComponent" />
+      <ComponentRef Id="CertificatesComponent" />
+      <ComponentRef Id="UnitTestComponent" />
+      <ComponentRef Id="DataComponent" />
+      <ComponentRef Id="ScriptsComponent" />
+    </Feature>
+
+    <WixVariable Id="WixUIBannerBmp" Value="Resources\Banner.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Resources\Welcome.bmp" />
+
+    <UI Id="WixUI_Minimal">
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Tahoma" Size="9" Bold="yes" />
+
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WixUI_Mode" Value="Minimal" />
+
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+      <DialogRef Id="WelcomeDlg" />
+
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="PrepareDlg">1</Publish>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1</Publish>
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceWelcomeDlg" Control="Next" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg">1</Publish>
+    </UI>
+
+    <UIRef Id="WixUI_Common" />
+
+  </Product>
+
+</Wix>

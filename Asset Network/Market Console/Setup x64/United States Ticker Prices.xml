@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Prices>
+	<Price symbol="A" price="34.4700000"/>
+	<Price symbol="AA" price="34.3500000"/>
+	<Price symbol="AAPL" price="79.2250000"/>
+	<Price symbol="ABC" price="40.9600000"/>
+	<Price symbol="ABI" price="28.3000000"/>
+	<Price symbol="ABK" price="76.0700000"/>
+	<Price symbol="ABS" price="23.3500000"/>
+	<Price symbol="ABT" price="40.8600000"/>
+	<Price symbol="ACV" price="44.0500000"/>
+	<Price symbol="ADBE" price="41.1800000"/>
+	<Price symbol="ADCT" price="24.5700000"/>
+	<Price symbol="ADI" price="38.8000000"/>
+	<Price symbol="ADM" price="27.4700000"/>
+	<Price symbol="ADP" price="46.7900000"/>
+	<Price symbol="ADSK" price="44.7700000"/>
+	<Price symbol="AEE" price="51.4600000"/>
+	<Price symbol="AEP" price="37.3100000"/>
+	<Price symbol="AES" price="18.5600000"/>
+	<Price symbol="AET" price="92.6900000"/>
+	<Price symbol="AFL" price="49.4100000"/>
+	<Price symbol="AGN" price="113.2300000"/>
+	<Price symbol="AHC" price="144.0000000"/>
+	<Price symbol="AIG" price="68.0300000"/>
+	<Price symbol="ALL" price="53.1600000"/>
+	<Price symbol="ALTR" price="19.8100000"/>
+	<Price symbol="AM" price="21.5600000"/>
+	<Price symbol="AMAT" price="20.3600000"/>
+	<Price symbol="AMCC" price="3.3800000"/>
+	<Price symbol="AMD" price="37.6000000"/>
+	<Price symbol="AMGN" price="77.3700000"/>
+	<Price symbol="AMR" price="21.5900000"/>
+	<Price symbol="ANDW" price="11.5400000"/>
+	<Price symbol="AOC" price="36.1900000"/>
+	<Price symbol="APA" price="73.6100000"/>
+	<Price symbol="APC" price="108.2000000"/>
+	<Price symbol="APCC" price="24.5200000"/>
+	<Price symbol="APD" price="60.9300000"/>
+	<Price symbol="APOL" price="54.5200000"/>
+	<Price symbol="ASD" price="38.3700000"/>
+	<Price symbol="ASH" price="65.6700000"/>
+	<Price symbol="ASO" price="28.1300000"/>
+	<Price symbol="AT" price="61.8400000"/>
+	<Price symbol="ATI" price="42.0100000"/>
+	<Price symbol="AV" price="10.7500000"/>
+	<Price symbol="AVP" price="28.6800000"/>
+	<Price symbol="AVY" price="58.4200000"/>
+	<Price symbol="AW" price="13.5900000"/>
+	<Price symbol="AXP" price="53.5700000"/>
+	<Price symbol="AYE" price="34.9600000"/>
+	<Price symbol="AZO" price="95.6900000"/>
+	<Price symbol="BA" price="68.6300000"/>
+	<Price symbol="BAC" price="44.1200000"/>
+	<Price symbol="BAX" price="39.5000000"/>
+	<Price symbol="BBBY" price="37.2500000"/>
+	<Price symbol="BBT" price="42.8800000"/>
+	<Price symbol="BBY" price="50.4300000"/>
+	<Price symbol="BC" price="42.1100000"/>
+	<Price symbol="BCR" price="65.1700000"/>
+	<Price symbol="BDK" price="85.4800000"/>
+	<Price symbol="BDX" price="60.5600000"/>
+	<Price symbol="BEN" price="98.6800000"/>
+	<Price symbol="BHI" price="72.5800000"/>
+	<Price symbol="BJS" price="40.9300000"/>
+	<Price symbol="BK" price="31.5300000"/>
+	<Price symbol="BLI" price="13.5600000"/>
+	<Price symbol="BLL" price="41.4100000"/>
+	<Price symbol="BLS" price="26.4400000"/>
+	<Price symbol="BMC" price="22.9600000"/>
+	<Price symbol="BMET" price="37.0700000"/>
+	<Price symbol="BMS" price="29.3100000"/>
+	<Price symbol="BMY" price="24.0700000"/>
+	<Price symbol="BNI" price="72.2700000"/>
+	<Price symbol="BOL" price="73.0800000"/>
+	<Price symbol="BR" price="90.4900000"/>
+	<Price symbol="BRCM" price="59.6601000"/>
+	<Price symbol="BSC" price="122.2500000"/>
+	<Price symbol="BSX" price="24.1300000"/>
+	<Price symbol="BUD" price="42.8400000"/>
+	<Price symbol="C" price="47.2200000"/>
+	<Price symbol="CA" price="28.7800000"/>
+	<Price symbol="CAG" price="20.8200000"/>
+	<Price symbol="CAH" price="68.4600000"/>
+	<Price symbol="CAT" price="61.4200000"/>
+	<Price symbol="CB" price="96.3400000"/>
+	<Price symbol="CC" price="25.6300000"/>
+	<Price symbol="CCE" price="20.4300000"/>
+	<Price symbol="CCU" price="30.0500000"/>
+	<Price symbol="CD" price="16.2400000"/>
+	<Price symbol="CE" price="20.0900000"/>
+	<Price symbol="CEG" price="60.8000000"/>
+	<Price symbol="CFC" price="35.6800000"/>
+	<Price symbol="CHIR" price="44.4900000"/>
+	<Price symbol="CI" price="115.0500000"/>
+	<Price symbol="CIEN" price="4.4200000"/>
+	<Price symbol="CIN" price="44.3300000"/>
+	<Price symbol="CINF" price="45.8800000"/>
+	<Price symbol="CL" price="55.4200000"/>
+	<Price symbol="CLX" price="58.7300000"/>
+	<Price symbol="CMA" price="55.9000000"/>
+	<Price symbol="CMS" price="13.9200000"/>
+	<Price symbol="CMVT" price="25.8300000"/>
+	<Price symbol="CNP" price="13.1100000"/>
+	<Price symbol="COF" price="85.9800000"/>
+	<Price symbol="COL" price="45.0500000"/>
+	<Price symbol="COP" price="65.3200000"/>
+	<Price symbol="COST" price="50.8000000"/>
+	<Price symbol="CPB" price="31.4300000"/>
+	<Price symbol="CPWR" price="8.3600000"/>
+	<Price symbol="CR" price="37.5100000"/>
+	<Price symbol="CSC" price="53.4400000"/>
+	<Price symbol="CSCO" price="20.7609000"/>
+	<Price symbol="CSX" price="52.3500000"/>
+	<Price symbol="CTAS" price="40.6200000"/>
+	<Price symbol="CTB" price="12.1700000"/>
+	<Price symbol="CTL" price="34.1400000"/>
+	<Price symbol="CTX" price="75.4100000"/>
+	<Price symbol="CTXS" price="32.6500000"/>
+	<Price symbol="CVG" price="16.0800000"/>
+	<Price symbol="CVS" price="28.0600000"/>
+	<Price symbol="CVX" price="61.5100000"/>
+	<Price symbol="CZN" price="11.5900000"/>
+	<Price symbol="D" price="79.6100000"/>
+	<Price symbol="DCN" price="4.3500000"/>
+	<Price symbol="DD" price="39.8400000"/>
+	<Price symbol="DDS" price="26.0900000"/>
+	<Price symbol="DE" price="72.1000000"/>
+	<Price symbol="DELL" price="28.9200000"/>
+	<Price symbol="DG" price="16.8100000"/>
+	<Price symbol="DGX" price="50.3600000"/>
+	<Price symbol="DHR" price="55.9300000"/>
+	<Price symbol="DIS" price="25.2400000"/>
+	<Price symbol="DJ" price="37.5900000"/>
+	<Price symbol="DLX" price="28.7700000"/>
+	<Price symbol="DOV" price="44.4200000"/>
+	<Price symbol="DOW" price="43.2300000"/>
+	<Price symbol="DRI" price="38.9300000"/>
+	<Price symbol="DTE" price="43.8800000"/>
+	<Price symbol="DUK" price="28.3300000"/>
+	<Price symbol="DVN" price="68.4100000"/>
+	<Price symbol="DYN" price="4.6600000"/>
+	<Price symbol="EBAY" price="38.4700000"/>
+	<Price symbol="EC" price="39.6400000"/>
+	<Price symbol="ECL" price="35.4800000"/>
+	<Price symbol="ED" price="48.1000000"/>
+	<Price symbol="EDS" price="24.5300000"/>
+	<Price symbol="EFX" price="38.6500000"/>
+	<Price symbol="EIX" price="46.2200000"/>
+	<Price symbol="EK" price="23.9500000"/>
+	<Price symbol="EMC" price="14.1900000"/>
+	<Price symbol="EMN" price="51.1700000"/>
+	<Price symbol="EMR" price="77.2600000"/>
+	<Price symbol="EOG" price="84.4300000"/>
+	<Price symbol="EOP" price="31.5700000"/>
+	<Price symbol="EP" price="13.3800000"/>
+	<Price symbol="EQR" price="41.1600000"/>
+	<Price symbol="ERTS" price="56.0200000"/>
+	<Price symbol="ETN" price="65.8900000"/>
+	<Price symbol="ETR" price="71.3200000"/>
+	<Price symbol="EXC" price="57.5200000"/>
+	<Price symbol="F" price="8.2800000"/>
+	<Price symbol="FCX" price="59.0700000"/>
+	<Price symbol="FD" price="71.5500000"/>
+	<Price symbol="FDC" price="41.8800000"/>
+	<Price symbol="FDO" price="25.8300000"/>
+	<Price symbol="FDX" price="102.3400000"/>
+	<Price symbol="FE" price="51.4400000"/>
+	<Price symbol="FISV" price="45.3200000"/>
+	<Price symbol="FITB" price="36.9800000"/>
+	<Price symbol="FLR" price="82.8300000"/>
+	<Price symbol="FNM" price="52.9700000"/>
+	<Price symbol="FO" price="78.6300000"/>
+	<Price symbol="FPL" price="42.6700000"/>
+	<Price symbol="FRE" price="66.5000000"/>
+	<Price symbol="FRX" price="43.8300000"/>
+	<Price symbol="GAS" price="41.6000000"/>
+	<Price symbol="GCI" price="63.7000000"/>
+	<Price symbol="GD" price="116.8900000"/>
+	<Price symbol="GDT" price="74.7100000"/>
+	<Price symbol="GE" price="34.9900000"/>
+	<Price symbol="GENZ" price="71.3400000"/>
+	<Price symbol="GIS" price="49.4300000"/>
+	<Price symbol="GLW" price="24.1500000"/>
+	<Price symbol="GM" price="20.5300000"/>
+	<Price symbol="GPC" price="44.9200000"/>
+	<Price symbol="GPS" price="17.0500000"/>
+	<Price symbol="GR" price="37.7300000"/>
+	<Price symbol="GS" price="133.6700000"/>
+	<Price symbol="GT" price="18.2200000"/>
+	<Price symbol="GTW" price="2.8800000"/>
+	<Price symbol="GWW" price="74.8400000"/>
+	<Price symbol="HAL" price="72.2500000"/>
+	<Price symbol="HAS" price="20.5600000"/>
+	<Price symbol="HBAN" price="23.3900000"/>
+	<Price symbol="HCA" price="51.4800000"/>
+	<Price symbol="HCR" price="39.1700000"/>
+	<Price symbol="HD" price="41.4400000"/>
+	<Price symbol="HDI" price="50.7000000"/>
+	<Price symbol="HET" price="71.5600000"/>
+	<Price symbol="HIG" price="86.4700000"/>
+	<Price symbol="HLT" price="25.0600000"/>
+	<Price symbol="HMA" price="21.9900000"/>
+	<Price symbol="HNZ" price="34.5000000"/>
+	<Price symbol="HON" price="38.4600000"/>
+	<Price symbol="HOT" price="63.7700000"/>
+	<Price symbol="HPC" price="10.4600000"/>
+	<Price symbol="HPQ" price="32.1700000"/>
+	<Price symbol="HRB" price="22.7500000"/>
+	<Price symbol="HSY" price="55.1600000"/>
+	<Price symbol="HUM" price="57.2800000"/>
+	<Price symbol="IBM" price="83.4100000"/>
+	<Price symbol="IFF" price="33.6500000"/>
+	<Price symbol="IGT" price="34.5000000"/>
+	<Price symbol="INTC" price="21.0000000"/>
+	<Price symbol="INTU" price="53.1100000"/>
+	<Price symbol="IP" price="32.4800000"/>
+	<Price symbol="IPG" price="9.7800000"/>
+	<Price symbol="ITT" price="104.3500000"/>
+	<Price symbol="ITW" price="89.0300000"/>
+	<Price symbol="JBL" price="39.2900000"/>
+	<Price symbol="JCI" price="73.8800000"/>
+	<Price symbol="JCP" price="55.9400000"/>
+	<Price symbol="JDSU" price="3.0600000"/>
+	<Price symbol="JNJ" price="62.4000000"/>
+	<Price symbol="JNS" price="21.7100000"/>
+	<Price symbol="JNY" price="30.9400000"/>
+	<Price symbol="JP" price="57.2700000"/>
+	<Price symbol="JPM" price="39.3000000"/>
+	<Price symbol="JWN" price="39.6300000"/>
+	<Price symbol="K" price="43.6800000"/>
+	<Price symbol="KBH" price="77.6400000"/>
+	<Price symbol="KEY" price="34.0100000"/>
+	<Price symbol="KG" price="18.4100000"/>
+	<Price symbol="KLAC" price="54.3900000"/>
+	<Price symbol="KMB" price="59.8700000"/>
+	<Price symbol="KMG" price="101.0500000"/>
+	<Price symbol="KMI" price="101.4600000"/>
+	<Price symbol="KO" price="40.8700000"/>
+	<Price symbol="KR" price="19.8300000"/>
+	<Price symbol="KRI" price="63.1700000"/>
+	<Price symbol="KSE" price="36.7600000"/>
+	<Price symbol="KSS" price="44.5300000"/>
+	<Price symbol="LEG" price="24.5900000"/>
+	<Price symbol="LEH" price="137.0600000"/>
+	<Price symbol="LIZ" price="35.7200000"/>
+	<Price symbol="LLTC" price="39.0800000"/>
+	<Price symbol="LLY" price="57.0100000"/>
+	<Price symbol="LMT" price="64.9500000"/>
+	<Price symbol="LNC" price="53.3600000"/>
+	<Price symbol="LOW" price="63.7800000"/>
+	<Price symbol="LPX" price="27.8600000"/>
+	<Price symbol="LSI" price="8.2500000"/>
+	<Price symbol="LTD" price="22.5700000"/>
+	<Price symbol="LTR" price="100.9400000"/>
+	<Price symbol="LU" price="2.0100000"/>
+	<Price symbol="LUV" price="16.6500000"/>
+	<Price symbol="LXK" price="46.6400000"/>
+	<Price symbol="MAR" price="68.6000000"/>
+	<Price symbol="MAS" price="30.2900000"/>
+	<Price symbol="MAT" price="17.7500000"/>
+	<Price symbol="MBI" price="61.9300000"/>
+	<Price symbol="MCD" price="35.4900000"/>
+	<Price symbol="MCK" price="51.1600000"/>
+	<Price symbol="MCO" price="62.5900000"/>
+	<Price symbol="MDP" price="55.4500000"/>
+	<Price symbol="MDT" price="59.8600000"/>
+	<Price symbol="MEDI" price="33.5200000"/>
+	<Price symbol="MEL" price="35.3700000"/>
+	<Price symbol="MER" price="71.4600000"/>
+	<Price symbol="MET" price="49.4900000"/>
+	<Price symbol="MHP" price="50.6100000"/>
+	<Price symbol="MI" price="42.9400000"/>
+	<Price symbol="MIL" price="67.4700000"/>
+	<Price symbol="MMC" price="31.1100000"/>
+	<Price symbol="MMM" price="76.4600000"/>
+	<Price symbol="MO" price="77.0600000"/>
+	<Price symbol="MOLX" price="29.1300000"/>
+	<Price symbol="MON" price="80.3200000"/>
+	<Price symbol="MOT" price="24.3800000"/>
+	<Price symbol="MRK" price="33.2800000"/>
+	<Price symbol="MRO" price="71.8300000"/>
+	<Price symbol="MSFT" price="25.9000000"/>
+	<Price symbol="MTG" price="65.6800000"/>
+	<Price symbol="MU" price="13.6100000"/>
+	<Price symbol="MWV" price="27.2600000"/>
+	<Price symbol="MXIM" price="39.2800000"/>
+	<Price symbol="MYG" price="17.1900000"/>
+	<Price symbol="NAV" price="26.4500000"/>
+	<Price symbol="NCC" price="33.4500000"/>
+	<Price symbol="NCR" price="39.2500000"/>
+	<Price symbol="NEM" price="57.8900000"/>
+	<Price symbol="NFB" price="25.7900000"/>
+	<Price symbol="NI" price="21.7700000"/>
+	<Price symbol="NKE" price="84.5900000"/>
+	<Price symbol="NOC" price="61.3700000"/>
+	<Price symbol="NOVL" price="9.2400000"/>
+	<Price symbol="NSC" price="45.1000000"/>
+	<Price symbol="NSM" price="29.0800000"/>
+	<Price symbol="NTAP" price="32.5100000"/>
+	<Price symbol="NTRS" price="49.8000000"/>
+	<Price symbol="NVDA" price="45.0700000"/>
+	<Price symbol="NVLS" price="28.7700000"/>
+	<Price symbol="NYT" price="25.0500000"/>
+	<Price symbol="ODP" price="31.2300000"/>
+	<Price symbol="OMC" price="85.4800000"/>
+	<Price symbol="ORCL" price="12.8499000"/>
+	<Price symbol="OXY" price="90.4900000"/>
+	<Price symbol="PAYX" price="39.1100000"/>
+	<Price symbol="PBG" price="27.9100000"/>
+	<Price symbol="PBI" price="44.1100000"/>
+	<Price symbol="PCAR" price="72.6600000"/>
+	<Price symbol="PCG" price="38.0500000"/>
+	<Price symbol="PCL" price="38.6600000"/>
+	<Price symbol="PD" price="140.2700000"/>
+	<Price symbol="PEG" price="70.0200000"/>
+	<Price symbol="PEP" price="57.5600000"/>
+	<Price symbol="PFE" price="25.0000000"/>
+	<Price symbol="PFG" price="46.4700000"/>
+	<Price symbol="PG" price="59.3200000"/>
+	<Price symbol="PGL" price="37.3200000"/>
+	<Price symbol="PGN" price="43.4900000"/>
+	<Price symbol="PGR" price="107.9900000"/>
+	<Price symbol="PH" price="74.1800000"/>
+	<Price symbol="PHM" price="40.1000000"/>
+	<Price symbol="PKI" price="22.8000000"/>
+	<Price symbol="PLL" price="27.8300000"/>
+	<Price symbol="PMCS" price="10.4300000"/>
+	<Price symbol="PNC" price="64.4400000"/>
+	<Price symbol="PNW" price="43.2100000"/>
+	<Price symbol="PPG" price="57.8000000"/>
+	<Price symbol="PPL" price="30.5800000"/>
+	<Price symbol="PRU" price="74.4700000"/>
+	<Price symbol="PTV" price="22.6700000"/>
+	<Price symbol="PWER" price="5.6300000"/>
+	<Price symbol="PX" price="53.0300000"/>
+	<Price symbol="Q" price="5.6700000"/>
+	<Price symbol="QCOM" price="49.2500000"/>
+	<Price symbol="QLGC" price="38.6800000"/>
+	<Price symbol="R" price="41.9000000"/>
+	<Price symbol="RBK" price="58.4000000"/>
+	<Price symbol="RDC" price="43.5500000"/>
+	<Price symbol="RF" price="35.6700000"/>
+	<Price symbol="RHI" price="37.7800000"/>
+	<Price symbol="ROH" price="49.2700000"/>
+	<Price symbol="ROK" price="65.4500000"/>
+	<Price symbol="RSH" price="18.4500000"/>
+	<Price symbol="RTN" price="40.1000000"/>
+	<Price symbol="RX" price="25.7300000"/>
+	<Price symbol="SAFC" price="56.8300000"/>
+	<Price symbol="SANM" price="5.0000000"/>
+	<Price symbol="SBL" price="10.6300000"/>
+	<Price symbol="SBUX" price="37.4190000"/>
+	<Price symbol="SEBL" price="10.6200000"/>
+	<Price symbol="SFA" price="43.2400000"/>
+	<Price symbol="SGP" price="20.6700000"/>
+	<Price symbol="SHW" price="49.5000000"/>
+	<Price symbol="SIAL" price="64.2300000"/>
+	<Price symbol="SLE" price="18.8400000"/>
+	<Price symbol="SLM" price="55.2800000"/>
+	<Price symbol="SLR" price="3.2900000"/>
+	<Price symbol="SNA" price="39.7800000"/>
+	<Price symbol="SNV" price="25.7800000"/>
+	<Price symbol="SO" price="36.1800000"/>
+	<Price symbol="SPC" price="19.0500000"/>
+	<Price symbol="SPG" price="82.9400000"/>
+	<Price symbol="SPLS" price="22.3400000"/>
+	<Price symbol="SRE" price="47.7700000"/>
+	<Price symbol="STI" price="72.8500000"/>
+	<Price symbol="STJ" price="54.0600000"/>
+	<Price symbol="STT" price="58.6700000"/>
+	<Price symbol="SUN" price="89.3700000"/>
+	<Price symbol="SUNW" price="4.5100000"/>
+	<Price symbol="SVU" price="32.6300000"/>
+	<Price symbol="SWK" price="50.2400000"/>
+	<Price symbol="SWY" price="23.5600000"/>
+	<Price symbol="SYK" price="47.1200000"/>
+	<Price symbol="SYY" price="31.0000000"/>
+	<Price symbol="T" price="25.2000000"/>
+	<Price symbol="TE" price="18.0600000"/>
+	<Price symbol="TEK" price="31.4500000"/>
+	<Price symbol="TER" price="16.2900000"/>
+	<Price symbol="TGT" price="53.6300000"/>
+	<Price symbol="THC" price="7.6400000"/>
+	<Price symbol="TIF" price="35.9000000"/>
+	<Price symbol="TIN" price="46.9900000"/>
+	<Price symbol="TJX" price="24.5700000"/>
+	<Price symbol="TLAB" price="10.9200000"/>
+	<Price symbol="TMK" price="55.0600000"/>
+	<Price symbol="TMO" price="32.6600000"/>
+	<Price symbol="TNB" price="43.7600000"/>
+	<Price symbol="TRB" price="30.6600000"/>
+	<Price symbol="TROW" price="76.3400000"/>
+	<Price symbol="TSG" price="24.2200000"/>
+	<Price symbol="TUP" price="22.5400000"/>
+	<Price symbol="TXN" price="32.8100000"/>
+	<Price symbol="TXT" price="76.8500000"/>
+	<Price symbol="TXU" price="51.8300000"/>
+	<Price symbol="UIS" price="6.8800000"/>
+	<Price symbol="UNH" price="61.1300000"/>
+	<Price symbol="UNM" price="19.3400000"/>
+	<Price symbol="UNP" price="85.5200000"/>
+	<Price symbol="UPS" price="77.4700000"/>
+	<Price symbol="USB" price="30.0000000"/>
+	<Price symbol="UST" price="40.9000000"/>
+	<Price symbol="UTX" price="56.2500000"/>
+	<Price symbol="UVN" price="32.3200000"/>
+	<Price symbol="VC" price="5.3000000"/>
+	<Price symbol="VFC" price="55.4000000"/>
+	<Price symbol="VMC" price="69.3800000"/>
+	<Price symbol="VZ" price="31.4200000"/>
+	<Price symbol="WAG" price="44.5800000"/>
+	<Price symbol="WAT" price="39.0300000"/>
+	<Price symbol="WB" price="51.8500000"/>
+	<Price symbol="WEN" price="57.0100000"/>
+	<Price symbol="WFC" price="61.8700000"/>
+	<Price symbol="WHR" price="82.3300000"/>
+	<Price symbol="WLP" price="75.8800000"/>
+	<Price symbol="WM" price="42.9700000"/>
+	<Price symbol="WMB" price="24.8100000"/>
+	<Price symbol="WMI" price="31.2900000"/>
+	<Price symbol="WMT" price="46.6700000"/>
+	<Price symbol="WOR" price="20.2500000"/>
+	<Price symbol="WPI" price="33.8400000"/>
+	<Price symbol="WWY" price="66.7900000"/>
+	<Price symbol="WY" price="65.7000000"/>
+	<Price symbol="WYE" price="47.5300000"/>
+	<Price symbol="X" price="51.2900000"/>
+	<Price symbol="XEL" price="20.5900000"/>
+	<Price symbol="XLNX" price="30.6000000"/>
+	<Price symbol="XOM" price="61.4800000"/>
+	<Price symbol="XRX" price="14.2200000"/>
+	<Price symbol="YHOO" price="34.1500000"/>
+	<Price symbol="YUM" price="48.7600000"/>
+	<Price symbol="ZION" price="77.4200000"/>
+	<Price symbol="ZMH" price="71.2500000"/>
+  <Price symbol="PHM" price="6.3200000000" />
+  <Price symbol="DHI" price="12.6600000000" />
+  <Price symbol="CIEN" price="12.2200000000" />
+  <Price symbol="DAL" price="8.5000000000" />
+  <Price symbol="CHK" price="24.6600000000" />
+  <Price symbol="ANR" price="23.4500000000" />
+  <Price symbol="FRP" price="4.9200000000" />
+  <Price symbol="MGM" price="10.0300000000" />
+  <Price symbol="NUAN" price="24.7400000000" />
+  <Price symbol="UAL" price="20.6200000000" />
+  <Price symbol="LVLT" price="18.3900000000" />
+  <Price symbol="EMC" price="23.5500000000" />
+  <Price symbol="HES" price="58.4700000000" />
+  <Price symbol="ETN" price="44.3500000000" />
+  <Price symbol="CAT" price="95.9700000000" />
+  <Price symbol="PBI" price="18.8300000000" />
+  <Price symbol="DOW" price="27.1000000000" />
+  <Price symbol="PFE" price="20.5600000000" />
+  <Price symbol="ORCL" price="31.6900000000" />
+  <Price symbol="DVN" price="66.5600000000" />
+  <Price symbol="MOS" price="50.5100000000" />
+  <Price symbol="CTL" price="35.7200000000" />
+  <Price symbol="GE" price="16.8400000000" />
+  <Price symbol="PEP" price="65.1900000000" />
+  <Price symbol="LEN" price="19.6400000000" />
+  <Price symbol="KBH" price="8.1000000000" />
+  <Price symbol="EMN" price="38.5000000000" />
+  <Price symbol="KMB" price="70.1400000000" />
+  <Price symbol="PG" price="64.9700000000" />
+  <Price symbol="XOM" price="81.3400000000" />
+  <Price symbol="BTU" price="36.7200000000" />
+  <Price symbol="JPM" price="33.1800000000" />
+  <Price symbol="DNR" price="16.4400000000" />
+  <Price symbol="LCC" price="5.6200000000" />
+  <Price symbol="VZ" price="38.4300000000" />
+  <Price symbol="POT" price="40.7600000000" />
+  <Price symbol="SWK" price="64.8100000000" />
+  <Price symbol="PM" price="75.5800000000" />
+  <Price symbol="T" price="29.0300000000" />
+  <Price symbol="MO" price="28.7800000000" />
+  <Price symbol="HCOM" price="14.6000000000" />
+  <Price symbol="LANCOM" price="1.1500000000" />
+  <Price symbol="TK" price="26.8800000000" />
+  <Price symbol="AKS" price="8.6100000000" />
+  <Price symbol="ABT" price="54.5700000000" />
+  <Price symbol="ALB" price="53.0900000000" />
+  <Price symbol="HON" price="54.0000000000" />
+  <Price symbol="AA" price="9.6400000000" />
+  <Price symbol="ADM" price="29.1200000000" />
+  <Price symbol="BHI" price="50.3900000000" />
+  <Price symbol="ABX" price="49.8100000000" />
+  <Price symbol="BA" price="71.9300000000" />
+  <Price symbol="BMY" price="33.5400000000" />
+  <Price symbol="CVX" price="104.2500000000" />
+  <Price symbol="CSCO" price="18.8800000000" />
+  <Price symbol="CMA" price="26.5000000000" />
+  <Price symbol="GLW" price="13.7900000000" />
+  <Price symbol="CYT" price="47.4300000000" />
+  <Price symbol="DE" price="78.3400000000" />
+  <Price symbol="DDS" price="47.9100000000" />
+  <Price symbol="DOV" price="57.2000000000" />
+  <Price symbol="DD" price="45.0400000000" />
+  <Price symbol="DUK" price="20.8600000000" />
+  <Price symbol="WFT" price="14.9800000000" />
+  <Price symbol="EP" price="24.8700000000" />
+  <Price symbol="EOG" price="103.7500000000" />
+  <Price symbol="FDX" price="83.2400000000" />
+  <Price symbol="M" price="32.7900000000" />
+  <Price symbol="F" price="11.0300000000" />
+  <Price symbol="GD" price="65.0700000000" />
+  <Price symbol="HAL" price="34.0800000000" />
+  <Price symbol="HD" price="40.2300000000" />
+  <Price symbol="ITW" price="47.1300000000" />
+  <Price symbol="INTC" price="25.0100000000" />
+  <Price symbol="JCI" price="31.9500000000" />
+  <Price symbol="LLY" price="39.2700000000" />
+  <Price symbol="LMT" price="77.4200000000" />
+  <Price symbol="LOW" price="24.9700000000" />
+  <Price symbol="LZ" price="134.9700000000" />
+  <Price symbol="MLM" price="73.3700000000" />
+  <Price symbol="MAS" price="9.3900000000" />
+  <Price symbol="MU" price="5.8900000000" />
+  <Price symbol="MS" price="16.3800000000" />
+  <Price symbol="MUR" price="54.5500000000" />
+  <Price symbol="NBR" price="17.9800000000" />
+  <Price symbol="NEM" price="66.9400000000" />
+  <Price symbol="OCR" price="33.4100000000" />
+  <Price symbol="OMC" price="44.6100000000" />
+  <Price symbol="PNC" price="55.9100000000" />
+  <Price symbol="PH" price="81.0200000000" />
+  <Price symbol="JCP" price="33.5800000000" />
+  <Price symbol="COP" price="71.9500000000" />
+  <Price symbol="SNDK" price="50.3900000000" />
+  <Price symbol="SLB" price="74.1500000000" />
+  <Price symbol="SCH" price="11.9700000000" />
+  <Price symbol="SO" price="44.5600000000" />
+  <Price symbol="STI" price="17.2200000000" />
+  <Price symbol="TRW" price="33.5500000000" />
+  <Price symbol="TIN" price="31.7800000000" />
+  <Price symbol="TER" price="14.1200000000" />
+  <Price symbol="RIG" price="43.2600000000" />
+  <Price symbol="C" price="28.7700000000" />
+  <Price symbol="TSN" price="20.5300000000" />
+  <Price symbol="X" price="27.4800000000" />
+  <Price symbol="WMT" price="58.3200000000" />
+  <Price symbol="WMB" price="31.6500000000" />
+  <Price symbol="SWN" price="36.7900000000" />
+  <Price symbol="AES" price="11.8600000000" />
+  <Price symbol="CDE" price="29.2500000000" />
+  <Price symbol="CAR" price="11.7000000000" />
+  <Price symbol="ASH" price="56.3900000000" />
+  <Price symbol="STT" price="40.9300000000" />
+  <Price symbol="WM" price="31.6600000000" />
+  <Price symbol="UDS" price="21.1500000000" />
+  <Price symbol="IPG" price="9.5800000000" />
+  <Price symbol="SFDS" price="24.4700000000" />
+  <Price symbol="BRCM" price="30.2900000000" />
+  <Price symbol="NBL" price="95.5300000000" />
+  <Price symbol="EXC" price="43.5800000000" />
+  <Price symbol="APA" price="97.4800000000" />
+  <Price symbol="CMI" price="95.1100000000" />
+  <Price symbol="PCP" price="162.3200000000" />
+  <Price symbol="RSH" price="11.4400000000" />
+  <Price symbol="TRP" price="41.6100000000" />
+  <Price symbol="VMC" price="33.5500000000" />
+  <Price symbol="NFX" price="41.8800000000" />
+  <Price symbol="BAC" price="5.7200000000" />
+  <Price symbol="FLEX" price="5.9000000000" />
+  <Price symbol="EEP" price="30.6600000000" />
+  <Price symbol="AGU" price="68.7200000000" />
+  <Price symbol="GS" price="101.4500000000" />
+  <Price symbol="RAI" price="40.5400000000" />
+  <Price symbol="JBL" price="20.6500000000" />
+  <Price symbol="FCX" price="39.7300000000" />
+  <Price symbol="ACI" price="15.5400000000" />
+  <Price symbol="NRG" price="18.9300000000" />
+  <Price symbol="MON" price="71.2300000000" />
+  <Price symbol="RTN" price="45.5500000000" />
+  <Price symbol="KFT" price="36.7000000000" />
+  <Price symbol="RS" price="49.2700000000" />
+  <Price symbol="TCK" price="37.3100000000" />
+  <Price symbol="TSO" price="21.7900000000" />
+  <Price symbol="BG" price="61.7900000000" />
+  <Price symbol="PRU" price="50.3900000000" />
+  <Price symbol="JBLU" price="5.0500000000" />
+  <Price symbol="OSG" price="9.7800000000" />
+  <Price symbol="SWC" price="12.0100000000" />
+  <Price symbol="DTV" price="46.0600000000" />
+  <Price symbol="SCCO" price="31.8800000000" />
+  <Price symbol="CLF" price="69.3500000000" />
+  <Price symbol="GOOG" price="627.4200000000" />
+  <Price symbol="LVS" price="43.9700000000" />
+  <Price symbol="NRP" price="26.9000000000" />
+  <Price symbol="YARIY" price="40.2392000000" />
+  <Price symbol="HUN" price="10.2400000000" />
+  <Price symbol="GG" price="50.3200000000" />
+  <Price symbol="HL" price="6.4500000000" />
+  <Price symbol="CENX" price="10.1700000000" />
+  <Price symbol="ROC" price="40.1600000000" />
+  <Price symbol="GNW" price="6.7500000000" />
+  <Price symbol="CE" price="44.1200000000" />
+  <Price symbol="OC" price="28.1500000000" />
+  <Price symbol="TWC" price="62.4700000000" />
+  <Price symbol="WNR" price="12.9100000000" />
+  <Price symbol="CF" price="141.5600000000" />
+  <Price symbol="CPX" price="34.2200000000" />
+  <Price symbol="PCX" price="9.8900000000" />
+  <Price symbol="SD" price="7.6500000000" />
+  <Price symbol="KALU" price="46.5700000000" />
+  <Price symbol="SPMD" price="2.4500000000" />
+  <Price symbol="LYB" price="33.1800000000" />
+  <Price symbol="TLP" price="31.7300000000" />
+  <Price symbol="EPB" price="32.9400000000" />
+  <Price symbol="ANV" price="32.4700000000" />
+  <Price symbol="GM" price="21.1500000000" />
+  <Price symbol="GTLS" price="62.8600000000" />
+</Prices>

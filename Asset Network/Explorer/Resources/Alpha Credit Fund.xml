@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<array>
+  <string>header1Cell</string>
+  <string>COVERED</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>COVERED</string>
+  <string>BANK OF IRELAND MTGE BNK EUR</string>
+  <date>2015-05-15T16:06:48Z</date>
+  <string>Long</string>
+  <real>83.0000000</real>
+  <real>1500000.0000000</real>
+  <real>1685989.1200000</real>
+  <real>1685989.1200000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>COVERED</string>
+  <real>1500000.0000000</real>
+  <real>1685989.1200000</real>
+  <real>1685989.1200000</real>
+</array>
+<array>
+  <string>header1Cell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>AVIATION CAPITAL GROUP 144A W/O RTS</string>
+  <date>2021-11-29T16:06:48Z</date>
+  <string>Long</string>
+  <real>93.8160000</real>
+  <real>16468000.0000000</real>
+  <real>15653410.3900000</real>
+  <real>15653410.3900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>CAPITAL ONE CAPITAL VI</string>
+  <date>2041-01-03T16:06:48Z</date>
+  <string>Long</string>
+  <real>101.5123000</real>
+  <real>4000000.0000000</real>
+  <real>4087117.0000000</real>
+  <real>4087117.0000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>MERRILL LYNCH &amp; CO EUR</string>
+  <date>2015-01-25T16:06:48Z</date>
+  <string>Long</string>
+  <real>94.2800000</real>
+  <real>3750000.0000000</real>
+  <real>4856057.8300000</real>
+  <real>4856057.8300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>MORGAN STANLEY</string>
+  <date>2018-08-24T16:06:48Z</date>
+  <string>Long</string>
+  <real>95.6009000</real>
+  <real>6100000.0000000</real>
+  <real>5996998.7900000</real>
+  <real>5996998.7900000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <real>30318000.0000000</real>
+  <real>30593584.0100000</real>
+  <real>30593584.0100000</real>
+</array>
+<array>
+  <string>header1Cell</string>
+  <string>INDUSTRIAL</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>ASURION CORP 2ND LIEN 5/10/19 L+750 LF1</string>
+  <date>2020-02-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>97.1250000</real>
+  <real>9720000.0000000</real>
+  <real>9613080.0000000</real>
+  <real>9613080.0000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>BASIC ENERGY SERVICES</string>
+  <date>2019-10-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>100.2500000</real>
+  <real>8565000.0000000</real>
+  <real>8802143.4400000</real>
+  <real>8802143.4400000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>CCGI/COVAD TL 10/13/15 L+1000 LF200</string>
+  <date>2016-06-30T16:06:48Z</date>
+  <string>Long</string>
+  <real>97.0000000</real>
+  <real>2571500.0000000</real>
+  <real>2555213.8300000</real>
+  <real>2555213.8300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>CENTURY LINK</string>
+  <date>2040-05-04T16:06:48Z</date>
+  <string>Long</string>
+  <real>96.3117000</real>
+  <real>6000000.0000000</real>
+  <real>5888902.0000000</real>
+  <real>5888902.0000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>HERCULES OFFSHORE INC. TLB L+550</string>
+  <date>2014-03-17T16:06:48Z</date>
+  <string>Long</string>
+  <real>97.7690000</real>
+  <real>9632126.0000000</real>
+  <real>9435293.5000000</real>
+  <real>9435293.5000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>JM HUBER CORP 144A W/O RTS</string>
+  <date>2020-06-25T16:06:48Z</date>
+  <string>Long</string>
+  <real>101.0000000</real>
+  <real>9395000.0000000</real>
+  <real>9594611.1300000</real>
+  <real>9594611.1300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>JONES APPAREL GROUP</string>
+  <date>2035-07-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>68.0000000</real>
+  <real>10000000.0000000</real>
+  <real>6845937.5000000</real>
+  <real>6845937.5000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>LAFARGE SA EUR</string>
+  <date>2019-07-29T16:06:48Z</date>
+  <string>Long</string>
+  <real>86.0000000</real>
+  <real>21500000.0000000</real>
+  <real>24778618.9000000</real>
+  <real>24778618.9000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>PHARMA PROD DEV INC TLB 11/18/18 L+500 L</string>
+  <date>2019-08-20T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.0630000</real>
+  <real>3556000.0000000</real>
+  <real>3525149.7200000</real>
+  <real>3525149.7200000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>ROYAL CARIBBEAN CRUISES 144A W/O RTS EUR</string>
+  <date>2012-08-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>97.5000000</real>
+  <real>1200000.0000000</real>
+  <real>1642648.5500000</real>
+  <real>1642648.5500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>SUNGARD DATA SYSTEMS INC</string>
+  <date>2016-04-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>103.2500000</real>
+  <real>2356000.0000000</real>
+  <real>2511054.2500000</real>
+  <real>2511054.2500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>WIND ACQUISITION FIN SA 144A W/O RTS EUR</string>
+  <date>2018-03-13T16:06:48Z</date>
+  <string>Long</string>
+  <real>84.5000000</real>
+  <real>15000000.0000000</real>
+  <real>17902070.9200000</real>
+  <real>17902070.9200000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>INDUSTRIAL</string>
+  <real>49690626.0000000</real>
+  <real>42655847.5600000</real>
+  <real>42655847.5600000</real>
+</array>
+<array>
+  <string>footerCell</string>
+  <real>67518626.0000000</real>
+  <real>60607730.4200000</real>
+  <real>60710814.4356998</real>
+</array>

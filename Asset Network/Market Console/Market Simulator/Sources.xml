@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sources>
+	<Source Name="Aspen Group" Endpoint="TcpWebServiceUserNameEndpoint" UserName="CN=Administrator,OU=Aspen Group,O=Dark Bond,DC=darkbond,DC=com" Password="Teraque" IsActive="true"/>
+	<Source Name="Moorehead Brown" Endpoint="TcpWebServiceUserNameEndpoint" UserName="CN=Administrator,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" Password="Teraque" IsActive="false"/>
+</Sources>

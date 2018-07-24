@@ -1,0 +1,171 @@
+﻿<Window x:Class="Teraque.AssetNetwork.MainWindow"
+		Height="350"
+		Icon="Market Console.ico"
+		xmlns:local="clr-namespace:Teraque.AssetNetwork"
+		Title="MainWindow"
+		Width="650"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<TabControl Grid.Row="1">
+			<local:ServerTab Header="Server"
+							 x:Name="ServerTab">
+				<local:ServerTab.Resources>
+					<ContextMenu  x:Key="ContextMenu">
+						<MenuItem Command="local:Commands.Start"
+								  Header="Start"/>
+						<MenuItem Command="local:Commands.Stop"
+								  Header="Stop"/>
+						<MenuItem Command="local:Commands.Restart"
+								  Header="Restart"/>
+						<Separator/>
+						<MenuItem Command="local:Commands.Refresh"
+								  Header="Refresh"/>
+					</ContextMenu>
+				</local:ServerTab.Resources>
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition/>
+						<RowDefinition Height="Auto"/>
+					</Grid.RowDefinitions>
+					<ListView Background="White"
+							  ItemsSource="{Binding}"
+							  Margin="8"
+							  x:Name="TenantListView">
+						<ListView.Resources>
+							<DataTemplate x:Key="StatusTemplate">
+								<TextBlock x:Name="TextBlock"
+										   Text="{Binding Path=Status}"/>
+								<DataTemplate.Triggers>
+									<DataTrigger Binding="{Binding Path=Status}"
+												 Value="Stopped">
+										<Setter Property="Text"
+												TargetName="TextBlock"
+												Value="{x:Null}"/>
+									</DataTrigger>
+								</DataTemplate.Triggers>
+							</DataTemplate>
+							<Style TargetType="ColumnViewColumnCell">
+								<Setter Property="Margin"
+										Value="1,2"/>
+							</Style>
+						</ListView.Resources>
+						<ListView.ItemContainerStyle>
+							<Style TargetType="{x:Type ListViewItem}">
+								<Setter Property="ContextMenu"
+										Value="{StaticResource ContextMenu}"/>
+							</Style>
+						</ListView.ItemContainerStyle>
+						<ListView.View>
+							<ColumnView>
+								<ColumnViewColumn DisplayMemberBinding="{Binding Name}"
+												  Header="Name"
+												  Width="130"/>
+								<ColumnViewColumn CellTemplate="{StaticResource StatusTemplate}"
+												  Header="Status"
+												  Width="65"/>
+								<ColumnViewColumn DisplayMemberBinding="{Binding StartupType}"
+												  Header="Startup Type"
+												  Width="90"/>
+								<ColumnViewColumn DisplayMemberBinding="{Binding UserName}"
+												  Header="Log On As"
+												  Width="250"/>
+							</ColumnView>
+						</ListView.View>
+					</ListView>
+				</Grid>
+			</local:ServerTab>
+			<local:SimulatorTab Header="Simulator"
+								IsEnabled="False"
+								x:Name="SimulatorTab">
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<Grid Margin="8">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+                        <GroupBox>
+                            <GroupBox.Header>
+                                <CheckBox Content="Enable Exchange Simulator"
+								  IsChecked="{Binding IsExchangeSimulatorRunning}"
+								  Margin="4"
+								  x:Name="CheckBoxEnableExchangeSimulator"/>
+                            </GroupBox.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <Slider HorizontalAlignment="Left"
+										Margin="20,5"
+										IsSnapToTickEnabled="True"
+										Maximum="1000.0"
+										Minimum="0.0"
+										TickFrequency="50.0"
+										IsEnabled="{Binding ElementName=CheckBoxEnableExchangeSimulator,Path=IsChecked}"
+										TickPlacement="BottomRight"
+										Value="{Binding ExecutionFrequency}"
+										Width="400"/>
+                                <ContentControl Content="{Binding ExecutionFrequency}"
+												ContentStringFormat="{}{0:#,##0}"
+												Width="50"/>
+                            </StackPanel>
+                        </GroupBox>
+						<GroupBox Grid.Row="1">
+							<GroupBox.Header>
+								<CheckBox Content="Enable Price Simulator"
+										  IsChecked="{Binding IsPriceSimulatorRunning}"
+										  Margin="4"
+										  x:Name="CheckBoxEnablePriceSimulator"/>
+							</GroupBox.Header>
+							<StackPanel Orientation="Horizontal">
+								<Slider HorizontalAlignment="Left"
+										Margin="20,5"
+										IsSnapToTickEnabled="True"
+										Maximum="200.0"
+										Minimum="0.0"
+										TickFrequency="10.0"
+										IsEnabled="{Binding ElementName=CheckBoxEnablePriceSimulator,Path=IsChecked}"
+										TickPlacement="BottomRight"
+										Value="{Binding EquityFrequency}"
+										Width="400"/>
+								<ContentControl Content="{Binding EquityFrequency}"
+												ContentStringFormat="{}{0:#,##0}"
+												Width="50"/>
+							</StackPanel>
+						</GroupBox>
+						<GroupBox Grid.Row="2" Header="Actions">
+							<WrapPanel Orientation="Horizontal">
+								<Button Content="Clear Orders" Command="local:Commands.ClearOrders" Margin="3,2"/>
+							</WrapPanel>
+						</GroupBox>
+					</Grid>
+					<Grid Grid.Row="1">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
+						</Grid.ColumnDefinitions>
+						<StackPanel Grid.Column="1"
+									Margin="4"
+									Orientation="Horizontal"
+									VerticalAlignment="Bottom">
+							<Button Command="local:Commands.Apply"
+									CommandTarget="{Binding ElementName=SimulatorTab}"
+									Content="Apply"
+									IsDefault="True"
+									Margin="4"
+									x:Name="ButtonApply"
+									VerticalAlignment="Center"
+									Width="64"/>
+						</StackPanel>
+					</Grid>
+				</Grid>
+			</local:SimulatorTab>
+		</TabControl>
+	</Grid>
+</Window>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Property">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreProperty">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="DATE CREATED" />
+		<parameter name="name" value="Date Created" />
+		<parameter name="propertyId" value="{95D033C1-29B0-4C6B-AD3A-9ECC85F305AD}" />
+	</method>
+	<method name="StoreProperty">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="DATE MODIFIED" />
+		<parameter name="name" value="Date Modified" />
+		<parameter name="propertyId" value="{AD5B422F-2BDB-4F12-9D48-419E27F4A047}" />
+	</method>
+	<method name="StoreProperty">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="DESCRIPTION" />
+		<parameter name="name" value="Description" />
+		<parameter name="propertyId" value="{006D3D39-0241-433e-8208-1E750842C01E}" />
+	</method>
+	<method name="StoreProperty">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="NAME" />
+		<parameter name="name" value="Name" />
+		<parameter name="propertyId" value="{839F778A-5F71-48e8-9209-221A7AD05173}" />
+	</method>
+	<method name="StoreProperty">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="SIZE" />
+		<parameter name="name" value="Size" />
+		<parameter name="propertyId" value="{6BB2E00E-76B4-4F15-9B93-530D6FAD0DBF}" />
+	</method>
+	<method name="StoreProperty">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="VIEWER" />
+		<parameter name="name" value="Viewer" />
+		<parameter name="propertyId" value="{8AE00186-7AD0-4621-9ED6-29B4D5C20880}" />
+	</method>
+</script>

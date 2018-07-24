@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="LotHandling">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreLotHandling">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="First In/First Out" />
+      <parameter name="externalId0" value="FIFO" />
+      <parameter name="lotHandlingCode" value="Lifo" />
+      <parameter name="mnemonic" value="FIFO" />
+    </method>
+    <method name="StoreLotHandling">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="Last In/First Out" />
+      <parameter name="externalId0" value="FIFO" />
+      <parameter name="lotHandlingCode" value="Fifo" />
+      <parameter name="mnemonic" value="LIFO" />
+    </method>
+    <method name="StoreLotHandling">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="Minimum Tax" />
+      <parameter name="externalId0" value="MINTAX" />
+      <parameter name="lotHandlingCode" value="Mintax" />
+      <parameter name="mnemonic" value="MINTAX" />
+    </method>
+  </transaction>
+</script>

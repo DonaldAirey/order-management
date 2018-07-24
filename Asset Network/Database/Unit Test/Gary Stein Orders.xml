@@ -1,0 +1,2055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Gary Stein Orders">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{383c3e2c-fc3c-42eb-a9af-f709bfd91f67}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5206767-04:00" />
+      <parameter name="externalId0" value="{6f5df8e9-ed46-4821-992b-a8a3268ed296}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="1200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5066759-04:00" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{383c3e2c-fc3c-42eb-a9af-f709bfd91f67}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5206767-04:00" />
+      <parameter name="externalId0" value="{b95a9d66-8541-408d-89dd-cae9bcfc18d5}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5066759-04:00" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{383c3e2c-fc3c-42eb-a9af-f709bfd91f67}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5206767-04:00" />
+      <parameter name="externalId0" value="{eaaf40d6-4144-4b5d-8648-33fa58450319}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5066759-04:00" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{383c3e2c-fc3c-42eb-a9af-f709bfd91f67}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5206767-04:00" />
+      <parameter name="externalId0" value="{8e75ae33-e3b2-4d5a-8849-893929378233}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5066759-04:00" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{383c3e2c-fc3c-42eb-a9af-f709bfd91f67}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{80738840-8692-4e5b-9348-48af045a2b5a}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="NAV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{2fa6e7e0-6991-4719-8ac4-1da2970d508a}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="NAV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{80738840-8692-4e5b-9348-48af045a2b5a}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{c977fdb0-0105-4131-8884-f38a401777b8}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="NAV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{80738840-8692-4e5b-9348-48af045a2b5a}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{0335322c-28a6-40ea-9aa2-fc272ffab63e}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="NAV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{80738840-8692-4e5b-9348-48af045a2b5a}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{4c06f9c2-64d2-4185-b24e-5ec4335efc89}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="NAV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{80738840-8692-4e5b-9348-48af045a2b5a}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{774058ee-6032-4dbd-8868-ba28ba825437}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="1500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="NAV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{80738840-8692-4e5b-9348-48af045a2b5a}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{dc081829-f9ee-4140-ac0e-4ccc26f2cb46}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="LNC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{a093fd6b-e82c-4ee0-8941-1933fef291b8}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="LNC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dc081829-f9ee-4140-ac0e-4ccc26f2cb46}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{53be4826-75fd-4167-b279-cf60886ad3c8}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="LNC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dc081829-f9ee-4140-ac0e-4ccc26f2cb46}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{704b61ff-42ed-4515-b194-d974c9d1739f}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="LNC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dc081829-f9ee-4140-ac0e-4ccc26f2cb46}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{a6ca8a58-307f-4dbf-a861-6a1f490d8b67}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="3500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="LNC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dc081829-f9ee-4140-ac0e-4ccc26f2cb46}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5216768-04:00" />
+      <parameter name="externalId0" value="{94771ab4-72dd-411c-91aa-2e203fa03efb}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="LNC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5216768-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dc081829-f9ee-4140-ac0e-4ccc26f2cb46}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{12f0b2f7-6c44-4518-9368-e0f8c995ed57}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="UST" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{667deac6-9f72-4dec-ad82-8e5866c233d8}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="UST" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{12f0b2f7-6c44-4518-9368-e0f8c995ed57}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{9d6a7417-b2e3-4630-8298-188156382f58}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CVG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{e7beeba8-9ec5-4613-aa33-7ed51737eb43}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="1800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CVG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9d6a7417-b2e3-4630-8298-188156382f58}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{ed2a7a8e-18b7-4466-a0a2-c830f6bde539}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CVG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9d6a7417-b2e3-4630-8298-188156382f58}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{a7cd093b-8748-4c59-b3fa-73a1ae102d90}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CVG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9d6a7417-b2e3-4630-8298-188156382f58}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{16c5e24f-44e9-4a35-96f1-18acf560748c}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CVG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9d6a7417-b2e3-4630-8298-188156382f58}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{5c767e2e-5914-44a9-8614-c699946eb7cf}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="3500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CVG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9d6a7417-b2e3-4630-8298-188156382f58}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{d70bdba4-6e71-4893-92d9-3b1d436c1963}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="true" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="ASH" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{48ead3fa-fe15-48f0-8f19-ddffca45def8}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="5900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="ASH" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{d70bdba4-6e71-4893-92d9-3b1d436c1963}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5226769-04:00" />
+      <parameter name="externalId0" value="{754c3772-db0e-4208-950f-b0e1cfb818d4}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="ASH" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5226769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{d70bdba4-6e71-4893-92d9-3b1d436c1963}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{5b6cbe1d-c374-463c-a2ba-66c65b78166c}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="BBY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{51b0ef04-3f19-4ec5-9850-73c524583bca}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="5200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="BBY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{5b6cbe1d-c374-463c-a2ba-66c65b78166c}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{2aa27213-9b22-4b07-8041-debb6a0179ee}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="BBY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{5b6cbe1d-c374-463c-a2ba-66c65b78166c}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{ebba87de-d913-483e-a98c-95f795f59d8d}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="BBY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{5b6cbe1d-c374-463c-a2ba-66c65b78166c}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{3b3e47b3-00f1-4e51-a1c1-4927eaef73ac}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="WWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{cbd162d6-7762-419e-887b-c3fa92eaefe7}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="3500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="WWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{3b3e47b3-00f1-4e51-a1c1-4927eaef73ac}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{a8b11820-c46d-447f-bc21-05fe0b4883d1}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="WWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{3b3e47b3-00f1-4e51-a1c1-4927eaef73ac}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{e76c98f2-7ba9-47ce-b28c-7f1637a68d6d}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="WWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{3b3e47b3-00f1-4e51-a1c1-4927eaef73ac}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{7ad5215b-c3b4-4a1a-ac66-e73e733b7218}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="WWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{3b3e47b3-00f1-4e51-a1c1-4927eaef73ac}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{15f2dc60-9a77-4fe5-8321-f23c3cd41ad7}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SIAL" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{bbb8b9a1-6134-46f1-9125-b80e29ea036c}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="5100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SIAL" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{15f2dc60-9a77-4fe5-8321-f23c3cd41ad7}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{be116253-6e6f-44a9-a286-ae86d07f507b}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SIAL" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{15f2dc60-9a77-4fe5-8321-f23c3cd41ad7}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{32ef9380-38c5-4e78-bc39-0f028f1361b9}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SIAL" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{15f2dc60-9a77-4fe5-8321-f23c3cd41ad7}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{05730c65-0a17-418e-8b64-c488d6b19194}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SIAL" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{15f2dc60-9a77-4fe5-8321-f23c3cd41ad7}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{018c2f10-2df3-4882-94b2-8e21b9ba6b1b}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="DD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{e3fda9be-55b5-4f5e-a475-b76ddfea233c}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="DD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{018c2f10-2df3-4882-94b2-8e21b9ba6b1b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{b7e2c6cb-fc85-4646-9498-307c1542bec0}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="3600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="DD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{018c2f10-2df3-4882-94b2-8e21b9ba6b1b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{67f30566-b06d-48ab-8440-4587d0cf03eb}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="DD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{018c2f10-2df3-4882-94b2-8e21b9ba6b1b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{d0303d46-2997-4e29-9c0b-705d90d31d1d}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="DD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{018c2f10-2df3-4882-94b2-8e21b9ba6b1b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5236769-04:00" />
+      <parameter name="externalId0" value="{4497926a-9edd-4454-8875-f0de08e164b7}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="1600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="DD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5236769-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{018c2f10-2df3-4882-94b2-8e21b9ba6b1b}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{9a179692-c368-4a65-ba2c-7a5f82d571cb}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="AOC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.524677-04:00" />
+      <parameter name="externalId0" value="{6c87574a-05ea-42bd-b2b1-42d3d7c7fdd4}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="5100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="AOC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9a179692-c368-4a65-ba2c-7a5f82d571cb}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.524677-04:00" />
+      <parameter name="externalId0" value="{c9e8bd67-f2cb-41fe-bfa0-f0537382c048}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="1200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="AOC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9a179692-c368-4a65-ba2c-7a5f82d571cb}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.524677-04:00" />
+      <parameter name="externalId0" value="{618358fd-e821-413e-8cd9-504420b43803}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="AOC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9a179692-c368-4a65-ba2c-7a5f82d571cb}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.524677-04:00" />
+      <parameter name="externalId0" value="{9867fdd6-0dbf-404c-a6ba-82999268482a}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="3700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="AOC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9a179692-c368-4a65-ba2c-7a5f82d571cb}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.524677-04:00" />
+      <parameter name="externalId0" value="{dfe54da0-4582-43ea-8874-55564270feea}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="AOC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{9a179692-c368-4a65-ba2c-7a5f82d571cb}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{ae988889-1375-4f68-9ae5-3437458f2535}" />
+      <parameter name="isBrokerMatch" value="true" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MRK" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.524677-04:00" />
+      <parameter name="externalId0" value="{9298fc3f-be3a-482a-a426-6aabe64ac2ac}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MRK" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{ae988889-1375-4f68-9ae5-3437458f2535}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.524677-04:00" />
+      <parameter name="externalId0" value="{acf7a08a-0f0b-4f1e-8fc7-b8a452479a2f}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MRK" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{ae988889-1375-4f68-9ae5-3437458f2535}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{3274dd4b-2ccc-4ac7-96f2-00f77fad14ce}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MRK" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.524677-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{ae988889-1375-4f68-9ae5-3437458f2535}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{c78d0efb-3d90-41f8-8a84-f557a6bb1dd7}" />
+      <parameter name="isBrokerMatch" value="true" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="BK" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{6abc7206-ec7b-4e5f-8d97-51d53b1f244d}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="5600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="BK" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{c78d0efb-3d90-41f8-8a84-f557a6bb1dd7}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{f63664f6-60ce-4166-b9d8-92923587e12e}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="BK" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{c78d0efb-3d90-41f8-8a84-f557a6bb1dd7}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{31ff10b5-65a6-4286-b0ae-cf79a6c6dc58}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="FISV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{7c98c1f3-6ec5-40ef-8e2f-a6d021f45b9b}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="FISV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{31ff10b5-65a6-4286-b0ae-cf79a6c6dc58}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{8c2dbf0f-9b5e-4e4d-ab46-774f9ec4a775}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="FISV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{31ff10b5-65a6-4286-b0ae-cf79a6c6dc58}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{f6eb959d-a44c-4b84-98e1-542873cf5652}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="FISV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{31ff10b5-65a6-4286-b0ae-cf79a6c6dc58}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{4cdb8731-63da-4c6e-8dd6-6061adb3d0f3}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="FISV" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{31ff10b5-65a6-4286-b0ae-cf79a6c6dc58}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{601dd722-e8a1-4b5f-b220-8c367da2e5c4}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="C" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{0772b6cb-2fef-497e-a52c-14d85233a3ce}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="C" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{601dd722-e8a1-4b5f-b220-8c367da2e5c4}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{6e60dc99-e680-44ea-a6b2-072fc76b8839}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="C" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{601dd722-e8a1-4b5f-b220-8c367da2e5c4}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{fa890b45-d2af-4f25-9823-d4264e26828f}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="KG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{49760250-dda0-4778-b8d1-25b6e16bf130}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="KG" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{fa890b45-d2af-4f25-9823-d4264e26828f}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{0cb39418-7cce-4547-9aa9-b3f5878f90b2}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{4f7375fb-38c2-46f8-9862-ba9e377d1e6a}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{0cb39418-7cce-4547-9aa9-b3f5878f90b2}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{440ffa51-e3a6-4ec0-b079-6e44b7657ee5}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{0cb39418-7cce-4547-9aa9-b3f5878f90b2}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5276771-04:00" />
+      <parameter name="externalId0" value="{aa75e16b-f83e-4cd7-9812-1b892ab29380}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{0cb39418-7cce-4547-9aa9-b3f5878f90b2}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{568f746f-52b8-4b22-82fd-a43869e23dba}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5276771-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{0cb39418-7cce-4547-9aa9-b3f5878f90b2}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{a0606e25-aecc-4ef4-bb8c-cfc5553a765f}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CSC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{8ba4b0b3-d078-440b-8aae-a1537980a258}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CSC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{a0606e25-aecc-4ef4-bb8c-cfc5553a765f}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{c1fd214f-84a9-4d68-86bb-75706b87b73a}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CSC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{a0606e25-aecc-4ef4-bb8c-cfc5553a765f}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{f1c0f5ed-74f1-45ae-a065-af670b95e557}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CSC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{a0606e25-aecc-4ef4-bb8c-cfc5553a765f}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{02e3f3e8-6a0b-4213-80a3-26d8b85b6f36}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="5500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="CSC" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{a0606e25-aecc-4ef4-bb8c-cfc5553a765f}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{3f60c4f1-60c0-46ac-9f61-54ce18fa4b7f}" />
+      <parameter name="isBrokerMatch" value="true" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="HON" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{e3b5e372-6a27-4284-baee-2e03d3f93130}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="6000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="HON" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{3f60c4f1-60c0-46ac-9f61-54ce18fa4b7f}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{a0cf7b49-3b45-4fe9-8090-6628821f2acc}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="APD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{f73713fb-d3b6-46c7-b964-230c8f8b43ba}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="APD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{a0cf7b49-3b45-4fe9-8090-6628821f2acc}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{ef099aac-9885-48b8-b387-e22d91b51a79}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="8800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="APD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{a0cf7b49-3b45-4fe9-8090-6628821f2acc}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{c72ea91c-5cc1-48f4-bc40-b6daa10019c2}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="1100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="APD" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{a0cf7b49-3b45-4fe9-8090-6628821f2acc}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{dee6bfda-d375-44fe-acf4-e7321bc987b6}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="true" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="STI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{d148d6b5-1708-4fd6-9210-f9d8a9525750}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="STI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dee6bfda-d375-44fe-acf4-e7321bc987b6}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{184d83b8-038d-4ab0-a53b-2009c94082e0}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="6400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="STI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dee6bfda-d375-44fe-acf4-e7321bc987b6}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{b84f9ef6-8ecc-41fd-b18a-1202046d409f}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="STI" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{dee6bfda-d375-44fe-acf4-e7321bc987b6}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{68552280-e2b0-4417-b254-1cc88f1de7f5}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="JBL" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5286772-04:00" />
+      <parameter name="externalId0" value="{45334964-a997-44ab-b1f8-7054cacf33f9}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="5100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="JBL" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5286772-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{68552280-e2b0-4417-b254-1cc88f1de7f5}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{2f49f1de-e22b-436a-bd12-cb694e6a752b}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="GTW" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{ede4aeec-f1f2-4fda-9cf2-776f7749b1c8}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="1600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="GTW" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{2f49f1de-e22b-436a-bd12-cb694e6a752b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{2decf340-aa77-4619-a6df-976038935b96}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="6600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="GTW" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{2f49f1de-e22b-436a-bd12-cb694e6a752b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{5aac1b58-134c-4656-8472-8bb6975829ae}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="4500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="GTW" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{2f49f1de-e22b-436a-bd12-cb694e6a752b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{0b155817-6217-4572-9ffe-7cd9ae7ea07e}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="2500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="GTW" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{2f49f1de-e22b-436a-bd12-cb694e6a752b}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{82d335f3-349e-47f8-ab86-91bee0272d3e}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="6500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="GTW" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{2f49f1de-e22b-436a-bd12-cb694e6a752b}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{40e09e5f-92b6-4866-a29a-4e275e3f09e3}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="true" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{cabcd18c-2ca7-4730-992b-b43fe5206de5}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{40e09e5f-92b6-4866-a29a-4e275e3f09e3}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{7268429f-f1d5-44c4-aaca-a1f64fd54ae3}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="7400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{40e09e5f-92b6-4866-a29a-4e275e3f09e3}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{fb37d1c9-fc27-41c8-a929-734dc2e6b510}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{40e09e5f-92b6-4866-a29a-4e275e3f09e3}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{61a36ac6-4863-4e8b-b82e-20125c0dc55e}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="9700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="SWY" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{40e09e5f-92b6-4866-a29a-4e275e3f09e3}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="GARY STEIN BLOTTER" />
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{229ea8d5-ad91-4d7a-b127-87277b34a65d}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/10/2012 3:27:50 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{2fada754-f8a5-4a2c-9f1c-9de9aa190df6}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="3400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{229ea8d5-ad91-4d7a-b127-87277b34a65d}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="US TICKER" />
+      <parameter name="createdTime" value="2017-05-07T15:27:50.5296773-04:00" />
+      <parameter name="externalId0" value="{f4e5ca41-4ace-4b08-861f-bafe34f42302}" />
+      <parameter name="modifiedTime" value="5/7/2012 3:27:50 PM" />
+      <parameter name="orderedQuantity" value="3600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="MOT" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-10T15:27:50.5296773-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/7/2012 3:27:50 PM" />
+      <parameter name="userKeyByCreatedUserId" value="GARY STEIN" />
+      <parameter name="userKeyByModifiedUserId" value="GARY STEIN" />
+      <parameter name="workingOrderKey" value="{229ea8d5-ad91-4d7a-b127-87277b34a65d}" />
+    </method>
+  </transaction>
+</script>

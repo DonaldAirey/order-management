@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Product Codepage="1252"
+           Id="{133F6A4A-BE73-4401-A54D-B90FBDDC4D7F}"
+           Language="1033"
+           Manufacturer="Teraque Inc."
+           Name="Asset Network Tools"
+           UpgradeCode="{48BBD9B1-F06D-4A12-8B86-058F349D0343}"
+           Version="1.0.0">
+    <Package Compressed="yes"
+             Description="Teraque's Asset Network Tools"
+             Id="*"
+             InstallScope="perMachine"
+             InstallerVersion="200"
+             Keywords="Installer"
+             Manufacturer="Teraque Inc."
+             Platform="x64"
+             SummaryCodepage='1252'/>
+    <Media Id="1"
+           Cabinet="AssetNetworkTools.cab"
+           EmbedCab="yes"
+           DiskPrompt="DVD #1" />
+    <Property Id="DiskPrompt"
+              Value="Teraque Asset Network Tools Installation [1]" />
+
+    <Icon Id="tools.ico" SourceFile="Resources\Tools.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="tools.ico" />
+    <Property Id="ARPNOMODIFY" Value="1" />
+    <PropertyRef Id="NETFRAMEWORK40FULLINSTALLROOTDIR64"/>
+
+    <!-- Target Directory Tree -->
+    <Directory Id="TARGETDIR"
+               Name="SourceDir">
+      <Directory Id="DesktopFolder" Name="Desktop"/>
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="TeraqueFolder"
+                   Name="Teraque">
+          <Directory Id="AssetNetworkFolder"
+                     Name="Asset Network">
+            <Directory Id="INSTALLFOLDER"
+                     Name="Tools"/>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <!-- Installation Folder -->
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="EventLogComponent"
+                 Guid="{81F98E4E-3733-4668-9426-7FBF6B12BC7A}"
+                 KeyPath="yes"
+                 Win64="yes">
+        <util:EventSource Log="Asset Network"
+                          Name="Asset Network Market Console"
+                          EventMessageFile="[NETFRAMEWORK40FULLINSTALLROOTDIR64]EventLogMessages.dll"/>
+        <util:EventSource Log="Asset Network"
+                          Name="Market Simulator"
+                          EventMessageFile="[NETFRAMEWORK40FULLINSTALLROOTDIR64]EventLogMessages.dll"/>
+      </Component>
+      <Component Id="MarketConsoleComponent"
+                 Guid="{EE32BDE4-3532-44BA-9618-D59C0CCD6EA4}"
+                 Win64="yes">
+        <File DiskId="1"
+              Id="MarketConsoleExecutable"
+              KeyPath="yes"
+              Name="Market Console.exe"
+              Source="..\Market Console\bin\$(var.Configuration)\Market Console.exe">
+          <Shortcut Advertise="yes"
+                    Id="MyProductDesktopShortcut"
+                    Directory="DesktopFolder"
+                    Name="Market Console"
+                    WorkingDirectory="INSTALLFOLDER"
+                    Description="Console for managing the Asset Network server and related services."
+                    Icon="MarketConsoleIcon.exe">
+            <Icon Id="MarketConsoleIcon.exe" SourceFile="..\Market Console\bin\$(var.Configuration)\Market Console.exe" />
+          </Shortcut>
+        </File>
+        <File DiskId="1"
+              Id="MarketConsoleConfig"
+              Name="Market Console.exe.config"
+              Source="Market Console.exe.config"/>
+        <File Id="SourcesData"
+              DiskId="1"
+              Name="Sources.xml"
+              Source="Sources.xml"/>
+        <File Id="TenantsData"
+              DiskId="1"
+              Name="Tenants.xml"
+              Source="Tenants.xml"/>
+      </Component>
+      <Component Id="MarketSimulatorComponent"
+                 Guid="{46836FCB-0371-4F5D-B32C-130787A6D9F1}"
+                 Win64="yes">
+        <File DiskId="1"
+              Id="MarketSimulatorExecutable"
+              KeyPath="yes"
+              Name="Market Simulator.exe"
+              Source="..\Market Simulator\bin\$(var.Configuration)\Market Simulator.exe"/>
+        <File DiskId="1"
+              Id="MarketSimulatorConfig"
+              Name="Market Simulator.exe.config"
+              Source="Market Simulator.exe.config"/>
+        <File Id="BrokersData"
+              DiskId="1"
+              Name="Brokers.xml"
+              Source="Brokers.xml"/>
+        <File Id="CanadaTickerPricesData"
+              DiskId="1"
+              Name="Canada Ticker Prices.xml"
+              Source="Canada Ticker Prices.xml"/>
+        <File Id="UnitedKingdomTickerPricesData"
+              DiskId="1"
+              Name="United Kingdom Ticker Prices.xml"
+              Source="United Kingdom Ticker Prices.xml"/>
+        <File Id="UnitedStatesTickerPricesData"
+              DiskId="1"
+              Name="United States Ticker Prices.xml"
+              Source="United States Ticker Prices.xml"/>
+        <ServiceInstall Id="ServiceInstaller"
+                        Type="ownProcess"
+                        Vital="yes"
+                        Name="AssetNetworkSimulator"
+                        DisplayName="Asset Network Market Simulator"
+                        Description="Simulates market conditions, broker executions, price updates, etc."
+                        Start="auto"
+                        Account="LocalSystem"
+                        ErrorControl="ignore"
+                        Interactive="no">
+          <ServiceDependency Id="AssetNetworkWebService"/>
+        </ServiceInstall>
+        <ServiceControl Id="StartService"
+                        Start="install"
+                        Stop="both"
+                        Remove="uninstall"
+                        Name="AssetNetworkSimulator"
+                        Wait="yes" />
+      </Component>
+      <Component Guid="{E2223D05-793E-4A1D-B02B-D54C109E1531}"
+                 Id="TeraqueAssetNetworkMarketClientComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkMarketClientLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.MarketClient.dll"
+              Source="..\Teraque.AssetNetwork.MarketClient\bin\$(var.Configuration)\Teraque.AssetNetwork.MarketClient.dll"/>
+      </Component>
+      <Component Guid="{23A7495C-11B7-41C9-8386-E86E51A6473F}"
+                 Id="TeraqueAssetNetworkWebClientComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkWebClientLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.WebClient.dll"
+              Source="..\..\Teraque.AssetNetwork.WebClient\bin\$(var.Configuration)\Teraque.AssetNetwork.WebClient.dll"/>
+      </Component>
+      <Component Guid="{8719C77A-0B9B-49D8-8C9E-B20DD47A1776}"
+                 Id="TeraqueMessageComponent"
+                 Win64="yes">
+        <File Id="TeraqueMessageLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.Message.dll"
+              Source="..\..\..\Teraque.Message\bin\$(var.Configuration)\Teraque.Message.dll"/>
+      </Component>
+      <Component Guid="{741449C0-2B59-47B0-9479-57811110CBCA}"
+                 Id="TeraquePresentationFrameworkComponent"
+                 Win64="yes">
+        <File Id="TeraquePresentationFrameworkLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.PresentationFramework.dll"
+              Source="..\..\..\Teraque.PresentationFramework\bin\$(var.Configuration)\Teraque.PresentationFramework.dll"/>
+      </Component>
+      <Component Guid="{21F2F938-F812-4ABC-BB0D-46E3D128C4CE}"
+                 Id="TeraqueComponent"
+                 Win64="yes">
+        <File Id="TeraqueLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.dll"
+              Source="..\..\..\Teraque\bin\$(var.Configuration)\Teraque.dll"/>
+      </Component>
+      <Component Guid="{CE8B8CDD-D777-4A47-9458-BF08AA8248C7}"
+                 Id="TeraqueAssetNetworkComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.dll"
+              Source="..\..\Teraque.AssetNetwork\bin\$(var.Configuration)\Teraque.AssetNetwork.dll"/>
+      </Component>
+      <Component Guid="{97F3EA89-2FA5-43E9-8F5B-AB903C29D0D4}"
+                 Id="TeraqueServerComponent"
+                 Win64="yes">
+        <File Id="TeraqueServerLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.Server.dll"
+              Source="..\..\..\Teraque.Server\bin\$(var.Configuration)\Teraque.Server.dll"/>
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="Complete"
+             Title="Market Console"
+             Description="This utility manages the running of the tenants in the server."
+             Display="expand"
+             ConfigurableDirectory="INSTALLFOLDER"
+             Level="1">
+      <ComponentRef Id="EventLogComponent" />
+      <ComponentRef Id="MarketConsoleComponent" />
+      <ComponentRef Id="MarketSimulatorComponent" />
+      <ComponentRef Id="TeraqueComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkMarketClientComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkWebClientComponent" />
+      <ComponentRef Id="TeraqueMessageComponent" />
+      <ComponentRef Id="TeraquePresentationFrameworkComponent" />
+      <ComponentRef Id="TeraqueServerComponent" />
+    </Feature>
+
+    <WixVariable Id="WixUIBannerBmp" Value="Resources\Banner.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Resources\Welcome.bmp" />
+
+    <UI Id="WixUI_Minimal">
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Tahoma" Size="9" Bold="yes" />
+
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WixUI_Mode" Value="Minimal" />
+
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+      <DialogRef Id="WelcomeDlg" />
+
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="PrepareDlg">1</Publish>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1</Publish>
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceWelcomeDlg" Control="Next" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg">1</Publish>
+    </UI>
+
+    <UIRef Id="WixUI_Common" />
+
+  </Product>
+
+</Wix>

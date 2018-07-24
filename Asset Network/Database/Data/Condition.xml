@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Condition">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreCondition">
+      <parameter name="conditionCode" value="AllOrNone" />
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="All or None" />
+      <parameter name="externalId0" value="AON" />
+      <parameter name="mnemonic" value="AON" />
+    </method>
+    <method name="StoreCondition">
+      <parameter name="conditionCode" value="DoNotReduce" />
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="Do Not Reduce" />
+      <parameter name="externalId0" value="DNR" />
+      <parameter name="mnemonic" value="DNR" />
+    </method>
+    <method name="StoreCondition">
+      <parameter name="conditionCode" value="AllOrNoneDoNotReduce" />
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="All or None/Do Not Reduce" />
+      <parameter name="externalId0" value="AONDNR" />
+      <parameter name="mnemonic" value="AONDNR" />
+    </method>
+  </transaction>
+</script>

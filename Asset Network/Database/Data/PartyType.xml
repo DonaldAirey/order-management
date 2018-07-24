@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="PartyType">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StorePartyType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="The Desk of a Agency Broker" />
+      <parameter name="externalId0" value="AGENCY" />
+      <parameter name="mnemonic" value="Agency" />
+      <parameter name="partyTypeCode" value="Agency" />
+    </method>
+    <method name="StorePartyType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="The Desk of a Broker/Dealer" />
+      <parameter name="externalId0" value="BROKER" />
+      <parameter name="mnemonic" value="Broker" />
+      <parameter name="partyTypeCode" value="Broker" />
+    </method>
+    <method name="StorePartyType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="Hedge Fund" />
+      <parameter name="externalId0" value="HEDGE FUND" />
+      <parameter name="mnemonic" value="Hedge" />
+      <parameter name="partyTypeCode" value="Hedge" />
+    </method>
+    <method name="StorePartyType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="Traditional Mutual Fund or Money Manager" />
+      <parameter name="externalId0" value="INSTITUTION" />
+      <parameter name="mnemonic" value="Institution" />
+      <parameter name="partyTypeCode" value="Institution" />
+    </method>
+    <method name="StorePartyType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="Use the parent setting" />
+      <parameter name="externalId0" value="USE PARENT" />
+      <parameter name="mnemonic" value="Use Parent" />
+      <parameter name="partyTypeCode" value="UseParent" />
+    </method>
+    <method name="StorePartyType">
+      <parameter name="configurationId" value="Default" />
+      <parameter name="description" value="Not a valid counter party" />
+      <parameter name="externalId0" value="NOT VALID" />
+      <parameter name="mnemonic" value="Not Valid" />
+      <parameter name="partyTypeCode" value="NotValid" />
+    </method>
+  </transaction>
+</script>

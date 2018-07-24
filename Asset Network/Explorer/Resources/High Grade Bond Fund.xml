@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<array>
+  <string>header1Cell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>AMERICAN INTL GROUP</string>
+  <date>2018-09-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>97.4319000</real>
+  <real>2385000.0000000</real>
+  <real>2380334.9400000</real>
+  <real>2380334.9400000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>AVIATION CAPITAL GROUP 144A W/O RTS</string>
+  <date>2021-11-29T16:06:48Z</date>
+  <string>Long</string>
+  <real>93.8160000</real>
+  <real>1015000.0000000</real>
+  <real>964793.0300000</real>
+  <real>964793.0300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>BANK OF AMERICA CORP</string>
+  <date>2021-08-30T16:06:48Z</date>
+  <string>Long</string>
+  <real>94.4340000</real>
+  <real>1345000.0000000</real>
+  <real>1304598.2500000</real>
+  <real>1304598.2500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>BEAR STEARNS CO INC</string>
+  <date>2018-05-28T16:06:48Z</date>
+  <string>Long</string>
+  <real>110.5576000</real>
+  <real>1605000.0000000</real>
+  <real>1794422.8100000</real>
+  <real>1794422.8100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>CIGNA CORP</string>
+  <date>2022-10-09T16:06:48Z</date>
+  <string>Long</string>
+  <real>97.6000000</real>
+  <real>1100000.0000000</real>
+  <real>1077511.1100000</real>
+  <real>1077511.1100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>CNA FINANCIAL CORP</string>
+  <date>2022-04-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>101.6668000</real>
+  <real>450000.0000000</real>
+  <real>465909.9800000</real>
+  <real>465909.9800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>GENERAL ELEC CAP CORP</string>
+  <date>2016-07-04T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.9953000</real>
+  <real>1585000.0000000</real>
+  <real>1588194.5700000</real>
+  <real>1588194.5700000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>GENERAL ELEC CAP CORP</string>
+  <date>2021-10-06T16:06:48Z</date>
+  <string>Long</string>
+  <real>104.9182000</real>
+  <real>585000.0000000</real>
+  <real>624192.5900000</real>
+  <real>624192.5900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>GENERAL ELEC CAP CORP</string>
+  <date>2022-06-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>102.1827000</real>
+  <real>2030000.0000000</real>
+  <real>2088730.2800000</real>
+  <real>2088730.2800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>GENERAL ELEC CAP CORP</string>
+  <date>2038-03-29T16:06:48Z</date>
+  <string>Long</string>
+  <real>104.5095000</real>
+  <real>2090000.0000000</real>
+  <real>2228878.7400000</real>
+  <real>2228878.7400000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>HEALTH CARE SVCS CORP 144A W/O RTS</string>
+  <date>2021-09-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>106.0367000</real>
+  <real>860000.0000000</real>
+  <real>928420.4500000</real>
+  <real>928420.4500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>HIGHWOODS PPTY INC SR NTS</string>
+  <date>2018-12-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>111.6767000</real>
+  <real>675000.0000000</real>
+  <real>761833.3500000</real>
+  <real>761833.3500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>MORGAN STANLEY</string>
+  <date>2017-12-22T16:06:48Z</date>
+  <string>Long</string>
+  <real>95.6079000</real>
+  <real>2510000.0000000</real>
+  <real>2417171.4200000</real>
+  <real>2417171.4200000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>MORGAN STANLEY</string>
+  <date>2018-08-24T16:06:48Z</date>
+  <string>Long</string>
+  <real>95.6009000</real>
+  <real>260000.0000000</real>
+  <real>255609.7800000</real>
+  <real>255609.7800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>PROGRESSIVE CORP</string>
+  <date>2022-04-17T16:06:48Z</date>
+  <string>Long</string>
+  <real>102.4165000</real>
+  <real>215000.0000000</real>
+  <real>222659.0200000</real>
+  <real>222659.0200000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>SIMON PROPERTY GROUP LP</string>
+  <date>2017-07-29T16:06:48Z</date>
+  <string>Long</string>
+  <real>110.8833000</real>
+  <real>15000.0000000</real>
+  <real>16656.5600000</real>
+  <real>16656.5600000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>SIMON PROPERTY GROUP LP</string>
+  <date>2019-11-27T16:06:48Z</date>
+  <string>Long</string>
+  <real>135.6301000</real>
+  <real>195000.0000000</real>
+  <real>268459.1400000</real>
+  <real>268459.1400000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>SLM CORP</string>
+  <date>2016-09-18T16:06:48Z</date>
+  <string>Long</string>
+  <real>96.0000000</real>
+  <real>1495000.0000000</real>
+  <real>1470758.1600000</real>
+  <real>1470758.1600000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>WACHOVIA CORP</string>
+  <date>2018-02-08T16:06:48Z</date>
+  <string>Long</string>
+  <real>113.6857000</real>
+  <real>1850000.0000000</real>
+  <real>2155486.4900000</real>
+  <real>2155486.4900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <string>WELLPOINT INC</string>
+  <date>2021-04-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>106.6593000</real>
+  <real>1220000.0000000</real>
+  <real>1318491.2100000</real>
+  <real>1318491.2100000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>FINANCIAL INSTITUTIONS</string>
+  <real>23485000.0000000</real>
+  <real>24333111.8800000</real>
+  <real>24333111.8800000</real>
+</array>
+<array>
+  <string>header1Cell</string>
+  <string>INDUSTRIAL</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>ALTRIA GROUP INC</string>
+  <date>2021-12-29T16:06:48Z</date>
+  <string>Long</string>
+  <real>106.3518000</real>
+  <real>1630000.0000000</real>
+  <real>1741491.9200000</real>
+  <real>1741491.9200000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>AMERICAN TOWER CORP</string>
+  <date>2018-09-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>100.7698000</real>
+  <real>1135000.0000000</real>
+  <real>1164592.8600000</real>
+  <real>1164592.8600000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>AMGEN INC</string>
+  <date>2022-07-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>98.9490000</real>
+  <real>1610000.0000000</real>
+  <real>1598624.4600000</real>
+  <real>1598624.4600000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>AOL TIME WARNER BDS</string>
+  <date>2032-12-22T16:06:48Z</date>
+  <string>Long</string>
+  <real>126.0495000</real>
+  <real>1205000.0000000</real>
+  <real>1529463.6600000</real>
+  <real>1529463.6600000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>ARISTOTLE HOLDING INC 144A W/RTS</string>
+  <date>2022-07-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>102.0287000</real>
+  <real>1045000.0000000</real>
+  <real>1069095.4400000</real>
+  <real>1069095.4400000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>AT&amp;T INC</string>
+  <date>2017-04-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>101.4112000</real>
+  <real>1325000.0000000</real>
+  <real>1353768.4000000</real>
+  <real>1353768.4000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>AT&amp;T INC</string>
+  <date>2038-09-06T16:06:48Z</date>
+  <string>Long</string>
+  <real>116.5730000</real>
+  <real>2380000.0000000</real>
+  <real>2835662.9000000</real>
+  <real>2835662.9000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>BARRICK NA FINANCE LLC</string>
+  <date>2022-01-23T16:06:48Z</date>
+  <string>Long</string>
+  <real>105.3476000</real>
+  <real>1440000.0000000</real>
+  <real>1519117.4400000</real>
+  <real>1519117.4400000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>BORGWARNER INC</string>
+  <date>2021-05-09T16:06:48Z</date>
+  <string>Long</string>
+  <real>104.9183000</real>
+  <real>360000.0000000</real>
+  <real>381729.6300000</real>
+  <real>381729.6300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>CAMERON INTL CORP</string>
+  <date>2022-01-27T16:06:48Z</date>
+  <string>Long</string>
+  <real>105.0809000</real>
+  <real>825000.0000000</real>
+  <real>868051.8100000</real>
+  <real>868051.8100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>CATERPILLAR FIN SERV CRP</string>
+  <date>2018-12-11T16:06:48Z</date>
+  <string>Long</string>
+  <real>115.8878000</real>
+  <real>1665000.0000000</real>
+  <real>1943899.4300000</real>
+  <real>1943899.4300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>COMCAST CORP</string>
+  <date>2017-02-08T16:06:48Z</date>
+  <string>Long</string>
+  <real>110.6824000</real>
+  <real>470000.0000000</real>
+  <real>531645.9100000</real>
+  <real>531645.9100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>ECOLAB INC</string>
+  <date>2022-08-01T16:06:48Z</date>
+  <string>Long</string>
+  <real>103.9094000</real>
+  <real>385000.0000000</real>
+  <real>400237.2700000</real>
+  <real>400237.2700000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>EI DU PONT DE NEMOUR &amp; C</string>
+  <date>2021-09-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>106.4606000</real>
+  <real>790000.0000000</real>
+  <real>852732.3900000</real>
+  <real>852732.3900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>ERAC USA FINANCE COMPANY 144A W/O RTS</string>
+  <date>2021-05-27T16:06:48Z</date>
+  <string>Long</string>
+  <real>105.7346000</real>
+  <real>660000.0000000</real>
+  <real>704682.1100000</real>
+  <real>704682.1100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>INCITEC PIVOT FIN LLC 144A W/O RTS</string>
+  <date>2020-08-05T16:06:48Z</date>
+  <string>Long</string>
+  <real>106.4878310</real>
+  <real>475000.0000000</real>
+  <real>529191.8000000</real>
+  <real>529191.8000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>MASCO CORP</string>
+  <date>2020-11-07T16:06:48Z</date>
+  <string>Long</string>
+  <real>100.4231000</real>
+  <real>620000.0000000</real>
+  <real>633298.8500000</real>
+  <real>633298.8500000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>MOSAIC CO</string>
+  <date>2022-07-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>99.5515000</real>
+  <real>265000.0000000</real>
+  <real>265136.4700000</real>
+  <real>265136.4700000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>NABORS INDUSTRIES INC</string>
+  <date>2018-10-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>110.7580000</real>
+  <real>2820000.0000000</real>
+  <real>3179740.3600000</real>
+  <real>3179740.3600000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>NBC UNIVERSAL</string>
+  <date>2020-12-25T16:06:48Z</date>
+  <string>Long</string>
+  <real>109.9511000</real>
+  <real>1095000.0000000</real>
+  <real>1210543.6800000</real>
+  <real>1210543.6800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>NEWS AMERICA INC</string>
+  <date>2035-08-05T16:06:48Z</date>
+  <string>Long</string>
+  <real>107.7200000</real>
+  <real>865000.0000000</real>
+  <real>958146.0800000</real>
+  <real>958146.0800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>OCCIDENTAL PETROLEUM COR</string>
+  <date>2022-10-09T16:06:48Z</date>
+  <string>Long</string>
+  <real>100.6033000</real>
+  <real>880000.0000000</real>
+  <real>894017.3700000</real>
+  <real>894017.3700000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>OMNICOM GROUP INC</string>
+  <date>2021-04-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>101.7667000</real>
+  <real>1010000.0000000</real>
+  <real>1042450.8000000</real>
+  <real>1042450.8000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>OWENS CORNING INC</string>
+  <date>2020-02-08T16:06:48Z</date>
+  <string>Long</string>
+  <real>119.8916000</real>
+  <real>880000.0000000</real>
+  <real>1093986.0800000</real>
+  <real>1093986.0800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>ROCHE HLDGS INC 144A W/O RTS</string>
+  <date>2019-10-25T16:06:48Z</date>
+  <string>Long</string>
+  <real>119.8166000</real>
+  <real>965000.0000000</real>
+  <real>1174382.1700000</real>
+  <real>1174382.1700000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>TIME WARNER CABLE INC</string>
+  <date>2040-02-03T16:06:48Z</date>
+  <string>Long</string>
+  <real>115.5882000</real>
+  <real>1810000.0000000</real>
+  <real>2152215.8100000</real>
+  <real>2152215.8100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>WAL-MART STORES INC</string>
+  <date>2041-12-05T16:06:48Z</date>
+  <string>Long</string>
+  <real>123.9186000</real>
+  <real>1610000.0000000</real>
+  <real>2009428.5100000</real>
+  <real>2009428.5100000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>WILLIAMS CO NTS</string>
+  <date>2022-04-24T16:06:48Z</date>
+  <string>Long</string>
+  <real>125.3778000</real>
+  <real>287000.0000000</real>
+  <real>366175.2000000</real>
+  <real>366175.2000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>INDUSTRIAL</string>
+  <string>WYNDHAM WORLDWIDE</string>
+  <date>2020-10-24T16:06:48Z</date>
+  <string>Long</string>
+  <real>112.9237000</real>
+  <real>1680000.0000000</real>
+  <real>1931878.9900000</real>
+  <real>1931878.9900000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>INDUSTRIAL</string>
+  <real>32187000.0000000</real>
+  <real>35935387.8000000</real>
+  <real>35935387.8000000</real>
+</array>
+<array>
+  <string>header1Cell</string>
+  <string>UTILITY</string>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>UTILITY</string>
+  <string>EDISON INTERNATIONAL</string>
+  <date>2018-05-10T16:06:48Z</date>
+  <string>Long</string>
+  <real>102.7011000</real>
+  <real>1265000.0000000</real>
+  <real>1310632.9800000</real>
+  <real>1310632.9800000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>UTILITY</string>
+  <string>ENERGY TRANSFER PARTNERS</string>
+  <date>2022-01-27T16:06:48Z</date>
+  <string>Long</string>
+  <real>96.4057000</real>
+  <real>370000.0000000</real>
+  <real>357226.8000000</real>
+  <real>357226.8000000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>UTILITY</string>
+  <string>PACIFIC GAS &amp; ELECTRIC</string>
+  <date>2034-10-21T16:06:48Z</date>
+  <string>Long</string>
+  <real>121.1567000</real>
+  <real>525000.0000000</real>
+  <real>644983.8300000</real>
+  <real>644983.8300000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>UTILITY</string>
+  <string>SOUTHERN NATURAL GAS</string>
+  <date>2032-10-21T16:06:48Z</date>
+  <string>Long</string>
+  <real>120.8427000</real>
+  <real>925000.0000000</real>
+  <real>1138556.0900000</real>
+  <real>1138556.0900000</real>
+</array>
+<array>
+  <string>detailCell</string>
+  <string>UTILITY</string>
+  <string>SOUTHWESTERN ELEC POWER</string>
+  <date>2040-11-02T16:06:48Z</date>
+  <string>Long</string>
+  <real>118.4022000</real>
+  <real>1565000.0000000</real>
+  <real>1876443.3500000</real>
+  <real>1876443.3500000</real>
+</array>
+<array>
+  <string>footer1Cell</string>
+  <string>UTILITY</string>
+  <real>4650000.0000000</real>
+  <real>5327843.0500000</real>
+  <real>5327843.0500000</real>
+</array>
+<array>
+  <string>footerCell</string>
+  <real>60322000.0000000</real>
+  <real>65596342.7300000</real>
+  <real>65596342.7300000</real>
+</array>

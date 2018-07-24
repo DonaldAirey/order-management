@@ -1,0 +1,1749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="MSSA Bucket">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="0" />
+		<parameter name="name" value="None" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1" />
+		<parameter name="name" value="US Treasury" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="10" />
+		<parameter name="name" value="Emerging Markets Debt" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="100" />
+		<parameter name="name" value="USD Below Investment Grade - Financial" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1000" />
+		<parameter name="name" value="Non USD - Micronesia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1005" />
+		<parameter name="name" value="Non USD - Misc" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1010" />
+		<parameter name="name" value="Non USD - Moldova" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1015" />
+		<parameter name="name" value="Non USD - Monaco" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1020" />
+		<parameter name="name" value="Non USD - Mongolia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1025" />
+		<parameter name="name" value="Non USD - Montserrat" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1030" />
+		<parameter name="name" value="Non USD - Mozambique" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1035" />
+		<parameter name="name" value="Non USD - MULTI-NATIONAL" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1040" />
+		<parameter name="name" value="Non USD - Myanmar" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1045" />
+		<parameter name="name" value="Non USD - Namibia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="105" />
+		<parameter name="name" value="USD Below Investment Grade - Banking" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1050" />
+		<parameter name="name" value="Non USD - Nauru Island" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1055" />
+		<parameter name="name" value="Non USD - Nepal" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1060" />
+		<parameter name="name" value="Non USD - Netherlands" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1065" />
+		<parameter name="name" value="Non USD - Netherlands Antilles" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1070" />
+		<parameter name="name" value="Non USD - New Caledonia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1075" />
+		<parameter name="name" value="Non USD - New Zealand" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1080" />
+		<parameter name="name" value="Non USD - Nicaragua" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1085" />
+		<parameter name="name" value="Non USD - Niger Republic" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1090" />
+		<parameter name="name" value="Non USD - Norfolk Island" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1095" />
+		<parameter name="name" value="Non USD - North Korea" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="11" />
+		<parameter name="name" value="Convertibles" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="110" />
+		<parameter name="name" value="USD Below Investment Grade - Other Finance" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1100" />
+		<parameter name="name" value="Non USD - Northern Marian" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1105" />
+		<parameter name="name" value="Non USD - Norway" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1110" />
+		<parameter name="name" value="Non USD - Oman" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1115" />
+		<parameter name="name" value="Non USD - Other" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1120" />
+		<parameter name="name" value="Non USD - Palau" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1125" />
+		<parameter name="name" value="Non USD - Palestine" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1130" />
+		<parameter name="name" value="Non USD - Panama Canal Zo" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1135" />
+		<parameter name="name" value="Non USD - Papua New Guinea" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1140" />
+		<parameter name="name" value="Non USD - Paraguay" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1145" />
+		<parameter name="name" value="Non USD - Pitcairn Is." />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="115" />
+		<parameter name="name" value="USD Below Investment Grade - Industrial" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1150" />
+		<parameter name="name" value="Non USD - Poland" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1155" />
+		<parameter name="name" value="Non USD - Portugal" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1160" />
+		<parameter name="name" value="Non USD - Puerto Rico" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1165" />
+		<parameter name="name" value="Non USD - Qatar" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1170" />
+		<parameter name="name" value="Non USD - Republic of South Korea" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1175" />
+		<parameter name="name" value="Non USD - Reunion" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1180" />
+		<parameter name="name" value="Non USD - Rwanda" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1185" />
+		<parameter name="name" value="Non USD - S.Georgia/S.San" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1190" />
+		<parameter name="name" value="Non USD - Samoa" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1195" />
+		<parameter name="name" value="Non USD - Samoa (West)" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="12" />
+		<parameter name="name" value="Preferred/Equity" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="120" />
+		<parameter name="name" value="USD Below Investment Grade - Basic Industry" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1200" />
+		<parameter name="name" value="Non USD - San Marino" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1205" />
+		<parameter name="name" value="Non USD - Sao Tome" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1210" />
+		<parameter name="name" value="Non USD - Saudi Arabia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1215" />
+		<parameter name="name" value="Non USD - SENEGAL" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1220" />
+		<parameter name="name" value="Non USD - Serbia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1225" />
+		<parameter name="name" value="Non USD - Seychelles" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1230" />
+		<parameter name="name" value="Non USD - Sierra Leone" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1235" />
+		<parameter name="name" value="Non USD - Singapore" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1240" />
+		<parameter name="name" value="Non USD - Slovenia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1245" />
+		<parameter name="name" value="Non USD - Solomon Island" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="125" />
+		<parameter name="name" value="USD Below Investment Grade - Capital Goods" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1250" />
+		<parameter name="name" value="Non USD - Somali" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1255" />
+		<parameter name="name" value="Non USD - Spain" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1260" />
+		<parameter name="name" value="Non USD - Sri Lanka" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1265" />
+		<parameter name="name" value="Non USD - St. Helena" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1270" />
+		<parameter name="name" value="Non USD - St. Kitts &amp; Nev" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1275" />
+		<parameter name="name" value="Non USD - ST. LUCIA" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1280" />
+		<parameter name="name" value="Non USD - St. Vincent" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1285" />
+		<parameter name="name" value="Non USD - Sudan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1290" />
+		<parameter name="name" value="Non USD - Supra National" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1295" />
+		<parameter name="name" value="Non USD - Suriname" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="13" />
+		<parameter name="name" value="Cash &amp; Equivalents" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="130" />
+		<parameter name="name" value="USD Below Investment Grade - Communications" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1300" />
+		<parameter name="name" value="Non USD - Svalbard &amp; Jan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1305" />
+		<parameter name="name" value="Non USD - Swaziland" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1310" />
+		<parameter name="name" value="Non USD - Sweden" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1315" />
+		<parameter name="name" value="Non USD - Switzerland" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1320" />
+		<parameter name="name" value="Non USD - Syria" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1325" />
+		<parameter name="name" value="Non USD - System" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1330" />
+		<parameter name="name" value="Non USD - Taiwan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1335" />
+		<parameter name="name" value="Non USD - Tajikistan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1340" />
+		<parameter name="name" value="Non USD - Tanzania" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1345" />
+		<parameter name="name" value="Non USD - Togo" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="135" />
+		<parameter name="name" value="USD Below Investment Grade - Consumer Cyclical" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1350" />
+		<parameter name="name" value="Non USD - Tokelau" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1355" />
+		<parameter name="name" value="Non USD - Tonga" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1360" />
+		<parameter name="name" value="Non USD - Trinidad &amp; Tobago" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1365" />
+		<parameter name="name" value="Non USD - Tunisia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1370" />
+		<parameter name="name" value="Non USD - TURKMENISTAN" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1375" />
+		<parameter name="name" value="Non USD - Turks &amp; Caicos" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1380" />
+		<parameter name="name" value="Non USD - Tuvalu" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1385" />
+		<parameter name="name" value="Non USD - U.S. Minor Outl" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1390" />
+		<parameter name="name" value="Non USD - Uganda" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1395" />
+		<parameter name="name" value="Non USD - Unclassified" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="14" />
+		<parameter name="name" value="MUNI" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="140" />
+		<parameter name="name" value="USD Below Investment Grade - Consumer Non Cyclical" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1400" />
+		<parameter name="name" value="Non USD - United Arab Emirates" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1405" />
+		<parameter name="name" value="Non USD - United Kingdom" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1407" />
+		<parameter name="name" value="Non USD - United States" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1410" />
+		<parameter name="name" value="Non USD - US Virgin Islands" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1415" />
+		<parameter name="name" value="Non USD - Uzbekistan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1420" />
+		<parameter name="name" value="Non USD - Vanuatu" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1425" />
+		<parameter name="name" value="Non USD - Vatican" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1430" />
+		<parameter name="name" value="Non USD - Wallis &amp; Futuna" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1435" />
+		<parameter name="name" value="Non USD - Western Sahara" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1440" />
+		<parameter name="name" value="Non USD - Yemen" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1445" />
+		<parameter name="name" value="Non USD - Zambia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="145" />
+		<parameter name="name" value="USD Below Investment Grade - Energy" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1450" />
+		<parameter name="name" value="Non USD - Zimbabwe" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1455" />
+		<parameter name="name" value="Convertibles" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1460" />
+		<parameter name="name" value="Bank Loans" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1465" />
+		<parameter name="name" value="Preferreds" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1470" />
+		<parameter name="name" value="Other" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="1475" />
+		<parameter name="name" value="Cash and Equivalents" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="15" />
+		<parameter name="name" value="Bank Loans" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="150" />
+		<parameter name="name" value="USD Below Investment Grade - Industrial Other" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="155" />
+		<parameter name="name" value="USD Below Investment Grade - Technology" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="16" />
+		<parameter name="name" value="Total" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="160" />
+		<parameter name="name" value="USD Below Investment Grade - Transportation" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="165" />
+		<parameter name="name" value="USD Below Investment Grade - Utility" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="17" />
+		<parameter name="name" value="Commodities" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="170" />
+		<parameter name="name" value="USD Below Investment Grade - BA" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="175" />
+		<parameter name="name" value="USD Below Investment Grade - B" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="180" />
+		<parameter name="name" value="USD Below Investment Grade - CAA &amp; Lower" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="185" />
+		<parameter name="name" value="USD Corporate - NR" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="190" />
+		<parameter name="name" value="Emerging Markets" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="195" />
+		<parameter name="name" value="Emerging Markets - Algeria" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="2" />
+		<parameter name="name" value="US Agency" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="20" />
+		<parameter name="name" value="USD Corporate - Other Finance" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="200" />
+		<parameter name="name" value="Emerging Markets - Argentina" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="205" />
+		<parameter name="name" value="Emerging Markets - Brazil" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="210" />
+		<parameter name="name" value="Emerging Markets - Bulgaria" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="215" />
+		<parameter name="name" value="Emerging Markets - Colombia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="220" />
+		<parameter name="name" value="Emerging Markets - Costa Rica" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="225" />
+		<parameter name="name" value="Emerging Markets - Croatia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="230" />
+		<parameter name="name" value="Emerging Markets - Dominican Republic" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="235" />
+		<parameter name="name" value="Emerging Markets - Ecuador" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="240" />
+		<parameter name="name" value="Emerging Markets - Egypt" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="245" />
+		<parameter name="name" value="Emerging Markets - El Salvador" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="25" />
+		<parameter name="name" value="USD Corporate - Industrial" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="250" />
+		<parameter name="name" value="Emerging Markets - Guatemala" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="255" />
+		<parameter name="name" value="Emerging Markets - India" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="260" />
+		<parameter name="name" value="Emerging Markets - Indonesia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="265" />
+		<parameter name="name" value="Emerging Markets - Ivory Coast" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="270" />
+		<parameter name="name" value="Emerging Markets - Jamaica" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="275" />
+		<parameter name="name" value="Emerging Markets - Kazakhstan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="280" />
+		<parameter name="name" value="Emerging Markets - Lebanon" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="290" />
+		<parameter name="name" value="Emerging Markets - Morocco" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="295" />
+		<parameter name="name" value="Emerging Markets - Nigeria" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="3" />
+		<parameter name="name" value="Investment Grade Credit" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="30" />
+		<parameter name="name" value="USD Corporate - Basic Industry" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="300" />
+		<parameter name="name" value="Emerging Markets - Pakistan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="305" />
+		<parameter name="name" value="Emerging Markets - Panama" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="310" />
+		<parameter name="name" value="Emerging Markets - Peru" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="315" />
+		<parameter name="name" value="Emerging Markets - Philippines" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="320" />
+		<parameter name="name" value="Emerging Markets - Romania" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="325" />
+		<parameter name="name" value="Emerging Markets - Russia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="330" />
+		<parameter name="name" value="Emerging Markets - Slovakia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="335" />
+		<parameter name="name" value="Emerging Markets - South Africa" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="340" />
+		<parameter name="name" value="Emerging Markets - Thailand" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="345" />
+		<parameter name="name" value="Emerging Markets - Turkey" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="35" />
+		<parameter name="name" value="USD Corporate - Capital Goods" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="350" />
+		<parameter name="name" value="Emerging Markets - Ukraine" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="355" />
+		<parameter name="name" value="Emerging Markets - Uruguay" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="360" />
+		<parameter name="name" value="Emerging Markets - Venezuela" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="365" />
+		<parameter name="name" value="Emerging Markets - Vietnam" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="370" />
+		<parameter name="name" value="Non USD" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="375" />
+		<parameter name="name" value="Non USD - Afghanistan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="380" />
+		<parameter name="name" value="Non USD - Albania" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="385" />
+		<parameter name="name" value="Non USD - Andorra" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="390" />
+		<parameter name="name" value="Non USD - Angola" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="395" />
+		<parameter name="name" value="Non USD - Anguilla" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="4" />
+		<parameter name="name" value="CMBS" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="40" />
+		<parameter name="name" value="USD Corporate - Communications" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="400" />
+		<parameter name="name" value="Non USD - Antarctica" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="405" />
+		<parameter name="name" value="Non USD - Antigua &amp; Barbu" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="410" />
+		<parameter name="name" value="Non USD - Armenia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="415" />
+		<parameter name="name" value="Non USD - Aruba" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="420" />
+		<parameter name="name" value="Non USD - Australia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="425" />
+		<parameter name="name" value="Non USD - Austria" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="430" />
+		<parameter name="name" value="Non USD - Azerbaijan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="435" />
+		<parameter name="name" value="Non USD - Bahamas" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="440" />
+		<parameter name="name" value="Non USD - Bahrain" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="445" />
+		<parameter name="name" value="Non USD - Bangladesh" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="45" />
+		<parameter name="name" value="USD Corporate - Consumer Cyclical" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="450" />
+		<parameter name="name" value="Non USD - Barbados" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="455" />
+		<parameter name="name" value="Non USD - Belarus" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="460" />
+		<parameter name="name" value="Non USD - Belgium" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="465" />
+		<parameter name="name" value="Non USD - Belize" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="470" />
+		<parameter name="name" value="Non USD - Benin" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="475" />
+		<parameter name="name" value="Non USD - Bermuda" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="480" />
+		<parameter name="name" value="Non USD - Bhutan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="485" />
+		<parameter name="name" value="Non USD - Bolivia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="490" />
+		<parameter name="name" value="Non USD - Bosnia-Herze." />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="495" />
+		<parameter name="name" value="Non USD - Botswana" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="5" />
+		<parameter name="name" value="ABS" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="50" />
+		<parameter name="name" value="USD Corporate - Consumer Non Cyclical" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="500" />
+		<parameter name="name" value="Non USD - Bouvet Island" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="505" />
+		<parameter name="name" value="Non USD - Br.Indn Ocean" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="510" />
+		<parameter name="name" value="Non USD - British Virgin Islands" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="515" />
+		<parameter name="name" value="Non USD - Brunei" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="520" />
+		<parameter name="name" value="Non USD - Burkina Faso" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="525" />
+		<parameter name="name" value="Non USD - Burundi" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="530" />
+		<parameter name="name" value="Non USD - Cambodia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="535" />
+		<parameter name="name" value="Non USD - Cameroon" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="540" />
+		<parameter name="name" value="Non USD - Canada" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="545" />
+		<parameter name="name" value="Non USD - Cape Verde" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="55" />
+		<parameter name="name" value="USD Corporate - Energy" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="550" />
+		<parameter name="name" value="Non USD - Cayman Islands" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="555" />
+		<parameter name="name" value="Non USD - Central Africa" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="560" />
+		<parameter name="name" value="Non USD - Chad" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="565" />
+		<parameter name="name" value="Non USD - Channel Islands" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="570" />
+		<parameter name="name" value="Non USD - Chile" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="575" />
+		<parameter name="name" value="Non USD - China" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="580" />
+		<parameter name="name" value="Non USD - Christmas Is." />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="585" />
+		<parameter name="name" value="Non USD - Cocos" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="590" />
+		<parameter name="name" value="Non USD - Comoros" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="595" />
+		<parameter name="name" value="Non USD - Congo" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="6" />
+		<parameter name="name" value="MBS" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="60" />
+		<parameter name="name" value="USD Corporate - Industrial Other" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="600" />
+		<parameter name="name" value="Non USD - Cook Island" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="605" />
+		<parameter name="name" value="Non USD - Cuba" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="610" />
+		<parameter name="name" value="Non USD - Cyprus" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="615" />
+		<parameter name="name" value="Non USD - Czech Republic" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="620" />
+		<parameter name="name" value="Non USD - Dem.Rep. Congo" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="625" />
+		<parameter name="name" value="Non USD - Denmark" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="630" />
+		<parameter name="name" value="Non USD - Djibouti" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="635" />
+		<parameter name="name" value="Non USD - Dominica" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="640" />
+		<parameter name="name" value="Non USD - East Timor" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="645" />
+		<parameter name="name" value="Non USD - Equatorial" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="65" />
+		<parameter name="name" value="USD Corporate - Technology" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="650" />
+		<parameter name="name" value="Non USD - Eritrea" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="655" />
+		<parameter name="name" value="Non USD - Estonia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="660" />
+		<parameter name="name" value="Non USD - Ethiopia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="665" />
+		<parameter name="name" value="Non USD - Eurobonds" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="670" />
+		<parameter name="name" value="Non USD - Eurodollar" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="675" />
+		<parameter name="name" value="Non USD - Europe" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="680" />
+		<parameter name="name" value="Non USD - Eurozone" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="685" />
+		<parameter name="name" value="Non USD - Faeroe Island" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="690" />
+		<parameter name="name" value="Non USD - Falkland Is." />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="695" />
+		<parameter name="name" value="Non USD - Fiji" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="7" />
+		<parameter name="name" value="High Yield Credit" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70" />
+		<parameter name="name" value="USD Corporate - Transportation" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="700" />
+		<parameter name="name" value="Non USD - Finland" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70001" />
+		<parameter name="name" value="ABS" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70002" />
+		<parameter name="name" value="RMBS" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70003" />
+		<parameter name="name" value="CMBS" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70004" />
+		<parameter name="name" value="CDO/CLO" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70005" />
+		<parameter name="name" value="Agency CMO" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70006" />
+		<parameter name="name" value="Agency Pass Thru" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="70007" />
+		<parameter name="name" value="Agency Other" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="705" />
+		<parameter name="name" value="Non USD - France" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="710" />
+		<parameter name="name" value="Non USD - French Guiana" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="715" />
+		<parameter name="name" value="Non USD - French Pacific" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="720" />
+		<parameter name="name" value="Non USD - French Southern" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="725" />
+		<parameter name="name" value="Non USD - Gabon" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="730" />
+		<parameter name="name" value="Non USD - Gambia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="735" />
+		<parameter name="name" value="Non USD - Georgia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="740" />
+		<parameter name="name" value="Non USD - Germany" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="745" />
+		<parameter name="name" value="Non USD - Ghana" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="75" />
+		<parameter name="name" value="USD Corporate - Utility" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="750" />
+		<parameter name="name" value="Non USD - Gibraltar" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="755" />
+		<parameter name="name" value="Non USD - Greece" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="760" />
+		<parameter name="name" value="Non USD - Greenland" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="765" />
+		<parameter name="name" value="Non USD - Grenada" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="770" />
+		<parameter name="name" value="Non USD - Guadaloupe" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="775" />
+		<parameter name="name" value="Non USD - Guam" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="780" />
+		<parameter name="name" value="Non USD - Guernsey, C.I." />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="785" />
+		<parameter name="name" value="Non USD - Guinea" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="790" />
+		<parameter name="name" value="Non USD - Guinea-Bissau" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="795" />
+		<parameter name="name" value="Non USD - Guyana" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="8" />
+		<parameter name="name" value="Canadian Dollar" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="80" />
+		<parameter name="name" value="USD Corporate - AAA" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="800" />
+		<parameter name="name" value="Non USD - Haiti" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="805" />
+		<parameter name="name" value="Non USD - Heard/Macdonld" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="810" />
+		<parameter name="name" value="Non USD - Honduras" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="815" />
+		<parameter name="name" value="Non USD - Hong Kong" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="820" />
+		<parameter name="name" value="Non USD - Hungary" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="825" />
+		<parameter name="name" value="Non USD - Iceland" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="830" />
+		<parameter name="name" value="Non USD - Iran" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="835" />
+		<parameter name="name" value="Non USD - Iraq" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="840" />
+		<parameter name="name" value="Non USD - Ireland" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="845" />
+		<parameter name="name" value="Non USD - Isle of Man" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="85" />
+		<parameter name="name" value="USD Corporate - AA" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="850" />
+		<parameter name="name" value="Non USD - Israel" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="855" />
+		<parameter name="name" value="Non USD - Italy" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="860" />
+		<parameter name="name" value="Non USD - Japan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="865" />
+		<parameter name="name" value="Non USD - Jersey" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="870" />
+		<parameter name="name" value="Non USD - Jordan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="875" />
+		<parameter name="name" value="Non USD - Kenya" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="880" />
+		<parameter name="name" value="Non USD - Kiribati" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="885" />
+		<parameter name="name" value="Non USD - Kuwait" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="890" />
+		<parameter name="name" value="Non USD - Kyrgyzstan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="895" />
+		<parameter name="name" value="Non USD - Laos" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="9" />
+		<parameter name="name" value="Non-US Dollar (ex CAD)" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="90" />
+		<parameter name="name" value="USD Corporate - A" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="900" />
+		<parameter name="name" value="Non USD - LATVIA" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="905" />
+		<parameter name="name" value="Non USD - Lesotho" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="910" />
+		<parameter name="name" value="Non USD - Liberia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="915" />
+		<parameter name="name" value="Non USD - Libya" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="920" />
+		<parameter name="name" value="Non USD - Liechtenstein" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92005" />
+		<parameter name="name" value="Aircraft" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92010" />
+		<parameter name="name" value="Automobile" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92015" />
+		<parameter name="name" value="Credit Card" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92020" />
+		<parameter name="name" value="Floorplan" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92025" />
+		<parameter name="name" value="Rental Fleet" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92030" />
+		<parameter name="name" value="Student Loan_FFELP" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92035" />
+		<parameter name="name" value="Student Loan_Private" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92040" />
+		<parameter name="name" value="Timeshare" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92045" />
+		<parameter name="name" value="Other (ABS)" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92105" />
+		<parameter name="name" value="Alt-A" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92110" />
+		<parameter name="name" value="Prime" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92115" />
+		<parameter name="name" value="Option ARMs" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92120" />
+		<parameter name="name" value="Subprime" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92125" />
+		<parameter name="name" value="HELOC" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92130" />
+		<parameter name="name" value="Second Lien Alt-A" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92135" />
+		<parameter name="name" value="Second Lien Prime" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92140" />
+		<parameter name="name" value="Second Lien Subprime" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92145" />
+		<parameter name="name" value="Other (RMBS)" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92205" />
+		<parameter name="name" value="Single Issuer" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92210" />
+		<parameter name="name" value="Conduit" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92215" />
+		<parameter name="name" value="Other (CMBS)" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92305" />
+		<parameter name="name" value="Corporate CDO" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92310" />
+		<parameter name="name" value="Structured Finance CDO" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92315" />
+		<parameter name="name" value="CLO" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92320" />
+		<parameter name="name" value="Other (CDO/CLO)" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92405" />
+		<parameter name="name" value="CMO" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="925" />
+		<parameter name="name" value="Non USD - Lithuania" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92505" />
+		<parameter name="name" value="TBA" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92510" />
+		<parameter name="name" value="Spec Pool" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="92605" />
+		<parameter name="name" value="Other (Agency Other)" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="930" />
+		<parameter name="name" value="Non USD - Luxembourg" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="935" />
+		<parameter name="name" value="Non USD - Macau" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="940" />
+		<parameter name="name" value="Non USD - Macedonia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="945" />
+		<parameter name="name" value="Non USD - Madagascar" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="95" />
+		<parameter name="name" value="USD Corporate - BAA" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="950" />
+		<parameter name="name" value="Non USD - Malawi" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="955" />
+		<parameter name="name" value="Non USD - Malaysia" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="960" />
+		<parameter name="name" value="Non USD - Maldives" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="96001" />
+		<parameter name="name" value="Securitized Credit" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="96002" />
+		<parameter name="name" value="Securitized Agency" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="965" />
+		<parameter name="name" value="Non USD - Mali Republic" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="970" />
+		<parameter name="name" value="Non USD - Malta" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="975" />
+		<parameter name="name" value="Non USD - Marshall Islands" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="980" />
+		<parameter name="name" value="Non USD - Martinique" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="985" />
+		<parameter name="name" value="Non USD - Mauritania" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="990" />
+		<parameter name="name" value="Non USD - Mauritius" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="995" />
+		<parameter name="name" value="Non USD - Mayotte" />
+	</method>
+	<method name="StoreMssaBucket">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="997" />
+		<parameter name="name" value="Non USD - Mexico" />
+	</method>
+</script>

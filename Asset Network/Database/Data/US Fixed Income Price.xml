@@ -1,0 +1,1896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="US Fixed Income Price">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.604630" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.604630" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912795KS9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.202962" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.202962" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912795LD1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.109412" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.109412" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912795LF6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.437500" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.437500" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912827G55" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.855469" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.855469" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128276F4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="103.237813" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="103.237813" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912827J78" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="110.612781" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="110.612781" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912827R87" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="110.769031" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="110.769031" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912827Y55" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.050570" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.050570" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128276W7" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.227" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.227" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AP5" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.513506" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.513506" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128276Z0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.735160" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.735160" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277A4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.085" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.085" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AU4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="102.204354" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="102.204354" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AA8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="103.507" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="103.507" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277F3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="102.118" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="102.118" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AB6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.390655" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.390655" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277H9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="102.113" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="102.113" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AD2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.970" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.970" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AH3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.063622" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.063622" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277G1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.351061" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.351061" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277K2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.471138" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.471138" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277M8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.598" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.598" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AN0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.229" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.229" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AT7" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.791" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.791" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AE0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.682807" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.682807" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277D8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.795243" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.795243" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277E6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="101.083" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="101.083" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AG5" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.950" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.950" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AK6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.979" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.979" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AM2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.761" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.761" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AQ3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.620" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.620" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AL4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.326" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.326" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AR1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.051" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.051" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AS9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.916" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.916" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AW0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.758" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.758" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912828AV2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="120.783" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="120.783" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DQ8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="105.892227" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="105.892227" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DG0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="164.672" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="164.672" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DP0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="159.895" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="159.895" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DS4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="152.966" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="152.966" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DT2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="147.073" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="147.073" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DV7" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="148.634" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="148.634" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EA2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="147.722" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="147.722" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EB0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="144.976" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="144.976" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DZ8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="146.440" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="146.440" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EC8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="103.982017" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="103.982017" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810CE6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="143.464" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="143.464" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DY1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="146.175" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="146.175" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EF1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="146.326" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="146.326" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EG9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="142.951" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="142.951" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EE4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="102.211333" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="102.211333" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810CC0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="138.134" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="138.134" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EJ3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="139.238" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="139.238" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810ED6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="139.365" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="139.365" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EK0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="137.984" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="137.984" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EL8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="136.020" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="136.020" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EH7" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="133.865" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="133.865" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EN4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="135.267" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="135.267" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810ET1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="129.963" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="129.963" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DX3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="133.463" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="133.463" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810ES3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="127.230" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="127.230" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810DW5" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="128.944" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="128.944" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EM6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="127.551" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="127.551" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EP9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="125.174" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="125.174" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EV6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="123.701" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="123.701" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EX2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="122.193" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="122.193" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EZ7" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="120.326" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="120.326" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EY0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="118.772" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="118.772" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FA1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="116.358" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="116.358" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EQ7" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="118.226" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="118.226" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FM5" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="115.417" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="115.417" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FB9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="115.935" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="115.935" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FJ2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="113.347" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="113.347" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810EW4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="106.620" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="106.620" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FE3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="107.069" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="107.069" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FP8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="103.127" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="103.127" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FF0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="103.227" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="103.227" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="912810FG8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="100.839741" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="100.839741" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9128277C0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="108.109000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="108.109000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="575765UU4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="104.050000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="104.050000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="5758234N6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="106.382000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="106.382000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="64970KQA8" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="105.509000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="105.509000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="650034MZ1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="107.072000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="107.072000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="9860813R6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="109.008000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="109.008000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="1307746M9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="104.463000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="104.463000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="130174KK0" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="103.902000" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="103.902000" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="797391HN2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="121.942566" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="121.942566" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="674599BF1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="125.969033" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="125.969033" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="149123AZ4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="104.310836" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="104.310836" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="00209AAF3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="120.601760" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="120.601760" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="539830AK5" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="117.975573" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="117.975573" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="459200AG6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="117.263345" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="117.263345" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="742718AU3" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="109.918882" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="109.918882" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="060505AE4" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="105.686313" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="105.686313" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="887315AV1" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="108.583345" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="108.583345" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="718154CF2" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="111.327556" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="111.327556" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="370425RP7" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="109.192911" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="109.192911" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="617446DW6" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="109.131869" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="109.131869" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="925524AJ9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.118737" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.118737" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="00184AAC9" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="110.3" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="110.3" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="0000000001" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="95.5" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="95.5" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="0000000002" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="115.4" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="115.4" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="0000000003" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="102.1" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="102.1" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="0000000004" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+    <method name="StorePrice">
+      <parameter name="askPrice" value="0.0" />
+      <parameter name="askSize" value="0.0" />
+      <parameter name="bidPrice" value="0.0" />
+      <parameter name="bidSize" value="0.0" />
+      <parameter name="closePrice" value="99.20" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="securityKeyByCurrencyId" value="USD" />
+      <parameter name="highPrice" value="0.0" />
+      <parameter name="lastPrice" value="99.20" />
+      <parameter name="lastSize" value="0.0" />
+      <parameter name="lowPrice" value="0.0" />
+      <parameter name="openPrice" value="0.0" />
+      <parameter name="priceChange" value="0.0" />
+      <parameter name="securityKeyBySecurityId" value="0000000005" />
+      <parameter name="volume" value="0.0" />
+      <parameter name="volumeWeightedAveragePrice" value="0.0" />
+    </method>
+  </transaction>
+</script>

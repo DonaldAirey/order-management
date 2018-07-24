@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Prices>
+	<Price Symbol="EUR" Price="0.8655000"/>
+	<Price Symbol="JPY" Price="0.7493000"/>
+	<Price Symbol="SEK" Price="0.0952000"/>
+	<Price Symbol="USD" Price="1.0000000"/>
+	<Price Symbol="NZD" Price="0.4239000"/>
+	<Price Symbol="AUD" Price="0.5193000"/>
+	<Price Symbol="CHF" Price="0.5856000"/>
+	<Price Symbol="CAD" Price="0.6281000"/>
+	<Price Symbol="GBP" Price="1.4177000"/>
+	<Price Symbol="DKK" Price="0.1164000"/>
+</Prices>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is an example media content file -->
+<stockSharedContentDefinitions>
+	<item id="15A6951D-A66D-468a-AE5C-D78802062675">
+		<image file="Basic Explorer Window.png">
+			<altText>Basic Explorer Window</altText>
+		</image>
+	</item>
+	<item id="EC5ED31F-2B96-4512-9A0E-E5862C42C48F">
+		<image file="Functional Explorer Window.png">
+			<altText>Functional Explorer Window</altText>
+		</image>
+	</item>
+	<item id="DB1F2D10-6734-45bc-BCF6-A7678541B941">
+		<image file="Complex Explorer Window.png">
+			<altText>Complex Explorer Window</altText>
+		</image>
+	</item>
+	<item id="763ED4F3-FFC6-4531-9A2C-595E7EB9E96F">
+		<image file="Walkthrough Simple - Figure 1.png">
+			<altText>Hello World Example</altText>
+		</image>
+	</item>
+	<item id="265C1D6C-D73E-49e2-958E-C47847ED33F4">
+		<image file="Walkthrough Pages - Figure 1.png">
+			<altText>Page Navigation Example</altText>
+		</image>
+	</item>
+
+</stockSharedContentDefinitions>

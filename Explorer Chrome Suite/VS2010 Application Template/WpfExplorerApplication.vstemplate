@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>WpfExplorerApplication</DefaultName>
+		<Description>Windows Presentation Foundation Explorer Application</Description>
+		<Icon>TemplateIcon.ico</Icon>
+		<Name>Wpf Explorer Application</Name>
+		<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+		<ProjectType>CSharp</ProjectType>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<PreviewImage>Preview.png</PreviewImage>
+	</TemplateData>
+  <TemplateContent>
+    <Project File="WpfExplorerApplication.csproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true">App.xaml</ProjectItem>
+			<ProjectItem ReplaceParameters="true">App.xaml.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" OpenInEditor="true">MainWindow.xaml</ProjectItem>
+			<ProjectItem ReplaceParameters="true">MainWindow.xaml.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Page1.xaml</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Page1.xaml.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Properties/AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem TargetFileName="Properties/licenses.licx">licenses.licx</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Properties/Resources.resx">Resources.resx</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Properties/Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Properties/Settings.settings">Settings.settings</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Properties/Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+			<ProjectItem TargetFileName="Resources/Page.png">Page.png</ProjectItem>
+		</Project>
+  </TemplateContent>
+</VSTemplate>

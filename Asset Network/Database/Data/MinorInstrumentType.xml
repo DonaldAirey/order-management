@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="MajorInstumentType">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="American Depository Receipt" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ADR" />
+    <parameter name="mnemonic" value="ADR" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Agency Interest Only" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="AGENCYIO" />
+    <parameter name="mnemonic" value="AGENCYINTERESTONLY" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Agency Collateralized Mortgage Obligation" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="AGNCYCMO" />
+    <parameter name="mnemonic" value="AGENCYCMO" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Asset Backed Preferred" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ASSETBKP" />
+    <parameter name="mnemonic" value="ASSETBACKEDPREFERRED" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Bank Loan" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="BANKLOAN" />
+    <parameter name="mnemonic" value="BANKLOAN" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Cash" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CASH" />
+    <parameter name="mnemonic" value="CASH" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Credit Default Swap" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CDS" />
+    <parameter name="mnemonic" value="CDS" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Credit Default Swap Cash" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CDSCASH" />
+    <parameter name="mnemonic" value="CDSCASH" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CDSINDEX" />
+    <parameter name="mnemonic" value="CDSINDEX" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Commodity Option Call" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CDTYOPTC" />
+    <parameter name="mnemonic" value="COMMODITYOPTIONCALL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Commodity Option Put" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CDTYOPTP" />
+    <parameter name="mnemonic" value="COMMODITYOPTIONPUT" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Commercial Mortgage-Backed Securities" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CMBS" />
+    <parameter name="mnemonic" value="CMBS" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Collateral" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COLLAT" />
+    <parameter name="mnemonic" value="COLLATERAL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Commodity Swap Cash" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMIDXCS" />
+    <parameter name="mnemonic" value="COMMODITYSWAPCASH" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="CommoditySwap" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMIDXSW" />
+    <parameter name="mnemonic" value="COMMODITYSWAP" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Commodity Index" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMINDEX" />
+    <parameter name="mnemonic" value="COMMODITYINDEX" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Commodity Future" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMMFUT" />
+    <parameter name="mnemonic" value="COMMODITYFUTURE" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Common Stock" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="COMMON" />
+    <parameter name="mnemonic" value="COMMON" />
+  </method>
+	<method name="StoreMinorInstrumentType">
+		<parameter name="description" value="Corporate Collateralized Mortgage Obligation" />
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="CORPCMO" />
+		<parameter name="mnemonic" value="CORPCMO" />
+	</method>
+	<method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Corporate Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CORPBD" />
+    <parameter name="mnemonic" value="CORPORATEBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Corporate Bond Preferred" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CORPBDP" />
+    <parameter name="mnemonic" value="CORPORATEBONDPREFERRED" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Currency Future" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CURRFUT" />
+    <parameter name="mnemonic" value="CURRENCYFUTURE" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Currency Option Call" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CURROPTC" />
+    <parameter name="mnemonic" value="CURRENCYOPTIONCALL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Currency Option Put" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CURROPTP" />
+    <parameter name="mnemonic" value="CURRENCYOPTIONPUT" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Convertible Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CVTCORP" />
+    <parameter name="mnemonic" value="CONVERTIBLEBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Convertible Preferred Stock" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="CVTPFSTK" />
+    <parameter name="mnemonic" value="CONVERTIBLEPREFERREDSTOCK" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="EquityIndex" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQINDEX" />
+    <parameter name="mnemonic" value="EQUITYINDEX" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Equity Index Future" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQINXFUT" />
+    <parameter name="mnemonic" value="EQUITYINDEXFUTURE" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Equity Option Call" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQOPTC" />
+    <parameter name="mnemonic" value="EQUITYOPTIONCALL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Equity Option Put" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQOPTP" />
+    <parameter name="mnemonic" value="EQUITYOPTIONPUT" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="EquipmentTrustBond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQUIPTR" />
+    <parameter name="mnemonic" value="EQUIPMENTTRUSTBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Preferred Equipment Trust Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="EQUIPTRP" />
+    <parameter name="mnemonic" value="PREFERREDEQUIPMENTTRUSTBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Exchange Traded Fund - Equity" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ETF" />
+    <parameter name="mnemonic" value="ETFEQUITY" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Exchange Traded Fund - Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ETFBD" />
+    <parameter name="mnemonic" value="ETFBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Exchange Traded Fund - Commodity" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ETFCMDTY" />
+    <parameter name="mnemonic" value="ETFCOMMODITY" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Exchange Traded Fund - Equity Option Call" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ETFOPTC" />
+    <parameter name="mnemonic" value="ETFOPTIONCALL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Exchange Traded Fund - Equity Option Put" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="ETFOPTP" />
+    <parameter name="mnemonic" value="ETFOPTIONPUT" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Freddie Mac Collateralized Mortgage Obligation" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FHLMCCMO" />
+    <parameter name="mnemonic" value="FREDDIEMACCMO" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Freddie Mac Pass Through" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FHLMCPAS" />
+    <parameter name="mnemonic" value="FREDDIEMACPASSTHRU" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Freddie Mac To Be Announced" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FHLMCTBA" />
+    <parameter name="mnemonic" value="FREDDIEMACTBA" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Flat Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FLATINC" />
+    <parameter name="mnemonic" value="FLATBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Fannie Mae Collateralized Mortgage Obligation" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FNMACMO" />
+    <parameter name="mnemonic" value="FANNIEMAECMO" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Fannie Mae Pass Through" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FNMAPASS" />
+    <parameter name="mnemonic" value="FANNIEMAEPASSTHRU" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Fannie Mae To Be Announced" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FNMATBA" />
+    <parameter name="mnemonic" value="FANNIEMAETBA" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Foreign Exchange" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FX" />
+    <parameter name="mnemonic" value="FOREIGNEXCHANGE" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Global Treasury Inflation Protected Securities" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="GLOBETIP" />
+    <parameter name="mnemonic" value="GLOBALTIP" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Ginnie Mae Pass Through" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="GNMAPASS" />
+    <parameter name="mnemonic" value="GINNIEMAEPASSTHRU" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Ginnie Mae To Be Announced" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="GNMATBA" />
+    <parameter name="mnemonic" value="GINNIEMAETBA" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Collateral Futures Margin" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="INITMGN" />
+    <parameter name="mnemonic" value="COLLATERALFUTURESMARGIN" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="InterestRateFutures" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="IRFUT" />
+    <parameter name="mnemonic" value="INTERESTRATEFUTURES" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Loomis Sayles Bank Loan Fund" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="LSBNKLN" />
+    <parameter name="mnemonic" value="LSBANKLOANFUND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Loomis Sayles Bond Fund" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="LSFUNDBD" />
+    <parameter name="mnemonic" value="LSBONDFUND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Loomis Sayles Equity Fund" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="LSFUNDEQ" />
+    <parameter name="mnemonic" value="LSEQUITYFUND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Money Market Index" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="MMINDEX" />
+    <parameter name="mnemonic" value="MONEYMARKETINDEX" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Revenue Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="MUNIREV" />
+    <parameter name="mnemonic" value="REVENUEBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Pass Through Security" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="NARMBS" />
+    <parameter name="mnemonic" value="PASSTHRUSECURITY" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="NewOffset" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="NEW OFFSET" />
+    <parameter name="mnemonic" value="NEWOFFSET" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="None" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="NONE" />
+    <parameter name="mnemonic" value="NONE" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Option Call Future Call" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="OPTCFUTC" />
+    <parameter name="mnemonic" value="OPTIONCALLFUTURECALL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Option Call Future Put" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="OPTCFUTP" />
+    <parameter name="mnemonic" value="OPTIONCALLFUTUREPUT" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Option Future Call" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="OPTFUTC" />
+    <parameter name="mnemonic" value="OPTIONFUTURECALL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Preferred Stock" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="PREFDSTK" />
+    <parameter name="mnemonic" value="PREFERREDSTOCK" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="United States Treasury Bill" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="USTBILLZ" />
+    <parameter name="mnemonic" value="USTREASURYBILL" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="United States Treasury Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="USTBOND" />
+    <parameter name="mnemonic" value="USTREASURYBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="United States Treasury Inflation Protected Security" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="USTIP" />
+    <parameter name="mnemonic" value="USTIP" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="United States Treasury Note" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="USTNOTE" />
+    <parameter name="mnemonic" value="USTREASURYNOTE" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Warrant" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="WARRANT" />
+    <parameter name="mnemonic" value="WARRANT" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Yankee Convertible Bond" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="YANKCVT" />
+    <parameter name="mnemonic" value="YANKEECONVERTIBLEBOND" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Yankee" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="YANKEE" />
+    <parameter name="mnemonic" value="YANKEE" />
+  </method>
+  <method name="StoreMinorInstrumentType">
+    <parameter name="name" value="Yankee Preferred" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="YANKEPDI" />
+    <parameter name="mnemonic" value="YANKEEPREFERRED" />
+  </method>
+</script>

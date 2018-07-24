@@ -1,0 +1,5 @@
+Write-Host "Loading Libraries into GAC"
+gacutil -u "Teraque"
+gacutil -u "Teraque.Legacy"
+gacutil -u "Teraque.AssetNetwork"
+gacutil -u "Teraque.Message"

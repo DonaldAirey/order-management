@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Product Codepage="1252"
+           Id="{09721214-51B0-454F-B5A4-7F03CA8BDF1D}"
+           Language="1033"
+           Manufacturer="Teraque Inc."
+           Name="Asset Nework Asset Explorer"
+           UpgradeCode="{00EE3FB1-31F6-46FC-A54A-F00845962A50}"
+           Version="1.0.0">
+    <Package Compressed="yes"
+             Description="Teraque's Asset Explorer"
+             Id="*"
+             InstallScope="perMachine"
+             InstallerVersion="200"
+             Keywords="Installer"
+             Manufacturer="Teraque"
+             Platform="x64"
+             SummaryCodepage='1252'/>
+    <Media Id="1"
+           Cabinet="AssetExplorer.cab"
+           EmbedCab="yes"
+           DiskPrompt="DVD #1" />
+    <Property Id="DiskPrompt"
+              Value="Teraque Asset Explorer 1.0 Installation [1]" />
+
+    <Icon Id="explorer.ico" SourceFile="Resources\Explorer.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="explorer.ico" />
+    <Property Id="ARPNOMODIFY" Value="1" />
+    <PropertyRef Id="NETFRAMEWORK40FULLINSTALLROOTDIR64"/>
+
+    <!-- Target Directory Tree -->
+    <Directory Id="TARGETDIR"
+               Name="SourceDir">
+      <Directory Id="DesktopFolder" Name="Desktop"/>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Teraque Tools"/>
+      </Directory>
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="TeraqueFolder"
+                   Name="Teraque">
+          <Directory Id="AssetNetworkFolder"
+                     Name="Asset Network">
+            <Directory Id="INSTALLFOLDER"
+                     Name="Asset Explorer"/>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <!-- Start Menu Installation -->
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut" Guid="{4586CB37-C66E-402B-A7C8-5AC2FCE836C8}">
+        <Shortcut Id="ApplicationStartMenuShortcut"
+                  Name="Asset Explorer"
+                  Description="Asset Explorer"
+                  Target="[APPLICATIONROOTDIRECTORY]Explorer.exe"
+                  WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
+        <RemoveFolder Id="ApplicationProgramsFolder"
+                      On="uninstall"/>
+        <RegistryValue Root="HKCU"
+                        Key="Software\Teraque\Asset Explorer"
+                        Name="installed"
+                        Type="integer"
+                        Value="1"
+                        KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Installation Folder -->
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="EventLogComponent"
+                 Guid="{5773DE1A-4D3D-4AC4-9490-E69A946D5D1A}"
+                 KeyPath="yes"
+                 Win64="yes">
+        <util:EventSource Log="Asset Network"
+                          Name="Explorer"
+                          EventMessageFile="[NETFRAMEWORK40FULLINSTALLROOTDIR64]EventLogMessages.dll"/>
+      </Component>
+      <Component Id="ExploreComponent"
+                 Guid="{E32A16F8-70C8-426F-AC59-E65C8D9130D8}"
+                 Win64="yes">
+        <File DiskId="1"
+              Id="ExplorerExecutable"
+              KeyPath="yes"
+              Name="Explorer.exe"
+              Source="..\..\Explorer\bin\$(var.Configuration)\Explorer.exe">
+          <Shortcut Advertise="yes"
+                    Id="MyProductDesktopShortcut"
+                    Directory="DesktopFolder"
+                    Name="Asset Explorer"
+                    WorkingDirectory="INSTALLLOCATION"
+                    Description="Asset Explorer"
+                    Icon="ExplorerIcon.exe">
+            <Icon Id="ExplorerIcon.exe" SourceFile="..\..\Explorer\bin\$(var.Configuration)\Explorer.exe" />
+          </Shortcut>
+        </File>
+        <File DiskId="1"
+              Id="ExplorerConfig"
+              Name="Explorer.exe.config"
+              Source="Explorer.exe.config"/>
+      </Component>
+      <Component Guid="{6866F8F4-DD33-4118-B394-C2D954B64222}"
+                 Id="TeraqueComponent"
+                 Win64="yes">
+        <File Id="TeraqueLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.dll"
+              Source="..\..\..\Teraque\bin\$(var.Configuration)\Teraque.dll"/>
+      </Component>
+      <Component Guid="{E5B76F5C-35BF-4F28-9115-4E0CCA7AB29C}"
+                 Id="TeraqueAssetNetworkComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.dll"
+              Source="..\..\Teraque.AssetNetwork\bin\$(var.Configuration)\Teraque.AssetNetwork.dll"/>
+      </Component>
+      <Component Guid="{6EFF018A-DC8E-448C-9EBF-339EABBA28BA}"
+                 Id="TeraqueAssetNetworkBlotterComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkBlotterLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.Blotter.dll"
+              Source="..\..\Teraque.AssetNetwork.Blotter\bin\$(var.Configuration)\Teraque.AssetNetwork.Blotter.dll"/>
+      </Component>
+      <Component Guid="{5DF679F0-DA59-4692-B93F-0408320C7869}"
+                 Id="TeraqueAssetNetworkClientDataModelComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkClientDataModelLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.ClientDataModel.dll"
+              Source="..\..\Teraque.AssetNetwork.ClientDataModel\bin\$(var.Configuration)\Teraque.AssetNetwork.ClientDataModel.dll"/>
+      </Component>
+      <Component Guid="{62383540-9C4F-4DEA-984A-90CB8006FF64}"
+                 Id="TeraqueAssetNetworkDebtBlotterComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkDebtBlotterLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.DebtBlotter.dll"
+              Source="..\..\Teraque.AssetNetwork.DebtBlotter\bin\$(var.Configuration)\Teraque.AssetNetwork.DebtBlotter.dll"/>
+      </Component>
+      <Component Guid="{AC49B67E-B798-4964-86E0-5D763343298A}"
+                 Id="TeraqueAssetNetworkEquityBlotterComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkEquityBlotterLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.EquityBlotter.dll"
+              Source="..\..\Teraque.AssetNetwork.EquityBlotter\bin\$(var.Configuration)\Teraque.AssetNetwork.EquityBlotter.dll"/>
+      </Component>
+      <Component Guid="{88FA8D6B-8DDA-41F3-A98E-C73453FF169A}"
+                 Id="TeraqueAssetNetworkNavigatorComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkNavigatorLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.Navigator.dll"
+              Source="..\..\Teraque.AssetNetwork.Navigator\bin\$(var.Configuration)\Teraque.AssetNetwork.Navigator.dll"/>
+      </Component>
+      <Component Guid="{A63B968D-58DE-4185-8CED-28AE64105A1C}"
+                 Id="TeraqueAssetNetworkWebClientComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkWebClientLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.WebClient.dll"
+              Source="..\..\Teraque.AssetNetwork.WebClient\bin\$(var.Configuration)\Teraque.AssetNetwork.WebClient.dll"/>
+      </Component>
+      <Component Guid="{01C721D7-EC23-4CDF-B057-FDB309A87057}"
+                 Id="TeraqueAssetNetworkWindowsComponent"
+                 Win64="yes">
+        <File Id="TeraqueAssetNetworkWindowsLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.AssetNetwork.Windows.dll"
+              Source="..\..\Teraque.AssetNetwork.Windows\bin\$(var.Configuration)\Teraque.AssetNetwork.Windows.dll"/>
+      </Component>
+      <Component Guid="{B0F57C49-008B-40BF-ACE7-6A83D50E8902}"
+                 Id="TeraqueMessageComponent"
+                 Win64="yes">
+        <File Id="TeraqueMessageLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.Message.dll"
+              Source="..\..\..\Teraque.Message\bin\$(var.Configuration)\Teraque.Message.dll"/>
+      </Component>
+      <Component Guid="{AE857D58-936A-467E-9628-C59CD8E2C385}"
+                 Id="TeraquePresentationFrameworkComponent"
+                 Win64="yes">
+        <File Id="TeraquePresentationFrameworkLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.PresentationFramework.dll"
+              Source="..\..\..\Teraque.PresentationFramework\bin\$(var.Configuration)\Teraque.PresentationFramework.dll"/>
+      </Component>
+      <Component Guid="{6F0D1B11-771E-4B55-A07D-3937EA4DF64C}"
+                 Id="TeraqueServerComponent"
+                 Win64="yes">
+        <File Id="TeraqueServiceModelLibrary"
+              DiskId="1"
+              KeyPath="yes"
+              Name="Teraque.Server.dll"
+              Source="..\..\..\Teraque.Server\bin\$(var.Configuration)\Teraque.Server.dll"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- The Complete set of features. -->
+    <Feature Id="Complete"
+             Title="Asset Explorer"
+             Description="The Client for the Asset Network."
+             Display="expand"
+             ConfigurableDirectory="INSTALLFOLDER"
+             Level="1">
+      <ComponentRef Id="ApplicationShortcut" />
+      <ComponentRef Id="EventLogComponent"/>
+      <ComponentRef Id="ExploreComponent" />
+      <ComponentRef Id="TeraqueComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkBlotterComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkClientDataModelComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkDebtBlotterComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkEquityBlotterComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkNavigatorComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkWebClientComponent" />
+      <ComponentRef Id="TeraqueAssetNetworkWindowsComponent" />
+      <ComponentRef Id="TeraqueMessageComponent" />
+      <ComponentRef Id="TeraquePresentationFrameworkComponent" />
+      <ComponentRef Id="TeraqueServerComponent" />
+    </Feature>
+
+    <WixVariable Id="WixUIBannerBmp" Value="Resources\Banner.png" />
+    <WixVariable Id="WixUIDialogBmp" Value="Resources\Welcome.png" />
+
+    <UI Id="WixUI_Minimal">
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Tahoma" Size="9" Bold="yes" />
+
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WixUI_Mode" Value="Minimal" />
+
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+      <DialogRef Id="WelcomeDlg" />
+
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="PrepareDlg">1</Publish>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1</Publish>
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceWelcomeDlg" Control="Next" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg">1</Publish>
+    </UI>
+
+    <UIRef Id="WixUI_Common" />
+
+  </Product>
+
+</Wix>

@@ -1,0 +1,1968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Strategies Orders">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{9bd2ed80-028a-4eb8-b338-fd7f331f3656}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000209WM2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0001475-04:00" />
+      <parameter name="externalId0" value="{c7f8fa2b-0d68-4404-8a49-3c05a5b4e49e}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000209WM2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0001475-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{9bd2ed80-028a-4eb8-b338-fd7f331f3656}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{73896401-75a0-44a8-b75f-f35987ad746f}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002523X2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{f455ac3d-0556-4581-9481-7a21a951aa22}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="5400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002523X2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{73896401-75a0-44a8-b75f-f35987ad746f}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{6c804259-5fe3-4241-9aca-6ce426cefaee}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003803BA3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{bdd32ae6-fa68-4b98-9c9a-33953f965701}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="7200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003803BA3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{6c804259-5fe3-4241-9aca-6ce426cefaee}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{c857a0d1-0b08-47b5-a94c-7fe7177a031a}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="2800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003803BA3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{6c804259-5fe3-4241-9aca-6ce426cefaee}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{44d8f9e7-0ec9-4b1c-bb85-48e6464baf53}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000092X9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{45824071-d6c8-4866-9f76-1c72e224c7d8}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="3600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000092X9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{44d8f9e7-0ec9-4b1c-bb85-48e6464baf53}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{8d7cac94-9990-416c-8527-ce537e0ccd7d}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003042MC3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{375cae23-de3d-4342-9bfe-aba53a1bc485}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="2700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003042MC3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{8d7cac94-9990-416c-8527-ce537e0ccd7d}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{10e6954f-9298-454b-a871-4bf615fa8646}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003042MC3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{8d7cac94-9990-416c-8527-ce537e0ccd7d}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{a3e241c5-dbd3-49c3-b625-4eb42189a53a}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002595MS2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{016e9767-7cce-4173-aa48-bca513e8144a}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="7600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002595MS2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{a3e241c5-dbd3-49c3-b625-4eb42189a53a}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{0af60de1-b34a-4475-9d35-2adaa621d43c}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003105AM3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{e8b0af72-459b-4218-b052-f847c9253a44}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003105AM3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{0af60de1-b34a-4475-9d35-2adaa621d43c}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{2ae80e83-a159-42a0-a5d9-39739568f7fa}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="3800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003105AM3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{0af60de1-b34a-4475-9d35-2adaa621d43c}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{6c3265e4-ef56-468e-b520-0314f16f8cd5}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000932PE9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{9effc2d8-32c0-4318-af93-1f9db1d04871}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000932PE9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{6c3265e4-ef56-468e-b520-0314f16f8cd5}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0011476-04:00" />
+      <parameter name="externalId0" value="{0af78cd3-3465-4ffc-8585-22592ebc1323}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="3800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000932PE9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0011476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{6c3265e4-ef56-468e-b520-0314f16f8cd5}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{c4144795-f9c9-48fc-b7d8-3f389f4776f0}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="001882MA1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0021476-04:00" />
+      <parameter name="externalId0" value="{874c76f4-246a-42e9-912b-d504f27890b9}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="5000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="001882MA1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0021476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{c4144795-f9c9-48fc-b7d8-3f389f4776f0}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0021476-04:00" />
+      <parameter name="externalId0" value="{2286311e-ff67-4fda-91e2-39b60dabe55f}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="001882MA1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0021476-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{c4144795-f9c9-48fc-b7d8-3f389f4776f0}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{be2489a5-d951-4e1c-86f2-30e1fed8bc81}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000922WM9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0021476-04:00" />
+      <parameter name="externalId0" value="{2714c7e5-6ae6-42f8-88df-dca232533f1b}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000922WM9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0021476-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{be2489a5-d951-4e1c-86f2-30e1fed8bc81}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{d975cab2-d1ae-4873-aacc-75e50a8e8d85}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000762FN7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0021476-04:00" />
+      <parameter name="externalId0" value="{5196f6d0-26b0-4d06-b54f-34ace556bea0}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="4500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000762FN7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0021476-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{d975cab2-d1ae-4873-aacc-75e50a8e8d85}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0021476-04:00" />
+      <parameter name="externalId0" value="{535417f7-97a6-46c4-a876-21f6562410bd}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="5100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000762FN7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0021476-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{d975cab2-d1ae-4873-aacc-75e50a8e8d85}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{37f72a4c-3dca-4ece-aba1-e242ddf57d84}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000852WL8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{e32ec34e-2921-4073-b858-b742049fe35b}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="7300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000852WL8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{37f72a4c-3dca-4ece-aba1-e242ddf57d84}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{de729c08-14bf-479e-acd2-176d174423f3}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002976SA2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{0d470227-d424-41ff-b8e5-231bda781d10}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002976SA2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{de729c08-14bf-479e-acd2-176d174423f3}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{72b61540-de4e-4d60-a0a3-7bb38e3858ed}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002976SA2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{de729c08-14bf-479e-acd2-176d174423f3}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{389bbbb1-5b28-4820-abf7-9424ebd78b42}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002643SO2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{2894c206-1a41-418f-b094-1e67f1e4ef89}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002643SO2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{389bbbb1-5b28-4820-abf7-9424ebd78b42}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{003a1d89-2a5c-4a49-ab7b-d4acf63f072a}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003020WS3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{d8bcff9c-57e4-4922-8da9-4affd9e0f473}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003020WS3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{003a1d89-2a5c-4a49-ab7b-d4acf63f072a}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{8a87e129-470c-45c4-91fe-202663e961e7}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003020WS3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{003a1d89-2a5c-4a49-ab7b-d4acf63f072a}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{05dc465b-2a12-4113-a9db-55bdec3270b2}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002037DI2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{62e5feb3-633a-44b7-9d57-0f09ea196cfb}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002037DI2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{05dc465b-2a12-4113-a9db-55bdec3270b2}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{931fed0f-3241-4edb-a37a-a859e66de08d}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000472RD4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{d6859734-84f1-4ed1-a230-7a4b6db34c5c}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1300.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000472RD4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{931fed0f-3241-4edb-a37a-a859e66de08d}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0031477-04:00" />
+      <parameter name="externalId0" value="{24234f16-592a-4c29-8dcb-fe6986b8af5e}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="3000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000472RD4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0031477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{931fed0f-3241-4edb-a37a-a859e66de08d}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{76a08b03-362d-4dcd-ba09-fb384d48c3f8}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003432IT3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{27e58212-db48-4696-86c1-58fae75091c2}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="4100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003432IT3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{76a08b03-362d-4dcd-ba09-fb384d48c3f8}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{caa22f11-86d5-46c7-8b43-87f310bacdac}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000366EM3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{b54dc763-d2b3-4616-b3c1-204809ab038f}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="7000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000366EM3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{caa22f11-86d5-46c7-8b43-87f310bacdac}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{91d12159-31a5-48c1-9b68-9407f8eb97b0}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="8900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000366EM3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{caa22f11-86d5-46c7-8b43-87f310bacdac}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{42f351ec-1987-4928-add6-d615915c6092}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000519OD5" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{67ca4033-a496-4e00-9a2d-5049cff95dec}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="4000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000519OD5" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{42f351ec-1987-4928-add6-d615915c6092}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{0ad2af0b-cc09-4b00-8c3b-7fd1cacfcb71}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000323IT3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{82e877cb-38ea-4ee6-94b7-41f745a0dd99}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="4500.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000323IT3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{0ad2af0b-cc09-4b00-8c3b-7fd1cacfcb71}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{a941f0cc-f7cb-4661-bb76-c88098e95e59}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000910GI9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{3b24baa5-8761-4350-9ba2-1f2d0c478c5f}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="5100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000910GI9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{a941f0cc-f7cb-4661-bb76-c88098e95e59}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{267e3059-c36f-4205-b427-f61ac10ae8c8}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="001290LE1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{63d1b9f7-f6c6-4fda-a847-9de68849f3e9}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="001290LE1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{267e3059-c36f-4205-b427-f61ac10ae8c8}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{4234e6fd-a0eb-4434-a78f-d487f7759aa5}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000658ML6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{06650e05-1a89-4488-af8d-c407c990696d}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000658ML6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{4234e6fd-a0eb-4434-a78f-d487f7759aa5}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{b582ae11-fa39-421b-afc7-75fc19af4deb}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="6700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000658ML6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{4234e6fd-a0eb-4434-a78f-d487f7759aa5}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{0340bf3f-b62e-47a0-9a58-aa067f5e8343}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003810EN3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0041477-04:00" />
+      <parameter name="externalId0" value="{601945a7-1892-4fec-82e1-4be27e80be15}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003810EN3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{0340bf3f-b62e-47a0-9a58-aa067f5e8343}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{7f3c617a-ebbc-4e44-9ef8-c2f4e7061217}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000790FH7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{355d1c60-79f6-4aae-b95c-2359e65719f4}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000790FH7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{7f3c617a-ebbc-4e44-9ef8-c2f4e7061217}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{0e7cb9a8-7e16-46aa-abad-bad7d7bb8a5d}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="7400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000790FH7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0041477-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{7f3c617a-ebbc-4e44-9ef8-c2f4e7061217}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{cb4c83bc-b289-4369-b180-b044bcb37971}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003010TR3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{ef0f41d4-3309-4d2f-9228-a1dc4c440b1c}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="5200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003010TR3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="BUY COVER" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{cb4c83bc-b289-4369-b180-b044bcb37971}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{c6ba60b0-b1b7-4b7a-b8cc-9e31dc325c79}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002065WC2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{614187ff-e641-4ef3-ae21-408c82f67620}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002065WC2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{c6ba60b0-b1b7-4b7a-b8cc-9e31dc325c79}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{36946021-ee01-411f-b4a3-e128d17b1c81}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003758SO3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{7a341baa-a6d9-4231-b0c8-daba6cd43da4}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="8200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003758SO3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{36946021-ee01-411f-b4a3-e128d17b1c81}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{78961848-f5d3-48fd-bc39-7d42dfc27149}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003041CH3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{055cf0ab-b447-471d-aa77-16c5490030ed}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003041CH3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{78961848-f5d3-48fd-bc39-7d42dfc27149}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{6f5ba5a6-d337-466e-a906-8261e7895520}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="6400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003041CH3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{78961848-f5d3-48fd-bc39-7d42dfc27149}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{0223a577-00c4-4817-9cf3-2d5ca280f81a}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="true" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000755FN7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{d1e2b671-9be8-41ba-8df7-57319dd775d3}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="6200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000755FN7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{0223a577-00c4-4817-9cf3-2d5ca280f81a}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{44f32c87-5208-4a54-9ae6-0ca7ae453e9f}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003528IN3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{58c8e2e2-e362-46d8-8253-2a9f7b727f52}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003528IN3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{44f32c87-5208-4a54-9ae6-0ca7ae453e9f}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0051478-04:00" />
+      <parameter name="externalId0" value="{dff75aff-0fee-4c6d-8ce2-25a894ad7898}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="2100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003528IN3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{44f32c87-5208-4a54-9ae6-0ca7ae453e9f}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{f7b3bbe2-f188-4c60-9b8e-e6887f6b6424}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002085BA2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{067d0064-8833-45a3-b69b-f449cb6cd9da}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002085BA2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{f7b3bbe2-f188-4c60-9b8e-e6887f6b6424}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{b0de575e-8cff-4eea-bcdf-31cb2d9cf532}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="7800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002085BA2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0051478-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{f7b3bbe2-f188-4c60-9b8e-e6887f6b6424}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{909c4ba4-9d81-48c1-8e10-9c4c515dd121}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000353CU3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{cf142c45-b4c8-4ef4-a62e-6394bbe09de3}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="8800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000353CU3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{909c4ba4-9d81-48c1-8e10-9c4c515dd121}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{6c014344-83f4-404b-9568-b2ce5e22eb09}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="false" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000935FE9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{71421a2b-d8c5-4eee-a089-bde9445c49ef}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="600.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000935FE9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{6c014344-83f4-404b-9568-b2ce5e22eb09}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{25a19a3d-53c7-4625-8a44-eefe4317af91}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002630MY2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{cfce7d38-142e-4d96-a9db-ae9294b95a4d}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="5200.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002630MY2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{25a19a3d-53c7-4625-8a44-eefe4317af91}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{8f76d7a5-9839-4c57-9437-b65ed4099fc8}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="4100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002630MY2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{25a19a3d-53c7-4625-8a44-eefe4317af91}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{3fa6b7f7-9464-48aa-8775-bfbcbe9fe483}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002484WF2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{0bf1fb99-6f07-4ae3-9014-9b04c28003d6}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="400.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002484WF2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{3fa6b7f7-9464-48aa-8775-bfbcbe9fe483}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{4aae37ee-ead6-4669-9a28-e59fd50d3993}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="1700.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="002484WF2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL SHORT" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{3fa6b7f7-9464-48aa-8775-bfbcbe9fe483}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{1a0c0853-8b8e-4b55-8f1a-2ecef587f2a6}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000727FN7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{cd0a87e0-9c87-4571-a0b1-4a95dd49ccbf}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="8900.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="000727FN7" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="BUY" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{1a0c0853-8b8e-4b55-8f1a-2ecef587f2a6}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{fc97d009-c93d-4501-922b-179f3426a411}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="001562SO1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{9c7e97e6-111b-4065-b0f2-de7fa90b3bed}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="9800.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="001562SO1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="GTC" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{fc97d009-c93d-4501-922b-179f3426a411}" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreWorkingOrder">
+      <parameter name="blotterKey" value="STRATEGIES BLOTTER" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="crossingKey" value="NEVER MATCH" />
+      <parameter name="externalId0" value="{d8533ddf-1e58-4a8f-a45e-b20e606f7f2a}" />
+      <parameter name="isBrokerMatch" value="false" />
+      <parameter name="isHedgeMatch" value="false" />
+      <parameter name="isInstitutionMatch" value="true" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003671JO3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="5/30/2012 4:09:46 PM" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{a2c8bdd5-5bb9-480a-bd51-60cf29d10732}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="3100.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003671JO3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{d8533ddf-1e58-4a8f-a45e-b20e606f7f2a}" />
+    </method>
+    <method name="StoreSourceOrder">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-25T16:09:46.0061479-04:00" />
+      <parameter name="externalId0" value="{ab46b11a-ac9b-4714-8046-cdc747d9dd5c}" />
+      <parameter name="modifiedTime" value="5/25/2012 4:09:46 PM" />
+      <parameter name="orderedQuantity" value="5000.0" />
+      <parameter name="orderTypeKey" value="MKT" />
+      <parameter name="securityKeyBySecurityId" value="003671JO3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="settlementDate" value="2012-05-30T16:09:46.0061479-04:00" />
+      <parameter name="sideKey" value="SELL" />
+      <parameter name="statusKey" value="NEW" />
+      <parameter name="timeInForceKey" value="DAY" />
+      <parameter name="tradeDate" value="5/25/2012 4:09:46 PM" />
+      <parameter name="userKeyByCreatedUserId" value="YUSUF JONES" />
+      <parameter name="userKeyByModifiedUserId" value="YUSUF JONES" />
+      <parameter name="workingOrderKey" value="{d8533ddf-1e58-4a8f-a45e-b20e606f7f2a}" />
+    </method>
+  </transaction>
+</script>

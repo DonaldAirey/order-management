@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="81f05a91-4577-4090-b1ef-481bf9fe388e" revisionNumber="1">
+	<developerWalkthroughDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>
+				This walkthrough shows how to build a more complex <application>ExplorerWindow</application>
+				application with the Visual Studio Designer.&#160;&#160;You will add several pages in a
+				hierarchy and navigate through them.&#160;&#160;This walkthrough will demonstrate the
+				organization of pages in a navigation application.
+			</para>
+			<para>
+				In this walkthrough, you perform the following tasks:
+			</para>
+			<list class="bullet">
+				<listItem>
+					<para>
+						Create the project.
+					</para>
+				</listItem>
+				<listItem>
+					<para>
+						Create the navigation hierarchy and URL mappings.
+					</para>
+				</listItem>
+				<listItem>
+					<para>
+						Add content to the home page.
+					</para>
+				</listItem>
+				<listItem>
+					<para>
+						Create a logical hierarchy of pages.
+					</para>
+				</listItem>
+				<listItem>
+					<para>
+						Navigate through the hierarchy.
+					</para>
+				</listItem>
+			</list>
+			<para>
+				When you are finished, you will have an application which lets you navigate through
+				several pages.&#160;&#160;Your application's user interface will be implemented in
+				Extensible Application Markup Language (XAML).&#160;&#160;For more information, see XAML
+				in WPF.&#160;&#160;The following illustration shows how your application will appear.
+			</para>
+			<mediaLink>
+				<image xlink:href="265C1D6C-D73E-49e2-958E-C47847ED33F4"/>
+			</mediaLink>
+		</introduction>
+		<prerequisites>
+			<content>
+				<para>
+					You need the following components to complete this walkthrough:
+				</para>
+				<list class="bullet">
+					<listItem>
+						<para>
+							Visual Studio 2010
+						</para>
+					</listItem>
+					<listItem>
+						<para>
+							Explorer Chrome Suite
+						</para>
+					</listItem>
+				</list>
+			</content>
+		</prerequisites>
+		<section>
+			<title>
+				Creating the Project
+			</title>
+	      	<content>
+				<para>
+					The first step is to create the project for the application.
+				</para>
+				<procedure>
+					<title>
+						To create the project
+					</title>
+					<steps class="ordered">
+						<step>
+							<content>
+								<para>
+									Create a new WPF Explorer Application project in Visual C# named
+									<application>PageExplorer</application>.
+								</para>
+								<para>
+									MainWindow.xaml opens in the WPF Designer.
+								</para>
+							</content>
+						</step>
+					</steps>
+				</procedure>
+			</content>
+		</section>
+		<section>
+			<title>
+				Create the navigation hierarchy and URL mappings
+			</title>
+	      	<content>
+				<para>
+					The next step is to create the navigation hierarchy and URL mappings.&#160;&#160;The
+					<application>ExplorerWindow</application> is essentially an ItemsControl.&#160;&#160;
+					The data you provide to it becomes the hierarchy for your application.&#160;&#160;A file
+					system is an example of a kind of hierarchy that could be supplied as a ItemsSource.
+					&#160;&#160;For this walkthrough we'll create a very simple data structure.
+					&#160;&#160;Also, we have borrowed a concept from <legacyBold>Silverlight</legacyBold>: the
+					URI Mapper.&#160;&#160;This class allows you to translate a user friendly URI into a fully
+					formed URI.&#160;&#160;In this walkthrough, we are mapping the friendly page names - Page1,
+					Page2 &amp; Page3 - into PackUris that locate the pages in the assembly resources.
+				</para>
+				<procedure>
+					<title>
+						To create the navigation hierarchy and URL mappings
+					</title>
+					<steps class="ordered">
+						<step>
+							<content>
+								<para>
+									Replace the contents of the MainWindow.xaml source code file with the
+									following code.
+								</para>
+								<code language="XAML">
+									&lt;ExplorerWindow x:Class="PageExplorer.MainWindow"
+													Height="350"
+													Source="/Page1"
+													Title="Page Explorer"
+													Width="525"
+													xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+													xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+										&lt;ExplorerWindow.Items&gt;
+											&lt;ExplorerItem Name="Page1"
+														  SmallImageSource="Resources/Page.png"&gt;
+												&lt;ExplorerItem Name="Page2"
+															  SmallImageSource="Resources/Page.png"/&gt;
+												&lt;ExplorerItem Name="Page3"
+															  SmallImageSource="Resources/Page.png"/&gt;
+											&lt;/ExplorerItem&gt;
+										&lt;/ExplorerWindow.Items&gt;
+										&lt;ExplorerWindow.UriMapper&gt;
+											&lt;UriMapper&gt;
+												&lt;UriMapping MappedUri="/PageExplorer;component/{path}.xaml"
+															Uri="/Page1/{path}"/&gt;
+												&lt;UriMapping MappedUri="/PageExplorer;component/{path}.xaml"
+															Uri="/{path}"/&gt;
+											&lt;/UriMapper&gt;
+										&lt;/ExplorerWindow.UriMapper&gt;
+									&lt;/ExplorerWindow&gt;
+								</code>
+								<para>
+									This XAML code creates the hierarchy that is used by the breadcrumb control
+									to navigate to the pages.&#160;&#160;It also maps the friendly URI names to
+									the fully qualified PackUri names used to locate the pages in the assembly.
+								</para>
+							</content>
+						</step>
+					</steps>
+				</procedure>
+			</content>
+		</section>
+		<section>
+			<title>
+				Adding Content to the Home Page
+			</title>
+	      	<content>
+				<para>
+					With the project created, you can add some content to the first page that will allow it to
+					navigate to other pages.
+				</para>
+				<procedure>
+					<title>
+						To add content to the page.
+					</title>
+					<steps class="ordered">
+						<step>
+							<content>
+								<para>
+									Select Page1.xaml from the Solution Explorer and open it.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Replace the contents of the Page1.xaml source code file with the following
+									code.
+								</para>
+								<code language="XAML">
+									&lt;Page Background="White"
+										  x:Class="PageExplorer.Page1"
+										  Title="Page1"
+										  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+										  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+										&lt;Page.Resources&gt;
+											&lt;Style TargetType="TextBlock"&gt;
+												&lt;Setter Property="FontSize" Value="22"/&gt;
+											&lt;/Style&gt;
+										&lt;/Page.Resources&gt;
+										&lt;Grid&gt;
+											&lt;StackPanel HorizontalAlignment="Center"
+														VerticalAlignment="Center"&gt;
+												&lt;TextBlock Text="Go to Page1"/&gt;
+												&lt;TextBlock&gt;
+													&lt;Hyperlink NavigateUri="/Page1/Page2"&gt;
+														&lt;Run Text="Go to Page2"/&gt;
+													&lt;/Hyperlink&gt;
+												&lt;/TextBlock&gt;
+												&lt;TextBlock&gt;
+													&lt;Hyperlink NavigateUri="/Page1/Page3"&gt;
+														&lt;Run Text="Go to Page3"/&gt;
+													&lt;/Hyperlink&gt;
+												&lt;/TextBlock&gt;
+											&lt;/StackPanel&gt;
+										&lt;/Grid&gt;
+									&lt;/Page&gt;
+								</code>
+								<para>
+									This XAML code creates hyperlinks to the two pages that will reside beneath
+									this starting page.
+								</para>
+							</content>
+						</step>
+					</steps>
+				</procedure>
+			</content>
+		</section>
+		<section>
+			<title>
+				Create a logical hierarchy of pages
+			</title>
+	      	<content>
+				<para>
+					A modern application is like a well designed web site.&#160;&#160;It has a home page and a
+					hierarchy of pages to which the user can navigate either through hyperlinks or
+					through a tree view.&#160;&#160;This step will create the pages which appear below the
+					home page.
+				</para>
+				<procedure>
+					<title>
+						To add additional pages.
+					</title>
+					<steps class="ordered">
+						<step>
+							<content>
+								<para>
+									In the Solution Explorer, Right click on
+									<userInput>PageExplorer</userInput> project and select
+									<userInput>Add</userInput> and <userInput>New Item...</userInput> from the
+									menus.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									In the <legacyBold>Add New Item - PageExplorer</legacyBold> dialog box,
+									select the <legacyBold>Page (WPF)</legacyBold> item.&#160;&#160;Name it
+									<userInput>Page2.xaml</userInput>.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Hit the 'Add' button.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Replace the contents of the Page2.xaml source code file with the following
+									code.
+								</para>
+								<code language="XAML">
+									&lt;Page Background="Wheat"
+										  x:Class="PageExplorer.Page2"
+										  Title="Page2"
+										  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+										  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+										&lt;Page.Resources&gt;
+											&lt;Style TargetType="TextBlock"&gt;
+												&lt;Setter Property="FontSize" Value="22"/&gt;
+											&lt;/Style&gt;
+										&lt;/Page.Resources&gt;
+										&lt;Grid&gt;
+											&lt;StackPanel HorizontalAlignment="Center"
+														VerticalAlignment="Center"&gt;
+												&lt;TextBlock&gt;
+													&lt;Hyperlink NavigateUri="/Page1"&gt;
+														&lt;Run Text="Go to Page1"/&gt;
+													&lt;/Hyperlink&gt;
+												&lt;/TextBlock&gt;
+												&lt;TextBlock Text="Go to Page2"/&gt;
+												&lt;TextBlock&gt;
+													&lt;Hyperlink NavigateUri="/Page1/Page3"&gt;
+														&lt;Run Text="Go to Page3"/&gt;
+													&lt;/Hyperlink&gt;
+												&lt;/TextBlock&gt;
+											&lt;/StackPanel&gt;
+										&lt;/Grid&gt;
+									&lt;/Page&gt;
+								</code>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Repeat the process above and add <userInput>Page3.xaml</userInput> to the
+									<userInput>PageExplorer</userInput> project.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Replace the contents of the Page3.xaml source code file with the following
+									code.
+								</para>
+								<code language="XAML">
+									&lt;Page x:Class="PageExplorer.Page3"
+										  Background="AliceBlue"
+										  Title="Page3"
+										  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+										  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+										&lt;Page.Resources&gt;
+											&lt;Style TargetType="TextBlock"&gt;
+												&lt;Setter Property="FontSize" Value="22"/&gt;
+											&lt;/Style&gt;
+										&lt;/Page.Resources&gt;
+										&lt;Grid&gt;
+											&lt;StackPanel HorizontalAlignment="Center"
+														VerticalAlignment="Center"&gt;
+												&lt;TextBlock&gt;
+													&lt;Hyperlink NavigateUri="/Page1"&gt;
+														&lt;Run Text="Go to Page1"/&gt;
+													&lt;/Hyperlink&gt;
+												&lt;/TextBlock&gt;
+												&lt;TextBlock&gt;
+													&lt;Hyperlink NavigateUri="/Page1/Page2"&gt;
+														&lt;Run Text="Go to Page2"/&gt;
+													&lt;/Hyperlink&gt;
+												&lt;/TextBlock&gt;
+												&lt;TextBlock Text="Go to Page3"/&gt;
+											&lt;/StackPanel&gt;
+										&lt;/Grid&gt;
+									&lt;/Page&gt;
+								</code>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Build and run the solution. 
+								</para>
+							</content>
+						</step>
+					</steps>
+				</procedure>
+			</content>
+		</section>
+		<section>
+			<title>
+				Navigate through the hierarchy
+			</title>
+	      	<content>
+				<para>
+					Now its time to become familiar with the navigation controls.
+				</para>
+				<procedure>
+					<title>
+						To navigate through the hierarchy
+					</title>
+					<steps class="ordered">
+						<step>
+							<content>
+								<para>
+									In the <application>Page Explorer</application> you'll see hyperlinks
+									for <legacyBold>Page2</legacyBold> and <legacyBold>Page3</legacyBold>.
+									Click on <legacyBold>Go to Page2</legacyBold> and you'll be taken to the
+									second page.&#160;&#160;Notice that all of the frame controls now reflect
+									that you've navigated to a new page.&#160;&#160;Also notice that the travel
+									buttons now let you navigate backwards.&#160;&#160;Hit the backward button to
+									navigate back to the first page, then hit the forward button to navigate
+									forward to <legacyBold>Page2</legacyBold>.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									From <legacyBold>Page2</legacyBold> click on the
+									<legacyBold>Go to Page3</legacyBold> hyperlink.&#160;&#160;Notice that the page
+									color changes to help you keep track of what page you are viewing.
+									&#160;&#160;Repeat the process above of navigating back to
+									<legacyBold>Page1</legacyBold> and forward again to
+									<legacyBold>Page3</legacyBold>.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Click on the Down Arrow next to the Foward and Backward buttons.
+									This menu allows you to navigate directly to any page without using
+									the Foward and Backward buttons.&#160;&#160;Select
+									<legacyBold>Page1</legacyBold> from the drop down items.&#160;&#160;Notice
+									that we navigated back to the start page.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Select the Right Arrow button on the first item in the Breadcrumb Bar.
+									You will see the child items of the first page displayed.&#160;&#160;Select
+									<legacyBold>Page3</legacyBold> from this collection and the application
+									will navigate to <legacyBold>Page3</legacyBold>.  Now select the Down Arrow
+									on the Travel Controls (the forward and backward buttons) and see what the
+									last action has done to the Journal.
+								</para>
+							</content>
+						</step>
+						<step>
+							<content>
+								<para>
+									Continue playing with the navigation controls until you have a sense of
+									how they all interact with each other.
+								</para>
+							</content>
+						</step>
+					</steps>
+				</procedure>
+			</content>
+		</section>
+		<nextSteps>
+			<content>
+		  		<para>
+		  			The next step is to compile and run the demonstration solutions that came with the Suite.
+		  			You can find the solutions by hitting the <legacyBold>Start</legacyBold> menu, then
+		  			<legacyBold>All Programs</legacyBold> and select <legacyBold>Teraque</legacyBold>.
+		  		</para>
+		  	</content>
+		</nextSteps>
+	</developerWalkthroughDocument>
+</topic>

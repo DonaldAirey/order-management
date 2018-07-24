@@ -1,0 +1,1289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Configuration">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel"/>
+  <!-- Default Configuration -->
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="AssetViewerTemplate"/>
+    <parameter name="indexName" value="AssetViewerTemplateKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="BlotterConfiguration"/>
+    <parameter name="indexName" value="BlotterConfigurationKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="BrokerAccount"/>
+    <parameter name="indexName" value="BrokerAccountKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="CommissionSchedule"/>
+		<parameter name="indexName" value="CommissionScheduleKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="CommissionTranche"/>
+		<parameter name="indexName" value="CommissionTrancheKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="CommissionType"/>
+		<parameter name="indexName" value="CommissionTypeKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="CommissionUnit"/>
+		<parameter name="indexName" value="CommissionUnitKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Condition"/>
+    <parameter name="indexName" value="ConditionKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Country"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="Crossing"/>
+		<parameter name="indexName" value="CrossingKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="CreditRating"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="CreditRatingService"/>
+		<parameter name="indexName" value="CreditRatingIdServiceKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Destination"/>
+    <parameter name="indexName" value="DestinationKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Exchange"/>
+    <parameter name="indexName" value="ExchangeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="HolidayType"/>
+    <parameter name="indexName" value="HolidayTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="LotHandling"/>
+    <parameter name="indexName" value="LotHandlingKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Entity"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Image"/>
+    <parameter name="indexName" value="ImageKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="EntityTree"/>
+    <parameter name="indexName" value="EntityTreeKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="MssaBucket"/>
+		<parameter name="indexName" value="MssaBucketKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="MajorInstrumentType"/>
+    <parameter name="indexName" value="MajorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="MinorInstrumentType"/>
+    <parameter name="indexName" value="MinorInstrumentTypeKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="OrderType"/>
+		<parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="PartyType"/>
+    <parameter name="indexName" value="PartyTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="PositionType"/>
+    <parameter name="indexName" value="PositionTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="Property"/>
+		<parameter name="indexName" value="PropertyKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="PropertyStore"/>
+		<parameter name="indexName" value="PropertyStoreKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Province"/>
+    <parameter name="indexName" value="ProvinceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Side"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="SourceOrder"/>
+    <parameter name="indexName" value="SourceOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="State"/>
+    <parameter name="indexName" value="StateKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Status"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="SettlementUnit"/>
+		<parameter name="indexName" value="SettlementUnitKeyExternalId0"/>
+	</method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="SubordinateType"/>
+    <parameter name="indexName" value="SubordinateTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="TimeInForce"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="TimeUnit"/>
+		<parameter name="indexName" value="TimeUnitKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Type"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="TypeTree"/>
+    <parameter name="indexName" value="TypeTreeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="User"/>
+    <parameter name="indexName" value="UserKey"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="VolumeCategory"/>
+    <parameter name="indexName" value="VolumeCategoryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="Weekend"/>
+    <parameter name="indexName" value="WeekendKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="WorkingOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Blotter_Branch"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Blotter_BlotterConfiguration"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Blotter_DebtBlotter"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_Blotter_DestinationOrder"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Blotter_EquityBlotter"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Blotter_Source"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Blotter_SourceOrder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Blotter_WorkingOrder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Broker_BrokerAccount"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Broker_ClearingBroker"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CommissionSchedule_CommissionTranche"/>
+		<parameter name="indexName" value="CommissionScheduleKeyExternalId0"/>
+	</method>
+  <method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CommissionType_CommissionTranche"/>
+		<parameter name="indexName" value="CommissionTypeKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CommissionUnit_CommissionTranche"/>
+		<parameter name="indexName" value="CommissionUnitKeyExternalId0"/>
+	</method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Country_Exchange"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Country_Province"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Country_Security"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CreditRatingService_CreditRating"/>
+		<parameter name="indexName" value="CreditRatingIdServiceKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId0"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId1"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId2"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId3"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId4"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId5"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Crossing_WorkingOrder"/>
+    <parameter name="indexName" value="CrossingKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Destination_SourceOrder"/>
+    <parameter name="indexName" value="DestinationKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_Entity_PropertyStore"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Entity_User"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Folder_SystemFolder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Image_Entity"/>
+    <parameter name="indexName" value="ImageKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Image_Type"/>
+    <parameter name="indexName" value="ImageKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Issuer_DebtAttribute"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Entity_Issuer"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Entity_Blotter"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Entity_Folder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Entity_EntityTree_ChildId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Entity_EntityTree_ParentId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Entity_Security"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Debt_DebtAttribute"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_Issuer_Security"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_MajorInstrumentType_Security"/>
+    <parameter name="indexName" value="MajorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_MinorInstrumentType_Security"/>
+    <parameter name="indexName" value="MinorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_OrderType_SourceOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_OrderType_WorkingOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_PartyType_Blotter"/>
+    <parameter name="indexName" value="PartyTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+		<parameter name="configurationId" value="Default"/>
+		<parameter name="relationName" value="FK_Property_PropertyStore"/>
+		<parameter name="indexName" value="PropertyKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Security_Currency"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Security_Price_CurrencyId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Security_Price_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Security_SourceOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Security_SourceOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Security_WorkingOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Security_WorkingOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Side_SourceOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Side_WorkingOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Source_Broker"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Source_Institution"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Status_SourceOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Status_WorkingOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_SystemFolder_User"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_TimeInForce_SourceOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_TimeInForce_WorkingOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Trader_BrokerAccount"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Type_AssetViewerTemplate"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_User_ComplianceOfficer"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_User_Trader"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Type_Entity"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Type_TypeTreeChildId"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_Type_TypeTreeParentId"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_User_SourceOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_User_SourceOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_User_WorkingOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_User_WorkingOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_VolumeCategory_Security"/>
+    <parameter name="indexName" value="VolumeCategoryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="Default"/>
+    <parameter name="relationName" value="FK_WorkingOrder_SourceOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+  <!-- CA TICKER Configuration -->
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="Entity"/>
+    <parameter name="indexName" value="EntityKeyExternalId1"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Country_Security"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Image_Entity"/>
+    <parameter name="indexName" value="ImageKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CA TICKER"/>
+		<parameter name="relationName" value="FK_Issuer_Security"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Entity_Security"/>
+    <parameter name="indexName" value="EntityKeyExternalId1"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_MajorInstrumentType_Security"/>
+    <parameter name="indexName" value="MajorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_MinorInstrumentType_Security"/>
+    <parameter name="indexName" value="MinorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Security_Equity_EquityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId1"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Security_Equity_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Security_Price_CurrencyId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Security_Price_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId1"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_Type_Entity"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CA TICKER"/>
+    <parameter name="relationName" value="FK_VolumeCategory_Security"/>
+    <parameter name="indexName" value="VolumeCategoryKeyExternalId0"/>
+  </method>
+  <!-- UK TICKER Configuration -->
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="Entity"/>
+    <parameter name="indexName" value="EntityKeyExternalId2"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Country_Security"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Image_Entity"/>
+    <parameter name="indexName" value="ImageKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Entity_Security"/>
+    <parameter name="indexName" value="EntityKeyExternalId2"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="UK TICKER"/>
+		<parameter name="relationName" value="FK_Issuer_Security"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_MajorInstrumentType_Security"/>
+    <parameter name="indexName" value="MajorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_MinorInstrumentType_Security"/>
+    <parameter name="indexName" value="MinorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Security_Equity_EquityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId2"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Security_Equity_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Security_Price_CurrencyId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Security_Price_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId2"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_Type_Entity"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="UK TICKER"/>
+    <parameter name="relationName" value="FK_VolumeCategory_Security"/>
+    <parameter name="indexName" value="VolumeCategoryKeyExternalId0"/>
+  </method>
+  <!-- US TICKER Configuration -->
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="Entity"/>
+    <parameter name="indexName" value="EntityKeyExternalId3"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="DestinationOrder"/>
+    <parameter name="indexName" value="DestinationOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="Execution"/>
+    <parameter name="indexName" value="ExecutionKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="SourceOrder"/>
+    <parameter name="indexName" value="SourceOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="WorkingOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="US TICKER"/>
+		<parameter name="relationName" value="FK_Blotter_DestinationOrder"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Blotter_SourceOrder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Blotter_WorkingOrder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Broker_Execution"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Country_Security"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Crossing_WorkingOrder"/>
+    <parameter name="indexName" value="CrossingKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Destination_DestinationOrder"/>
+    <parameter name="indexName" value="DestinationKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Destination_SourceOrder"/>
+    <parameter name="indexName" value="DestinationKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_DestinationOrder_Execution"/>
+    <parameter name="indexName" value="DestinationOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Exchange_Equity"/>
+    <parameter name="indexName" value="ExchangeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Image_Entity"/>
+    <parameter name="indexName" value="ImageKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="US TICKER"/>
+		<parameter name="relationName" value="FK_Issuer_Security"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_MajorInstrumentType_Security"/>
+    <parameter name="indexName" value="MajorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_MinorInstrumentType_Security"/>
+    <parameter name="indexName" value="MinorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_OrderType_DestinationOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_OrderType_DestinationOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_OrderType_SourceOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_OrderType_WorkingOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Entity_Security"/>
+    <parameter name="indexName" value="EntityKeyExternalId3"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_Equity_EquityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId3"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_Equity_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_Price_CurrencyId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_Price_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId3"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_DestinationOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId3"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_DestinationOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_SourceOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId3"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_SourceOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_WorkingOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId3"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Security_WorkingOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Side_DestinationOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Side_SourceOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Side_WorkingOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_State_Execution_DestinationStateCode"/>
+    <parameter name="indexName" value="StateKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_State_Execution_SourceStateCode"/>
+    <parameter name="indexName" value="StateKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_State_DestinationOrder"/>
+    <parameter name="indexName" value="StateKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Status_DestinationOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Status_SourceOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Status_WorkingOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_TimeInForce_DestinationOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_TimeInForce_SourceOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_TimeInForce_WorkingOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_Type_Entity"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_Execution_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_Execution_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_DestinationOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_DestinationOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_SourceOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_SourceOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_WorkingOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_User_WorkingOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_VolumeCategory_Security"/>
+    <parameter name="indexName" value="VolumeCategoryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_WorkingOrder_DestinationOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="US TICKER"/>
+    <parameter name="relationName" value="FK_WorkingOrder_SourceOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+  <!-- CUSIP Configuration -->
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="Entity"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="SourceOrder"/>
+    <parameter name="indexName" value="SourceOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="WorkingOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Blotter_SourceOrder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Blotter_WorkingOrder"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Country_Security"/>
+    <parameter name="indexName" value="CountryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Crossing_WorkingOrder"/>
+    <parameter name="indexName" value="CrossingKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId0"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId1"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId2"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId3"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId4"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_CreditRating_DebtAttribute_CreditRatingId5"/>
+		<parameter name="indexName" value="CreditRatingIdKeyExternal0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Debt_DebtAttribute"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Destination_SourceOrder"/>
+    <parameter name="indexName" value="DestinationKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_DestinationOrder_Execution"/>
+    <parameter name="indexName" value="DestinationOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Image_Entity"/>
+    <parameter name="indexName" value="ImageKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_Issuer_Security"/>
+		<parameter name="indexName" value="EntityKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_OrderType_DestinationOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_OrderType_SourceOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_OrderType_WorkingOrder"/>
+    <parameter name="indexName" value="OrderTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Entity_Security"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_MajorInstrumentType_Security"/>
+    <parameter name="indexName" value="MajorInstrumentTypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_MinorInstrumentType_Security"/>
+    <parameter name="indexName" value="MinorInstrumentTypeKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_MssaBucket_DebtAttribute"/>
+		<parameter name="indexName" value="MssaBucketKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_Debt_DebtId"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_Debt_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_Price_CurrencyId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_Price_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_DestinationOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_DestinationOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_SourceOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_SourceOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_WorkingOrder_SecurityId"/>
+    <parameter name="indexName" value="EntityKeyExternalId4"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Security_WorkingOrder_SettlementId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Side_DestinationOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Side_SourceOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Side_WorkingOrder"/>
+    <parameter name="indexName" value="SideKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Status_DestinationOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Status_SourceOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Status_WorkingOrder"/>
+    <parameter name="indexName" value="StatusKeyExternalId0"/>
+  </method>
+	<method name="StoreConfiguration">
+		<parameter name="configurationId" value="CUSIP"/>
+		<parameter name="relationName" value="FK_SubordinateType_DebtAttribute"/>
+		<parameter name="indexName" value="SubordinateTypeKeyExternalId0"/>
+	</method>
+	<method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_TimeInForce_DestinationOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_TimeInForce_SourceOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_TimeInForce_WorkingOrder"/>
+    <parameter name="indexName" value="TimeInForceKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Type_Entity"/>
+    <parameter name="indexName" value="TypeKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_User_DestinationOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_User_DestinationOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_User_SourceOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_User_SourceOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_User_WorkingOrder_CreatedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_User_WorkingOrder_ModifiedUserId"/>
+    <parameter name="indexName" value="EntityKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_VolumeCategory_Security"/>
+    <parameter name="indexName" value="VolumeCategoryKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_Weekend_Debt"/>
+    <parameter name="indexName" value="WeekendKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_WorkingOrder_DestinationOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+  <method name="StoreConfiguration">
+    <parameter name="configurationId" value="CUSIP"/>
+    <parameter name="relationName" value="FK_WorkingOrder_SourceOrder"/>
+    <parameter name="indexName" value="WorkingOrderKeyExternalId0"/>
+  </method>
+</script>

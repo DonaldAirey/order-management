@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B5F36AD2-10F2-407B-B4A1-BC2961E17725}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teraque.DataModelGenerator.Server</RootNamespace>
+    <AssemblyName>Teraque.DataModelGenerator.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Teraque.DataModelGenerator.Server.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Teraque.DataModelGenerator.Server.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.Shell.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.VisualStudio.Shell.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.10.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClusteredIndexClass\ClusteredIndexClass.cs" />
+    <Compile Include="ClusteredIndexClass\Constructor.cs" />
+    <Compile Include="ClusteredIndexClass\FindByKeyMethod.cs" />
+    <Compile Include="ClusteredIndexClass\FindByMethod.cs" />
+    <Compile Include="CodeCreateTransactionStatement.cs" />
+    <Compile Include="CodeThrowArgumentExceptionStatement.cs" />
+    <Compile Include="CodeThrowFormatExceptionStatement.cs" />
+    <Compile Include="CodeThrowTenantNotLoadedExceptionStatement.cs" />
+    <Compile Include="IndexInterface\FindByKeyMethod.cs" />
+    <Compile Include="IndexInterface\IndexInterface.cs" />
+    <Compile Include="TenantTargetClass\AddTransactionMethod.cs" />
+    <Compile Include="TenantTargetClass\CodeDataRelation.cs" />
+    <Compile Include="TenantTargetClass\CodeForeignKeyConstraint.cs" />
+    <Compile Include="TenantTargetClass\CompressorLogMethod.cs" />
+    <Compile Include="TenantTargetClass\CompressorThreadField.cs" />
+    <Compile Include="TenantTargetClass\DisposeMethod.cs" />
+    <Compile Include="TenantTargetClass\CreateMethod.cs" />
+    <Compile Include="TenantTargetClass\CurrentTransactionProperty.cs" />
+    <Compile Include="TenantTargetClass\DataLockField.cs" />
+    <Compile Include="TenantTargetClass\DestroyMethod.cs" />
+    <Compile Include="TenantTargetClass\OrganizationDataSetClass.cs" />
+    <Compile Include="TenantTargetClass\IdentifierField.cs" />
+    <Compile Include="TenantTargetClass\IncrementRowVersionMethod.cs" />
+    <Compile Include="TenantTargetClass\LoadDataMethod.cs" />
+    <Compile Include="TenantTargetClass\LogCompressionIntervalField.cs" />
+    <Compile Include="TenantTargetClass\MasterRowVersionField.cs" />
+    <Compile Include="TenantTargetClass\ReadMethod.cs" />
+    <Compile Include="TenantTargetClass\RelationField.cs" />
+    <Compile Include="TenantTargetClass\SequenceField.cs" />
+    <Compile Include="TenantTargetClass\SequenceRecordMethod.cs" />
+    <Compile Include="TenantTargetClass\TableField.cs" />
+    <Compile Include="TenantTargetClass\TransactionLogBatchSizeField.cs" />
+    <Compile Include="TenantTargetClass\TransactionLogField.cs" />
+    <Compile Include="TenantTargetClass\TransactionLogItemAgeField.cs" />
+    <Compile Include="TenantTargetClass\TransactionLogLockField.cs" />
+    <Compile Include="TenantTargetClass\StringConstructor.cs" />
+    <Compile Include="FieldCollectorClass\Constructor.cs" />
+    <Compile Include="FieldCollectorClass\FieldCollectorClass.cs" />
+    <Compile Include="FieldCollectorClass\FieldTableField.cs" />
+    <Compile Include="FieldCollectorClass\LinkedListNodeField.cs" />
+    <Compile Include="DataModelGenerator.cs" />
+    <Compile Include="Namespace.cs" />
+    <Compile Include="NonClusteredIndexClass\Constructor.cs" />
+    <Compile Include="NonClusteredIndexClass\FindByKeyMethod.cs" />
+    <Compile Include="NonClusteredIndexClass\FindByMethod.cs" />
+    <Compile Include="NonClusteredIndexClass\NonClusteredIndexClass.cs" />
+    <Compile Include="TenantTargetClass\UpdateMethod.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RowClass\CodeCheckReaderLockHeldStatements.cs" />
+    <Compile Include="RowClass\CodeCheckWriterLockHeldStatements.cs" />
+    <Compile Include="RowClass\CodeThrowSynchronizationExceptionStatement.cs" />
+    <Compile Include="RowClass\ColumnProperty.cs" />
+    <Compile Include="RowClass\GetChildRowsMethod.cs" />
+    <Compile Include="RowClass\IsNullMethod.cs" />
+    <Compile Include="RowClass\LockTimeoutProperty.cs" />
+    <Compile Include="RowClass\ParentRowProperty.cs" />
+    <Compile Include="RowClass\RowBuilderConstructor.cs" />
+    <Compile Include="RowClass\RowClass.cs" />
+    <Compile Include="RowClass\SetNullMethod.cs" />
+    <Compile Include="TableClass\GetRowTypeMethod.cs" />
+    <Compile Include="TableClass\IndicesField.cs" />
+    <Compile Include="TableClass\CountProperty.cs" />
+    <Compile Include="TableClass\ItemInt32Property.cs" />
+    <Compile Include="TableClass\NewRowFromBuilderMethod.cs" />
+    <Compile Include="TableClass\OnRowValidateMethod.cs" />
+    <Compile Include="TableClass\OrdinalField.cs" />
+    <Compile Include="TableClass\OrdinalProperty.cs" />
+    <Compile Include="TableClass\RowValidateEvent.cs" />
+    <Compile Include="TableClass\TableClass.cs" />
+    <Compile Include="TableClass\VoidConstructor.cs" />
+    <Compile Include="CodeAcquireRecordReaderLockExpression.cs" />
+    <Compile Include="TenantTargetClass\CodeAcquireRecordWriterLockExpression.cs" />
+    <Compile Include="CodeAddLockToTransactionExpression.cs" />
+    <Compile Include="TenantTargetClass\CodeAddRecordToTransactionExpression.cs" />
+    <Compile Include="TenantTargetClass\CodeCheckConcurrencyStatement.cs" />
+    <Compile Include="TargetClass\CodeCheckIndexExistsStatement.cs" />
+    <Compile Include="CodeCheckRecordDetachedStatement.cs" />
+    <Compile Include="CodeCheckRecordExistsStatement.cs" />
+    <Compile Include="TenantTargetClass\CodeFindByIndexExpression.cs" />
+    <Compile Include="TenantTargetClass\CodeFindByRowExpression.cs" />
+    <Compile Include="CodeOrganizationPrincipalStatement.cs" />
+    <Compile Include="TargetClass\CodeResolveExternalVariableStatements.cs" />
+    <Compile Include="TargetClass\CodeResolveForeignKeyExpression.cs" />
+    <Compile Include="TargetClass\CodeResolvePrimaryKey.cs" />
+    <Compile Include="CodeTargetDataModelStatement.cs" />
+    <Compile Include="CodeThrowConcurrencyExceptionStatement.cs" />
+    <Compile Include="TargetClass\CodeThrowIndexNotFoundExceptionStatement.cs" />
+    <Compile Include="CodeThrowRecordNotFoundExceptionStatement.cs" />
+    <Compile Include="TenantTargetClass\CompactTimeField.cs" />
+    <Compile Include="TargetClass\UnloadTenantMethod.cs" />
+    <Compile Include="TargetClass\LoadTenantMethod.cs" />
+    <Compile Include="TargetClass\GetTenantsMethod.cs" />
+    <Compile Include="TargetClass\TenantTargetProperty.cs" />
+    <Compile Include="TargetClass\StoreMethod.cs" />
+    <Compile Include="TargetClass\DataLockProperty.cs" />
+    <Compile Include="TargetClass\TenantMapField.cs" />
+    <Compile Include="TargetClass\CreateMethod.cs" />
+    <Compile Include="TargetClass\DestroyMethod.cs" />
+    <Compile Include="TargetClass\KeyArrayField.cs" />
+    <Compile Include="TenantTargetClass\LockTimeoutField.cs" />
+    <Compile Include="TargetClass\LockTimeoutProperty.cs" />
+    <Compile Include="TargetClass\ReadMethod.cs" />
+    <Compile Include="TargetClass\ReadXmlMethod.cs" />
+    <Compile Include="TargetClass\RelationsProperty.cs" />
+    <Compile Include="TargetClass\TableProperty.cs" />
+    <Compile Include="TargetClass\TablesProperty.cs" />
+    <Compile Include="TargetClass\TargetClass.cs" />
+    <Compile Include="TenantTargetClass\ThreadWaitTimeField.cs" />
+    <Compile Include="TenantTargetClass\TypeConverter.cs" />
+    <Compile Include="TargetClass\UpdateMethod.cs" />
+    <Compile Include="TransactionClass\AddLockMethod.cs" />
+    <Compile Include="TransactionClass\AddRecordMethod.cs" />
+    <Compile Include="TransactionClass\CommitMethod.cs" />
+    <Compile Include="TenantTargetClass\ConnectionStringField.cs" />
+    <Compile Include="TransactionClass\HandleQueryCallbackMethod.cs" />
+    <Compile Include="TransactionClass\ExecuteMethod.cs" />
+    <Compile Include="TransactionClass\CountdownEventField.cs" />
+    <Compile Include="TransactionClass\OrganizationDataSetProperty.cs" />
+    <Compile Include="TransactionClass\OrganizationDataSetField.cs" />
+    <Compile Include="TargetClass\CurrentTransactionProperty.cs" />
+    <Compile Include="TransactionClass\InDoubtMethod.cs" />
+    <Compile Include="TransactionClass\LockListField.cs" />
+    <Compile Include="TenantTargetClass\OnTransactionCompletedMethod.cs" />
+    <Compile Include="TransactionClass\PrepareMethod.cs" />
+    <Compile Include="TransactionClass\RecordListField.cs" />
+    <Compile Include="TransactionClass\RollbackMethod.cs" />
+    <Compile Include="TransactionClass\SqlConnectionField.cs" />
+    <Compile Include="TransactionClass\SqlConnectionProperty.cs" />
+    <Compile Include="TenantTargetClass\SyncRootField.cs" />
+    <Compile Include="TransactionClass\TransactionClass.cs" />
+    <Compile Include="TransactionClass\TransactionIdField.cs" />
+    <Compile Include="TransactionClass\TransactionIdProperty.cs" />
+    <Compile Include="TenantTargetClass\TransactionTableField.cs" />
+    <Compile Include="TransactionClass\VoidConstructor.cs" />
+    <Compile Include="TransactionLogItemClass\Constructor.cs" />
+    <Compile Include="TransactionLogItemClass\DataField.cs" />
+    <Compile Include="TransactionLogItemClass\EqualsMethod.cs" />
+    <Compile Include="TransactionLogItemClass\GetHashCodeMethod.cs" />
+    <Compile Include="TransactionLogItemClass\KeyLengthField.cs" />
+    <Compile Include="TransactionLogItemClass\SequenceField.cs" />
+    <Compile Include="TransactionLogItemClass\TimeStampField.cs" />
+    <Compile Include="TransactionLogItemClass\TransactionLogItemClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Teraque.Server\Teraque.Server.csproj">
+      <Project>{C5FD375F-B640-424D-BD14-04644746A516}</Project>
+      <Name>Teraque.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque\Teraque.csproj">
+      <Project>{158782BB-6CF6-4CBE-BB51-91ED82BC0ED8}</Project>
+      <Name>Teraque</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.DataModelGenerator\Teraque.DataModelGenerator.csproj">
+      <Project>{FB8155E6-40A5-4D35-8036-E3EB567F65A5}</Project>
+      <Name>Teraque.DataModelGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

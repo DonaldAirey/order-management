@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Broker Accounts">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreBrokerAccount">
+    <parameter name="externalId0" value="ATLAS ACCOUNT" />
+    <parameter name="brokerKey" value="ATLAS BANK" />
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="The first clearing account for Atlas Bank" />
+    <parameter name="mnemonic" value="00001" />
+    <parameter name="traderKey" value="CAROL HILL" />
+  </method>
+</script>

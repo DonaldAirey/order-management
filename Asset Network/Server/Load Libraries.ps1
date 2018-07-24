@@ -1,0 +1,5 @@
+Write-Host "Loading Libraries into GAC"
+gacutil -i "${Home}\Documents\Visual Studio 2010\Projects\Teraque\Main\Teraque\bin\Debug\Teraque.dll"
+gacutil -i "${Home}\Documents\Visual Studio 2010\Projects\Teraque\Main\Teraque.Legacy\bin\Debug\Teraque.Legacy.dll"
+gacutil -i "${Home}\Documents\Visual Studio 2010\Projects\Teraque\Main\Asset Network\Teraque.AssetNetwork\bin\Debug\Teraque.AssetNetwork.dll"
+gacutil -i "${Home}\Documents\Visual Studio 2010\Projects\Teraque\Main\Teraque.Message\bin\Debug\Teraque.Message.dll"

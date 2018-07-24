@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Reports">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreReport">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="name" value="Debt Working Order Report" />
+    <parameter name="externalId0" value="DEBT WORKING ORDER REPORT" />
+    <parameter name="reportTypeKey" value="WORKING ORDER" />
+    <parameter name="xaml">
+      <import path="../Reports/Classic Debt Working Order.xaml"/>
+    </parameter>
+  </method>
+</script>

@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="US Government Bill">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001575US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001575US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001575US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001575US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001726US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001726US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001726US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001726US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001730US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001730US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001730US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001730US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001748US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001748US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001748US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001748US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001812US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001812US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001812US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001812US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001828US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001828US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001828US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001828US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001846US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001846US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001846US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001846US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="001999US1" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="001999US1" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="001999US1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="001999US1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="002099US2" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="002099US2" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="002099US2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="002099US2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="002210US2" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="002210US2" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="002210US2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="002210US2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="002427US2" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="002427US2" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="002427US2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="002427US2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="002543US2" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="002543US2" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="002543US2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="002543US2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="002736US2" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="002736US2" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="002736US2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="002736US2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="002779US2" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="002779US2" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="002779US2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="002779US2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="002920US2" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="002920US2" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="002920US2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="002920US2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="003646US3" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="003646US3" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="003646US3" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="003646US3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="2017-05-20 20:36:36" />
+      <parameter name="externalId4" value="003686US3" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="U S TREASURY BILLS" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="003686US3" />
+      <parameter name="isDerivative" value="false" />
+      <parameter name="majorInstrumentTypeKey" value="TBILL" />
+      <parameter name="minorInstrumentTypeKey" value="USTBILLZ" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="003686US3" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="firstCoupon" value="2012-05-20 20:36:36" />
+      <parameter name="frequency" value="0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="issuerKey" value="USTREAS" />
+      <parameter name="maturityDate" value="2022-05-20 20:36:36" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="003686US3" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+</script>

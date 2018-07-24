@@ -1,0 +1,70 @@
+<ExplorerWindow x:Class="Teraque.ExplorerChromeExample.MainWindow"
+				xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+				DataContext="{StaticResource Categories}"
+				d:DesignHeight="300"
+				d:DesignWidth="600"
+				Icon="Resources\Explorer Window.ico"
+				mc:Ignorable="d"
+				ItemsSource="{Binding}"
+				Source="/Categories"
+				xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+				xmlns:properties="clr-namespace:Teraque.ExplorerChromeExample.Properties"
+				ResizeMode="CanResizeWithGrip"
+				Title="{x:Static properties:Resources.Title}"
+				xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<ExplorerWindow.MenuItems>
+		<Gadget Header="{x:Static properties:Resources.File}">
+			<Gadget Command="ApplicationCommands.Close"
+					Header="{x:Static properties:Resources.Close}"/>
+		</Gadget>
+		<Gadget Header="{x:Static properties:Resources.Edit}">
+			<Gadget Command="Commands.ResetSettings"
+					Header="{x:Static properties:Resources.ResetSettings}"/>
+		</Gadget>
+		<Gadget Header="{x:Static properties:Resources.View}">
+			<Gadget Command="Commands.ViewStatusPane"
+					Header="{x:Static properties:Resources.StatusBar}"
+					IsChecked="{Binding Path=IsStatusVisible, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"/>
+			<Separator/>
+			<Gadget Command="Commands.ViewExtraLargeIcons"
+					CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"
+					Header="{x:Static properties:Resources.ExtraLargeIcons}"/>
+			<Gadget Command="Commands.ViewLargeIcons"
+					CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"
+					Header="{x:Static properties:Resources.LargeIcons}"/>
+			<Gadget Command="Commands.ViewMediumIcons"
+					CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"
+					Header="{x:Static properties:Resources.MediumIcons}"/>
+			<Gadget Command="Commands.ViewSmallIcons"
+					CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"
+					Header="{x:Static properties:Resources.SmallIcons}"/>
+			<Gadget Command="Commands.ViewDetails"
+					CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"
+					Header="{x:Static properties:Resources.Details}"/>
+			<Gadget Command="Commands.ViewTiles"
+					CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"
+					Header="{x:Static properties:Resources.Tiles}"/>
+			<Gadget Command="Commands.ViewContent"
+					CommandTarget="{Binding Path=CommandTarget, RelativeSource={RelativeSource AncestorType=ExplorerWindow}}"
+					Header="{x:Static properties:Resources.Content}"/>
+		</Gadget>
+		<Gadget Header="{x:Static properties:Resources.Tools}"/>
+		<Gadget Header="{x:Static properties:Resources.Help}">
+			<Gadget Command="Commands.About"
+					Header="{x:Static properties:Resources.About}"/>
+		</Gadget>
+	</ExplorerWindow.MenuItems>
+	<ExplorerWindow.CommandBindings>
+		<CommandBinding Command="Commands.About"
+						Executed="OnAbout"/>
+	</ExplorerWindow.CommandBindings>
+	<ExplorerWindow.UriMapper>
+		<UriMapper>
+			<UriMapping MappedUri="/Teraque.CategoryPage;component/CategoryBook.xaml?{path}"
+						Uri="/{path}"/>
+			<UriMapping MappedUri="/Teraque.ControlPanel;component/Control Panel.xaml"
+						Uri="Control Panel"/>
+		</UriMapper>
+	</ExplorerWindow.UriMapper>
+</ExplorerWindow>

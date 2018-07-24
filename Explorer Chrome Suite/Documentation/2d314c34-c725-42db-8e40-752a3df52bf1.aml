@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="2d314c34-c725-42db-8e40-752a3df52bf1" revisionNumber="1">
+  <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xparank="http://www.w3.org/1999/xparank">
+  <introduction>
+      <para>
+      	Welcome to the Teraque Explorer Chrome Suite.&#160;&#160;The suite of classes, components and resources
+      	was created to be a drop in replacement for the <application>Window</application> and
+      	<application>NavigationWindow</application> classes and will immediately give your products a
+      	professional look and feel.&#160;&#160;Based on a page navigation paradigm, the suite creates powerful
+      	applications that allow your users to navigate forward, backward or use hyperlinks to get to any kind
+      	of content you might want to display: HTML pages, WPF Pages, Silverlight Pages or any generic WPF or
+      	WinForm content.&#160;&#160;The package includes everything you need to create a Microsoft Windows
+      	Explorer® interface: Navigation Buttons, Breadcrumb Control, Search Box and more.
+      </para>
+    </introduction>
+    <section address="Section1">
+      <title>Benefits and Features</title>
+      <content>
+        <para>Using the Teraque Explorer Chrome Suite has the following advantages:</para>
+        <list class="bullet">
+	        <listItem>
+		        <para>
+		        	Navigation Infrastructure.&#160;&#160;Forget SDI or MDI, the future belongs to browsers.
+		        	&#160;&#160;Navigate forward, backward or to a hyperlink.
+		        </para>
+	        </listItem>
+	        <listItem>
+		        <para>
+		        	The Teraque <application>ExplorerWindow</application> provides a framework for the Foward,
+		        	Backward, Breadcrumb, Search and TreeView to work as a single unit when navigating through
+		        	your content.&#160;&#160;Navigating through pages is fun, easy and intuitive.
+		        </para>
+	        </listItem>
+	        <listItem>
+		        <para>
+		        	The most exact reproduction of the Microsoft Windows Explorer® user interface anywhere.
+		        </para>
+	        </listItem>
+	        <listItem>
+		        <para>
+		        	Extended Aero glass frame.
+		        </para>
+	        </listItem>
+	        <listItem>
+		        <para>
+		        	All the controls you'll need for an Explorer-type application: Travel Bar (forward and
+		        	backward buttons), Breadcrumb Bar, Federated Search Box, Menu with overflow control,
+		        	Tool Bar with overflow, Integrated Tree View, Details Bar and more.
+		        </para>
+	        </listItem>
+	        <listItem>
+		        <para>
+		        	Completely skinnable application.&#160;&#160;Skins are provided for Generic, Vista and
+		        	Windows 7 modes.&#160;&#160;In addition, you can provide your own custom themes.
+		        </para>
+	        </listItem>
+	        <listItem>
+		        <para>
+		        	DPI Awareness and integration of Windows System Color and Appearance settings.
+		        </para>
+	        </listItem>
+	        <listItem>
+		        <para>
+		        	A set of pages for navigating through hierarchical (directory-like) data structures.
+		        </para>
+	        </listItem>
+        </list>
+      </content>
+    </section>
+  </developerConceptualDocument>
+</topic>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E494EFFD-7115-4730-8CE8-F258C9F0A93F}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teraque.AssetNetwork.Windows</RootNamespace>
+    <AssemblyName>Teraque.AssetNetwork.Navigator</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DirectoryPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NavigatorBook.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NavigatorFrame.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DirectoryPage.xaml.cs">
+      <DependentUpon>DirectoryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatorBook.xaml.cs">
+      <DependentUpon>NavigatorBook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatorFrame.xaml.cs">
+      <DependentUpon>NavigatorFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>Teraque.AssetNetwork.Navigator.Properties</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Teraque.AssetNetwork.Navigator.Properties</CustomToolNamespace>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Teraque.Message\Teraque.Message.csproj">
+      <Project>{FE639B3B-DA4B-46B0-94DB-F5BC157301C4}</Project>
+      <Name>Teraque.Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque.PresentationFramework\Teraque.PresentationFramework.csproj">
+      <Project>{0404F2B3-5EE8-45BE-91F5-8569DE1315C8}</Project>
+      <Name>Teraque.PresentationFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque.Server\Teraque.Server.csproj">
+      <Project>{C5FD375F-B640-424D-BD14-04644746A516}</Project>
+      <Name>Teraque.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque\Teraque.csproj">
+      <Project>{158782BB-6CF6-4CBE-BB51-91ED82BC0ED8}</Project>
+      <Name>Teraque</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork.ClientDataModel\Teraque.AssetNetwork.ClientDataModel.csproj">
+      <Project>{6A5CE2EA-BD1D-49EC-A4C9-E97F947FD18E}</Project>
+      <Name>Teraque.AssetNetwork.ClientDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork.WebClient\Teraque.AssetNetwork.WebClient.csproj">
+      <Project>{33003E38-EFED-467B-8A77-77BAAE2994BD}</Project>
+      <Name>Teraque.AssetNetwork.WebClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork.Windows\Teraque.AssetNetwork.Windows.csproj">
+      <Project>{D29B7A66-FD2D-41C0-BFE1-4DE7881C0BB7}</Project>
+      <Name>Teraque.AssetNetwork.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.AssetNetwork\Teraque.AssetNetwork.csproj">
+      <Project>{3160E4F0-B199-4B8E-B206-71582E7E7041}</Project>
+      <Name>Teraque.AssetNetwork</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Copy.png" />
+    <Resource Include="Resources\Cut.png" />
+    <Resource Include="Resources\Delete.png" />
+    <Resource Include="Resources\Desktop.png" />
+    <Resource Include="Resources\Detail Pane.png" />
+    <Resource Include="Resources\Explorer.ico" />
+    <Resource Include="Resources\Help.png" />
+    <Resource Include="Resources\Layout.png" />
+    <Resource Include="Resources\Library Pane.png" />
+    <Resource Include="Resources\Navigation Pane.png" />
+    <Resource Include="Resources\Open.png" />
+    <Resource Include="Resources\Paste.png" />
+    <Resource Include="Resources\Preview Pane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Themes\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

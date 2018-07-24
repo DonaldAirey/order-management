@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Category Page", "Category Page\Category Page.csproj", "{5B829952-0946-44D6-8780-03BE0FAD50D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Model", "Data Model\Data Model.csproj", "{D74EF246-B496-40F3-B8FC-FCA2DD96FB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer Chrome Example", "Explorer Chrome Example\Explorer Chrome Example.csproj", "{8E35F554-722A-4518-8661-2F1230B79FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B829952-0946-44D6-8780-03BE0FAD50D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B829952-0946-44D6-8780-03BE0FAD50D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B829952-0946-44D6-8780-03BE0FAD50D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B829952-0946-44D6-8780-03BE0FAD50D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74EF246-B496-40F3-B8FC-FCA2DD96FB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74EF246-B496-40F3-B8FC-FCA2DD96FB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74EF246-B496-40F3-B8FC-FCA2DD96FB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74EF246-B496-40F3-B8FC-FCA2DD96FB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E35F554-722A-4518-8661-2F1230B79FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E35F554-722A-4518-8661-2F1230B79FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E35F554-722A-4518-8661-2F1230B79FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E35F554-722A-4518-8661-2F1230B79FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

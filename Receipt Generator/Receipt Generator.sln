@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receipt Generator AddIn", "Receipt Generator AddIn\Receipt Generator AddIn.csproj", "{C061E470-681A-4B97-B4E9-68FBEE27FE24}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{CCC244B5-F1B9-4C68-AE5B-78B18C3F532C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://viola:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Receipt\u0020Generator\u0020AddIn\\Receipt\u0020Generator\u0020AddIn.csproj
+		SccProjectName1 = Receipt\u0020Generator\u0020AddIn
+		SccLocalPath1 = Receipt\u0020Generator\u0020AddIn
+		SccProjectUniqueName2 = Setup\\Setup.vdproj
+		SccProjectName2 = Setup
+		SccLocalPath2 = Setup
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C061E470-681A-4B97-B4E9-68FBEE27FE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C061E470-681A-4B97-B4E9-68FBEE27FE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C061E470-681A-4B97-B4E9-68FBEE27FE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C061E470-681A-4B97-B4E9-68FBEE27FE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC244B5-F1B9-4C68-AE5B-78B18C3F532C}.Debug|Any CPU.ActiveCfg = Debug
+		{CCC244B5-F1B9-4C68-AE5B-78B18C3F532C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

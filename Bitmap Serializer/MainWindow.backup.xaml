@@ -1,0 +1,25 @@
+﻿<Window x:Class="Teraque.Tools.MainWindow"
+		Height="200"
+		Title="MainWindow"
+		Width="200"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:properties="clr-namespace:Teraque.Tools.Properties"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Window.CommandBindings>
+		<CommandBinding Command="Open"
+						Executed="OnOpen"/>
+	</Window.CommandBindings>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Menu>
+            <MenuItem Header="{x:Static properties:Resources.File}">
+				<MenuItem Command="Open"
+						  Header="{x:Static properties:Resources.Open}"/>
+			</MenuItem>
+		</Menu>
+        <TextBox Grid.Row="1" Name="TextBox" TextWrapping="Wrap"/>
+	</Grid>
+</Window>

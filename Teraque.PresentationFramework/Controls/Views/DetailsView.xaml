@@ -1,0 +1,37 @@
+<DetailsView AllowsColumnReorder="true"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<DetailsView.ColumnHeaderContextMenu>
+		<ContextMenu>
+			<MenuItem Command="Commands.FitColumn"
+						Header="Size Column to Fit"/>
+			<MenuItem Command="Commands.FitAllColumns"
+						Header="Size All Columnsto Fit"/>
+			<Separator/>
+		</ContextMenu>
+	</DetailsView.ColumnHeaderContextMenu>
+	<ColumnViewColumn Header="Name"
+					  Width="296">
+		<ColumnViewColumn.DisplayMemberBinding>
+			<Binding Path="Name"/>
+		</ColumnViewColumn.DisplayMemberBinding>
+	</ColumnViewColumn>
+	<ColumnViewColumn Header="Date Modified"
+					  Width="120">
+		<ColumnViewColumn.DisplayMemberBinding>
+			<Binding Path="DateModified"/>
+		</ColumnViewColumn.DisplayMemberBinding>
+	</ColumnViewColumn>
+	<ColumnViewColumn Header="Type"
+					  Width="120">
+		<ColumnViewColumn.DisplayMemberBinding>
+			<Binding Path="Type"/>
+		</ColumnViewColumn.DisplayMemberBinding>
+	</ColumnViewColumn>
+	<ColumnViewColumn Header="Size"
+					  Width="80">
+		<ColumnViewColumn.DisplayMemberBinding>
+			<Binding Path="Size"/>
+		</ColumnViewColumn.DisplayMemberBinding>
+	</ColumnViewColumn>
+</DetailsView>

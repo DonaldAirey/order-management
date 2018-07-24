@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Credit Rating Service">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+	<method name="StoreCreditRatingService">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="NONE" />
+		<parameter name="name" value="None" />
+	</method>
+	<method name="StoreCreditRatingService">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="externalId0" value="FITCH" />
+    <parameter name="name" value="Fitch" />
+  </method>
+	<method name="StoreCreditRatingService">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="MOODYS" />
+		<parameter name="name" value="Moody's" />
+	</method>
+	<method name="StoreCreditRatingService">
+		<parameter name="configurationId" value="Default" />
+		<parameter name="externalId0" value="STANDARDPOORS" />
+		<parameter name="name" value="Standard &amp; Poor's" />
+	</method>
+</script>

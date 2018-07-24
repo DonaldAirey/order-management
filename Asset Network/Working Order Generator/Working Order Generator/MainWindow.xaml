@@ -1,0 +1,131 @@
+﻿<Window xmlns:asset="http://schemas.teraque.com/winfx/2006/xaml/asset/presentation"
+		x:Class="Teraque.AssetNetwork.MainWindow"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		Icon="Resources\Working Order Generator.ico"
+		mc:Ignorable="d"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:properties="clr-namespace:Teraque.AssetNetwork.WorkingOrderGenerator.Properties"
+		ResizeMode="CanResizeWithGrip"
+		SizeToContent="WidthAndHeight"
+		Title="{x:Static properties:Resources.Title}"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Window.Resources>
+		<!-- BlotterBoxStyle -->
+		<Style BasedOn="{StaticResource {x:Type ComboBox}}"
+			   x:Key="ComboBoxStyle"
+			   TargetType="ComboBox">
+			<Setter Property="HorizontalContentAlignment"
+					Value="Left"/>
+			<Setter Property="VerticalContentAlignment"
+					Value="Center"/>
+		</Style>
+	</Window.Resources>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="Auto"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<Label Content="{x:Static properties:Resources.OutputFileLabel}"
+			   Grid.Column="0"
+			   Grid.Row="0"
+			   HorizontalAlignment="Right"
+			   Margin="4"
+			   VerticalAlignment="Center"/>
+		<TextBox Grid.Column="1"
+				 Grid.Row="0"
+				 HorizontalAlignment="Stretch"
+				 Margin="4"
+				 Text="{Binding Path=FileName, Mode=TwoWay}"
+				 VerticalAlignment="Center"
+				 Width="300"/>
+		<Button Click="OnBrowseClick"
+				Content="{x:Static properties:Resources.BrowseLabel}"
+				Grid.Column="2"
+				Grid.Row="0"
+				HorizontalAlignment="Center"
+				Margin="4"
+				VerticalAlignment="Center"
+				Width="64"/>
+		<Label Content="{x:Static properties:Resources.NumberOfOrdersLabel}"
+			   Grid.Column="0"
+			   Grid.Row="1"
+			   HorizontalAlignment="Right"
+			   Margin="4"/>
+		<Int32Box Grid.Column="1"
+				  Grid.Row="1"
+				  Margin="4"
+				  Value="{Binding Path=OrderCount}"
+				  VerticalAlignment="Center"/>
+		<Label Content="{x:Static properties:Resources.BlotterLabel}"
+			   Grid.Column="0"
+			   Grid.Row="2"
+			   HorizontalAlignment="Right"
+			   HorizontalContentAlignment="Right"
+			   Margin="4"/>
+		<asset:BlotterComboBox Grid.Column="1"
+							   BlotterId="{Binding Path=BlotterId}"
+							   Grid.Row="2"
+							   Margin="4"
+							   Style="{StaticResource ComboBoxStyle}"/>
+		<Label Content="{x:Static properties:Resources.UserLabel}"
+			   Grid.Column="0"
+			   Grid.Row="3"
+			   HorizontalAlignment="Right"
+			   HorizontalContentAlignment="Right"
+			   Margin="4"/>
+		<asset:UserComboBox Grid.Column="1"
+							Grid.Row="3"
+							Margin="4"
+							Style="{StaticResource ComboBoxStyle}"
+							UserId="{Binding Path=UserId}"/>
+
+		<Grid Grid.Row="4"
+			  Grid.ColumnSpan="3">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+			</Grid.ColumnDefinitions>
+			<GroupBox Margin="4" Header="{x:Static properties:Resources.InstrumentTypeLabel}">
+				<StackPanel>
+					<CheckBox Margin="4" Content="{x:Static properties:Resources.EquityLabel}" IsChecked="{Binding Path=IsEquity}" />
+					<CheckBox Margin="4" Content="{x:Static properties:Resources.FixedIncomeLabel}" IsChecked="{Binding Path=IsFixedIncome}" />
+				</StackPanel>
+			</GroupBox>
+			<GroupBox Grid.Column="1" Header="{x:Static properties:Resources.CurrencyLabel}">
+				<StackPanel>
+					<CheckBox Margin="4" Content="{x:Static properties:Resources.UnitedStatesDollarLabel}" IsChecked="{Binding Path=IsUnitedStatesDollar}" />
+					<CheckBox Margin="4" Content="{x:Static properties:Resources.CanadianDollarLabel}" IsChecked="{Binding Path=IsCanadianDollar}" />
+					<CheckBox Margin="4" Content="{x:Static properties:Resources.GreatBritainPoundLabel}" IsChecked="{Binding Path=IsGreatBritainPound}" />
+				</StackPanel>
+			</GroupBox>
+		</Grid>
+		<StackPanel FlowDirection="RightToLeft"
+					Grid.Column="0"
+					Grid.ColumnSpan="3"
+					Grid.Row="5"
+					Orientation="Horizontal">
+			<Button Click="OnExitButtonClick"
+					Content="{x:Static properties:Resources.ExitLabel}"
+					IsCancel="True"
+					Margin="4"
+					VerticalAlignment="Center"
+					Width="80"/>
+			<Button Click="OnGenerateButtonClick"
+					Content="{x:Static properties:Resources.GenerateLabel}"
+					IsDefault="True"
+					Margin="4"
+					VerticalAlignment="Center"
+					Width="80"/>
+		</StackPanel>
+	</Grid>
+</Window>

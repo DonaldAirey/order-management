@@ -1,0 +1,1396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WebService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="TcpWebServiceCertificateEndpoint_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:RequireClientCertificate />
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:ProtectionToken>
+              <wsp:Policy>
+                <sp:SecureConversationToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                    <sp:RequireDerivedKeys />
+                    <sp:BootstrapPolicy>
+                      <wsp:Policy>
+                        <sp:SignedParts>
+                          <sp:Body />
+                          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+                        </sp:SignedParts>
+                        <sp:EncryptedParts>
+                          <sp:Body />
+                        </sp:EncryptedParts>
+                        <sp:SymmetricBinding>
+                          <wsp:Policy>
+                            <sp:ProtectionToken>
+                              <wsp:Policy>
+                                <mssp:SslContextToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient" xmlns:mssp="http://schemas.microsoft.com/ws/2005/07/securitypolicy">
+                                  <wsp:Policy>
+                                    <sp:RequireDerivedKeys />
+                                  </wsp:Policy>
+                                </mssp:SslContextToken>
+                              </wsp:Policy>
+                            </sp:ProtectionToken>
+                            <sp:AlgorithmSuite>
+                              <wsp:Policy>
+                                <sp:Basic256 />
+                              </wsp:Policy>
+                            </sp:AlgorithmSuite>
+                            <sp:Layout>
+                              <wsp:Policy>
+                                <sp:Strict />
+                              </wsp:Policy>
+                            </sp:Layout>
+                            <sp:IncludeTimestamp />
+                            <sp:EncryptSignature />
+                            <sp:OnlySignEntireHeadersAndBody />
+                          </wsp:Policy>
+                        </sp:SymmetricBinding>
+                        <sp:SignedSupportingTokens>
+                          <wsp:Policy>
+                            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                              <wsp:Policy>
+                                <sp:WssUsernameToken10 />
+                              </wsp:Policy>
+                            </sp:UsernameToken>
+                          </wsp:Policy>
+                        </sp:SignedSupportingTokens>
+                        <sp:Wss11>
+                          <wsp:Policy />
+                        </sp:Wss11>
+                        <sp:Trust10>
+                          <wsp:Policy>
+                            <sp:MustSupportIssuedTokens />
+                            <sp:RequireClientEntropy />
+                            <sp:RequireServerEntropy />
+                          </wsp:Policy>
+                        </sp:Trust10>
+                      </wsp:Policy>
+                    </sp:BootstrapPolicy>
+                  </wsp:Policy>
+                </sp:SecureConversationToken>
+              </wsp:Policy>
+            </sp:ProtectionToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+            <sp:IncludeTimestamp />
+            <sp:EncryptSignature />
+            <sp:OnlySignEntireHeadersAndBody />
+          </wsp:Policy>
+        </sp:SymmetricBinding>
+        <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy />
+        </sp:Wss11>
+        <sp:Trust10 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:MustSupportIssuedTokens />
+            <sp:RequireClientEntropy />
+            <sp:RequireServerEntropy />
+          </wsp:Policy>
+        </sp:Trust10>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_ClearOrders_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_ClearOrders_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_GetTenants_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_GetTenants_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_GetUserId_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_GetUserId_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_GetUserId_RecordNotFoundFaultFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_LoadTenant_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_LoadTenant_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_ReportExecution_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_ReportExecution_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_Start_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_Start_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_Stop_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_Stop_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UnloadTenant_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UnloadTenant_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateCanadaTickerPrice_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateCanadaTickerPrice_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateCusipPrice_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateCusipPrice_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateCurrencyPrice_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateCurrencyPrice_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdatePrice_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdatePrice_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateUnitedKingdomTickerPrice_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateUnitedKingdomTickerPrice_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateUnitedStatesTickerPrice_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="TcpWebServiceUserNameEndpoint_UpdateUnitedStatesTickerPrice_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor" />
+          <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" />
+          <sp:Header Name="OleTxTransaction" Namespace="http://schemas.microsoft.com/ws/2006/02/tx/oletx" />
+          <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust" />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Teraque" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Teraque.AssetNetwork" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWebService_ClearOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearOrders" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_ClearOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetTenants_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTenants" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetTenants_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTenantsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserId" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetUserId_RecordNotFoundFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Teraque" name="detail" element="q1:RecordNotFoundFault" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_LoadTenant_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTenant" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_LoadTenant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTenantResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_ReportExecution_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReportExecution" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_ReportExecution_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReportExecutionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_Start_InputMessage">
+    <wsdl:part name="parameters" element="tns:Start" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_Start_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_Stop_InputMessage">
+    <wsdl:part name="parameters" element="tns:Stop" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_Stop_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UnloadTenant_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnloadTenant" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UnloadTenant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnloadTenantResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateCanadaTickerPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCanadaTickerPrice" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateCanadaTickerPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCanadaTickerPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateCusipPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCusipPrice" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateCusipPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCusipPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateCurrencyPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCurrencyPrice" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateCurrencyPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCurrencyPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdatePrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePrice" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdatePrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateUnitedKingdomTickerPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUnitedKingdomTickerPrice" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateUnitedKingdomTickerPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUnitedKingdomTickerPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateUnitedStatesTickerPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUnitedStatesTickerPrice" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateUnitedStatesTickerPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUnitedStatesTickerPriceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWebService">
+    <wsdl:operation name="ClearOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/ClearOrders" message="tns:IWebService_ClearOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/ClearOrdersResponse" message="tns:IWebService_ClearOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTenants">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetTenants" message="tns:IWebService_GetTenants_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetTenantsResponse" message="tns:IWebService_GetTenants_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetUserId" message="tns:IWebService_GetUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetUserIdResponse" message="tns:IWebService_GetUserId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWebService/GetUserIdRecordNotFoundFaultFault" name="RecordNotFoundFaultFault" message="tns:IWebService_GetUserId_RecordNotFoundFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadTenant">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/LoadTenant" message="tns:IWebService_LoadTenant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/LoadTenantResponse" message="tns:IWebService_LoadTenant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportExecution">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/ReportExecution" message="tns:IWebService_ReportExecution_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/ReportExecutionResponse" message="tns:IWebService_ReportExecution_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/Start" message="tns:IWebService_Start_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/StartResponse" message="tns:IWebService_Start_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/Stop" message="tns:IWebService_Stop_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/StopResponse" message="tns:IWebService_Stop_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnloadTenant">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UnloadTenant" message="tns:IWebService_UnloadTenant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UnloadTenantResponse" message="tns:IWebService_UnloadTenant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCanadaTickerPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UpdateCanadaTickerPrice" message="tns:IWebService_UpdateCanadaTickerPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UpdateCanadaTickerPriceResponse" message="tns:IWebService_UpdateCanadaTickerPrice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCusipPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UpdateCusipPrice" message="tns:IWebService_UpdateCusipPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UpdateCusipPriceResponse" message="tns:IWebService_UpdateCusipPrice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCurrencyPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UpdateCurrencyPrice" message="tns:IWebService_UpdateCurrencyPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UpdateCurrencyPriceResponse" message="tns:IWebService_UpdateCurrencyPrice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UpdatePrice" message="tns:IWebService_UpdatePrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UpdatePriceResponse" message="tns:IWebService_UpdatePrice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUnitedKingdomTickerPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UpdateUnitedKingdomTickerPrice" message="tns:IWebService_UpdateUnitedKingdomTickerPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UpdateUnitedKingdomTickerPriceResponse" message="tns:IWebService_UpdateUnitedKingdomTickerPrice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUnitedStatesTickerPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UpdateUnitedStatesTickerPrice" message="tns:IWebService_UpdateUnitedStatesTickerPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UpdateUnitedStatesTickerPriceResponse" message="tns:IWebService_UpdateUnitedStatesTickerPrice_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TcpWebServiceCertificateEndpoint" type="tns:IWebService">
+    <wsp:PolicyReference URI="#TcpWebServiceCertificateEndpoint_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="ClearOrders">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/ClearOrders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTenants">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/GetTenants" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserId">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/GetUserId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="RecordNotFoundFaultFault">
+        <soap12:fault use="literal" name="RecordNotFoundFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTenant">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/LoadTenant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportExecution">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/ReportExecution" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/Start" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/Stop" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnloadTenant">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UnloadTenant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCanadaTickerPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateCanadaTickerPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCusipPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateCusipPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCurrencyPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateCurrencyPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdatePrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUnitedKingdomTickerPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateUnitedKingdomTickerPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUnitedStatesTickerPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateUnitedStatesTickerPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TcpWebServiceUserNameEndpoint" type="tns:IWebService">
+    <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="ClearOrders">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/ClearOrders" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_ClearOrders_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_ClearOrders_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTenants">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/GetTenants" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_GetTenants_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_GetTenants_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserId">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/GetUserId" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_GetUserId_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_GetUserId_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="RecordNotFoundFaultFault">
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_GetUserId_RecordNotFoundFaultFault_Fault" />
+        <soap12:fault use="literal" name="RecordNotFoundFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTenant">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/LoadTenant" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_LoadTenant_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_LoadTenant_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportExecution">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/ReportExecution" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_ReportExecution_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_ReportExecution_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/Start" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_Start_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_Start_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/Stop" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_Stop_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_Stop_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnloadTenant">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UnloadTenant" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UnloadTenant_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UnloadTenant_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCanadaTickerPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateCanadaTickerPrice" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateCanadaTickerPrice_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateCanadaTickerPrice_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCusipPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateCusipPrice" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateCusipPrice_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateCusipPrice_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCurrencyPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateCurrencyPrice" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateCurrencyPrice_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateCurrencyPrice_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdatePrice" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdatePrice_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdatePrice_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUnitedKingdomTickerPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateUnitedKingdomTickerPrice" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateUnitedKingdomTickerPrice_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateUnitedKingdomTickerPrice_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUnitedStatesTickerPrice">
+      <soap12:operation soapAction="http://tempuri.org/IWebService/UpdateUnitedStatesTickerPrice" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateUnitedStatesTickerPrice_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#TcpWebServiceUserNameEndpoint_UpdateUnitedStatesTickerPrice_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="TcpWebServiceCertificateEndpoint" binding="tns:TcpWebServiceCertificateEndpoint">
+      <soap12:address location="net.tcp://prospero/Asset%20Network/Web%20Service/Certificate" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://prospero/Asset%20Network/Web%20Service/Certificate</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>Prospero</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="TcpWebServiceUserNameEndpoint" binding="tns:TcpWebServiceUserNameEndpoint">
+      <soap12:address location="net.tcp://prospero/Asset%20Network/Web%20Service/UserName" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://prospero/Asset%20Network/Web%20Service/UserName</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+              <X509Certificate>MIICzTCCAjqgAwIBAgIQm8x5j1rQAplECZLJjLJQizAJBgUrDgMCHQUAMHcxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJNQTEPMA0GA1UEBxMGQm9sdG9uMSIwIAYDVQQLExlUZXJhcXVlIENsaWVudCBPcGVyYXRpb25zMRAwDgYDVQQKEwdUZXJhcXVlMRQwEgYDVQQDEwtQcm9zcGVybyBDQTAeFw0xMjA0MDYxODA2MjZaFw0zOTEyMzEyMzU5NTlaMBMxETAPBgNVBAMTCFByb3NwZXJvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCf5OeOlqpIeItsyDaVchmdFWqek63pEg4vaAF8zQLRnvnTX/8+Krf1sQ1MtRbLyVt9zgYHFvWU5w3VYLSSshHjj1wZGKFMV4ED6zAMnu1pNrZFG4Zm0iCnGxQO+NOMDL7dXBxzYDMkrNhcYbfFyRoDeyiyy0pXh5pFcGgIFP7tGwIDAQABo4HFMIHCMBMGA1UdJQQMMAoGCCsGAQUFBwMBMIGqBgNVHQEEgaIwgZ+AEPIMFlOu5/AhK8wVPlYjalWheTB3MQswCQYDVQQGEwJVUzELMAkGA1UECBMCTUExDzANBgNVBAcTBkJvbHRvbjEiMCAGA1UECxMZVGVyYXF1ZSBDbGllbnQgT3BlcmF0aW9uczEQMA4GA1UEChMHVGVyYXF1ZTEUMBIGA1UEAxMLUHJvc3Blcm8gQ0GCEP1v6iJFU6OoRVjJPwrI7PYwCQYFKw4DAh0FAAOBgQAvFOvpyzK28dAvtArYKWIWTZkVrizAPHntYgU7lNbSDvJ+ZJ0m3TAvw10shUL9ebHYfAD/NFf/dNZrlaDTpMePs5kP0wqlLUPdV0BhGDYGgMTkpbViDSfwkf+3cH46rax1VPKo4oA1X2M9+JSnLMZnJtZkahxtgHVgvyFGDvCksw==</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

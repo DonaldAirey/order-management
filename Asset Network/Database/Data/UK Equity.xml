@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="UK Equity">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="ARM" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="ARM HOLDINGS" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="ARM" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="ARM" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="ARM" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="BA/A" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BAE SYSTEMS" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="BA/A" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BA/A" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="BA/A" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="BP/" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BP" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="BP/" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BP/" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="BP/" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="BATS" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="BRITISH AMERICAN TOBACCO" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="BATS" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="BATS" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="BATS" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="CWG" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="CANARY WHARF GROUP" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="CWG" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="CWG" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="CWG" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="CPG" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="COMPASS GROUP" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="CPG" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="CPG" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="CPG" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="FP/" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="FRIENDS PROVIDENT" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="FP/" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="FP/" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="FP/" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="GSK" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="GLAXOSMITHKLINE" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="GSK" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="GSK" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="GSK" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="HSBA" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="HSBC HLDGS" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="HSBA" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="HSBA" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="HSBA" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="ICI" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="IMPERIAL CHEMICAL INDUSTRIES (NIL PD)" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="ICI" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="ICI" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="ICI" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="ISYS" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="INVENSYS" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="ISYS" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="ISYS" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="ISYS" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="LANE" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="LAND SECURITIES" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="LANE" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="LANE" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="LANE" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="LOG" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="LOGICA" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="LOG" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="LOG" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="LOG" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="MKS" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="MARKS &amp; SPECER" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="MKS" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="MKS" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="MKS" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="NXT" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NEXT" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="NXT" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="NXT" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="NXT" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="NRK" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NORTHERN ROCK" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="NRK" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="NRK" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="NRK" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="PSON" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="PEARSON" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="PSON" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="PSON" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="PSON" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="REED" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="REED INTERNATIONAL" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="REED" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="REED" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="REED" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="RTO" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="RENTOKIL INITIAL" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="RTO" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="RTO" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="RTO" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="RTR" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="REUTERS GROUP" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="RTR" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="RTR" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="RTR" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="SGE" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="SAGE GROUP" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="SGE" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="SGE" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="SGE" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="SPW" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="SCOTTISH POWER" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="SPW" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="SPW" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="SPW" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="SAB" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="SOUTH AFRICAN BREWERIES" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="SAB" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="SAB" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="SAB" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="TSCO" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="TESCO" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="TSCO" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="TSCO" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="TSCO" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="ULVR" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="UNILEVER" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="ULVR" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="ULVR" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="ULVR" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId2" value="VOD" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="VODAFONE GROUP" />
+      <parameter name="typeKey" value="EQUITY" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="countryKey" value="GB" />
+      <parameter name="entityKey" value="VOD" />
+			<parameter name="issuerKey" value="NONE" />
+			<parameter name="majorInstrumentTypeKey" value="EQUITY" />
+			<parameter name="minorInstrumentTypeKey" value="COMMON" />
+      <parameter name="symbol" value="VOD" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreEquity">
+      <parameter name="configurationId" value="UK TICKER" />
+      <parameter name="equityTypeCode" value="COMMON STOCK" />
+      <parameter name="exchangeId" value="LSE" />
+      <parameter name="minimumQuantity" value="25000" />
+      <parameter name="securityKeyByEquityId" value="VOD" />
+      <parameter name="securityKeyBySettlementId" value="GBP" />
+    </method>
+  </transaction>
+</script>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B0B0D55-08C9-4615-9026-D7BD38E8E0A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teraque.DataModelGenerator</RootNamespace>
+    <AssemblyName>Teraque.DataModelGenerator.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Teraque.DataModelGenerator.Client.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Teraque.DataModelGenerator.Client.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.Shell.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.VisualStudio.Shell.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.10.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientGenerator.cs" />
+    <Compile Include="ClusteredIndexClass\ClusteredIndexClass.cs" />
+    <Compile Include="ClusteredIndexClass\Constructor.cs" />
+    <Compile Include="ClusteredIndexClass\FindByKeyMethod.cs" />
+    <Compile Include="ClusteredIndexClass\FindByMethod.cs" />
+    <Compile Include="TargetClass\TenantNotLoadedField.cs" />
+    <Compile Include="TargetClientClass\StoreMethod.cs" />
+    <Compile Include="TargetClientClass\CreateMethod.cs" />
+    <Compile Include="TargetClientClass\TargetClientClass.cs" />
+    <Compile Include="TargetClientClass\DestroyMethod.cs" />
+    <Compile Include="TargetClientClass\ReadMethod.cs" />
+    <Compile Include="TargetClientClass\StringConstructor.cs" />
+    <Compile Include="TargetClientClass\UpdateMethod.cs" />
+    <Compile Include="TargetClientClass\VoidConstructor.cs" />
+    <Compile Include="IndexInterface\FindByKeyMethod.cs" />
+    <Compile Include="IndexInterface\IndexInterface.cs" />
+    <Compile Include="Namespace.cs" />
+    <Compile Include="NonClusteredIndexClass\Constructor.cs" />
+    <Compile Include="NonClusteredIndexClass\FindByKeyMethod.cs" />
+    <Compile Include="NonClusteredIndexClass\FindByMethod.cs" />
+    <Compile Include="NonClusteredIndexClass\NonClusteredIndexClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RowClass\ColumnProperty.cs" />
+    <Compile Include="RowClass\GetChildRowsMethod.cs" />
+    <Compile Include="RowClass\IsNullMethod.cs" />
+    <Compile Include="RowClass\ParentRowProperty.cs" />
+    <Compile Include="RowClass\RowBuilderConstructor.cs" />
+    <Compile Include="RowClass\RowClass.cs" />
+    <Compile Include="RowClass\SetNullMethod.cs" />
+    <Compile Include="TableClass\CountProperty.cs" />
+    <Compile Include="TableClass\GetRowTypeMethod.cs" />
+    <Compile Include="TableClass\NewRowFromBuilderMethod.cs" />
+    <Compile Include="TableClass\RowIndexerProperty.cs" />
+    <Compile Include="TableClass\TableClass.cs" />
+    <Compile Include="TableClass\VoidConstructor.cs" />
+    <Compile Include="TargetClass\BatchSizeField.cs" />
+    <Compile Include="TargetClass\StartMergeMethod.cs" />
+    <Compile Include="TargetClass\MergeStateQueueField.cs" />
+    <Compile Include="TargetClass\MergeDataModelMethod.cs" />
+    <Compile Include="TargetClass\DataSetField.cs" />
+    <Compile Include="TargetClass\DataSetIdField.cs" />
+    <Compile Include="TargetClass\DeletedTimeColumnField.cs" />
+    <Compile Include="TargetClass\IsReadingField.cs" />
+    <Compile Include="TargetClass\IsReadingProperty.cs" />
+    <Compile Include="TargetClass\MergeState\UnhandledRowsField.cs" />
+    <Compile Include="TargetClass\MergeState\IsAnythingMergedField.cs" />
+    <Compile Include="TargetClass\MergeState\RowIndexField.cs" />
+    <Compile Include="TargetClass\MergeState\TransactionLogField.cs" />
+    <Compile Include="TargetClass\MergeState\MergeStateClass.cs" />
+    <Compile Include="TargetClass\MergeState\ObjectArrayConstructor.cs" />
+    <Compile Include="TargetClass\PrimaryKeyOffset.cs" />
+    <Compile Include="TargetClass\ReadDataModelMethod.cs" />
+    <Compile Include="TargetClass\ReadDataModelThreadField.cs" />
+    <Compile Include="TargetClass\ReadXmlMethod.cs" />
+    <Compile Include="TargetClass\RefreshIntervalField.cs" />
+    <Compile Include="TargetClass\RelationField.cs" />
+    <Compile Include="TargetClass\RelationsProperty.cs" />
+    <Compile Include="TargetClass\ResetMethod.cs" />
+    <Compile Include="TargetClass\RowDataIndexField.cs" />
+    <Compile Include="TargetClass\RowStateIndexField.cs" />
+    <Compile Include="TargetClass\RowVersionColumnField.cs" />
+    <Compile Include="TargetClass\SequenceField.cs" />
+    <Compile Include="TargetClass\StaticConstructor.cs" />
+    <Compile Include="TargetClass\SyncRootField.cs" />
+    <Compile Include="TargetClass\SyncRootProperty.cs" />
+    <Compile Include="TargetClass\SyncUpdateField.cs" />
+    <Compile Include="TargetClass\TableField.cs" />
+    <Compile Include="TargetClass\TableProperty.cs" />
+    <Compile Include="TargetClass\TableRowsIndexField.cs" />
+    <Compile Include="TargetClass\TablesProperty.cs" />
+    <Compile Include="TargetClass\TableTableNameIndexField.cs" />
+    <Compile Include="TargetClass\TargetClass.cs" />
+    <Compile Include="TargetClass\ThreadWaitTimeField.cs" />
+    <Compile Include="TargetClass\UpdateBufferMutexField.cs" />
+    <Compile Include="TargetClass\WriteXmlMethod.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Teraque.Server\Teraque.Server.csproj">
+      <Project>{C5FD375F-B640-424D-BD14-04644746A516}</Project>
+      <Name>Teraque.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Teraque\Teraque.csproj">
+      <Project>{158782BB-6CF6-4CBE-BB51-91ED82BC0ED8}</Project>
+      <Name>Teraque</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teraque.DataModelGenerator\Teraque.DataModelGenerator.csproj">
+      <Project>{FB8155E6-40A5-4D35-8036-E3EB567F65A5}</Project>
+      <Name>Teraque.DataModelGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

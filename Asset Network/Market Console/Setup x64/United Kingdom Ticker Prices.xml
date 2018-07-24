@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Prices>
+	<Price symbol="SGE" price="212.0000000"/>
+	<Price symbol="SPW" price="417.0000000"/>
+	<Price symbol="HSBA" price="778.0000000"/>
+	<Price symbol="LANE" price="884.0000000"/>
+	<Price symbol="RTR" price="538.0000000"/>
+	<Price symbol="NXT" price="980.0000000"/>
+	<Price symbol="SAB" price="470.2500000"/>
+	<Price symbol="CWG" price="454.0000000"/>
+	<Price symbol="PSON" price="770.0000000"/>
+	<Price symbol="ISYS" price="99.7500000"/>
+	<Price symbol="REED" price="630.0000000"/>
+	<Price symbol="BP/" price="589.5000000"/>
+	<Price symbol="RTO" price="269.7500000"/>
+	<Price symbol="ICI" price="302.0000000"/>
+	<Price symbol="ARM" price="295.0000000"/>
+	<Price symbol="TSCO" price="249.7500000"/>
+	<Price symbol="MKS" price="385.7500000"/>
+	<Price symbol="BA/A" price="319.0000000"/>
+	<Price symbol="CPG" price="487.0000000"/>
+	<Price symbol="ULVR" price="588.5000000"/>
+	<Price symbol="VOD" price="134.5000000"/>
+	<Price symbol="LOG" price="404.0000000"/>
+	<Price symbol="GSK" price="760.0000000"/>
+	<Price symbol="NRK" price="690.0000000"/>
+	<Price symbol="FP/" price="175.5000000"/>
+	<Price symbol="BATS" price="655.0000000"/>
+</Prices>
+

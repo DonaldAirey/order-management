@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>_About</value>
+    <comment>About the application.</comment>
+  </data>
+  <data name="AboutCopyrightNotice" xml:space="preserve">
+    <value>Copyright © 2010-2012 by Teraque, Inc.  All rights reserved.</value>
+    <comment>The copyright notice that appears in the 'About' box.</comment>
+  </data>
+  <data name="AboutEvaluationDaysLeftFormat" xml:space="preserve">
+    <value>You have {0} days left in your evaluation period.</value>
+    <comment>The format for displaying the days left in the evaluation in the 'About' box.</comment>
+  </data>
+  <data name="AboutEvaluationLicense" xml:space="preserve">
+    <value>Evaluation License</value>
+    <comment>Indicates that the product is using an evaluation license in the 'About' box.</comment>
+  </data>
+  <data name="AboutMailUrl" xml:space="preserve">
+    <value>mailto:sales@teraque.com</value>
+    <comment>A URL to start a message to Teraque support.</comment>
+  </data>
+  <data name="AboutNotLicensed" xml:space="preserve">
+    <value>This product is not licensed.</value>
+    <comment>Indicates that the product isn't licensed in the 'About' box.</comment>
+  </data>
+  <data name="AboutProductName" xml:space="preserve">
+    <value>Asset Network Explorer</value>
+    <comment>The name of the product in the 'About' box.</comment>
+  </data>
+  <data name="AboutPurchaseLicenseUrl" xml:space="preserve">
+    <value>http://www.teraque.com/products/explorer-chrome-suite/</value>
+    <comment>The URL where a user can purchase a valid license.</comment>
+  </data>
+  <data name="AboutSupportHome" xml:space="preserve">
+    <value>Support at Teraque</value>
+    <comment>The label on the support home hyperlink  in the 'About' box.</comment>
+  </data>
+  <data name="AboutSupportMail" xml:space="preserve">
+    <value>support@teraque.com</value>
+    <comment>The label on the support mail hyperlink in the 'About' box.</comment>
+  </data>
+  <data name="AboutSupportMessageRun0" xml:space="preserve">
+    <value>You can get help at</value>
+    <comment>The support message in the 'About' box.</comment>
+  </data>
+  <data name="AboutSupportMessageRun1" xml:space="preserve">
+    <value> or email us at </value>
+    <comment>The support message in the 'About' box.</comment>
+  </data>
+  <data name="AboutSupportMessageRun2" xml:space="preserve">
+    <value>.  We're happy to answer your questions even if you're just evaluating the product.</value>
+    <comment>The support message in the 'About' box.</comment>
+  </data>
+  <data name="AboutSupportUrl" xml:space="preserve">
+    <value>http://www.teraque.com/support</value>
+    <comment>The URL where Teraque support can be found.</comment>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>About Asset Network Explorer</value>
+    <comment>The title of the 'About' box.</comment>
+  </data>
+  <data name="AboutValidDaysLeftFormat" xml:space="preserve">
+    <value>You have {0} days left on your license.</value>
+    <comment>The format for displaying the days left in a full license in the 'About' box.</comment>
+  </data>
+  <data name="AboutValidLicense" xml:space="preserve">
+    <value>This product is licensed.</value>
+    <comment>Indicates that the product has a valid license in the 'About' box.</comment>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Version </value>
+    <comment>The label for the Version display.</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>Closes the window.</comment>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Conten_t</value>
+    <comment>Content</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+    <comment>Copies the current selection onto the Clipboard.</comment>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+    <comment>Removes the current selection and copies it to the Clipboard.</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Deletes the selected items.</comment>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>_Details</value>
+    <comment>Details</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>_Edit</value>
+    <comment>Contains edit commands.</comment>
+  </data>
+  <data name="Evaluation" xml:space="preserve">
+    <value>Evaluation</value>
+    <comment>The text that appears in the "Evaluation" watermark.</comment>
+  </data>
+  <data name="EvaluationLicense" xml:space="preserve">
+    <value>The evaluation period for '{0}' has expired.  Please contact Teraque support for a solution at 1.617.963.8999 or support@teraque.com.</value>
+    <comment>The evaluation period has expired.</comment>
+  </data>
+  <data name="ExpiredLicense" xml:space="preserve">
+    <value>The license for '{0}' has expired.  Please contact the Teraque support for a solution at 1.617.963.8999 or support@teraque.com.</value>
+    <comment>License Error</comment>
+  </data>
+  <data name="ExtraLargeIcons" xml:space="preserve">
+    <value>E_xtra large icons</value>
+    <comment>Extra Large Icons</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>_File</value>
+    <comment>Contains commands for working with the selected items.</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>_Help</value>
+    <comment>Contains commands for displaying help.</comment>
+  </data>
+  <data name="InvalidLicense" xml:space="preserve">
+    <value>A valid license could not be found for '{0}'.  Please contact the Teraque support for a solution at 1.617.963.8999 or support@teraque.com.</value>
+    <comment>License Error</comment>
+  </data>
+  <data name="LargeIcons" xml:space="preserve">
+    <value>La_rge icons</value>
+    <comment>Large Icons</comment>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>_LogOff</value>
+    <comment>LogOff</comment>
+  </data>
+  <data name="MediumIcons" xml:space="preserve">
+    <value>_Medium icons</value>
+    <comment>Medium Icons</comment>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+    <comment>Inserts the items you have copied or cut into the selected location.</comment>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Properties</value>
+    <comment>Displays the properties of the selected item.</comment>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Redo the previous operation.</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+    <comment>Renames the selected item.</comment>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Reset Settings</value>
+    <comment>Resets the user preferences to factory defaults.</comment>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select all</value>
+    <comment>Selects all the items in the window.</comment>
+  </data>
+  <data name="SimpleList" xml:space="preserve">
+    <value>_List</value>
+    <comment>Simple List</comment>
+  </data>
+  <data name="SmallIcons" xml:space="preserve">
+    <value>Small ico_ns</value>
+    <comment>Small Icons</comment>
+  </data>
+  <data name="StatusBar" xml:space="preserve">
+    <value>Status _bar</value>
+    <comment>Shows or hides the status bar.</comment>
+  </data>
+  <data name="TenantNotLoaded" xml:space="preserve">
+    <value>The tenant '{0}' is not loaded on the server.  Please contact Teraque support.</value>
+    <comment>The tenant isn't loaded.</comment>
+  </data>
+  <data name="Tiles" xml:space="preserve">
+    <value>Tile_s</value>
+    <comment>Tiles</comment>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Asset Network Explorer</value>
+    <comment>The title of the application</comment>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>_Tools</value>
+    <comment>Contains tools commands.</comment>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Undo the previous operation.</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>_View</value>
+    <comment>Contains commands for manipulating the view.</comment>
+  </data>
+</root>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Consumers xmlns="">
+  <Consumer Address="26 Virgina Avenue" City="Tulsa" DateOfBirth="Aug 20 1971 12:00AM" FirstName="Rao" LastName="Moyer" Phone="(954) 457 5441" Salutation="Mr." SSN="603-21-2134" State="OK" ZipCode="74110"/>
+  <Consumer Address="172 Tennesee Avenue" City="Tulsa" DateOfBirth="" FirstName="Lucina" LastName="Jean-francois" Phone="" Salutation="Mrs." SSN="673-46-4197" State="OK" ZipCode=""/>
+  <Consumer Address="172 Tennesee Avenue" City="Tulsa" DateOfBirth="" FirstName="Lucina" LastName="Jean-francois" Phone="" Salutation="Mrs." SSN="673-46-4197" State="OK" ZipCode=""/>
+  <Consumer Address="26 Virgina Avenue" City="Tulsa" DateOfBirth="Aug 20 1971 12:00AM" FirstName="Rao" LastName="Moyer" Phone="(954) 457 5441" Salutation="Mr." SSN="603-21-2134" State="OK" ZipCode="74110"/>
+  <Consumer Address="2 Beacon Street" City="Des Plaines" DateOfBirth="Sep 20 1977 12:00AM" FirstName="San" LastName="Vance" Phone="" Salutation="Mr" SSN="482-95-6615" State="IL" ZipCode="600166516"/>
+  <Consumer Address="191 New York Avenue" City="Bridgeview" DateOfBirth="" FirstName="Mojtaba" LastName="Hanzal" Phone="(239) 731 2530" Salutation="Mr" SSN="461-08-2556" State="IL" ZipCode="60455"/>
+  <Consumer Address="26 Broad Street" City="Bridgeview" DateOfBirth="" FirstName="Alexie" LastName="Rosabal" Phone="(850) 293 1889" Salutation="Miss" SSN="306-82-0806" State="IL" ZipCode=""/>
+  <Consumer Address="26 Broad Street" City="Bridgeview" DateOfBirth="" FirstName="Alexie" LastName="Rosabal" Phone="(850) 293 1889" Salutation="Miss" SSN="306-82-0860" State="IL" ZipCode=""/>
+  <Consumer Address="26 Broad Street" City="Bridgeview" DateOfBirth="" FirstName="Alexie" LastName="Rosabal" Phone="(850) 293 1889" Salutation="Miss" SSN="306-82-0806" State="IL" ZipCode=""/>
+</Consumers>

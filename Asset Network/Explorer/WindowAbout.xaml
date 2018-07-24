@@ -1,0 +1,173 @@
+﻿<Window Background="#F0F0F0"
+		x:Class="Teraque.AssetNetwork.WindowAbout"
+		xmlns:local="clr-namespace:Teraque.AssetNetwork"
+		xmlns:properties="clr-namespace:Teraque.AssetNetwork.Explorer.Properties"
+		ResizeMode="NoResize"
+		SizeToContent="WidthAndHeight"
+		Title="{x:Static properties:Resources.AboutTitle}"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Window.Resources>
+		<VersionConverter x:Key="VersionConverter"/>
+	</Window.Resources>
+	<Window.CommandBindings>
+		<CommandBinding Command="Commands.DialogAccept"
+						Executed="OnDialogAccept"/>
+		<CommandBinding Command="local:WindowAbout.PurchaseLicense"
+						Executed="OnPurchaseLicense"/>
+		<CommandBinding Command="local:WindowAbout.NavigateToSupport"
+						Executed="OnNavigateToSupport"/>
+		<CommandBinding Command="local:WindowAbout.MailtoSupport"
+						Executed="OnMailtoSupport"/>
+	</Window.CommandBindings>
+	<Window.Template>
+		<ControlTemplate TargetType="{x:Type local:WindowAbout}">
+			<Grid Background="{TemplateBinding Background}">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel HorizontalAlignment="Center"
+							Margin="50,10"
+							Orientation="Horizontal">
+					<Image Height="48"
+						   Margin="5,0"
+						   Source="Resources/Explorer.ico"
+						   Width="48"/>
+					<TextBlock FontFamily="Tahoma"
+							   FontSize="22"
+							   Text="{x:Static properties:Resources.AboutProductName}"
+							   VerticalAlignment="Center"/>
+				</StackPanel>
+				<StackPanel Margin="20,0"
+							VerticalAlignment="Bottom">
+					<Rectangle Fill="DarkGray"
+							   Height="1"
+							   HorizontalAlignment="Stretch"/>
+					<Rectangle Fill="White"
+							   Height="1"
+							   HorizontalAlignment="Stretch"/>
+				</StackPanel>
+				<StackPanel Grid.Row="1"
+							Margin="50,20">
+					<TextBlock Text="{x:Static properties:Resources.AboutProductName}"/>
+					<WrapPanel>
+						<TextBlock Text="{x:Static properties:Resources.AboutVersion}"/>
+						<TextBlock>
+							<TextBlock.Text>
+								<Binding Converter="{StaticResource VersionConverter}"
+										 Path="Version"
+										 RelativeSource="{RelativeSource TemplatedParent}"/>
+							</TextBlock.Text>
+						</TextBlock>
+					</WrapPanel>
+					<TextBlock Text="{x:Static properties:Resources.AboutCopyrightNotice}"/>
+					<StackPanel Margin="0,8"
+								Name="UnlicensedPanel">
+						<TextBlock FontSize="18"
+								   FontWeight="Bold"
+								   Text="{x:Static properties:Resources.AboutNotLicensed}"/>
+					</StackPanel>
+					<StackPanel Margin="0,8"
+								Name="EvaluationLicensePanel"
+								Visibility="Collapsed">
+						<TextBlock FontSize="18"
+								   FontWeight="Bold"
+								   Text="{x:Static properties:Resources.AboutEvaluationLicense}"/>
+						<TextBlock TextWrapping="Wrap">
+							<TextBlock.Text>
+								<Binding Path="DaysLeft"
+										 RelativeSource="{RelativeSource TemplatedParent}"
+										 StringFormat="{x:Static properties:Resources.AboutEvaluationDaysLeftFormat}"/>
+							</TextBlock.Text>
+						</TextBlock>
+					</StackPanel>
+					<StackPanel Margin="0,8"
+								Name="FullLicensePanel"
+								Visibility="Collapsed">
+						<TextBlock FontSize="18"
+								   FontWeight="Bold"
+								   Text="{x:Static properties:Resources.AboutValidLicense}"/>
+						<TextBlock TextWrapping="Wrap">
+							<TextBlock.Text>
+								<Binding Path="DaysLeft"
+										 RelativeSource="{RelativeSource TemplatedParent}"
+										 StringFormat="{x:Static properties:Resources.AboutValidDaysLeftFormat}"/>
+							</TextBlock.Text>
+						</TextBlock>
+					</StackPanel>
+					<StackPanel Margin="0,8"
+								Name="PerpetualLicensedPanel"
+								Visibility="Collapsed">
+						<TextBlock FontSize="18"
+								   FontWeight="Bold"
+								   Text="{x:Static properties:Resources.AboutValidLicense}"/>
+					</StackPanel>
+					<TextBlock HorizontalAlignment="Left"
+							   TextWrapping="Wrap"
+							   Width="300">
+						<Run Text="{x:Static properties:Resources.AboutSupportMessageRun0}"/>
+						<Hyperlink Command="local:WindowAbout.NavigateToSupport">
+							<Run Text="{x:Static properties:Resources.AboutSupportHome}"/>
+						</Hyperlink>
+						<Run Text="{x:Static properties:Resources.AboutSupportMessageRun1}"/>
+						<Hyperlink Command="local:WindowAbout.MailtoSupport">
+							<Run Text="{x:Static properties:Resources.AboutSupportMail}"/>
+						</Hyperlink>
+						<Run Text="{x:Static properties:Resources.AboutSupportMessageRun2}"/>
+					</TextBlock>
+				</StackPanel>
+				<StackPanel Grid.Row="2"
+							HorizontalAlignment="Right"
+							Margin="9,10"
+							Orientation="Horizontal">
+					<Button Command="local:WindowAbout.PurchaseLicense"
+							Content="Purchase"
+							Height="21"
+							Margin="5,0"
+							Name="PurchaseButton"
+							Visibility="Collapsed"
+							Width="73"/>
+					<Button Command="Commands.DialogAccept"
+							Content="OK"
+							Height="21"
+							Margin="5,0"
+							Width="73"/>
+				</StackPanel>
+			</Grid>
+			<ControlTemplate.Triggers>
+				<Trigger Property="IsEvaluationLicense"
+						 Value="True">
+					<Setter Property="Visibility"
+							TargetName="UnlicensedPanel"
+							Value="Collapsed"/>
+					<Setter Property="Visibility"
+							TargetName="EvaluationLicensePanel"
+							Value="Visible"/>
+					<Setter Property="Visibility"
+							TargetName="PurchaseButton"
+							Value="Visible"/>
+				</Trigger>
+				<Trigger Property="IsFullLicense"
+						 Value="True">
+					<Setter Property="Visibility"
+							TargetName="UnlicensedPanel"
+							Value="Collapsed"/>
+					<Setter Property="Visibility"
+							TargetName="FullLicensePanel"
+							Value="Visible"/>
+				</Trigger>
+				<Trigger Property="IsPerpetualLicense"
+						 Value="True">
+					<Setter Property="Visibility"
+							TargetName="UnlicensedPanel"
+							Value="Collapsed"/>
+					<Setter Property="Visibility"
+							TargetName="PerpetualLicensedPanel"
+							Value="Visible"/>
+				</Trigger>
+			</ControlTemplate.Triggers>
+		</ControlTemplate>
+	</Window.Template>
+</Window>

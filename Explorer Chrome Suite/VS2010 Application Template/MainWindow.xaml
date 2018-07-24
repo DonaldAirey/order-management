@@ -1,0 +1,14 @@
+﻿<ExplorerWindow x:Class="$safeprojectname$.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Source="/Page1"
+        Title="MainWindow" Height="350" Width="525">
+	<ExplorerWindow.Items>
+		<ExplorerItem Name="Page1" SmallImageSource="Resources/Page.png" />
+	</ExplorerWindow.Items>
+	<ExplorerWindow.UriMapper>
+		<UriMapper>
+			<UriMapping MappedUri="/$safeprojectname$;component/{path}.xaml" Uri="/{path}"/>
+		</UriMapper>
+	</ExplorerWindow.UriMapper>
+</ExplorerWindow>

@@ -1,0 +1,5 @@
+﻿<Application x:Class="Teraque.AssetNetwork.App"
+			 StartupUri="MainWindow.xaml"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:asset="http://schemas.teraque.com/winfx/2006/xaml/asset/presentation"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"/>

@@ -1,0 +1,110 @@
+﻿<ExplorerFrame x:Class="Teraque.AssetNetwork.Windows.NavigatorFrame"
+			   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			   xmlns:data="http://schemas.teraque.com/winfx/2006/xaml/asset/presentation"
+			   d:DesignHeight="300"
+			   d:DesignWidth="600"
+			   mc:Ignorable="d"
+			   xmlns:local="clr-namespace:Teraque.AssetNetwork.Windows"
+			   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			   xmlns:properties="clr-namespace:Teraque.AssetNetwork.Navigator.Properties"
+			   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<ExplorerFrame.Resources>
+		<HierarchicalDataTemplate DataType="{x:Type data:AssetNetworkItem}"
+								  ItemsSource="{Binding Path=Children}">
+			<StackPanel Margin="0,2,0,3"
+						Orientation="Horizontal">
+				<PixelSnapper Margin="0,0,5,0">
+					<Image Source="{Binding Path=SmallImageSource}"
+						   Stretch="None"/>
+				</PixelSnapper>
+				<TextBlock Text="{Binding Path=Name}"/>
+			</StackPanel>
+		</HierarchicalDataTemplate>
+	</ExplorerFrame.Resources>
+	<ExplorerFrame.GadgetBarItems>
+		<Gadget Header="Organize"
+				ToolTip="{x:Static properties:Resources.OrganizeToolTip}">
+			<Gadget Command="ApplicationCommands.Cut">
+				<Gadget.Icon>
+					<BitmapImage UriSource="Resources\Cut.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="ApplicationCommands.Copy">
+				<Gadget.Icon>
+					<BitmapImage UriSource="Resources\Copy.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="ApplicationCommands.Paste"
+					Header="{x:Static properties:Resources.Paste}">
+				<Gadget.Icon>
+					<BitmapImage UriSource="Resources\Paste.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="ApplicationCommands.Undo"
+					Header="{x:Static properties:Resources.Undo}"/>
+			<Gadget Command="ApplicationCommands.Redo"
+					Header="{x:Static properties:Resources.Redo}"/>
+			<Separator/>
+			<Gadget Command="ApplicationCommands.SelectAll"
+					Header="{x:Static properties:Resources.SelectAll}"/>
+			<Separator/>
+			<Gadget Header="{x:Static properties:Resources.Layout}"
+					OpenColumnWidth="0"
+					SubmenuHeaderMargin="4,2,38,4">
+				<Gadget.Icon>
+					<BitmapImage UriSource="Resources\Layout.png"/>
+				</Gadget.Icon>
+				<Gadget Command="Commands.ViewMenuPane"
+						Header="{x:Static properties:Resources.MenuPane}"
+						IsChecked="{Binding Path=IsMenuVisible}"/>
+				<Separator/>
+				<Gadget Command="Commands.ViewDetailPane"
+						Header="{x:Static properties:Resources.DetailPane}"
+						IsChecked="{Binding Path=IsDetailVisible}">
+					<Gadget.Icon>
+						<BitmapImage UriSource="Resources\Detail Pane.png"/>
+					</Gadget.Icon>
+				</Gadget>
+				<Gadget Command="Commands.ViewPreviewPane"
+						Header="{x:Static properties:Resources.PreviewPane}"
+						IsChecked="{Binding Path=IsPreviewVisible}">
+					<Gadget.Icon>
+						<BitmapImage UriSource="Resources\Preview Pane.png"/>
+					</Gadget.Icon>
+				</Gadget>
+				<Gadget Command="Commands.ViewNavigationPane"
+						Header="{x:Static properties:Resources.NavigationPane}"
+						IsChecked="{Binding Path=IsNavigationVisible}">
+					<Gadget.Icon>
+						<BitmapImage UriSource="Resources\Navigation Pane.png"/>
+					</Gadget.Icon>
+				</Gadget>
+			</Gadget>
+			<Gadget Command="Commands.FolderAndSearchOptions"
+					Header="{x:Static properties:Resources.FolderAndSearchOptions}"/>
+			<Separator/>
+			<Gadget Command="ApplicationCommands.Delete"
+					Header="{x:Static properties:Resources.Delete}">
+				<Gadget.Icon>
+					<BitmapImage UriSource="Resources\Delete.png"/>
+				</Gadget.Icon>
+			</Gadget>
+			<Gadget Command="Commands.Rename"
+					Header="{x:Static properties:Resources.Rename}"/>
+			<Gadget Command="Commands.RemoveProperties"
+					Header="{x:Static properties:Resources.RemoveProperties}"/>
+			<Gadget Command="ApplicationCommands.Properties"
+					Header="{x:Static properties:Resources.Properties}"/>
+			<Separator/>
+			<Gadget Command="ApplicationCommands.Close"
+					Header="{x:Static properties:Resources.Close}"/>
+		</Gadget>
+		<Gadget ExplorerBar.ToolDock="Far"
+				ToolTip="{x:Static properties:Resources.HelpToolTip}">
+			<Gadget.Icon>
+				<BitmapImage UriSource="Resources\Help.png"/>
+			</Gadget.Icon>
+		</Gadget>
+	</ExplorerFrame.GadgetBarItems>
+</ExplorerFrame>

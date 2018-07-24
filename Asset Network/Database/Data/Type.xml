@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="Type">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="A Collection of Securities" />
+    <parameter name="externalId0" value="ACCOUNT" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="A Collection of Accounts" />
+    <parameter name="externalId0" value="ACCOUNT GROUP" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="The work surface for a trader" />
+    <parameter name="externalId0" value="BLOTTER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Trades Securities for itself and clients" />
+    <parameter name="externalId0" value="BROKER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="A localized group of users" />
+    <parameter name="externalId0" value="BRANCH" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Broker Service that clears trades." />
+    <parameter name="externalId0" value="CLEARING BROKER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="A person who enforces trading rules" />
+    <parameter name="externalId0" value="COMPLIANCE OFFICER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Consumer Debt" />
+    <parameter name="externalId0" value="CONSUMER DEBT" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Consumer Trust" />
+    <parameter name="externalId0" value="CONSUMER TRUST" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Circulation as a medium of exchange" />
+    <parameter name="externalId0" value="CURRENCY" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="An obligation made binding by a money forfeit" />
+    <parameter name="externalId0" value="DEBT" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Debt Class" />
+    <parameter name="externalId0" value="DEBT CLASS" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="The work surface for an Debt Trader" />
+    <parameter name="externalId0" value="DEBT BLOTTER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Holder Debt Class" />
+    <parameter name="externalId0" value="DEBT HOLDER" />
+		<parameter name="imageKey" value="BLOTTER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Negotiator Debt Class" />
+    <parameter name="externalId0" value="DEBT NEGOTIATOR" />
+		<parameter name="imageKey" value="BLOTTER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="The common stock of a corporation" />
+    <parameter name="externalId0" value="EQUITY" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="The work surface for an Equity Trader" />
+    <parameter name="externalId0" value="EQUITY BLOTTER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Folder" />
+    <parameter name="externalId0" value="FOLDER" />
+		<parameter name="imageKey" value="FOLDER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="User Group" />
+    <parameter name="externalId0" value="GROUP" />
+		<parameter name="imageKey" value="GROUP" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="A Hedge Fund" />
+    <parameter name="externalId0" value="HEDGE FUND" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="A Financial Institution" />
+    <parameter name="externalId0" value="INSTITUTION" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="An entity that issues debt (Bonds, Notes, Bills, etc.)" />
+    <parameter name="externalId0" value="ISSUER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Security" />
+    <parameter name="externalId0" value="SECURITY" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="System folder" />
+    <parameter name="externalId0" value="SYSTEM FOLDER" />
+		<parameter name="imageKey" value="FOLDER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="Trader" />
+    <parameter name="externalId0" value="TRADER" />
+		<parameter name="imageKey" value="USER" />
+  </method>
+  <method name="StoreType">
+    <parameter name="configurationId" value="Default" />
+    <parameter name="description" value="User" />
+    <parameter name="externalId0" value="USER" />
+		<parameter name="imageKey" value="USER" />
+  </method>
+</script>

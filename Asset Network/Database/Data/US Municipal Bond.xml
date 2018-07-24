@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<script name="US Municipal Bond">
+  <client type="DataModelClient, Teraque.AssetNetwork.ClientDataModel" />
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="575765UU4" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="MA MUN WHSL ELEC PWR " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="575765UU4" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="575765UU4" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.052500000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="07/01/2022" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="575765UU4" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="5758234N6" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="MA STATE REF SER. " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="5758234N6" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="5758234N6" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.050000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="02/01/2005" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="5758234N6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="64970KQA8" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NY CITY MUN WTR AUTH " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="64970KQA8" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="64970KQA8" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.055000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="06/15/2015" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="64970KQA8" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="650034MZ1" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="NY STATE URBAN DEV CORP REV " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="650034MZ1" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="650034MZ1" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.050000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="04/01/2021" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="650034MZ1" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="9860813R6" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="YONKERS PUBLIC IMPROV " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="9860813R6" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="9860813R6" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.050000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="10/01/2018" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="9860813R6" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="1307746M9" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="CA STATE UNIV SYSTEMWIDE " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="1307746M9" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="1307746M9" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.053750000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="11/01/2024" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="1307746M9" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="130174KK0" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="CA EDL FACS AUTH REV " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="130174KK0" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="130174KK0" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.052000000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="10/01/2005" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="130174KK0" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+  <transaction>
+    <method name="StoreEntity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="createdTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="externalId4" value="797391HN2" />
+      <parameter name="hidden" value="false" />
+      <parameter name="imageKey" value="OBJECT" />
+      <parameter name="modifiedTime" value="6/18/2009 4:41:46 PM" />
+      <parameter name="name" value="SAN DIEGO COUNTY PARTN REF COPS " />
+      <parameter name="readOnly" value="false" />
+      <parameter name="typeKey" value="DEBT" />
+    </method>
+    <method name="StoreSecurity">
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="countryKey" value="US" />
+      <parameter name="entityKey" value="797391HN2" />
+      <parameter name="priceFactor" value="10.0" />
+      <parameter name="quantityFactor" value="0.01" />
+      <parameter name="symbol" value="797391HN2" />
+      <parameter name="volumeCategoryKey" value="UNKNOWN" />
+    </method>
+    <method name="StoreDebt">
+      <parameter name="capitalGainsTaxRate" value="0.0" />
+      <parameter name="configurationId" value="CUSIP" />
+      <parameter name="coupon" value="0.051250000" />
+      <parameter name="cutoffPeriod" value="0" />
+      <parameter name="debtTypeCode" value="GOVERNMENT NOTE" />
+      <parameter name="faceOutstanding" value="0" />
+      <parameter name="frequency" value="0" />
+      <parameter name="incomeTaxRate" value="0.0" />
+      <parameter name="issuePrice" value="0" />
+      <parameter name="maturityDate" value="09/01/2005" />
+      <parameter name="redemptionValue" value="0.0" />
+      <parameter name="securityKeyByDebtId" value="797391HN2" />
+      <parameter name="securityKeyBySettlementId" value="USD" />
+      <parameter name="trueYield" value="false" />
+      <parameter name="weekendKey" value="SATSUN" />
+    </method>
+  </transaction>
+</script>

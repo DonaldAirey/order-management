@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tenants UserName="CN=Administrator,O=Dark Bond,DC=darkbond,DC=com" Password="Teraque" Endpoint="TcpWebServiceUserNameEndpoint">
+  <Tenant Name="Aspen Group" Endpoint="TcpWebServiceUserNameEndpoint" UserName="CN=Administrator,OU=Aspen Group,O=Dark Bond,DC=darkbond,DC=com" Password="Teraque" ConnectionString="Data Source=.; Integrated Security=True; MultipleActiveResultSets=True; Initial Catalog=Aspen Group" StartupType="Automatic"/>
+  <Tenant Name="Moorehead Brown" Endpoint="TcpWebServiceUserNameEndpoint" UserName="CN=Administrator,OU=Moorehead Brown,O=Dark Bond,DC=darkbond,DC=com" Password="Teraque" ConnectionString="Data Source=.; Integrated Security=True; MultipleActiveResultSets=True; Initial Catalog=Moorehead Brown" StartupType="Automatic"/>
+  <Tenant Name="Black Stone" Endpoint="TcpWebServiceUserNameEndpoint" UserName="CN=Administrator,OU=Black Stone,O=Dark Bond,DC=darkbond,DC=com" Password="Teraque" ConnectionString="Data Source=.; Integrated Security=True; MultipleActiveResultSets=True; Initial Catalog=Black Stone" StartupType="Manual"/>
+  <Tenant Name="Thomson Sayers" Endpoint="TcpWebServiceUserNameEndpoint" UserName="CN=Administrator,OU=Thomson Sayers,O=Dark Bond,DC=darkbond,DC=com" Password="Teraque" ConnectionString="Data Source=.; Integrated Security=True; MultipleActiveResultSets=True; Initial Catalog=Thomson Sayers" StartupType="Manual"/>
+</Tenants>
