@@ -22,9 +22,12 @@
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Certificates\" />
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Certificates\Dark Bond CA.pfx" />
+    <Content Include="Certificates\oms.darkbond.com.pfx" />
     <Content Include="Explorer.exe.config" />
     <Content Include="Resources\Banner.png" />
     <Content Include="Resources\chest.png" />
