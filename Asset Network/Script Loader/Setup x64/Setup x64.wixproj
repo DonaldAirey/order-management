@@ -41,7 +41,6 @@
     <Content Include="Resources\Script Loader.ico" />
     <Content Include="Resources\Welcome.bmp" />
     <Content Include="Script Loader.exe.config" />
-    <Content Include="Sign.ps1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Teraque.Server\Teraque.Server.csproj">
@@ -96,7 +95,7 @@
   </ItemGroup>
   <Import Project="$(WixTargetsPath)" />
   <PropertyGroup>
-    <PreBuildEvent>powershell -NoProfile -File "$(ProjectDir)Sign.ps1</PreBuildEvent>
+    <PreBuildEvent />
   </PropertyGroup>
   <!--
 	To modify your build process, add your task inside one of the targets below and uncomment it.

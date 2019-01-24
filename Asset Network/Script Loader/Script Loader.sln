@@ -11,11 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Script Loader", "Script Loa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teraque.AssetNetwork", "..\Teraque.AssetNetwork\Teraque.AssetNetwork.csproj", "{3160E4F0-B199-4B8E-B206-71582E7E7041}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EDD83355-EDA1-4213-8979-26F9F6F53FBF}"
-	ProjectSection(SolutionItems) = preProject
-		Verify Off.ps1 = Verify Off.ps1
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teraque.Server", "..\..\Teraque.Server\Teraque.Server.csproj", "{C5FD375F-B640-424D-BD14-04644746A516}"
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Setup x64", "Setup x64\Setup x64.wixproj", "{554000DA-F4AB-4D09-8736-8A0F25161F79}"

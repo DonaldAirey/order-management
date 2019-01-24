@@ -7,6 +7,7 @@ namespace Teraque.AssetNetwork
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
+    using System.Security;
     using System.ServiceModel;
     using System.ServiceProcess;
 
@@ -130,10 +131,16 @@ namespace Teraque.AssetNetwork
             }
 
             // Log the start of the service.
-            EventLog.WriteEntry(
-                MarketSimulator.Source,
-                String.Format(Simulator.Properties.Resources.ServiceStarted, MarketSimulator.ServiceName),
-                EventLogEntryType.Information);
+            try
+            {
+                EventLog.WriteEntry(
+                    MarketSimulator.Source,
+                    String.Format(Simulator.Properties.Resources.ServiceStarted, MarketSimulator.ServiceName),
+                    EventLogEntryType.Information);
+            }
+            catch (SecurityException)
+            {
+            }
         }
 
         /// <summary>
@@ -168,10 +175,16 @@ namespace Teraque.AssetNetwork
             }
 
             // Log the end of the service.
-            EventLog.WriteEntry(
-                MarketSimulator.Source,
-                String.Format(Simulator.Properties.Resources.ServiceStopping, MarketSimulator.ServiceName),
-                EventLogEntryType.Information);
+            try
+            {
+                EventLog.WriteEntry(
+                    MarketSimulator.Source,
+                    String.Format(Simulator.Properties.Resources.ServiceStopping, MarketSimulator.ServiceName),
+                    EventLogEntryType.Information);
+            }
+            catch (SecurityException)
+            {
+            }
         }
 
         /// <summary>

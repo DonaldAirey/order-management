@@ -59,7 +59,6 @@
     <Content Include="Resources\Server.ico" />
     <Content Include="Resources\Welcome.bmp" />
     <Content Include="SMSvcHost.exe.config" />
-    <Content Include="Sign.ps1" />
     <Content Include="Web Service Host.exe.config" />
   </ItemGroup>
   <ItemGroup>
@@ -134,6 +133,6 @@
     <Error Text="The WiX Toolset v3.11 (or newer) build tools must be installed to build this project. To download the WiX Toolset, see http://wixtoolset.org/releases/" />
   </Target>
   <PropertyGroup>
-    <PreBuildEvent>powershell -NoProfile -File "$(ProjectDir)Sign.ps1</PreBuildEvent>
+    <PreBuildEvent />
   </PropertyGroup>
 </Project>

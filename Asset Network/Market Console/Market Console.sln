@@ -18,7 +18,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24F63B0C-15F9-4620-B203-D1805EF1AB76}"
 	ProjectSection(SolutionItems) = preProject
 		Open Firewall.ps1 = Open Firewall.ps1
-		Verify Off.ps1 = Verify Off.ps1
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teraque.AssetNetwork.MarketClient", "Teraque.AssetNetwork.MarketClient\Teraque.AssetNetwork.MarketClient.csproj", "{CE1BAC9A-25C3-444D-91F9-BC74E4ECFE7F}"
